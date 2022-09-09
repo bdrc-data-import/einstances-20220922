@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0217 {
+    bda:IE0GR0217  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0217 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "3f/IE0GR0217.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0217 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Stupalaks"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0217  a        :EtextInstance ;
+        skos:altLabel       "Stūpalakṣaṇakārikāvivecana"@sa-x-iast ;
+        skos:prefLabel      "Stupalaksanakarikavivecanam"@en ;
+        :hasTitle           bdr:TT73C4E44939ED7AE4 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0217 ;
+        :note               bdr:NT7A79965855683E5C , bdr:NT9E6F5DE29F157504 .
+    
+    bdr:NT7A79965855683E5C
+        a                   :Note ;
+        :noteText           "Based on ed. G. Roth, \"Edition of the Stūpa-lakṣaṇa-kārikā-vivecanaṃ, Including the prakīrṇaka-caitya-lakṣaṇaṃ, Dharmadūta. Mélanges offerts au Vénérable Thích Huyên-Vi à l'occasion de son soixante-dixième anniversaire, ed. Bhikkhu T. Dhammaratana, Bhikkhu  Pāsādika, Paris 1997, pp. 205-231. Cf. 2nd ed. (repr.?) in: Stupa: Cult and Symbolism, Contributions by G. Roth, F.K. Ehrhard, K. Tanaka, Lokesh Chandra, New Delhi 2009 (Śata-piṭaka Series, 624), pp. 34-59."@en .
+    
+    bdr:NT9E6F5DE29F157504
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:TT73C4E44939ED7AE4
+        a                   :Title ;
+        rdfs:label          "Stupalaksanakarikavivecanam"@en .
+}

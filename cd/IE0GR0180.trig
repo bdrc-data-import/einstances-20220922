@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0180 {
+    bda:IE0GR0180  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0180 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "cd/IE0GR0180.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0180 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#RahPps"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0180  a        :EtextInstance ;
+        skos:altLabel       "Prajñāpāramitāstotra"@sa-x-iast ;
+        skos:prefLabel      "Rahulabhadra: Prajnaparamitastotra"@en ;
+        :hasTitle           bdr:TT06E9D9F0474041C7 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI0018 ;
+        :note               bdr:NTE5F1045DCC312372 , bdr:NTF2803848560BEB41 .
+    
+    bdr:NTE5F1045DCC312372
+        a                   :Note ;
+        :noteText           "Input by Lennart and Jens-Uwe Hartmann (27.02.2006)"@en .
+    
+    bdr:NTF2803848560BEB41
+        a                   :Note ;
+        :noteText           "Based on the edition in: Michael Hahn: \"Bemerkungen zu zwei Texten aus dem Phudrag-Kanjur\", Indology and Indo-Tibetology. Thirty Years of Indian and Indo-Tibetan Studies in Bonn, ed. by H. Eimer, Bonn 1988 (Indica et Tibetica 13), S. 53-80."@en .
+    
+    bdr:TT06E9D9F0474041C7
+        a                   :Title ;
+        rdfs:label          "Rahulabhadra: Prajnaparamitastotra"@en .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0231 {
+    bda:IE0GR0231  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0231 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "c5/IE0GR0231.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0231 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#TBimbk"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0231  a        :EtextInstance ;
+        skos:altLabel       "Tathāgatabimbakārāpaṇa sūtra"@sa-x-iast ;
+        skos:prefLabel      "Tathagatabimbakarapanasutra"@en ;
+        :hasTitle           bdr:TT7A1304DB16A05D4C ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0231 ;
+        :note               bdr:NT88F95FC3407AA7E9 , bdr:NTE564DF69F3A6B895 .
+    
+    bdr:NT88F95FC3407AA7E9
+        a                   :Note ;
+        :noteText           "Based on the ed. by Adelheid Mette: \"Zwei kleine Fragmente aus Gilgit\",  Studien zur Indologie und Iranistik 7 (1981), pp. 133-151. GBM 1684.1_1691.2 (Bl. 2_5)"@en .
+    
+    bdr:NTE564DF69F3A6B895
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen)"@en .
+    
+    bdr:TT7A1304DB16A05D4C
+        a                   :Title ;
+        rdfs:label          "Tathagatabimbakarapanasutra"@en .
+}

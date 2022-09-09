@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0299 {
+    bda:IE0GR0299  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0299 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "1d/IE0GR0299.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0299 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DurvHettikal"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0299  a        :EtextInstance ;
+        skos:altLabel       "Hetubinduṭīkāloka"@sa-x-iast ;
+        skos:prefLabel      "Durveka Misra: Hetubindutikaloka"@en ;
+        :hasTitle           bdr:TTAE8172C6944E1A66 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0299 ;
+        :note               bdr:NT12B208C0AAF91DD9 , bdr:NT48E8EF54C234C908 .
+    
+    bdr:NT12B208C0AAF91DD9
+        a                   :Note ;
+        :noteText           "Based on the ed. by Pandit S. Sanghavi and Muni Shri Jinavijayaji: Hetubinduṭika of Bhaṭṭa Arcaṭa with the Sub-Commentary entitled Āloka of Durveka Misra. Baroda : Oriental Institute 1949, pp. 233-411. (Gaekwad's Oriental Series, CXIII)"@en .
+    
+    bdr:NT48E8EF54C234C908
+        a                   :Note ;
+        :noteText           "Input by Helmut Krasser, Wien"@en .
+    
+    bdr:TTAE8172C6944E1A66
+        a                   :Title ;
+        rdfs:label          "Durveka Misra: Hetubindutikaloka"@en .
+}

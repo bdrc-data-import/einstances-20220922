@@ -1,0 +1,41 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13438 {
+    bda:IE3JT13438  a       adm:AdminData ;
+        adm:adminAbout      bdr:IE3JT13438 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "e2/IE3JT13438.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13438 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusOnHold .
+    
+    bda:W3JT13438  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13438 ;
+        adm:replaceWith     bdr:IE3JT13438 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE3JT13438  a       :EtextInstance ;
+        skos:prefLabel      "a ru ra'i phreng ba/"@bo-x-ewts ;
+        :hasTitle           bdr:TT889B7025D1231AA7 , bdr:TTD7BC8CB1BBE5265B ;
+        :instanceOf         bdr:WA3JT13438 .
+    
+    bdr:TT889B7025D1231AA7
+        a                   :Title ;
+        rdfs:label          "a ru ra'i phreng ba/"@bo-x-ewts .
+    
+    bdr:TTD7BC8CB1BBE5265B
+        a                   :TitlePageTitle ;
+        rdfs:label          "sman gyi rgyud bzhi'i brda dang don 'ga' zhig bkrol ba rnam rgyal a ru ra'i phreng ba'i mdzes rgyan/"@bo-x-ewts .
+}

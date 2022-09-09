@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0402 {
+    bda:IE0GR0402  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0402 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "81/IE0GR0402.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0402 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSBC_Sa061"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0402  a        :EtextInstance ;
+        skos:altLabel       "Santānāntarasiddhiṭīkā"@sa-x-iast ;
+        skos:prefLabel      "Vinitadeva: Samtanantarasiddhitika"@en ;
+        :hasTitle           bdr:TT6147F5C20D97CD05 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3574 ;
+        :note               bdr:NT31B1C7D837C5D454 , bdr:NTF763E3C4B3377226 .
+    
+    bdr:NT31B1C7D837C5D454
+        a                   :Note ;
+        :noteText           "Based on the edition by J.S. Negi: Santānāntarasiddhi kārikā ṭīkā. Sarnath: Central Institute of Higher Tibetan Studies, 1997, 1-30."@en .
+    
+    bdr:NTF763E3C4B3377226
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:TT6147F5C20D97CD05
+        a                   :Title ;
+        rdfs:label          "Vinitadeva: Samtanantarasiddhitika"@en .
+}

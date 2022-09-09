@@ -1,0 +1,157 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13300 {
+    bda:IE3JT13300  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13300 ;
+        adm:contentProvider  bda:CP004 ;
+        adm:facetIndex      25 ;
+        adm:gitPath         "a3/IE3JT13300.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13300 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13300  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13300 ;
+        adm:replaceWith     bdr:IE3JT13300 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER0F0F4CF0759950E8
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0009 ;
+        :seqNum             9 .
+    
+    bdr:ER2F83F9C00B2C0D38
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0018 ;
+        :seqNum             18 .
+    
+    bdr:ER3329097191EBD1ED
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0002 ;
+        :seqNum             2 .
+    
+    bdr:ER339A4F93B4B05A20
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0014 ;
+        :seqNum             14 .
+    
+    bdr:ER501ECD7F0C1AA617
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0021 ;
+        :seqNum             21 .
+    
+    bdr:ER613871A0AA2609EE
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0006 ;
+        :seqNum             6 .
+    
+    bdr:ER7157D06A806F9271
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0017 ;
+        :seqNum             17 .
+    
+    bdr:ER71D7335AC9D66D51
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0010 ;
+        :seqNum             10 .
+    
+    bdr:ER7E7E94BDD0E0E6A0
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0005 ;
+        :seqNum             5 .
+    
+    bdr:ER8A4F81C6FF21FD66
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0011 ;
+        :seqNum             11 .
+    
+    bdr:ER9EF7938DD829F107
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0007 ;
+        :seqNum             7 .
+    
+    bdr:ERAC8C5B3306C2BCD1
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0012 ;
+        :seqNum             12 .
+    
+    bdr:ERB34A81A5A5689B62
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0016 ;
+        :seqNum             16 .
+    
+    bdr:ERBDBCE48C4407378D
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:ERC9D1BD26A0CF09A4
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0020 ;
+        :seqNum             20 .
+    
+    bdr:ERD9BA58C1D04CE26E
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0015 ;
+        :seqNum             15 .
+    
+    bdr:ERDA443C1A7F392A99
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0013 ;
+        :seqNum             13 .
+    
+    bdr:ERE0FEE2AA396DD8B4
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0008 ;
+        :seqNum             8 .
+    
+    bdr:ERF1866160F68C1234
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0019 ;
+        :seqNum             19 .
+    
+    bdr:ERF18DB041D30CC074
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ERF1F040A806D1F52C
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13300_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13300  a       :EtextInstance ;
+        skos:prefLabel      "sdom gyi skor/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TT495BD2BD9CDF5545 , bdr:TT5603028410A43F0C ;
+        :inCollection       bdr:PR0ET004 ;
+        :instanceHasVolume  bdr:VL540DD2263914D49D ;
+        :instanceOf         bdr:WA3JT13300 .
+    
+    bdr:TT495BD2BD9CDF5545
+        a                   :TitlePageTitle ;
+        rdfs:label          "sdom pa gyi skor/"@bo-x-ewts .
+    
+    bdr:TT5603028410A43F0C
+        a                   :Title ;
+        rdfs:label          "sdom gyi skor/"@bo-x-ewts .
+    
+    bdr:VL540DD2263914D49D
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER0F0F4CF0759950E8 , bdr:ER2F83F9C00B2C0D38 , bdr:ER3329097191EBD1ED , bdr:ER339A4F93B4B05A20 , bdr:ER501ECD7F0C1AA617 , bdr:ER613871A0AA2609EE , bdr:ER7157D06A806F9271 , bdr:ER71D7335AC9D66D51 , bdr:ER7E7E94BDD0E0E6A0 , bdr:ER8A4F81C6FF21FD66 , bdr:ER9EF7938DD829F107 , bdr:ERAC8C5B3306C2BCD1 , bdr:ERB34A81A5A5689B62 , bdr:ERBDBCE48C4407378D , bdr:ERC9D1BD26A0CF09A4 , bdr:ERD9BA58C1D04CE26E , bdr:ERDA443C1A7F392A99 , bdr:ERE0FEE2AA396DD8B4 , bdr:ERF1866160F68C1234 , bdr:ERF18DB041D30CC074 , bdr:ERF1F040A806D1F52C ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13300 .
+}

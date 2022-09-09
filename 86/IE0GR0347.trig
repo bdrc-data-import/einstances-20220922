@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0347 {
+    bda:IE0GR0347  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0347 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "86/IE0GR0347.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0347 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#RatKsan"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0347  a        :EtextInstance ;
+        skos:altLabel       "Kṣaṇabhaṅgasiddhi Vyatirekātmikā"@sa-x-iast ;
+        skos:prefLabel      "Ratnakirti: Ksanabhangasiddhir Vyatirekatmika"@en ;
+        :hasTitle           bdr:TT003E8CFDD126048B ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0347 ;
+        :note               bdr:NT169B940F29C29454 , bdr:NT58855746CC5BF362 .
+    
+    bdr:NT169B940F29C29454
+        a                   :Note ;
+        :noteText           "Based on A. Charlene Senape McDermott:  An eleventh-century Buddhist logic of `exists'.  Dordrecht : Reidel 1969  (Foundations of language ; Supplementary series, 11)"@en .
+    
+    bdr:NT58855746CC5BF362
+        a                   :Note ;
+        :noteText           "Input by Somadeva Vasudeva, 2000"@en .
+    
+    bdr:TT003E8CFDD126048B
+        a                   :Title ;
+        rdfs:label          "Ratnakirti: Ksanabhangasiddhir Vyatirekatmika"@en .
+}

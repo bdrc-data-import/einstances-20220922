@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0480 {
+    bda:IE0GR0480  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0480 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "50/IE0GR0480.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0480 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Suttanip"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0480  a        :EtextInstance ;
+        skos:altLabel       "Suttanipāta"@sa-x-iast ;
+        skos:prefLabel      "Suttanipata, in PTS layout"@en ;
+        :hasTitle           bdr:TTAABAC62BB2E4080C ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0480 ;
+        :note               bdr:NT11165CD8151B08AD , bdr:NTC72D9744F8183F6D .
+    
+    bdr:NT11165CD8151B08AD
+        a                   :Note ;
+        :noteText           "Input by the Dhammakaya Foundation, Thailand, 1989-1996"@en .
+    
+    bdr:NTC72D9744F8183F6D
+        a                   :Note ;
+        :noteText           "Based on the edition by Dines Andersen and Helmer Smith: Sutta-Nipāta, London : Pali Text Society 1913 (Reprinted 1948, 1965, 1984)"@en .
+    
+    bdr:TTAABAC62BB2E4080C
+        a                   :Title ;
+        rdfs:label          "Suttanipata, in PTS layout"@en .
+}

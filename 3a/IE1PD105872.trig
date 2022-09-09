@@ -1,0 +1,43 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE1PD105872 {
+    bda:IE1PD105872  a      adm:AdminData ;
+        adm:access          bda:AccessFairUse ;
+        adm:adminAbout      bdr:IE1PD105872 ;
+        adm:contentProvider  bda:CP009 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "3a/IE1PD105872.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE1PD105872 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER83B2B5BE19D6D666
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD105872_I1PD105874_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE1PD105872  a      :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_OCR ;
+        :inCollection       bdr:PR0ET009 ;
+        :instanceHasVolume  bdr:VLA0D63AB33FE7E453 ;
+        :instanceReproductionOf  bdr:W1PD105872 .
+    
+    bdr:VLA0D63AB33FE7E453
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER83B2B5BE19D6D666 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE1PD105872 .
+}

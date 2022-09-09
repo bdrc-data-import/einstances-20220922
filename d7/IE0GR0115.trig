@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0115 {
+    bda:IE0GR0115  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0115 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "d7/IE0GR0115.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0115 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#MPratisaravGilg"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0115  a        :EtextInstance ;
+        skos:altLabel       "Mahāpratisarā Mahāvidyārājñī"@sa-x-iast ;
+        skos:prefLabel      "Mahapratisaramahavidyarajni"@en ;
+        :hasTitle           bdr:TTBBAC769A13F418C3 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI1945 ;
+        :note               bdr:NT070AA785FE2ED9E2 , bdr:NTF8DEFB687F6D4AEE .
+    
+    bdr:NT070AA785FE2ED9E2
+        a                   :Note ;
+        :noteText           "Based on the ed. by Gergely Hidas: Mahāpratisarā-Mahāvidyārājñī, The Great Amulet, Great Queen of Spells. Introduction, Critical Editions and Annotated Translation, New Delhi : International Academy of Indian Culture and Aditya Prakashan 2012 (Śata-Piṭaka Series : Indo-Asian Literatures, 636)."@en .
+    
+    bdr:NTF8DEFB687F6D4AEE
+        a                   :Note ;
+        :noteText           "Input by Gergely Hidas"@en .
+    
+    bdr:TTBBAC769A13F418C3
+        a                   :Title ;
+        rdfs:label          "Mahapratisaramahavidyarajni"@en .
+}

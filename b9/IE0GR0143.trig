@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0143 {
+    bda:IE0GR0143  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0143 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "b9/IE0GR0143.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0143 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#NagSu"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0143  a        :EtextInstance ;
+        skos:altLabel       "Nagaropama sūtra [Saṃyuktāgama]"@sa-x-iast ;
+        skos:prefLabel      "Nagaropamasutra, transliteration"@en ;
+        :hasTitle           bdr:TT3B9EDF53367EE2E2 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0143 ;
+        :note               bdr:NT3901463E87FC0D48 , bdr:NT72C4EA88BB319CB5 .
+    
+    bdr:NT3901463E87FC0D48
+        a                   :Note ;
+        :noteText           "Based on the ed. by G. Bongard-Levin, D. Boucher, T. Fukita, K. Wille: \"The Nagaropamasūtra: An Apotropaic Text from the Saṃyuktāgama. A Transliteration, Reconstruction, and Translation of the Central Asian Sanskrit Manuscripts\", Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen III, Göttingen 1996 (Sanskrit-Wörterbuch der buddhistischen Texte aus den Turfan-Funden, Beiheft 6), pp. 7-131. = NagSū"@en .
+    
+    bdr:NT72C4EA88BB319CB5
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille"@en .
+    
+    bdr:TT3B9EDF53367EE2E2
+        a                   :Title ;
+        rdfs:label          "Nagaropamasutra, transliteration"@en .
+}

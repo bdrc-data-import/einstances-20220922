@@ -1,0 +1,65 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE00KG08430 {
+    bda:IE00KG08430  a      adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE00KG08430 ;
+        adm:contentProvider  bda:CP009 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "72/IE00KG08430.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE00KG08430 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER3C0D6162A4C933B3
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08430_I00KG08436_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER678CB42671CD7BBF
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08430_I00KG08438_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERDFAD689B96E32AA0
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08430_I00KG08437_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE00KG08430  a      :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_OCR ;
+        :inCollection       bdr:PR0ET009 ;
+        :instanceHasVolume  bdr:VL87E0D2430C1BDF4A , bdr:VL9EA1534EF0DD9C75 , bdr:VLDBAF40F3140D1744 ;
+        :instanceReproductionOf  bdr:W00KG08430 .
+    
+    bdr:VL87E0D2430C1BDF4A
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERDFAD689B96E32AA0 ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE00KG08430 .
+    
+    bdr:VL9EA1534EF0DD9C75
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER678CB42671CD7BBF ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE00KG08430 .
+    
+    bdr:VLDBAF40F3140D1744
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER3C0D6162A4C933B3 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE00KG08430 .
+}

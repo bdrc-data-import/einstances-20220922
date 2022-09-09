@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0489 {
+    bda:IE0GR0489  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0489 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "0d/IE0GR0489.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0489 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Therag"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0489  a        :EtextInstance ;
+        skos:altLabel       "Theragāthā"@sa-x-iast ;
+        skos:prefLabel      "Theragatha, PTS layout, annotated"@en ;
+        :hasTitle           bdr:TT0C7DCCCB2F5407DC ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0489 ;
+        :note               bdr:NT3923F76580D402F3 , bdr:NTAD282446A7FABC0E .
+    
+    bdr:NT3923F76580D402F3
+        a                   :Note ;
+        :noteText           "Input by the Dhammakaya Foundation, Thailand, 1989-1996"@en .
+    
+    bdr:NTAD282446A7FABC0E
+        a                   :Note ;
+        :noteText           "Based on the ed. by Hermann Oldenberg in: The Thera- and Therî-Gâthâ (Stanzas Ascribed to Elders of the Buddhist Order of Recluses), ed. by H. Oldenberg and R. Pischel, London : Pali Text Society 1883. Second edition with appendices by K.R. Norman and L. Alsdorf, 1966, pp. 1-115."@en .
+    
+    bdr:TT0C7DCCCB2F5407DC
+        a                   :Title ;
+        rdfs:label          "Theragatha, PTS layout, annotated"@en .
+}

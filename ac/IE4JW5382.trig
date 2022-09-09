@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE4JW5382 {
+    bda:IE4JW5382  a        adm:AdminData ;
+        adm:adminAbout      bdr:IE4JW5382 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "ac/IE4JW5382.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE4JW5382 ;
+        adm:logEntry        bda:LG05C77F01F1F46577 , bda:LG1F5918EFA922C37D , bda:LGA16625EFABA65D10 , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bda:LG05C77F01F1F46577
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-12-05T20:12:53.737Z"^^xsd:dateTime ;
+        adm:logMessage      "published unicode text works"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG1F5918EFA922C37D
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-12-05T20:15:59.478Z"^^xsd:dateTime ;
+        adm:logMessage      "duplicate"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGA16625EFABA65D10
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGIM5A753E00B7
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIMAEA9B78D7A
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIMB50083FA  a     adm:UpdateData ;
+        adm:logAgent        "works-mark-withdrawn.xql" ;
+        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logMethod       bda:BatchMethod .
+    
+    bda:W4JW5382  a         adm:AdminData ;
+        adm:adminAbout      bdr:W4JW5382 ;
+        adm:replaceWith     bdr:IE4JW5382 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE4JW5382  a        :EtextInstance ;
+        skos:prefLabel      "gsang sngags gling pa'i rnam/"@bo-x-ewts ;
+        :hasTitle           bdr:TT3121B084A752C168 ;
+        :numberOfVolumes    1 .
+    
+    bdr:TT3121B084A752C168
+        a                   :Title ;
+        rdfs:label          "gsang sngags gling pa'i rnam/"@bo-x-ewts .
+}

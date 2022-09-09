@@ -1,0 +1,43 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JW2906 {
+    bda:IE3JW2906  a        adm:AdminData ;
+        adm:adminAbout      bdr:IE3JW2906 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "f6/IE3JW2906.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JW2906 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusOnHold .
+    
+    bda:W3JW2906  a         adm:AdminData ;
+        adm:adminAbout      bdr:W3JW2906 ;
+        adm:replaceWith     bdr:IE3JW2906 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE3JW2906  a        :EtextInstance ;
+        skos:prefLabel      "rgyal dbang lnga pa'i rang rnam du kU la'i gos bzang /"@bo-x-ewts ;
+        :hasTitle           bdr:TT6FFF872CD1C0D4F5 ;
+        :instanceOf         bdr:WA3JW2906 ;
+        :note               bdr:NTD4DD9824D8C1FC1F ;
+        :numberOfVolumes    3 .
+    
+    bdr:NTD4DD9824D8C1FC1F
+        a                   :Note ;
+        :noteText           "tbrc holds unicode tibetan xml files"@en .
+    
+    bdr:TT6FFF872CD1C0D4F5
+        a                   :Title ;
+        rdfs:label          "rgyal dbang lnga pa'i rang rnam du kU la'i gos bzang /"@bo-x-ewts .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0534 {
+    bda:IE0GR0534  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0534 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "86/IE0GR0534.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0534 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Dhamsan"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0534  a        :EtextInstance ;
+        skos:altLabel       "Dhammasaṅgaṇī"@sa-x-iast ;
+        skos:prefLabel      "Dhammasangani, annotated version"@en ;
+        :hasTitle           bdr:TTD808E387D3D8858A ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0534 ;
+        :note               bdr:NT08AC116EF79C92EA , bdr:NT0FC37A8F33B93891 .
+    
+    bdr:NT08AC116EF79C92EA
+        a                   :Note ;
+        :noteText           "Input by the Dhammakaya Foundation, Thailand, 1989-1996"@en .
+    
+    bdr:NT0FC37A8F33B93891
+        a                   :Note ;
+        :noteText           "Based on the edition by Edward Müller, London : Pali Text Society 1885. (Reprinted 1978)"@en .
+    
+    bdr:TTD808E387D3D8858A
+        a                   :Title ;
+        rdfs:label          "Dhammasangani, annotated version"@en .
+}

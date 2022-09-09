@@ -1,0 +1,53 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13298 {
+    bda:IE3JT13298  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13298 ;
+        adm:contentProvider  bda:CP001 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "f4/IE3JT13298.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13298 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13298  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13298 ;
+        adm:replaceWith     bdr:IE3JT13298 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER5FD84172175D4232
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13298_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13298  a       :EtextInstance ;
+        skos:prefLabel      "bde ba can du bgrod pa'i smon lam/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TTE650AC89E81E88F7 ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VLB1ECD2020E69F613 ;
+        :instanceOf         bdr:WA3JT13298 .
+    
+    bdr:TTE650AC89E81E88F7
+        a                   :Title ;
+        rdfs:label          "bde ba can du bgrod pa'i smon lam/"@bo-x-ewts .
+    
+    bdr:VLB1ECD2020E69F613
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER5FD84172175D4232 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13298 .
+}

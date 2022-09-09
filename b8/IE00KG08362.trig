@@ -1,0 +1,98 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE00KG08362 {
+    bda:IE00KG08362  a      adm:AdminData ;
+        adm:access          bda:AccessFairUse ;
+        adm:adminAbout      bdr:IE00KG08362 ;
+        adm:contentProvider  bda:CP009 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "b8/IE00KG08362.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE00KG08362 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER109D58973A4E4BEA
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08362_I00KG08397_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER18A5F6B49F32D5A6
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08362_I00KG08392_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER2F8A7A8FA65D4D86
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08362_I00KG08393_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER41ADBB1D461CD388
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08362_I00KG08395_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERA655FAF7525FD41F
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08362_I00KG08394_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERAB994D2E406333A0
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT00KG08362_I00KG08396_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE00KG08362  a      :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_OCR ;
+        :inCollection       bdr:PR0ET009 ;
+        :instanceHasVolume  bdr:VL0A789D97EEC16E7E , bdr:VL2D04073261A71F28 , bdr:VL3B28526AF56CB9E8 , bdr:VL4F387F270E5B7BEF , bdr:VL5D1457322DF3D852 , bdr:VLE3C538B3EAD9230A ;
+        :instanceReproductionOf  bdr:W00KG08362 .
+    
+    bdr:VL0A789D97EEC16E7E
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERA655FAF7525FD41F ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE00KG08362 .
+    
+    bdr:VL2D04073261A71F28
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER18A5F6B49F32D5A6 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE00KG08362 .
+    
+    bdr:VL3B28526AF56CB9E8
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER41ADBB1D461CD388 ;
+        :volumeNumber       4 ;
+        :volumeOf           bdr:IE00KG08362 .
+    
+    bdr:VL4F387F270E5B7BEF
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER2F8A7A8FA65D4D86 ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE00KG08362 .
+    
+    bdr:VL5D1457322DF3D852
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER109D58973A4E4BEA ;
+        :volumeNumber       6 ;
+        :volumeOf           bdr:IE00KG08362 .
+    
+    bdr:VLE3C538B3EAD9230A
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERAB994D2E406333A0 ;
+        :volumeNumber       5 ;
+        :volumeOf           bdr:IE00KG08362 .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0332 {
+    bda:IE0GR0332  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0332 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "f5/IE0GR0332.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0332 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSBC_Sa015"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0332  a        :EtextInstance ;
+        skos:altLabel       "Suhṛllekha"@sa-x-iast ;
+        skos:prefLabel      "Nagarjuna: Suhrllekha"@en ;
+        :hasTitle           bdr:TTCC94D38D59A9FAFC ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA22950 ;
+        :note               bdr:NT6828D83871A66448 , bdr:NTE3E130A165A8FF17 .
+    
+    bdr:NT6828D83871A66448
+        a                   :Note ;
+        :noteText           "Based on the ed. by Padma Tendzin: Suhridlekha. Varanasi : Central Institute of High Tibetan Studies (CIHTS), 2002."@en .
+    
+    bdr:NTE3E130A165A8FF17
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:TTCC94D38D59A9FAFC
+        a                   :Title ;
+        rdfs:label          "Nagarjuna: Suhrllekha"@en .
+}

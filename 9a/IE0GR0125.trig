@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0125 {
+    bda:IE0GR0125  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0125 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "9a/IE0GR0125.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0125 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Abhis"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0125  a        :EtextInstance ;
+        skos:altLabel       "Abhisamayālaṅkāranāmaprajñāpāramitopadeśaśāstra"@sa-x-iast ;
+        skos:prefLabel      "Maitreyanatha: Abhisamayalamkaranamaprajnaparamitopadesasastram"@en ;
+        :hasTitle           bdr:TT2939A4393928C02C ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA19716 ;
+        :note               bdr:NT537CA701E7A3A009 , bdr:NT603EB8597EAEE3A5 .
+    
+    bdr:NT537CA701E7A3A009
+        a                   :Note ;
+        :noteText           "Input by Christian Coseru"@en .
+    
+    bdr:NT603EB8597EAEE3A5
+        a                   :Note ;
+        :noteText           "Based on <not_specified>"@en .
+    
+    bdr:TT2939A4393928C02C
+        a                   :Title ;
+        rdfs:label          "Maitreyanatha: Abhisamayalamkaranamaprajnaparamitopadesasastram"@en .
+}

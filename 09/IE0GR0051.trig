@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0051 {
+    bda:IE0GR0051  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0051 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "09/IE0GR0051.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0051 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSP1-2"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0051  a        :EtextInstance ;
+        skos:altLabel       "Daśasāhasrikā Prajñāpāramitā"@sa-x-iast ;
+        skos:prefLabel      "Dasasahasrika Prajnaparamita, chapter 1 and 2 translated from the Tibetan"@en ;
+        :hasTitle           bdr:TT9A03CAFB70BD1F24 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0011 ;
+        :note               bdr:NT2E66B0674F7C531E , bdr:NT8FF7E7D59E6E9988 .
+    
+    bdr:NT2E66B0674F7C531E
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille"@en .
+    
+    bdr:NT8FF7E7D59E6E9988
+        a                   :Note ;
+        :noteText           "Based on the ed. by Sten Konow: The Two First Chapters of the Daśasāhasrikā Prajñāpāramitā. Restoration of the Sanskrit Text, Analysis and Index. Oslo : 1941 (Avhandlinger utgitt av det Norske Videnskaps-Akademi i Oslo II. Hist.-Filos. klasse 1941, no.1)."@en .
+    
+    bdr:TT9A03CAFB70BD1F24
+        a                   :Title ;
+        rdfs:label          "Dasasahasrika Prajnaparamita, chapter 1 and 2 translated from the Tibetan"@en .
+}

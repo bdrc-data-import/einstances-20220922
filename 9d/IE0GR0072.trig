@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0072 {
+    bda:IE0GR0072  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0072 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "9d/IE0GR0072.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0072 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#HarJM10"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0072  a        :EtextInstance ;
+        skos:altLabel       "Jātakamālā"@sa-x-iast ;
+        skos:prefLabel      "Haribhatta: Jatakamala, Jatakas 1-8, 11-12, 19-20, 22, 24, 26, 32, 35."@en ;
+        :hasTitle           bdr:TT2DECD3D84DFF5457 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3490 ;
+        :note               bdr:NT2322BB0A26839DBF , bdr:NT967977B133C39CE1 .
+    
+    bdr:NT2322BB0A26839DBF
+        a                   :Note ;
+        :noteText           "Based on the ed. by Michael Hahn: \"How it all began: I. Haribhaṭṭa's Prabhāsajātaka\", Journal of the Centre of Buddhist Studies, Sri Lanka 4 (2006), pp. 1-81. - Jatakas 2, 4-6, 11, 12, 19, 20, 22, 32, 35 based on the ed. by Hahn, Michael: Haribhaṭṭa in Nepal. Ten Legends from His Jātakamālā and the Anonymous Śākyasiṃhajātaka. Tokyo 2007 (Studia Philologica Buddhica, Monograph Series 22). - Jatakas 3, 7, 8, 24, 26 based on the ed. Hahn, Michael: Poetical Visions of the Buddha's Former Lives : Seventeen Legends from Haribhatta's Jatakamala, New Delhi 2011."@en .
+    
+    bdr:NT967977B133C39CE1
+        a                   :Note ;
+        :noteText           "Input by Michael Hahn and Klaus Wille (Jat. 1)"@en .
+    
+    bdr:TT2DECD3D84DFF5457
+        a                   :Title ;
+        rdfs:label          "Haribhatta: Jatakamala, Jatakas 1-8, 11-12, 19-20, 22, 24, 26, 32, 35."@en .
+}

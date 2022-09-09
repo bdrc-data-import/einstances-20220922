@@ -1,0 +1,207 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13352 {
+    bda:IE3JT13352  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13352 ;
+        adm:contentProvider  bda:CP004 ;
+        adm:facetIndex      32 ;
+        adm:gitPath         "42/IE3JT13352.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13352 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13352  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13352 ;
+        adm:replaceWith     bdr:IE3JT13352 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER01B5DC6CCD3F9542
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_006_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER0382363DE6CC21C5
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_013_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER08915B8046A3E471
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_011_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER11D53AD42428066B
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_007_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER12B58F085FC1E39F
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_014_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER1FC48D75B4788317
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_003_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER1FFBF38891280351
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_010_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER53138BEE52DC259C
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_002_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER731CE883BE82A4DC
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_004_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER82F952D7AC6ACE29
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER8CA5BA0A07B26B61
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_008_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER95DF2B45990C2D6C
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_005_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERAFBCA8EFAB4D4BE8
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_015_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERC1ADB5121E4C2196
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_012_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERC8CCFA52928073F2
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13352_009_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13352  a       :EtextInstance ;
+        skos:prefLabel      "sngon byon sa skya pa'i mkhas pa rnams kyi rgyud 'grel skor/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TTD8CF4E03E3E77B69 ;
+        :inCollection       bdr:PR0ET004 ;
+        :instanceHasVolume  bdr:VL1ADADE7F1CD1881C , bdr:VL2ADF5132D7D907B5 , bdr:VL5069EF0B6122A3AE , bdr:VL5F14D45D3FB9C9FE , bdr:VL6A03371901F82798 , bdr:VL6CC738E734A508EE , bdr:VL7E7B3523554658CD , bdr:VL861BCADB8268EB3D , bdr:VL99723F5228B0BD78 , bdr:VLA2EBF8FA165A37DC , bdr:VLB4BB3641C7D4DBA7 , bdr:VLC0011A9A5B62A1F5 , bdr:VLCC4065B721A0B2B4 , bdr:VLE68AC7DD6FF27835 , bdr:VLFE77B912BFA5293D ;
+        :instanceOf         bdr:WA3JT13352 .
+    
+    bdr:TTD8CF4E03E3E77B69
+        a                   :Title ;
+        rdfs:label          "sngon byon sa skya pa'i mkhas pa rnams kyi rgyud 'grel skor/"@bo-x-ewts .
+    
+    bdr:VL1ADADE7F1CD1881C
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER1FC48D75B4788317 ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL2ADF5132D7D907B5
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERAFBCA8EFAB4D4BE8 ;
+        :volumeNumber       15 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL5069EF0B6122A3AE
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER08915B8046A3E471 ;
+        :volumeNumber       11 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL5F14D45D3FB9C9FE
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER01B5DC6CCD3F9542 ;
+        :volumeNumber       6 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL6A03371901F82798
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERC1ADB5121E4C2196 ;
+        :volumeNumber       12 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL6CC738E734A508EE
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER82F952D7AC6ACE29 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL7E7B3523554658CD
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER11D53AD42428066B ;
+        :volumeNumber       7 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL861BCADB8268EB3D
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER95DF2B45990C2D6C ;
+        :volumeNumber       5 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VL99723F5228B0BD78
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER53138BEE52DC259C ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VLA2EBF8FA165A37DC
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER8CA5BA0A07B26B61 ;
+        :volumeNumber       8 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VLB4BB3641C7D4DBA7
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERC8CCFA52928073F2 ;
+        :volumeNumber       9 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VLC0011A9A5B62A1F5
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER1FFBF38891280351 ;
+        :volumeNumber       10 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VLCC4065B721A0B2B4
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER12B58F085FC1E39F ;
+        :volumeNumber       14 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VLE68AC7DD6FF27835
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER0382363DE6CC21C5 ;
+        :volumeNumber       13 ;
+        :volumeOf           bdr:IE3JT13352 .
+    
+    bdr:VLFE77B912BFA5293D
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER731CE883BE82A4DC ;
+        :volumeNumber       4 ;
+        :volumeOf           bdr:IE3JT13352 .
+}

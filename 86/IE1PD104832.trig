@@ -1,0 +1,117 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE1PD104832 {
+    bda:IE1PD104832  a      adm:AdminData ;
+        adm:access          bda:AccessFairUse ;
+        adm:adminAbout      bdr:IE1PD104832 ;
+        adm:contentProvider  bda:CP005 ;
+        adm:facetIndex      18 ;
+        adm:gitPath         "86/IE1PD104832.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE1PD104832 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER0AFEA4076199A600
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ER120DA575E39A3233
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0014 ;
+        :seqNum             14 .
+    
+    bdr:ER13BF6BC63F503991
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ER2EBAF59C2F03C3FF
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0016 ;
+        :seqNum             16 .
+    
+    bdr:ER326BD2519218DE9E
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0008 ;
+        :seqNum             8 .
+    
+    bdr:ER564A07002B18B2E7
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0007 ;
+        :seqNum             7 .
+    
+    bdr:ER78E9C1FE51F25792
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:ER7EA6D53854AD6662
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0013 ;
+        :seqNum             13 .
+    
+    bdr:ER86214023B38B8700
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0005 ;
+        :seqNum             5 .
+    
+    bdr:ER890F54D15F8EC4F4
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0010 ;
+        :seqNum             10 .
+    
+    bdr:ER89BDD87E92E2E051
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0015 ;
+        :seqNum             15 .
+    
+    bdr:ER8B12876E40C75002
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0009 ;
+        :seqNum             9 .
+    
+    bdr:ERB7253CF4DF9456F3
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0012 ;
+        :seqNum             12 .
+    
+    bdr:EREEC455CB35F91E01
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0006 ;
+        :seqNum             6 .
+    
+    bdr:ERF03BF6711385CAA5
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0011 ;
+        :seqNum             11 .
+    
+    bdr:ERF07D6360AA805EBF
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1PD104832_001_0002 ;
+        :seqNum             2 .
+    
+    bdr:IE1PD104832  a      :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET005 ;
+        :instanceHasVolume  bdr:VLB332D680F30DF7D3 ;
+        :instanceReproductionOf  bdr:W1PD104832 .
+    
+    bdr:VLB332D680F30DF7D3
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER0AFEA4076199A600 , bdr:ER120DA575E39A3233 , bdr:ER13BF6BC63F503991 , bdr:ER2EBAF59C2F03C3FF , bdr:ER326BD2519218DE9E , bdr:ER564A07002B18B2E7 , bdr:ER78E9C1FE51F25792 , bdr:ER7EA6D53854AD6662 , bdr:ER86214023B38B8700 , bdr:ER890F54D15F8EC4F4 , bdr:ER89BDD87E92E2E051 , bdr:ER8B12876E40C75002 , bdr:ERB7253CF4DF9456F3 , bdr:EREEC455CB35F91E01 , bdr:ERF03BF6711385CAA5 , bdr:ERF07D6360AA805EBF ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE1PD104832 .
+}

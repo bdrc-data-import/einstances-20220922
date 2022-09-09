@@ -1,0 +1,78 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE4JW33855 {
+    bda:IE4JW33855  a       adm:AdminData ;
+        adm:adminAbout      bdr:IE4JW33855 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "79/IE4JW33855.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE4JW33855 ;
+        adm:logEntry        bda:LG0A9045EC40DE8A58 , bda:LG27870109EF8751C7 , bda:LG2EA778D5E5D85185 , bda:LG744741C8084552E0 , bda:LG9CAAA34924BC2C7A , bda:LGAEA9888E6673BAB7 , bda:LGIMB50083FA ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bda:LG0A9045EC40DE8A58
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-08-28T16:01:28.841Z"^^xsd:dateTime ;
+        adm:logMessage      "changed T# as Tenjur only"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LG27870109EF8751C7
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2013-01-29T16:21:47.924Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG2EA778D5E5D85185
+        a                   adm:UpdateData ;
+        adm:logDate         "2013-03-28T04:47:56.386Z"^^xsd:dateTime ;
+        adm:logMessage      "added subject classification and pub info"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG744741C8084552E0
+        a                   adm:WithdrawData ;
+        adm:logDate         "2016-09-08T09:01:20.319Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG9CAAA34924BC2C7A
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGAEA9888E6673BAB7
+        a                   adm:WithdrawData ;
+        adm:logDate         "2016-09-08T05:45:38.694Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIMB50083FA  a     adm:UpdateData ;
+        adm:logAgent        "works-mark-withdrawn.xql" ;
+        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logMethod       bda:BatchMethod .
+    
+    bda:W4JW33855  a        adm:AdminData ;
+        adm:adminAbout      bdr:W4JW33855 ;
+        adm:replaceWith     bdr:IE4JW33855 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE4JW33855  a       :EtextInstance ;
+        skos:prefLabel      "bstan 'gyur/ (dpe bsdur ma)"@bo-x-ewts ;
+        :hasTitle           bdr:TTA325F776EEA8436B .
+    
+    bdr:TTA325F776EEA8436B
+        a                   :Title ;
+        rdfs:label          "bstan 'gyur/ (dpe bsdur ma)"@bo-x-ewts .
+}

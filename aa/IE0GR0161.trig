@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0161 {
+    bda:IE0GR0161  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0161 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "aa/IE0GR0161.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0161 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Vinv11"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0161  a        :EtextInstance ;
+        skos:altLabel       "Pāṇḍulohitakavastu"@sa-x-iast ;
+        skos:prefLabel      "Pandulohitakavastu"@en ;
+        :hasTitle           bdr:TT50569AD756844970 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0161 ;
+        :note               bdr:NT4606DB403BA49F1E , bdr:NTDDE475E78EB3EA56 .
+    
+    bdr:NT4606DB403BA49F1E
+        a                   :Note ;
+        :noteText           "Based on the edition by Nobuyuki Yamagiwa: Das Pāṇḍulohitakavastu, Über die verschiedenen Verfahrensweisen der Bestrafung in der buddhistischen Gemeinde, Neuausgabe der Sanskrit-Handschrift aus Gilgit, tibetischer Text und deutsche Übersetzung, Marburg 2001 (Indica et Tibetica, 41)."@en .
+    
+    bdr:NTDDE475E78EB3EA56
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:TT50569AD756844970
+        a                   :Title ;
+        rdfs:label          "Pandulohitakavastu"@en .
+}

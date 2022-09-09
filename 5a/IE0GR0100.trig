@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0100 {
+    bda:IE0GR0100  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0100 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "5a/IE0GR0100.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0100 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#KsemAkl_75"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0100  a        :EtextInstance ;
+        skos:altLabel       "Pratītyasamutpādāvadāna"@sa-x-iast ;
+        skos:prefLabel      "Pratityasamutpadavadana"@en ;
+        :hasTitle           bdr:TT206757AD1AB7E4A4 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3493 ;
+        :note               bdr:NTD1D612E229627F25 , bdr:NTFC240471922BE89D .
+    
+    bdr:NTD1D612E229627F25
+        a                   :Note ;
+        :noteText           "Based on ed. M. Mejor. Kṣemendra's Bodhisattvāvadānakalpalatā. Studies and Materials. Tokyo 1992 (Studia Philologica Buddhica, Monograph Series, 8), pp. 16-22."@en .
+    
+    bdr:NTFC240471922BE89D
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:TT206757AD1AB7E4A4
+        a                   :Title ;
+        rdfs:label          "Pratityasamutpadavadana"@en .
+}

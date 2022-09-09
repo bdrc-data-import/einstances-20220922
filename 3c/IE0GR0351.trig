@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0351 {
+    bda:IE0GR0351  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0351 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "3c/IE0GR0351.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0351 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#SbPramv"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0351  a        :EtextInstance ;
+        skos:altLabel       "Pramāṇavārttikaṭīkā"@sa-x-iast ;
+        skos:prefLabel      "Sakyabuddhi: Pramanavarttikatika"@en ;
+        :hasTitle           bdr:TTAECA44D92B87F8F5 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA19721 ;
+        :note               bdr:NT321875DF062E75CA , bdr:NT406973E895F61D49 .
+    
+    bdr:NT321875DF062E75CA
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:NT406973E895F61D49
+        a                   :Note ;
+        :noteText           "Based on the edition by M. Inami, K. Matsuda und T. Tani: A study of the Pramāṇavārttikaṭīkā by Śākyabuddhi from the National Archives collection, Kathmandu, Tokyo 1992 (Studia Tibetica, 23)"@en .
+    
+    bdr:TTAECA44D92B87F8F5
+        a                   :Title ;
+        rdfs:label          "Sakyabuddhi: Pramanavarttikatika"@en .
+}

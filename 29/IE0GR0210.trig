@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0210 {
+    bda:IE0GR0210  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0210 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "29/IE0GR0210.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0210 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#SatsPP_II_1"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0210  a        :EtextInstance ;
+        skos:altLabel       "Śatasāhasrikā Prajñaparamitā"@sa-x-iast ;
+        skos:prefLabel      "Satasahasrika Prajnaparamita II-1"@en ;
+        :hasTitle           bdr:TT40FF19977D5790EC ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0008 ;
+        :note               bdr:NT61B6CD9C741BC9F0 , bdr:NTBDAA9F1D14B7A15E .
+    
+    bdr:NT61B6CD9C741BC9F0
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, 21.03.10)"@en .
+    
+    bdr:NTBDAA9F1D14B7A15E
+        a                   :Note ;
+        :noteText           "Based on the edition by Takayasu Kimura, Tokyo 2009"@en .
+    
+    bdr:TT40FF19977D5790EC
+        a                   :Title ;
+        rdfs:label          "Satasahasrika Prajnaparamita II-1"@en .
+}

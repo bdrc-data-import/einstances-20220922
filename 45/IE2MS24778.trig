@@ -1,0 +1,59 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE2MS24778 {
+    bda:IE2MS24778  a       adm:AdminData ;
+        adm:adminAbout      bdr:IE2MS24778 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "45/IE2MS24778.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE2MS24778 ;
+        adm:logEntry        bda:LG36CA54E44A3FFC6E , bda:LGDEC77F51131E5BEB , bda:LGIMB50083FA ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bda:LG36CA54E44A3FFC6E
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGDEC77F51131E5BEB
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-09-29T10:08:04.786Z"^^xsd:dateTime ;
+        adm:logMessage      "publish into indium"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LGIMB50083FA  a     adm:UpdateData ;
+        adm:logAgent        "works-mark-withdrawn.xql" ;
+        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logMethod       bda:BatchMethod .
+    
+    bda:W2MS24778  a        adm:AdminData ;
+        adm:adminAbout      bdr:W2MS24778 ;
+        adm:replaceWith     bdr:IE2MS24778 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE2MS24778  a       :EtextInstance ;
+        skos:prefLabel      "dus 'khor rgyud mchan/"@bo-x-ewts ;
+        :hasTitle           bdr:TTA06B24D7EF59EC09 , bdr:TTA188912D7FFFBAA1 .
+    
+    bdr:TTA06B24D7EF59EC09
+        a                   :TitlePageTitle ;
+        rdfs:label          "jo nang phyogs las rnam rgyal gyis mchan gyis gsal bar mdzad pa'i bsdus pa'i rgyud kyi rgyal po dpal dus kyi 'khor lo/"@bo-x-ewts .
+    
+    bdr:TTA188912D7FFFBAA1
+        a                   :Title ;
+        rdfs:label          "dus 'khor rgyud mchan/"@bo-x-ewts .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0240 {
+    bda:IE0GR0240  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0240 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "dd/IE0GR0240.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0240 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#VajracchedPPG"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0240  a        :EtextInstance ;
+        skos:altLabel       "Vajracchedikā Prajñāpāramitā Sūtra"@sa-x-iast ;
+        skos:prefLabel      "Vajracchedika Prajnaparamita (Gilgit)"@en ;
+        :hasTitle           bdr:TT0FEDEAEBC2E8373A ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA4CZ15645 ;
+        :note               bdr:NT11AF409758AB7C35 , bdr:NT1B879F3B5403929B .
+    
+    bdr:NT11AF409758AB7C35
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:NT1B879F3B5403929B
+        a                   :Note ;
+        :noteText           "Based on G. Schopen, \"The Manuscript of the Vajracchedikā Found at Gilgit\", in: Studies in the Literature of the Great Vehicle, Three Mahāyāna Buddhist Texts, ed. L.O. Gomez and J.A. Silk, Ann Arbor 1989, pp. 89-141."@en .
+    
+    bdr:TT0FEDEAEBC2E8373A
+        a                   :Title ;
+        rdfs:label          "Vajracchedika Prajnaparamita (Gilgit)"@en .
+}

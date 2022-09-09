@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0064 {
+    bda:IE0GR0064  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0064 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "fd/IE0GR0064.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0064 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Ekottaragama"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0064  a        :EtextInstance ;
+        skos:altLabel       "Ekottarāgama"@sa-x-iast ;
+        skos:prefLabel      "Ekottaragama"@en ;
+        :hasTitle           bdr:TT5E080E622344038E ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0064 ;
+        :note               bdr:NT07F0BF64D4695D6E , bdr:NTEAF6DA5A8020C772 .
+    
+    bdr:NT07F0BF64D4695D6E
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille"@en .
+    
+    bdr:NTEAF6DA5A8020C772
+        a                   :Note ;
+        :noteText           "Based on the ed. by Chandra Bhal Tripathi: Ekottarāgama-Fragmente der Gilgit-Handschrift, Reinbek 1995  (Studien zur Indologie und Iranistik, Monographie 2)."@en .
+    
+    bdr:TT5E080E622344038E
+        a                   :Title ;
+        rdfs:label          "Ekottaragama"@en .
+}

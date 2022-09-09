@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0177 {
+    bda:IE0GR0177  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0177 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "fa/IE0GR0177.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0177 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Vinv03"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0177  a        :EtextInstance ;
+        skos:altLabel       "Pravāraṇāvastu"@sa-x-iast ;
+        skos:prefLabel      "Pravaranavastu"@en ;
+        :hasTitle           bdr:TTA19FDCB677F34099 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0177 ;
+        :note               bdr:NT3A8371BD6211652A , bdr:NTE3AD4BC0D11AAFD9 .
+    
+    bdr:NT3A8371BD6211652A
+        a                   :Note ;
+        :noteText           "Based on the edition by Jin-il Chung, Die Pravāraṇā in den kanonischen Vinaya-Texten der Mūlasarvāstivādin und der Sarvāstivādin, Göttingen 1998 (Sanskrit-Wörterbuch der buddhistischen Texte aus den Turfan-Funden, Beiheft 7). = Pravā-v"@en .
+    
+    bdr:NTE3AD4BC0D11AAFD9
+        a                   :Note ;
+        :noteText           "Input by Jin-il Chung & Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:TTA19FDCB677F34099
+        a                   :Title ;
+        rdfs:label          "Pravaranavastu"@en .
+}

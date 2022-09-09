@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0302 {
+    bda:IE0GR0302  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0302 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "ba/IE0GR0302.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0302 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#HvSatss"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0302  a        :EtextInstance ;
+        skos:altLabel       "Satyasiddhiśāstra"@sa-x-iast ;
+        skos:prefLabel      "Harivarman: Satyasiddhisastra"@en ;
+        :hasTitle           bdr:TT3F208CD0ED94218C ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0302 ;
+        :note               bdr:NT0A803C80ACE976B2 , bdr:NTF4218AC678F3C418 .
+    
+    bdr:NT0A803C80ACE976B2
+        a                   :Note ;
+        :noteText           "Based on the ed. N. Aiyaswami Sastri: Harivarman: Satyasiddhisastra, Vol. I, Baroda : Oriental Institute, 1975. (Gaekwad's Oriental Series, 159)"@en .
+    
+    bdr:NTF4218AC678F3C418
+        a                   :Note ;
+        :noteText           "Input by Udip Shakya, 2008 Proof-read by Udip Shakya"@en .
+    
+    bdr:TT3F208CD0ED94218C
+        a                   :Title ;
+        rdfs:label          "Harivarman: Satyasiddhisastra"@en .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0320 {
+    bda:IE0GR0320  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0320 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "c6/IE0GR0320.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0320 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#NagMahyvim"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0320  a        :EtextInstance ;
+        skos:altLabel       "Mahāyānaviṃśikā [Mahāyānaviṃśati]"@sa-x-iast ;
+        skos:prefLabel      "Nagarjuna: Mahayanavimsika"@en ;
+        :hasTitle           bdr:TTEF84930D3713B266 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI1092 ;
+        :note               bdr:NT54D88A9C7EE1FC85 , bdr:NT8F922F0D61E61B22 .
+    
+    bdr:NT54D88A9C7EE1FC85
+        a                   :Note ;
+        :noteText           "Based on the edition by G. Tucci: Minor Buddhist Texts, part I. Roma 1956 (Serie Orientale Roma, 9), pp. 201-203."@en .
+    
+    bdr:NT8F922F0D61E61B22
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:TTEF84930D3713B266
+        a                   :Title ;
+        rdfs:label          "Nagarjuna: Mahayanavimsika"@en .
+}

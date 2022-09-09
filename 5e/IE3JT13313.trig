@@ -1,0 +1,53 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13313 {
+    bda:IE3JT13313  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13313 ;
+        adm:contentProvider  bda:CP001 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "5e/IE3JT13313.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13313 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13313  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13313 ;
+        adm:replaceWith     bdr:IE3JT13313 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER4DBC1325C4E399D7
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13313_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13313  a       :EtextInstance ;
+        skos:prefLabel      "yi dam drag po'i mngon rtogs rdo rje'i 'phreng ba'i dbang bshad/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TT17F866755DB12D11 ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VLA8CF3D93EC3BCCF5 ;
+        :instanceOf         bdr:WA3JT13313 .
+    
+    bdr:TT17F866755DB12D11
+        a                   :Title ;
+        rdfs:label          "yi dam drag po'i mngon rtogs rdo rje'i 'phreng ba'i dbang bshad/"@bo-x-ewts .
+    
+    bdr:VLA8CF3D93EC3BCCF5
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER4DBC1325C4E399D7 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13313 .
+}

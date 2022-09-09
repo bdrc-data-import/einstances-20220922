@@ -1,0 +1,75 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE23660 {
+    bda:IE23660  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE23660 ;
+        adm:contentProvider  bda:CP001 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "44/IE23660.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE23660 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER305B3B52822F0797
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23660_003_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER62AC0E9A21DF56F9
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23660_002_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER6C0DB1501AC2AFB9
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23660_004_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER88E7E9825D0C369A
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23660_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE23660  a          :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VL3EE77F4239EDE6D9 , bdr:VL5E657DA944CA39E8 , bdr:VLAB5D98AC9CBFF655 , bdr:VLD2A97956AB1A367A ;
+        :instanceReproductionOf  bdr:W23660 .
+    
+    bdr:VL3EE77F4239EDE6D9
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER6C0DB1501AC2AFB9 ;
+        :volumeNumber       4 ;
+        :volumeOf           bdr:IE23660 .
+    
+    bdr:VL5E657DA944CA39E8
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER88E7E9825D0C369A ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE23660 .
+    
+    bdr:VLAB5D98AC9CBFF655
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER305B3B52822F0797 ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE23660 .
+    
+    bdr:VLD2A97956AB1A367A
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER62AC0E9A21DF56F9 ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE23660 .
+}

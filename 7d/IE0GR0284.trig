@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0284 {
+    bda:IE0GR0284  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0284 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "7d/IE0GR0284.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0284 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSBC_Sa052"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0284  a        :EtextInstance ;
+        skos:altLabel       "Dharmasamuccaya [Saddharmasmṛtyupasthānakārikā]"@sa-x-iast ;
+        skos:prefLabel      "Dharmasamuccaya"@en ;
+        :hasTitle           bdr:TTB92AA0EB089B8326 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0284 ;
+        :note               bdr:NT86AF68E0259CCE06 , bdr:NTF46F7CDF9F683841 .
+    
+    bdr:NT86AF68E0259CCE06
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:NTF46F7CDF9F683841
+        a                   :Note ;
+        :noteText           "Based on the edition by Vijayasankar Caube: Dharmasamuccaya. Varanasi : Sampurnanda Sanskrit University, 1993, pp. 1-278."@en .
+    
+    bdr:TTB92AA0EB089B8326
+        a                   :Title ;
+        rdfs:label          "Dharmasamuccaya"@en .
+}

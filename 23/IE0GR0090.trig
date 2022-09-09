@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0090 {
+    bda:IE0GR0090  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0090 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "23/IE0GR0090.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0090 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Kasyps"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0090  a        :EtextInstance ;
+        skos:altLabel       "Kāśyapaparivarta Sūtra"@sa-x-iast ;
+        skos:prefLabel      "Kasyapaparivartasutra"@en ;
+        :hasTitle           bdr:TT43362762A2629D8C ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0087 ;
+        :note               bdr:NT6D42FA7E2F0D8414 , bdr:NTDB4EBCD42AEAE540 .
+    
+    bdr:NT6D42FA7E2F0D8414
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen)"@en .
+    
+    bdr:NTDB4EBCD42AEAE540
+        a                   :Note ;
+        :noteText           "Based on the ed. by M.I. Vorobyova-Desyatovskaya (in collaboration with S. Karashima and N. Kudo): The Kāśyapaparivarta, Romanized Text and Facsimiles, Tokyo 2002 (Bibliotheca Philologica et Philosophica Buddhica, V)"@en .
+    
+    bdr:TT43362762A2629D8C
+        a                   :Title ;
+        rdfs:label          "Kasyapaparivartasutra"@en .
+}

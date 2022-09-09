@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0278 {
+    bda:IE0GR0278  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0278 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "b3/IE0GR0278.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0278 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Dhk_Prvi"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0278  a        :EtextInstance ;
+        skos:altLabel       "Pramāṇaviniścaya"@sa-x-iast ;
+        skos:prefLabel      "Dharmakirti: Pramanaviniscaya (fragment)"@en ;
+        :hasTitle           bdr:TTA54BE4894B4E3230 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA22293 ;
+        :note               bdr:NT03F3E81991B7E9D8 , bdr:NT492D167D741D9AF2 .
+    
+    bdr:NT03F3E81991B7E9D8
+        a                   :Note ;
+        :noteText           "Based on the edition by K. Matsuda und E. Steinkellner: \"The Sanskrit Manuscripts of Dharmakīrti's Pramāṇaviniścaya: Report on a Single Folio Fragment from the National Archives Collection, Kathmandu\", WZKS 35 (1991), pp. 139-149."@en .
+    
+    bdr:NT492D167D741D9AF2
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:TTA54BE4894B4E3230
+        a                   :Title ;
+        rdfs:label          "Dharmakirti: Pramanaviniscaya (fragment)"@en .
+}

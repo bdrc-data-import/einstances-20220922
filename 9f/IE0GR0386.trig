@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0386 {
+    bda:IE0GR0386  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0386 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "9f/IE0GR0386.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0386 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSBC_Sa060"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0386  a        :EtextInstance ;
+        skos:altLabel       "Śatagāthā"@sa-x-iast ;
+        skos:prefLabel      "Vararuci: Satagatha"@en ;
+        :hasTitle           bdr:TT75AA36D9AA0C9754 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3666 ;
+        :note               bdr:NT96EA3E66FFA9CCD4 , bdr:NTAB95E90FE4EB9D12 .
+    
+    bdr:NT96EA3E66FFA9CCD4
+        a                   :Note ;
+        :noteText           "Based on the edition by Losang Norbu Shastri: Śatagāthā. Sarnath : Central Institute of Higher Tibetan Studies, 2001, pp. 59-158."@en .
+    
+    bdr:NTAB95E90FE4EB9D12
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:TT75AA36D9AA0C9754
+        a                   :Title ;
+        rdfs:label          "Vararuci: Satagatha"@en .
+}

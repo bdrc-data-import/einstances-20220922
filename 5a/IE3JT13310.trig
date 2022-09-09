@@ -1,0 +1,66 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13310 {
+    bda:IE3JT13310  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13310 ;
+        adm:contentProvider  bda:CP001 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "5a/IE3JT13310.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13310 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13310  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13310 ;
+        adm:replaceWith     bdr:IE3JT13310 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER840D39026442B46D
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13310_002_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERB48DF9E519D0017C
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13310_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13310  a       :EtextInstance ;
+        skos:prefLabel      "shes rab kyi pha rol tu phyin pa'i lung chos mtha' dag gi bdud rtsi'i snying por gyur pa gang la ldan pa'i gzhi rje btsun mchog tu dgyes par ngal gso ba'i yongs 'du sa brtol gyi ljon pa rgyas pa/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TT158B3D9762A6F26D ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VL0CDB680D59F8EDE3 , bdr:VLD992FFC6C7DD6209 ;
+        :instanceOf         bdr:WA3JT13310 .
+    
+    bdr:MW3JT13310  :instanceOf  bdr:WA0XL99816E813055 .
+    
+    bdr:TT158B3D9762A6F26D
+        a                   :Title ;
+        rdfs:label          "shes rab kyi pha rol tu phyin pa'i lung chos mtha' dag gi bdud rtsi'i snying por gyur pa gang la ldan pa'i gzhi rje btsun mchog tu dgyes par ngal gso ba'i yongs 'du sa brtol gyi ljon pa rgyas pa/"@bo-x-ewts .
+    
+    bdr:VL0CDB680D59F8EDE3
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER840D39026442B46D ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE3JT13310 .
+    
+    bdr:VLD992FFC6C7DD6209
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERB48DF9E519D0017C ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13310 .
+}

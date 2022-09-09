@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0270 {
+    bda:IE0GR0270  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0270 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "2c/IE0GR0270.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0270 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#CandkPrasp"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0270  a        :EtextInstance ;
+        skos:altLabel       "Prasannapadā"@sa-x-iast ;
+        skos:prefLabel      "Candrakirti: Prasannapada"@en ;
+        :hasTitle           bdr:TT09697551D5340047 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3205 ;
+        :note               bdr:NT2AB43131BE9566C4 , bdr:NT731DF5086A7ED5B3 .
+    
+    bdr:NT2AB43131BE9566C4
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:NT731DF5086A7ED5B3
+        a                   :Note ;
+        :noteText           "Based on the ed. by P.L. Vaidya: Madhyamakaśāstra of Nāgārjuna, with the Commentary: Prasannapadā by Candrakīrti. Darbhaga 1960 (Buddhist Sanskrit Texts, 10)."@en .
+    
+    bdr:TT09697551D5340047
+        a                   :Title ;
+        rdfs:label          "Candrakirti: Prasannapada"@en .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0235 {
+    bda:IE0GR0235  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0235 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "9f/IE0GR0235.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0235 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#VagMrtyuv"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0235  a        :EtextInstance ;
+        skos:altLabel       "Mṛtyuvañcanopadeśa"@sa-x-iast ;
+        skos:prefLabel      "Vagisvarakirti: Mrtyuvancanopadesa, plain text version"@en ;
+        :hasTitle           bdr:TT0BAF8882B2AECBAD ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI0620 ;
+        :note               bdr:NT660C5EA0FBA8F995 , bdr:NTC9E35A549999BE06 .
+    
+    bdr:NT660C5EA0FBA8F995
+        a                   :Note ;
+        :noteText           "Input by Johannes Schneider"@en .
+    
+    bdr:NTC9E35A549999BE06
+        a                   :Note ;
+        :noteText           "Based on the ed. by Johannes Schneider: Vāgīśvarakīrtis Mṛtyuvañcanopadeśa, eine buddhistische Lehrschrift zur Abwehr des Todes. Wien : Verlag der Österreichischen Akademie der Wissenschaften 2010. (Beiträge zur Kultur- und Geistesgeschichte Asiens ; 66) (Denkschriften der philosophisch-historischen Klasse ; 394) ISBN 978-3-7001-6722-8"@en .
+    
+    bdr:TT0BAF8882B2AECBAD
+        a                   :Title ;
+        rdfs:label          "Vagisvarakirti: Mrtyuvancanopadesa, plain text version"@en .
+}

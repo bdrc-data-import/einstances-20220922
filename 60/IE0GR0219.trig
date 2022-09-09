@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0219 {
+    bda:IE0GR0219  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0219 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "60/IE0GR0219.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0219 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#SukhVy"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0219  a        :EtextInstance ;
+        skos:altLabel       "Sukhāvatīvyūha sūtra saṃkṣiptamātṛkā"@sa-x-iast ;
+        skos:prefLabel      "The Smaller Sukhavativyuha"@en ;
+        :hasTitle           bdr:TTD4206218CF3996C2 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0115 ;
+        :note               bdr:NT49BC574AD88922D0 , bdr:NT95C9374A3CE00D5A .
+    
+    bdr:NT49BC574AD88922D0
+        a                   :Note ;
+        :noteText           "Based on <not_specified>"@en .
+    
+    bdr:NT95C9374A3CE00D5A
+        a                   :Note ;
+        :noteText           "Input by Yoshimichi Fujita"@en .
+    
+    bdr:TTD4206218CF3996C2
+        a                   :Title ;
+        rdfs:label          "The Smaller Sukhavativyuha"@en .
+}

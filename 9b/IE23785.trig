@@ -1,0 +1,57 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE23785 {
+    bda:IE23785  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE23785 ;
+        adm:contentProvider  bda:CP002 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "9b/IE23785.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE23785 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER114F3EF5A71D8CDF
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23785_001_0002 ;
+        :seqNum             2 .
+    
+    bdr:ERCBC40B08B559A35B
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23785_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:ERD26D63C6507679B1
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23785_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ERD4478E348B6C95B3
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23785_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:IE23785  a          :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET002 ;
+        :instanceHasVolume  bdr:VL40F03CEECFE03982 ;
+        :instanceReproductionOf  bdr:W23785 .
+    
+    bdr:VL40F03CEECFE03982
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER114F3EF5A71D8CDF , bdr:ERCBC40B08B559A35B , bdr:ERD26D63C6507679B1 , bdr:ERD4478E348B6C95B3 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE23785 .
+}

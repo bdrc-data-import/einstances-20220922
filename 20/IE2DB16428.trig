@@ -1,0 +1,64 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE2DB16428 {
+    bda:IE2DB16428  a       adm:AdminData ;
+        adm:access          bda:AccessFairUse ;
+        adm:adminAbout      bdr:IE2DB16428 ;
+        adm:contentProvider  bda:CP009 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "20/IE2DB16428.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE2DB16428 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER0407B14261038DC0
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT2DB16428_I1PD34081_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER072F3485C786DE21
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT2DB16428_I1PD34082_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER327CB61DE5E4335C
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT2DB16428_I1PD34080_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE2DB16428  a       :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_OCR ;
+        :inCollection       bdr:PR0ET009 ;
+        :instanceHasVolume  bdr:VL4FCB80E4DCEB3B85 , bdr:VL6C3B99F8E9A33823 , bdr:VLB8BB1F013595F6CB ;
+        :instanceReproductionOf  bdr:W2DB16428 .
+    
+    bdr:VL4FCB80E4DCEB3B85
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER327CB61DE5E4335C ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE2DB16428 .
+    
+    bdr:VL6C3B99F8E9A33823
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER072F3485C786DE21 ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE2DB16428 .
+    
+    bdr:VLB8BB1F013595F6CB
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER0407B14261038DC0 ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE2DB16428 .
+}

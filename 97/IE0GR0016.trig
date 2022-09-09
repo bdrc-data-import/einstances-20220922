@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0016 {
+    bda:IE0GR0016  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0016 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "97/IE0GR0016.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0016 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Anityatasu"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0016  a        :EtextInstance ;
+        skos:altLabel       "Anityatā sūtra"@sa-x-iast ;
+        skos:prefLabel      "Anityatasutra"@en ;
+        :hasTitle           bdr:TT5045281F051E9DBC ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0309 ;
+        :note               bdr:NT29846A1CB638FD41 , bdr:NT87F1A4C41876ECEF .
+    
+    bdr:NT29846A1CB638FD41
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille"@en .
+    
+    bdr:NT87F1A4C41876ECEF
+        a                   :Note ;
+        :noteText           "Based on the ed. by Isshi Yamada. \"Anityatāsūtra\", Journal of Indian and Buddhist Studies [= IBK], 20,2 (1972), pp. 1001-996(30-35)."@en .
+    
+    bdr:TT5045281F051E9DBC
+        a                   :Title ;
+        rdfs:label          "Anityatasutra"@en .
+}

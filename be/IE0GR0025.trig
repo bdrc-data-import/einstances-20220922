@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0025 {
+    bda:IE0GR0025  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0025 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "be/IE0GR0025.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0025 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Sravbhu"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0025  a        :EtextInstance ;
+        skos:altLabel       "Śrāvakabhūmi"@sa-x-iast ;
+        skos:prefLabel      "Sravakabhumi"@en ;
+        :hasTitle           bdr:TTE6A77F33D221A977 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3375 ;
+        :note               bdr:NT17C355AC594727E8 , bdr:NT397171A4E0F2E4A5 .
+    
+    bdr:NT17C355AC594727E8
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille, Göttingen (Germany)"@en .
+    
+    bdr:NT397171A4E0F2E4A5
+        a                   :Note ;
+        :noteText           "Based on the edition Srāvakabhūmi, The First Chapter, Revised Sanskrit Text and Japanese Translation, ed. Śrāvakabhūmi Study Group (The Institute for Comprehensive Studies of Buddhism, Taisho University), Tokyo 1998 (Taisho University Sogo Bukkyo Kenyujo, 4). = Śbh I Srāvakabhūmi, The Second Chapter with Asamāhitā bhūmiḥ, Śrutamayī bhūmiḥ, Cintāmayī bhūmiḥ, Revised Sanskrit Text and Japanese Translation, ed. Śrāvakabhūmi Study Group (The Institute for Comprehensive Studies of Buddhism, Taisho University), Tokyo 2007 (Taisho Daigaku Sogobukkyo Kenyujo, 18). = Śbh II"@en .
+    
+    bdr:TTE6A77F33D221A977
+        a                   :Title ;
+        rdfs:label          "Sravakabhumi"@en .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0225 {
+    bda:IE0GR0225  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0225 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "99/IE0GR0225.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0225 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#SuvarnAv"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0225  a        :EtextInstance ;
+        skos:altLabel       "Suvarṇavarṇāvadāna"@sa-x-iast ;
+        skos:prefLabel      "Suvarnavarnavadana"@en ;
+        :hasTitle           bdr:TT740E95FAB2612067 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3482 ;
+        :note               bdr:NTAB15738CE5F5017B , bdr:NTBD0B097413A36CFE .
+    
+    bdr:NTAB15738CE5F5017B
+        a                   :Note ;
+        :noteText           "Input by Jens Braarvig, Oslo 2010"@en .
+    
+    bdr:NTBD0B097413A36CFE
+        a                   :Note ;
+        :noteText           "Based on the ed. by Sitaram Roy: Suvarṇavarṇāvadāna [Decipherment and historical study of a palm-leaf Sanskrit manuscripts-an unknown Mahāyāna(avadāna) text from Tibet.], Patna : K.P. Jayaswal Research Institute 1971 (Historical Research Series, vol. VII); compared with: Rajapatirana, Tissa (1974), Suvarṇavarṇāvadāna, translated and edited together with its Tibetan translation and the Lakṣacaityasamutpatti, A thesis submitted for the Degree of Doctor of Philosophy in the Australian National University, Canberra. pdf part 1, pdf part 2. Also consulted: Dharmaśrībhadra and Rin chen bzaṅ po, \"gSer mdog gi rtogs pa brjod pa\" (Tibetan translation of Suv), in Kg, 'dul ba, vol. su, 172b7-227b2."@en .
+    
+    bdr:TT740E95FAB2612067
+        a                   :Title ;
+        rdfs:label          "Suvarnavarnavadana"@en .
+}

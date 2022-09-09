@@ -1,0 +1,91 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE4JW5394 {
+    bda:IE4JW5394  a        adm:AdminData ;
+        adm:adminAbout      bdr:IE4JW5394 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "7b/IE4JW5394.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE4JW5394 ;
+        adm:logEntry        bda:LG2B69EA109AF6E92C , bda:LG46283615BE871729 , bda:LGD6B40A1FFE6EAE2E , bda:LGEFF67EB6B8B58C35 , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bda:LG2B69EA109AF6E92C
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-12-21T04:03:46.734Z"^^xsd:dateTime ;
+        adm:logMessage      "restricted by quality"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG46283615BE871729
+        a                   adm:WithdrawData ;
+        adm:logDate         "2014-10-01T05:36:21.065Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn because of poor ocr quality"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGD6B40A1FFE6EAE2E
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGEFF67EB6B8B58C35
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-12-21T03:58:38.448Z"^^xsd:dateTime ;
+        adm:logMessage      "created ut"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIM5A753E00B7
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIMAEA9B78D7A
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIMB50083FA  a     adm:UpdateData ;
+        adm:logAgent        "works-mark-withdrawn.xql" ;
+        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logMethod       bda:BatchMethod .
+    
+    bda:W4JW5394  a         adm:AdminData ;
+        adm:adminAbout      bdr:W4JW5394 ;
+        adm:replaceWith     bdr:IE4JW5394 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE4JW5394  a        :EtextInstance ;
+        skos:prefLabel      "khams sgom sde nang chen pa'i dgon khag rnams kyi byung ba phyogs bsgrigs rin chen sgrom brgya 'byed pa'i deb ther gser gyi lde mig"@bo-x-ewts ;
+        :hasTitle           bdr:TT2DEC8FF3160B02CA ;
+        :note               bdr:NT057E263BC50EC678 , bdr:NT49644D1EBAB236D6 ;
+        :numberOfVolumes    1 .
+    
+    bdr:NT057E263BC50EC678
+        a                   :Note ;
+        :noteText           "withdrawn because of poor ocr quality"@en .
+    
+    bdr:NT49644D1EBAB236D6
+        a                   :Note ;
+        :noteText           "historical survey of monasteries in nang chen rdzong of yus hru'u prefecture, qinghai province"@en .
+    
+    bdr:TT2DEC8FF3160B02CA
+        a                   :Title ;
+        rdfs:label          "khams sgom sde nang chen pa'i dgon khag rnams kyi byung ba phyogs bsgrigs rin chen sgrom brgya 'byed pa'i deb ther gser gyi lde mig"@bo-x-ewts .
+}

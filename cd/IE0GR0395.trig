@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0395 {
+    bda:IE0GR0395  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0395 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "cd/IE0GR0395.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0395 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#VasVimsvij"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0395  a        :EtextInstance ;
+        skos:altLabel       "Viṃśatikā vijñaptimātratāsiddhi [Viṃśatikākārikā, Viṃśikāvṛtti]]"@sa-x-iast ;
+        skos:prefLabel      "Vasubandhu: Vimsatika vijnaptimatratasiddhi"@en ;
+        :hasTitle           bdr:TTC0E7161320D0F671 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3396 ;
+        :note               bdr:NTA8AB98B01A4DFEE6 , bdr:NTEF0C448FCAF0F95F .
+    
+    bdr:NTA8AB98B01A4DFEE6
+        a                   :Note ;
+        :noteText           "Based on the edition by S. Lévi: Vijñaptimātratāsiddhi ḥ Deux traités de Vasubandhu: Viṃśatikā (La Vingtaine) accompagnée d'une explication en prose et Triṃśikā (La trentaine) avec le commentaire de Sthiramati, Paris 1925,"@en .
+    
+    bdr:NTEF0C448FCAF0F95F
+        a                   :Note ;
+        :noteText           "Input by Takamichi Fukita"@en .
+    
+    bdr:TTC0E7161320D0F671
+        a                   :Title ;
+        rdfs:label          "Vasubandhu: Vimsatika vijnaptimatratasiddhi"@en .
+}

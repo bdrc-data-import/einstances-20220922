@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0568 {
+    bda:IE0GR0568  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0568 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "cf/IE0GR0568.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0568 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Milindap"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0568  a        :EtextInstance ;
+        skos:altLabel       "Milindapañho [Milindapañha]"@sa-x-iast ;
+        skos:prefLabel      "Milindapanho, annotated version"@en ;
+        :hasTitle           bdr:TT3FBBBFB9F75AEAAC ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0GR0568 ;
+        :note               bdr:NT4A27E7A2F2242ABC , bdr:NTEDB5CCFDB749387E .
+    
+    bdr:NT4A27E7A2F2242ABC
+        a                   :Note ;
+        :noteText           "Input by the Dhammakaya Foundation, Thailand, 1989-1996"@en .
+    
+    bdr:NTEDB5CCFDB749387E
+        a                   :Note ;
+        :noteText           "Based on the edition by V. Trenckner: The Milindapañho :  Being Dialogues between King Milinda and the Buddhist Sage Nāgasena, London : Pali Text Society 1890. (Reprinted 1928, 1962, 1986)"@en .
+    
+    bdr:TT3FBBBFB9F75AEAAC
+        a                   :Title ;
+        rdfs:label          "Milindapanho, annotated version"@en .
+}

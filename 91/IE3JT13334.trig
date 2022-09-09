@@ -1,0 +1,75 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13334 {
+    bda:IE3JT13334  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13334 ;
+        adm:contentProvider  bda:CP001 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "91/IE3JT13334.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13334 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13334  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13334 ;
+        adm:replaceWith     bdr:IE3JT13334 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER21721039F3A642D9
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13334_003_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER4FDA09A2850867EB
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13334_002_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER505118D794DA8BE0
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13334_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13334  a       :EtextInstance ;
+        skos:prefLabel      "bla ma rgyang 'bod dang phyag chen sngon 'gro'i skor/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TT02F63E33FA333720 ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VL2360C155AB878F09 , bdr:VL31F8F876D091619D , bdr:VL8701CA3D19A700F6 ;
+        :instanceOf         bdr:WA3JT13334 .
+    
+    bdr:TT02F63E33FA333720
+        a                   :Title ;
+        rdfs:label          "bla ma rgyang 'bod dang phyag chen sngon 'gro'i skor/"@bo-x-ewts .
+    
+    bdr:VL2360C155AB878F09
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER21721039F3A642D9 ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE3JT13334 .
+    
+    bdr:VL31F8F876D091619D
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER505118D794DA8BE0 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13334 .
+    
+    bdr:VL8701CA3D19A700F6
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER4FDA09A2850867EB ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE3JT13334 .
+}

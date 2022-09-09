@@ -1,0 +1,53 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE23926 {
+    bda:IE23926  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE23926 ;
+        adm:contentProvider  bda:CP006 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "04/IE23926.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE23926 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER554ABA214498D66B
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23926_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ERF310ED8DC685813A
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT23926_002_0001 ;
+        :seqNum             1 .
+    
+    bdr:IE23926  a          :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET006 ;
+        :instanceHasVolume  bdr:VL489315D5375619AF , bdr:VLEAD0419A86E7A848 ;
+        :instanceReproductionOf  bdr:W23926 .
+    
+    bdr:VL489315D5375619AF
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER554ABA214498D66B ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE23926 .
+    
+    bdr:VLEAD0419A86E7A848
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERF310ED8DC685813A ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE23926 .
+}

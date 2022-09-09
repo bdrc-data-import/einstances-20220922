@@ -1,0 +1,54 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE1KG5377 {
+    bda:IE1KG5377  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE1KG5377 ;
+        adm:contentProvider  bda:CP009 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "4c/IE1KG5377.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE1KG5377 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER2EB0D4B65C116CDA
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1KG5377_I1KG5393_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERC28134F91630AA3F
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1KG5377_I1KG5394_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE1KG5377  a        :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_OCR ;
+        :inCollection       bdr:PR0ET009 ;
+        :instanceHasVolume  bdr:VL63E23048C2A8F82A , bdr:VLD2011384E939D43C ;
+        :instanceReproductionOf  bdr:W1KG5377 .
+    
+    bdr:VL63E23048C2A8F82A
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERC28134F91630AA3F ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE1KG5377 .
+    
+    bdr:VLD2011384E939D43C
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER2EB0D4B65C116CDA ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE1KG5377 .
+}

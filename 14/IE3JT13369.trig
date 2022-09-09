@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13369 {
+    bda:IE3JT13369  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13369 ;
+        adm:contentProvider  bda:CP010 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "14/IE3JT13369.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13369 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13369  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13369 ;
+        adm:replaceWith     bdr:IE3JT13369 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER1025BC43E6464A7E
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13369_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:ER4CEEEFD1F157430B
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13369_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ER5F8CC770AE5B4473
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13369_001_0002 ;
+        :seqNum             2 .
+    
+    bdr:ERBEABF2AD1F2CE9D5
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13369_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ERFC4756F7517E3C87
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13369_001_0005 ;
+        :seqNum             5 .
+    
+    bdr:IE3JT13369  a       :EtextInstance ;
+        skos:prefLabel      "phyag rgya chen po'i man ngag gi bshad sbyar rgyal ba'i gan mdzod/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TTFAB0CDA7AAD0B48C ;
+        :inCollection       bdr:PR0ET010 ;
+        :instanceHasVolume  bdr:VLD035D151EC82D7B1 ;
+        :instanceOf         bdr:WA3JT13369 .
+    
+    bdr:TTFAB0CDA7AAD0B48C
+        a                   :Title ;
+        rdfs:label          "phyag rgya chen po'i man ngag gi bshad sbyar rgyal ba'i gan mdzod/"@bo-x-ewts .
+    
+    bdr:VLD035D151EC82D7B1
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER1025BC43E6464A7E , bdr:ER4CEEEFD1F157430B , bdr:ER5F8CC770AE5B4473 , bdr:ERBEABF2AD1F2CE9D5 , bdr:ERFC4756F7517E3C87 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13369 .
+}

@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0098 {
+    bda:IE0GR0098  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0098 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "06/IE0GR0098.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0098 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#KsemAkl_10"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0098  a        :EtextInstance ;
+        skos:altLabel       "Garbhāvakrāntyavadāna"@sa-x-iast ;
+        skos:prefLabel      "Ksemendra: Garbhavakrantyavadana"@en ;
+        :hasTitle           bdr:TTB7EC6808E8A1FAFC ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RTI3493 ;
+        :note               bdr:NTA2A2C80384F199B8 , bdr:NTF3DF9A1B4A37410C .
+    
+    bdr:NTA2A2C80384F199B8
+        a                   :Note ;
+        :noteText           "Based on the edition by Michael Hahn: \"Kṣemendras Garbhāvakrāntyavadāna (Sanskrittexte aus dem tibetischen Tanjur II)\", Journal of the European Ayurvedic Society 5 (1997), pp. 82-112. = KAvk_10"@en .
+    
+    bdr:NTF3DF9A1B4A37410C
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille (Göttingen, Germany)"@en .
+    
+    bdr:TTB7EC6808E8A1FAFC
+        a                   :Title ;
+        rdfs:label          "Ksemendra: Garbhavakrantyavadana"@en .
+}

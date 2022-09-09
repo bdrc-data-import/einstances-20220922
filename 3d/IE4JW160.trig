@@ -1,0 +1,92 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE4JW160 {
+    bda:IE4JW160  a         adm:AdminData ;
+        adm:adminAbout      bdr:IE4JW160 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "3d/IE4JW160.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE4JW160 ;
+        adm:logEntry        bda:LG0522FDEC56466DA2 , bda:LG3EBFDDB0D043569C , bda:LG8B6A6E4F35E39DFF , bda:LGB3D59DB594DE09A5 , bda:LGIM5A753E00B7 , bda:LGIM74A445C794 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bda:LG0522FDEC56466DA2
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-06-17T20:06:08.458Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG3EBFDDB0D043569C
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-06-17T20:13:06.694Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG8B6A6E4F35E39DFF
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-09-10T19:09:02.528Z"^^xsd:dateTime ;
+        adm:logMessage      "subject class changed from T376 to T1082"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LGB3D59DB594DE09A5
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGIM5A753E00B7
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIM74A445C794
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-10-15T17:57:00.715Z"^^xsd:dateTime ;
+        adm:logMessage      "updated catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGIMAEA9B78D7A
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized catalog info"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGIMB50083FA  a     adm:UpdateData ;
+        adm:logAgent        "works-mark-withdrawn.xql" ;
+        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
+        adm:logMessage      "changed status to withdrawn"@en ;
+        adm:logMethod       bda:BatchMethod .
+    
+    bda:W4JW160  a          adm:AdminData ;
+        adm:adminAbout      bdr:W4JW160 ;
+        adm:replaceWith     bdr:IE4JW160 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE4JW160  a         :EtextInstance ;
+        skos:prefLabel      "gsung 'bum/_blo gros rgyal mtshan/"@bo-x-ewts ;
+        :hasTitle           bdr:TTA5DEB66A59BB2E6A ;
+        :note               bdr:NTFE7B5C16EE92B9F2 ;
+        :numberOfVolumes    2 .
+    
+    bdr:NTFE7B5C16EE92B9F2
+        a                   :Note ;
+        :noteText           "tbrc holds unicode xml files"@en .
+    
+    bdr:TTA5DEB66A59BB2E6A
+        a                   :Title ;
+        rdfs:label          "gsung 'bum/_blo gros rgyal mtshan/"@bo-x-ewts .
+}

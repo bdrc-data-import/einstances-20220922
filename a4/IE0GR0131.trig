@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0131 {
+    bda:IE0GR0131  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0131 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "a4/IE0GR0131.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0131 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Manjns"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0131  a        :EtextInstance ;
+        skos:altLabel       "Mañjuśrīnāmasaṃgīti"@sa-x-iast ;
+        skos:prefLabel      "Manjusrinamasamgiti"@en ;
+        :hasTitle           bdr:TTC0DD8A103751669A ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA22003 ;
+        :note               bdr:NT23646CC182EBE9BC , bdr:NT5159D96967F9F87B .
+    
+    bdr:NT23646CC182EBE9BC
+        a                   :Note ;
+        :noteText           "Input by Ian Sinclair, 2003"@en .
+    
+    bdr:NT5159D96967F9F87B
+        a                   :Note ;
+        :noteText           "Based on the edition by Janardan Shastri Pandey in 'Bauddhastotrasamgraha', Sarnath 1994, pp. 5-20. [GRETIL version checked against the ed. by Raghu Vira, Satapitaka 18]"@en .
+    
+    bdr:TTC0DD8A103751669A
+        a                   :Title ;
+        rdfs:label          "Manjusrinamasamgiti"@en .
+}

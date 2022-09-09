@@ -1,0 +1,54 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE30016 {
+    bda:IE30016  a          adm:AdminData ;
+        adm:access          bda:AccessFairUse ;
+        adm:adminAbout      bdr:IE30016 ;
+        adm:contentProvider  bda:CP009 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "16/IE30016.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE30016 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ERB41A4F066164C380
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT30016_5758_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERFB14B4D48C072F55
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT30016_5757_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE30016  a          :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_OCR ;
+        :inCollection       bdr:PR0ET009 ;
+        :instanceHasVolume  bdr:VL125E984123193381 , bdr:VL2BEA1552CDA55742 ;
+        :instanceReproductionOf  bdr:W30016 .
+    
+    bdr:VL125E984123193381
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERFB14B4D48C072F55 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE30016 .
+    
+    bdr:VL2BEA1552CDA55742
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERB41A4F066164C380 ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE30016 .
+}

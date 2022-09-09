@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13364 {
+    bda:IE3JT13364  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13364 ;
+        adm:contentProvider  bda:CP005 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "30/IE3JT13364.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13364 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13364  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13364 ;
+        adm:replaceWith     bdr:IE3JT13364 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER457CD9872F4402DF
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13364_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:ER5A7033B6C9FDCD28
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13364_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ERBD0BDEACD3A8B966
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13364_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ERF1F649FFC8736831
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13364_001_0002 ;
+        :seqNum             2 .
+    
+    bdr:IE3JT13364  a       :EtextInstance ;
+        skos:prefLabel      "tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :copyrightStatus    bdr:CopyrightClaimed ;
+        :hasTitle           bdr:TT01F78496D12FBCB7 , bdr:TT683DC5B7DFCD782F ;
+        :inCollection       bdr:PR0ET005 ;
+        :instanceHasVolume  bdr:VLC7A25744509FC383 ;
+        :instanceOf         bdr:WA3JT13364 .
+    
+    bdr:TT01F78496D12FBCB7
+        a                   :Title ;
+        rdfs:label          "tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts .
+    
+    bdr:TT683DC5B7DFCD782F
+        a                   :TitlePageTitle ;
+        rdfs:label          "jo nang rje btsun tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts .
+    
+    bdr:VLC7A25744509FC383
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER457CD9872F4402DF , bdr:ER5A7033B6C9FDCD28 , bdr:ERBD0BDEACD3A8B966 , bdr:ERF1F649FFC8736831 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13364 .
+}

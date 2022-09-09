@@ -1,0 +1,57 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE1KG12222 {
+    bda:IE1KG12222  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE1KG12222 ;
+        adm:contentProvider  bda:CP002 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "a4/IE1KG12222.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE1KG12222 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:ER10DD4C778856CEF6
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1KG12222_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ERAD2C061E79BE6B58
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1KG12222_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ERB9D76ABFBCA923FA
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1KG12222_001_0002 ;
+        :seqNum             2 .
+    
+    bdr:ERBA9F9C35FD9D25CC
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT1KG12222_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:IE1KG12222  a       :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET002 ;
+        :instanceHasVolume  bdr:VL9A3FF7851D17D3E1 ;
+        :instanceReproductionOf  bdr:W1KG12222 .
+    
+    bdr:VL9A3FF7851D17D3E1
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER10DD4C778856CEF6 , bdr:ERAD2C061E79BE6B58 , bdr:ERB9D76ABFBCA923FA , bdr:ERBA9F9C35FD9D25CC ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE1KG12222 .
+}

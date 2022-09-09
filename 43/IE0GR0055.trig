@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0055 {
+    bda:IE0GR0055  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0055 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "43/IE0GR0055.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0055 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#Dhrmsk"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0055  a        :EtextInstance ;
+        skos:altLabel       "Dharmaskandha"@sa-x-iast ;
+        skos:prefLabel      "Dharmaskandha"@en ;
+        :hasTitle           bdr:TTA971384BAEF7422B ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0245 ;
+        :note               bdr:NT6042001ABBCC6914 , bdr:NTA1F4C2D5CC71DF01 .
+    
+    bdr:NT6042001ABBCC6914
+        a                   :Note ;
+        :noteText           "Based on the ed. by Siglinde Dietz: Fragmente des Dharmaskandha -  Ein Abhidharma-Text in Sanskrit aus Gilgit. Göttingen 1984 (Abhandlungen der Akademie der Wissenschaften in Göttingen, 142) = DhskD: fols. 3-20, 26, and Kazunobu Matsuda: \"Newly Identified Sanskrit Fragments of the Dharmaskandha in the Gilgit manuscripts\" (1), Sanskrit Fragments Transliterated, with an Appendix by Hajime Sakurabe, Kyoto 1986. GBM 151-156; DhskM = fols. 21, 22, 27 Ed. also in: K. Sankarnarayan, K. Matsuda, M. Yoritomi: Lokaprajñapti, A Critical Exposition of Buddhist Cosmology,  Mumbai/New Delhi 2002. pp. 15-24."@en .
+    
+    bdr:NTA1F4C2D5CC71DF01
+        a                   :Note ;
+        :noteText           "Input by Klaus Wille"@en .
+    
+    bdr:TTA971384BAEF7422B
+        a                   :Title ;
+        rdfs:label          "Dharmaskandha"@en .
+}

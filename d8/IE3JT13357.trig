@@ -1,0 +1,211 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13357 {
+    bda:IE3JT13357  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13357 ;
+        adm:contentProvider  bda:CP004 ;
+        adm:facetIndex      33 ;
+        adm:gitPath         "d8/IE3JT13357.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13357 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13357  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13357 ;
+        adm:replaceWith     bdr:IE3JT13357 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ER05CFD70D42B77531
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_002_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER1201E650B9879217
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_010_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER33EEDF787A4AD769
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_011_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER3F86D1B88D4C32F7
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER5FD73B384B4F889D
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_004_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER7BD09C112C76BCF2
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_012_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER886C61C29AEA8D20
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_003_0000 ;
+        :seqNum             1 .
+    
+    bdr:ER8DE1315838D026D3
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_013_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERA826A4697ADEDEC8
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_015_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERB181960CE834F4FB
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_008_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERB883328E27FECC12
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_014_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERBC5849D486E48166
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_007_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERBD8AD518186FC209
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_005_0000 ;
+        :seqNum             1 .
+    
+    bdr:ERE234D97BC7FB2E81
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_006_0000 ;
+        :seqNum             1 .
+    
+    bdr:EREA0E6B7AE193587B
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13357_009_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13357  a       :EtextInstance ;
+        skos:prefLabel      "rgyud sde khag gcig phyogs bsgrigs/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TTB2311F14EA7CF2E1 , bdr:TTFEA3BB2C74ED86E5 ;
+        :inCollection       bdr:PR0ET004 ;
+        :instanceHasVolume  bdr:VL03C3B4A54365F41F , bdr:VL1C3A6C9B50D3D2BC , bdr:VL2439F4D28ED2C2A8 , bdr:VL3A3A04DE8CE00A91 , bdr:VL3ECE5F2C0312C876 , bdr:VL42F6A69E05AFC91A , bdr:VL53AB000F4DD0C106 , bdr:VL54E685FDD39B8BC5 , bdr:VL6CE2DAF0FC57432D , bdr:VL7A580E8A98BF384E , bdr:VL7F43F55DA29C6E78 , bdr:VL8EDBD7CED44B0AA4 , bdr:VLD7D81D1AB401300E , bdr:VLE505091247504AF8 , bdr:VLF0D14EA332FC1A0C ;
+        :instanceOf         bdr:WA3JT13357 .
+    
+    bdr:TTB2311F14EA7CF2E1
+        a                   :TitlePageTitle ;
+        rdfs:label          "rgyud sde khag gcig phyogs gcig tu bsgrigs pa/"@bo-x-ewts .
+    
+    bdr:TTFEA3BB2C74ED86E5
+        a                   :Title ;
+        rdfs:label          "rgyud sde khag gcig phyogs bsgrigs/"@bo-x-ewts .
+    
+    bdr:VL03C3B4A54365F41F
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:EREA0E6B7AE193587B ;
+        :volumeNumber       9 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL1C3A6C9B50D3D2BC
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER1201E650B9879217 ;
+        :volumeNumber       10 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL2439F4D28ED2C2A8
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER05CFD70D42B77531 ;
+        :volumeNumber       2 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL3A3A04DE8CE00A91
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERBC5849D486E48166 ;
+        :volumeNumber       7 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL3ECE5F2C0312C876
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER886C61C29AEA8D20 ;
+        :volumeNumber       3 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL42F6A69E05AFC91A
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERA826A4697ADEDEC8 ;
+        :volumeNumber       15 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL53AB000F4DD0C106
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER5FD73B384B4F889D ;
+        :volumeNumber       4 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL54E685FDD39B8BC5
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERB181960CE834F4FB ;
+        :volumeNumber       8 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL6CE2DAF0FC57432D
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER7BD09C112C76BCF2 ;
+        :volumeNumber       12 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL7A580E8A98BF384E
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER33EEDF787A4AD769 ;
+        :volumeNumber       11 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL7F43F55DA29C6E78
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER3F86D1B88D4C32F7 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VL8EDBD7CED44B0AA4
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERB883328E27FECC12 ;
+        :volumeNumber       14 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VLD7D81D1AB401300E
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERE234D97BC7FB2E81 ;
+        :volumeNumber       6 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VLE505091247504AF8
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERBD8AD518186FC209 ;
+        :volumeNumber       5 ;
+        :volumeOf           bdr:IE3JT13357 .
+    
+    bdr:VLF0D14EA332FC1A0C
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ER8DE1315838D026D3 ;
+        :volumeNumber       13 ;
+        :volumeOf           bdr:IE3JT13357 .
+}

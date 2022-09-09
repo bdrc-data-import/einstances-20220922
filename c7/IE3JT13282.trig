@@ -1,0 +1,53 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3JT13282 {
+    bda:IE3JT13282  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3JT13282 ;
+        adm:contentProvider  bda:CP001 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "c7/IE3JT13282.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE3JT13282 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bda:W3JT13282  a        adm:AdminData ;
+        adm:adminAbout      bdr:W3JT13282 ;
+        adm:replaceWith     bdr:IE3JT13282 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:ERCFE57B404D1759D3
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13282_001_0000 ;
+        :seqNum             1 .
+    
+    bdr:IE3JT13282  a       :EtextInstance ;
+        skos:prefLabel      "sdom pa gsum gyi rnam gzhag mdor bsdus pa/"@bo-x-ewts ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :hasTitle           bdr:TT338CCB134B29E21D ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VL2D67262F85C8BFBE ;
+        :instanceOf         bdr:WA3JT13282 .
+    
+    bdr:TT338CCB134B29E21D
+        a                   :Title ;
+        rdfs:label          "sdom pa gsum gyi rnam gzhag mdor bsdus pa/"@bo-x-ewts .
+    
+    bdr:VL2D67262F85C8BFBE
+        a                   :VolumeEtextAsset ;
+        :volumeHasEtext     bdr:ERCFE57B404D1759D3 ;
+        :volumeNumber       1 ;
+        :volumeOf           bdr:IE3JT13282 .
+}

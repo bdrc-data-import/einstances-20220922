@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0309 {
+    bda:IE0GR0309  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0309 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "95/IE0GR0309.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0309 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSBC_Sa030"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0309  a        :EtextInstance ;
+        skos:altLabel       "Mahāyānasūtrālaṃkāra"@sa-x-iast ;
+        skos:prefLabel      "Mahayanasutralamkara"@en ;
+        :hasTitle           bdr:TT7DF5CC586CB331A6 ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA22208 ;
+        :note               bdr:NT105DE8DB75F445ED , bdr:NTB8CAE525CE10A217 .
+    
+    bdr:NT105DE8DB75F445ED
+        a                   :Note ;
+        :noteText           "Based on the ed. by S. Bagchi: Mahayana sutralankara of Asanga with its Svavrtti. Darbhanga : The Mithila Institute, 1970, 1-180 (karika only)."@en .
+    
+    bdr:NTB8CAE525CE10A217
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:TT7DF5CC586CB331A6
+        a                   :Title ;
+        rdfs:label          "Mahayanasutralamkara"@en .
+}

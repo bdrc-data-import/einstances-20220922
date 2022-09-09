@@ -1,0 +1,45 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE0GR0018 {
+    bda:IE0GR0018  a        adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE0GR0018 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "6d/IE0GR0018.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE0GR0018 ;
+        adm:metadataLegal   bda:LD_GRETIL ;
+        adm:originalRecord  "http://gretil.sub.uni-goettingen.de/gretil.html#DSBC_Su005"^^xsd:anyURI ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:IE0GR0018  a        :EtextInstance ;
+        skos:altLabel       "Arthaviniścaya sūtra"@sa-x-iast ;
+        skos:prefLabel      "Arthaviniscayasutra"@en ;
+        :hasTitle           bdr:TT2425A9608BCD66AB ;
+        :inCollection       bdr:PR0GR01 ;
+        :instanceOf         bdr:WA0RKI0317 ;
+        :note               bdr:NTE4EB1C87DF1FEEF3 , bdr:NTE7726B72DB463937 .
+    
+    bdr:NTE4EB1C87DF1FEEF3
+        a                   :Note ;
+        :noteText           "Input by members of the Sanskrit Buddhist Input Project"@en .
+    
+    bdr:NTE7726B72DB463937
+        a                   :Note ;
+        :noteText           "Based on the ed. by P.L. Vaidya in: Mahayana-sutra-samgrahah, Part 1. Darbhanga: The Mithila Institute 1961 (Buddhist Sanskrit Texts, 17)"@en .
+    
+    bdr:TT2425A9608BCD66AB
+        a                   :Title ;
+        rdfs:label          "Arthaviniscayasutra"@en .
+}

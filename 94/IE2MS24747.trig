@@ -1,0 +1,41 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE2MS24747 {
+    bda:IE2MS24747  a       adm:AdminData ;
+        adm:adminAbout      bdr:IE2MS24747 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "94/IE2MS24747.trig" ;
+        adm:gitRepo         bda:GR0013 ;
+        adm:graphId         bdg:IE2MS24747 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusOnHold .
+    
+    bda:W2MS24747  a        adm:AdminData ;
+        adm:adminAbout      bdr:W2MS24747 ;
+        adm:replaceWith     bdr:IE2MS24747 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:IE2MS24747  a       :EtextInstance ;
+        skos:prefLabel      "lces btsun bi ma la'i zab tig"@bo-x-ewts ;
+        :hasTitle           bdr:TT28DCD3E62E189548 , bdr:TTC15EF2F3ED073031 ;
+        :instanceOf         bdr:WA2MS24747 .
+    
+    bdr:TT28DCD3E62E189548
+        a                   :Title ;
+        rdfs:label          "lces btsun bi ma la'i zab tig"@bo-x-ewts .
+    
+    bdr:TTC15EF2F3ED073031
+        a                   :TitlePageTitle ;
+        rdfs:label          "lces btsun chen po bi ma la'i zab tig gter gzhung dang yan lag gi chos sde'i skor/"@bo-x-ewts .
+}
