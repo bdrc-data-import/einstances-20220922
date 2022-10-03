@@ -26,12 +26,12 @@ bdg:IE30016 {
     
     bdr:ERB41A4F066164C380
         a                   :EtextRef ;
-        :eTextResource      bdr:UT30016_5758_0000 ;
+        :eTextResource      bdr:UT30016_5757_0000 ;
         :seqNum             1 .
     
     bdr:ERFB14B4D48C072F55
         a                   :EtextRef ;
-        :eTextResource      bdr:UT30016_5757_0000 ;
+        :eTextResource      bdr:UT30016_5758_0000 ;
         :seqNum             1 .
     
     bdr:IE30016  a          :EtextInstance ;
@@ -43,12 +43,12 @@ bdg:IE30016 {
     bdr:VL125E984123193381
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERFB14B4D48C072F55 ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE30016 .
     
     bdr:VL2BEA1552CDA55742
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERB41A4F066164C380 ;
-        :volumeNumber       2 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE30016 .
 }

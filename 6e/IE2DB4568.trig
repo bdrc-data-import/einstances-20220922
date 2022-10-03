@@ -30,12 +30,12 @@ bdg:IE2DB4568 {
     
     bdr:ERD4FF1BF886141A3A
         a                   :EtextRef ;
-        :eTextResource      bdr:UT2DB4568_I1PD34011_0000 ;
+        :eTextResource      bdr:UT2DB4568_I1PD34008_0000 ;
         :seqNum             1 .
     
     bdr:ERDB8E74AC70440D2C
         a                   :EtextRef ;
-        :eTextResource      bdr:UT2DB4568_I1PD34008_0000 ;
+        :eTextResource      bdr:UT2DB4568_I1PD34011_0000 ;
         :seqNum             1 .
     
     bdr:ERFA71DFDC34D5AF44
@@ -58,7 +58,7 @@ bdg:IE2DB4568 {
     bdr:VL2DE6EEC450ECC521
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERDB8E74AC70440D2C ;
-        :volumeNumber       1 ;
+        :volumeNumber       4 ;
         :volumeOf           bdr:IE2DB4568 .
     
     bdr:VL68CC2A1E39704BB3
@@ -70,6 +70,6 @@ bdg:IE2DB4568 {
     bdr:VLE009BC5E541A9C32
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERD4FF1BF886141A3A ;
-        :volumeNumber       4 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE2DB4568 .
 }

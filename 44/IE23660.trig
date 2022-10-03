@@ -25,7 +25,7 @@ bdg:IE23660 {
     
     bdr:ER305B3B52822F0797
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23660_003_0000 ;
+        :eTextResource      bdr:UT23660_004_0000 ;
         :seqNum             1 .
     
     bdr:ER62AC0E9A21DF56F9
@@ -35,7 +35,7 @@ bdg:IE23660 {
     
     bdr:ER6C0DB1501AC2AFB9
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23660_004_0000 ;
+        :eTextResource      bdr:UT23660_003_0000 ;
         :seqNum             1 .
     
     bdr:ER88E7E9825D0C369A
@@ -52,7 +52,7 @@ bdg:IE23660 {
     bdr:VL3EE77F4239EDE6D9
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER6C0DB1501AC2AFB9 ;
-        :volumeNumber       4 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE23660 .
     
     bdr:VL5E657DA944CA39E8
@@ -64,7 +64,7 @@ bdg:IE23660 {
     bdr:VLAB5D98AC9CBFF655
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER305B3B52822F0797 ;
-        :volumeNumber       3 ;
+        :volumeNumber       4 ;
         :volumeOf           bdr:IE23660 .
     
     bdr:VLD2A97956AB1A367A

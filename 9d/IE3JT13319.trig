@@ -30,17 +30,17 @@ bdg:IE3JT13319 {
     
     bdr:ER620C7066C53EE116
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13319_002_0000 ;
+        :eTextResource      bdr:UT3JT13319_003_0000 ;
         :seqNum             1 .
     
     bdr:ERDBA9039AB0FE0E30
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13319_003_0000 ;
+        :eTextResource      bdr:UT3JT13319_001_0000 ;
         :seqNum             1 .
     
     bdr:EREE4D1A90600E5FFC
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13319_001_0000 ;
+        :eTextResource      bdr:UT3JT13319_002_0000 ;
         :seqNum             1 .
     
     bdr:IE3JT13319  a       :EtextInstance ;
@@ -67,18 +67,18 @@ bdg:IE3JT13319 {
     bdr:VL963E707053CF9B53
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER620C7066C53EE116 ;
-        :volumeNumber       2 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE3JT13319 .
     
     bdr:VLAC4B08E4185C3719
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:EREE4D1A90600E5FFC ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE3JT13319 .
     
     bdr:VLEDA81B9B3DC5018A
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERDBA9039AB0FE0E30 ;
-        :volumeNumber       3 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE3JT13319 .
 }

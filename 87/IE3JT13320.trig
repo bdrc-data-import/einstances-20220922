@@ -30,27 +30,27 @@ bdg:IE3JT13320 {
     
     bdr:ER333EC7D429D1BFD1
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13320_005_0000 ;
+        :eTextResource      bdr:UT3JT13320_001_0000 ;
         :seqNum             1 .
     
     bdr:ER59E4D10D9B9F562A
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13320_003_0000 ;
+        :eTextResource      bdr:UT3JT13320_002_0000 ;
         :seqNum             1 .
     
     bdr:ER767891FDB8D157FE
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13320_001_0000 ;
+        :eTextResource      bdr:UT3JT13320_004_0000 ;
         :seqNum             1 .
     
     bdr:ERDB6BFC0B48BEAE79
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13320_004_0000 ;
+        :eTextResource      bdr:UT3JT13320_003_0000 ;
         :seqNum             1 .
     
     bdr:ERE1CA4B17532EBCDF
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13320_002_0000 ;
+        :eTextResource      bdr:UT3JT13320_005_0000 ;
         :seqNum             1 .
     
     bdr:IE3JT13320  a       :EtextInstance ;
@@ -72,30 +72,30 @@ bdg:IE3JT13320 {
     bdr:VL381D6B87C9FDA034
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER59E4D10D9B9F562A ;
-        :volumeNumber       3 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE3JT13320 .
     
     bdr:VL52697D439F4ADCB7
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER767891FDB8D157FE ;
-        :volumeNumber       1 ;
+        :volumeNumber       4 ;
         :volumeOf           bdr:IE3JT13320 .
     
     bdr:VL7F713EA9116C8F05
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERE1CA4B17532EBCDF ;
-        :volumeNumber       2 ;
+        :volumeNumber       5 ;
         :volumeOf           bdr:IE3JT13320 .
     
     bdr:VLCD474596CF898B81
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER333EC7D429D1BFD1 ;
-        :volumeNumber       5 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE3JT13320 .
     
     bdr:VLE3B5846904E59BF5
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERDB6BFC0B48BEAE79 ;
-        :volumeNumber       4 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE3JT13320 .
 }

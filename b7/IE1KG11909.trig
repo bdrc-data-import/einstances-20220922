@@ -25,12 +25,12 @@ bdg:IE1KG11909 {
     
     bdr:ER28BA5E9A4C7CD156
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG11909_001_0001 ;
+        :eTextResource      bdr:UT1KG11909_002_0001 ;
         :seqNum             1 .
     
     bdr:ER320A4431B199B996
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG11909_002_0001 ;
+        :eTextResource      bdr:UT1KG11909_001_0001 ;
         :seqNum             1 .
     
     bdr:IE1KG11909  a       :EtextInstance ;
@@ -42,12 +42,12 @@ bdg:IE1KG11909 {
     bdr:VL1C3A3199A598AC02
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER28BA5E9A4C7CD156 ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE1KG11909 .
     
     bdr:VLFD24815BE254F22D
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER320A4431B199B996 ;
-        :volumeNumber       2 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE1KG11909 .
 }

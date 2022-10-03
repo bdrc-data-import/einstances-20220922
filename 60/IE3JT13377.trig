@@ -30,13 +30,13 @@ bdg:IE3JT13377 {
     
     bdr:ER735C3933B88FADB1
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13377_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT3JT13377_001_0002 ;
+        :seqNum             2 .
     
     bdr:ER798F9131D9267071
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13377_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT3JT13377_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE3JT13377  a       :EtextInstance ;
         skos:prefLabel      "ma yi drin lan bshags mdo dang /_sdom pa nyer lnga pa/_blang dor bzhi bcu zhe gnyis bcas/"@bo-x-ewts ;

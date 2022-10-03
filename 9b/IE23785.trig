@@ -30,18 +30,18 @@ bdg:IE23785 {
     
     bdr:ERCBC40B08B559A35B
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0004 ;
-        :seqNum             4 .
+        :eTextResource      bdr:UT23785_001_0003 ;
+        :seqNum             3 .
     
     bdr:ERD26D63C6507679B1
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT23785_001_0004 ;
+        :seqNum             4 .
     
     bdr:ERD4478E348B6C95B3
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0003 ;
-        :seqNum             3 .
+        :eTextResource      bdr:UT23785_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE23785  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;

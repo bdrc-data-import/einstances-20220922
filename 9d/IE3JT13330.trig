@@ -45,12 +45,12 @@ bdg:IE3JT13330 {
     
     bdr:EREE3BFD5009BE33E1
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_003_0000 ;
+        :eTextResource      bdr:UT3JT13330_001_0000 ;
         :seqNum             1 .
     
     bdr:ERFF7445DA273535F9
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_001_0000 ;
+        :eTextResource      bdr:UT3JT13330_003_0000 ;
         :seqNum             1 .
     
     bdr:IE3JT13330  a       :EtextInstance ;
@@ -90,12 +90,12 @@ bdg:IE3JT13330 {
     bdr:VLB8B382FC0B5E03E9
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:EREE3BFD5009BE33E1 ;
-        :volumeNumber       3 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE3JT13330 .
     
     bdr:VLE477C35A35558974
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERFF7445DA273535F9 ;
-        :volumeNumber       1 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE3JT13330 .
 }

@@ -32,22 +32,22 @@ bdg:IE00EGS1016733 {
     
     bdr:ER1BB5330FC4BBDDE5
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00EGS1016733_I01JW47_0000 ;
+        :eTextResource      bdr:UT00EGS1016733_I01JW48_0000 ;
         :seqNum             1 .
     
     bdr:ER43D1449BE7D54833
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00EGS1016733_I01JW48_0000 ;
+        :eTextResource      bdr:UT00EGS1016733_I01JW47_0000 ;
         :seqNum             1 .
     
     bdr:ERB56D0E9610500555
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00EGS1016733_I01JW46_0000 ;
+        :eTextResource      bdr:UT00EGS1016733_I01JW45_0000 ;
         :seqNum             1 .
     
     bdr:ERB5EBAD5C72D9EBA8
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00EGS1016733_I01JW45_0000 ;
+        :eTextResource      bdr:UT00EGS1016733_I01JW46_0000 ;
         :seqNum             1 .
     
     bdr:IE00EGS1016733

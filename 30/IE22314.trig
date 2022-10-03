@@ -25,13 +25,13 @@ bdg:IE22314 {
     
     bdr:ER5026B954F67A66CA
         a                   :EtextRef ;
-        :eTextResource      bdr:UT22314_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT22314_001_0002 ;
+        :seqNum             2 .
     
     bdr:ER9D7C5FC2BB45C945
         a                   :EtextRef ;
-        :eTextResource      bdr:UT22314_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT22314_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE22314  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;

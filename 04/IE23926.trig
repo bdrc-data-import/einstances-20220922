@@ -25,12 +25,12 @@ bdg:IE23926 {
     
     bdr:ER554ABA214498D66B
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23926_001_0001 ;
+        :eTextResource      bdr:UT23926_002_0001 ;
         :seqNum             1 .
     
     bdr:ERF310ED8DC685813A
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23926_002_0001 ;
+        :eTextResource      bdr:UT23926_001_0001 ;
         :seqNum             1 .
     
     bdr:IE23926  a          :EtextInstance ;
@@ -42,12 +42,12 @@ bdg:IE23926 {
     bdr:VL489315D5375619AF
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER554ABA214498D66B ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE23926 .
     
     bdr:VLEAD0419A86E7A848
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERF310ED8DC685813A ;
-        :volumeNumber       2 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE23926 .
 }

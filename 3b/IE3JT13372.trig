@@ -30,83 +30,83 @@ bdg:IE3JT13372 {
     
     bdr:ER07BD3344EF5974AF
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0010 ;
-        :seqNum             10 .
+        :eTextResource      bdr:UT3JT13372_001_0002 ;
+        :seqNum             2 .
     
     bdr:ER2E0AF93324BB9FF7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER45451B71AAC55F76
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0012 ;
-        :seqNum             12 .
-    
-    bdr:ER49C13E9CFF2509D3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:ER4E3FA4C220F3923F
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13372_001_0011 ;
         :seqNum             11 .
     
-    bdr:ER5AB6B7AF44FB947C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ER61F48E6E1EDBBD56
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ER654053FDECF94F79
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0014 ;
-        :seqNum             14 .
-    
-    bdr:ER7D5D4D8DA9026E6B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER867EC36AEE714DF5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:ER9A98C2ECD213B32F
+    bdr:ER45451B71AAC55F76
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13372_001_0009 ;
         :seqNum             9 .
     
-    bdr:ERD5A1A1860CFB5E42
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0016 ;
-        :seqNum             16 .
-    
-    bdr:ERDE3E2E7C8427C04E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13372_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERE3004042AA80DE80
+    bdr:ER49C13E9CFF2509D3
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13372_001_0015 ;
         :seqNum             15 .
     
-    bdr:ERF5A4B5586FCB21EC
+    bdr:ER4E3FA4C220F3923F
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ER5AB6B7AF44FB947C
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13372_001_0004 ;
         :seqNum             4 .
     
-    bdr:ERFA990344116E2C6C
+    bdr:ER61F48E6E1EDBBD56
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0012 ;
+        :seqNum             12 .
+    
+    bdr:ER654053FDECF94F79
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0007 ;
+        :seqNum             7 .
+    
+    bdr:ER7D5D4D8DA9026E6B
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13372_001_0013 ;
         :seqNum             13 .
+    
+    bdr:ER867EC36AEE714DF5
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0008 ;
+        :seqNum             8 .
+    
+    bdr:ER9A98C2ECD213B32F
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0014 ;
+        :seqNum             14 .
+    
+    bdr:ERD5A1A1860CFB5E42
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0005 ;
+        :seqNum             5 .
+    
+    bdr:ERDE3E2E7C8427C04E
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0010 ;
+        :seqNum             10 .
+    
+    bdr:ERE3004042AA80DE80
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0016 ;
+        :seqNum             16 .
+    
+    bdr:ERF5A4B5586FCB21EC
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0001 ;
+        :seqNum             1 .
+    
+    bdr:ERFA990344116E2C6C
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13372_001_0006 ;
+        :seqNum             6 .
     
     bdr:IE3JT13372  a       :EtextInstance ;
         skos:prefLabel      "dbu ma 'jug pa'i rang 'grel dang sa bcad skal bzang sgron me mnyam du sbyar ba/"@bo-x-ewts ;

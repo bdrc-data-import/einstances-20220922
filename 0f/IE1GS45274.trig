@@ -26,17 +26,17 @@ bdg:IE1GS45274 {
     
     bdr:ER351EA94E83580B27
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1GS45274_I1GS66284_0000 ;
+        :eTextResource      bdr:UT1GS45274_I1GS66285_0000 ;
         :seqNum             1 .
     
     bdr:ER537793821A745328
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1GS45274_I1GS66285_0000 ;
+        :eTextResource      bdr:UT1GS45274_I1GS66283_0000 ;
         :seqNum             1 .
     
     bdr:ERAC1F278354E18D9F
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1GS45274_I1GS66283_0000 ;
+        :eTextResource      bdr:UT1GS45274_I1GS66284_0000 ;
         :seqNum             1 .
     
     bdr:IE1GS45274  a       :EtextInstance ;
@@ -48,18 +48,18 @@ bdg:IE1GS45274 {
     bdr:VL2954979F6E25DEBE
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERAC1F278354E18D9F ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE1GS45274 .
     
     bdr:VL655E5020000FD464
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER537793821A745328 ;
-        :volumeNumber       3 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE1GS45274 .
     
     bdr:VLC3FC891FE2FAD5B5
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER351EA94E83580B27 ;
-        :volumeNumber       2 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE1GS45274 .
 }

@@ -25,8 +25,8 @@ bdg:IE23784 {
     
     bdr:ER0859C290C488572F
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23784_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT23784_001_0004 ;
+        :seqNum             4 .
     
     bdr:ER1FDE2FB71B279D5B
         a                   :EtextRef ;
@@ -40,8 +40,8 @@ bdg:IE23784 {
     
     bdr:EREC4627F76BC8DE85
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23784_001_0004 ;
-        :seqNum             4 .
+        :eTextResource      bdr:UT23784_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE23784  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;

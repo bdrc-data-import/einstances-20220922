@@ -45,13 +45,13 @@ bdg:IE3JT13369 {
     
     bdr:ERBEABF2AD1F2CE9D5
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT3JT13369_001_0005 ;
+        :seqNum             5 .
     
     bdr:ERFC4756F7517E3C87
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0005 ;
-        :seqNum             5 .
+        :eTextResource      bdr:UT3JT13369_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE3JT13369  a       :EtextInstance ;
         skos:prefLabel      "phyag rgya chen po'i man ngag gi bshad sbyar rgyal ba'i gan mdzod/"@bo-x-ewts ;

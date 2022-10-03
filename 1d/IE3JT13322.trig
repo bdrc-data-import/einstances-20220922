@@ -31,13 +31,13 @@ bdg:IE3JT13322 {
     
     bdr:ER7CEA047B79EF7DCC
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13322_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT3JT13322_001_0002 ;
+        :seqNum             2 .
     
     bdr:ERA8B45FFEC148A1FC
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13322_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT3JT13322_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE3JT13322  a       :EtextInstance ;
         skos:prefLabel      "gsung 'bum/ bstan 'dzin chos kyi rgyal mtshan/"@bo-x-ewts ;

@@ -25,13 +25,13 @@ bdg:IE1KG12222 {
     
     bdr:ER10DD4C778856CEF6
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG12222_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT1KG12222_001_0004 ;
+        :seqNum             4 .
     
     bdr:ERAD2C061E79BE6B58
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG12222_001_0003 ;
-        :seqNum             3 .
+        :eTextResource      bdr:UT1KG12222_001_0001 ;
+        :seqNum             1 .
     
     bdr:ERB9D76ABFBCA923FA
         a                   :EtextRef ;
@@ -40,8 +40,8 @@ bdg:IE1KG12222 {
     
     bdr:ERBA9F9C35FD9D25CC
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG12222_001_0004 ;
-        :seqNum             4 .
+        :eTextResource      bdr:UT1KG12222_001_0003 ;
+        :seqNum             3 .
     
     bdr:IE1KG12222  a       :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;

@@ -25,13 +25,13 @@ bdg:IE21492 {
     
     bdr:ER77ADA238F904B33C
         a                   :EtextRef ;
-        :eTextResource      bdr:UT21492_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT21492_001_0001 ;
+        :seqNum             1 .
     
     bdr:ERA605223D2A0F2269
         a                   :EtextRef ;
-        :eTextResource      bdr:UT21492_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT21492_001_0002 ;
+        :seqNum             2 .
     
     bdr:IE21492  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;

@@ -30,28 +30,28 @@ bdg:IE3JT13378 {
     
     bdr:ER05D4B5E853BCC7C7
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13378_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ER381CF93C4F84360A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13378_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ER39E775409D364402
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13378_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ER50F081249BD5635B
-        a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13378_001_0003 ;
         :seqNum             3 .
     
-    bdr:ER5A2CB55DAAC7FAED
+    bdr:ER381CF93C4F84360A
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13378_001_0004 ;
+        :seqNum             4 .
+    
+    bdr:ER39E775409D364402
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13378_001_0006 ;
+        :seqNum             6 .
+    
+    bdr:ER50F081249BD5635B
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13378_001_0005 ;
         :seqNum             5 .
+    
+    bdr:ER5A2CB55DAAC7FAED
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13378_001_0002 ;
+        :seqNum             2 .
     
     bdr:ERB17C40DE52F7C06F
         a                   :EtextRef ;
@@ -65,8 +65,8 @@ bdg:IE3JT13378 {
     
     bdr:EREECF7F1D53317197
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13378_001_0004 ;
-        :seqNum             4 .
+        :eTextResource      bdr:UT3JT13378_001_0008 ;
+        :seqNum             8 .
     
     bdr:IE3JT13378  a       :EtextInstance ;
         skos:prefLabel      "mngon rtogs rgyan gyi sa bcad snang byed sgron me gzhung dang bcas pa dang / sher phyin skabs brgyad kyi stong thun/ dbu ma chos dbyings bstod pa'i rnam bshad bcas/"@bo-x-ewts ;

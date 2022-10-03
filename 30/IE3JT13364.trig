@@ -30,23 +30,23 @@ bdg:IE3JT13364 {
     
     bdr:ER457CD9872F4402DF
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13364_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ER5A7033B6C9FDCD28
-        a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13364_001_0003 ;
         :seqNum             3 .
     
-    bdr:ERBD0BDEACD3A8B966
+    bdr:ER5A7033B6C9FDCD28
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13364_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT3JT13364_001_0004 ;
+        :seqNum             4 .
     
-    bdr:ERF1F649FFC8736831
+    bdr:ERBD0BDEACD3A8B966
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13364_001_0002 ;
         :seqNum             2 .
+    
+    bdr:ERF1F649FFC8736831
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13364_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE3JT13364  a       :EtextInstance ;
         skos:prefLabel      "tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts ;

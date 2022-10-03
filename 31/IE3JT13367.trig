@@ -30,13 +30,13 @@ bdg:IE3JT13367 {
     
     bdr:ER06278108400953B8
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13367_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT3JT13367_001_0002 ;
+        :seqNum             2 .
     
     bdr:ER2E58BB182F80ACF8
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13367_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT3JT13367_001_0001 ;
+        :seqNum             1 .
     
     bdr:ER8ADA06B7C73101C2
         a                   :EtextRef ;

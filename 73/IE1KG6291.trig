@@ -15,7 +15,7 @@ bdg:IE1KG6291 {
     bda:IE1KG6291  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG6291 ;
-        adm:contentProvider  bda:CP009 ;
+        adm:contentProvider  bda:CP010 ;
         adm:facetIndex      3 ;
         adm:gitPath         "73/IE1KG6291.trig" ;
         adm:gitRepo         bda:GR0013 ;
@@ -26,12 +26,12 @@ bdg:IE1KG6291 {
     
     bdr:ER1E372EDC25A92285
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG6291_I1KG6323_0000 ;
+        :eTextResource      bdr:UT1KG6291_001_0001 ;
         :seqNum             1 .
     
     bdr:IE1KG6291  a        :EtextInstance ;
-        :contentMethod      bdr:ContentMethod_OCR ;
-        :inCollection       bdr:PR0ET009 ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET010 ;
         :instanceHasVolume  bdr:VL4C7161BC12829D4A ;
         :instanceReproductionOf  bdr:W1KG6291 .
     

@@ -30,13 +30,13 @@ bdg:IE3JT13375 {
     
     bdr:ER5AD1CE0CCC5A196D
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13375_001_0001 ;
-        :seqNum             1 .
+        :eTextResource      bdr:UT3JT13375_001_0002 ;
+        :seqNum             2 .
     
     bdr:ERE7DBFBAD0B531DDF
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13375_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT3JT13375_001_0001 ;
+        :seqNum             1 .
     
     bdr:IE3JT13375  a       :EtextInstance ;
         skos:prefLabel      "mi pham mkhas 'jug dang de'i sdom byang /"@bo-x-ewts ;

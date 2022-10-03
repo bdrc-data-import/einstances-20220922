@@ -31,27 +31,27 @@ bdg:IE00KG08362 {
     
     bdr:ER18A5F6B49F32D5A6
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG08362_I00KG08392_0000 ;
+        :eTextResource      bdr:UT00KG08362_I00KG08396_0000 ;
         :seqNum             1 .
     
     bdr:ER2F8A7A8FA65D4D86
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG08362_I00KG08393_0000 ;
+        :eTextResource      bdr:UT00KG08362_I00KG08394_0000 ;
         :seqNum             1 .
     
     bdr:ER41ADBB1D461CD388
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG08362_I00KG08395_0000 ;
+        :eTextResource      bdr:UT00KG08362_I00KG08392_0000 ;
         :seqNum             1 .
     
     bdr:ERA655FAF7525FD41F
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG08362_I00KG08394_0000 ;
+        :eTextResource      bdr:UT00KG08362_I00KG08393_0000 ;
         :seqNum             1 .
     
     bdr:ERAB994D2E406333A0
         a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG08362_I00KG08396_0000 ;
+        :eTextResource      bdr:UT00KG08362_I00KG08395_0000 ;
         :seqNum             1 .
     
     bdr:IE00KG08362  a      :EtextInstance ;
@@ -63,25 +63,25 @@ bdg:IE00KG08362 {
     bdr:VL0A789D97EEC16E7E
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERA655FAF7525FD41F ;
-        :volumeNumber       3 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE00KG08362 .
     
     bdr:VL2D04073261A71F28
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER18A5F6B49F32D5A6 ;
-        :volumeNumber       1 ;
+        :volumeNumber       5 ;
         :volumeOf           bdr:IE00KG08362 .
     
     bdr:VL3B28526AF56CB9E8
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER41ADBB1D461CD388 ;
-        :volumeNumber       4 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE00KG08362 .
     
     bdr:VL4F387F270E5B7BEF
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER2F8A7A8FA65D4D86 ;
-        :volumeNumber       2 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE00KG08362 .
     
     bdr:VL5D1457322DF3D852
@@ -93,6 +93,6 @@ bdg:IE00KG08362 {
     bdr:VLE3C538B3EAD9230A
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERAB994D2E406333A0 ;
-        :volumeNumber       5 ;
+        :volumeNumber       4 ;
         :volumeOf           bdr:IE00KG08362 .
 }

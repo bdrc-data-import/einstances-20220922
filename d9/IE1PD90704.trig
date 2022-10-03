@@ -26,7 +26,7 @@ bdg:IE1PD90704 {
     
     bdr:ER28C39E0F77088D76
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD90704_I1PD90708_0000 ;
+        :eTextResource      bdr:UT1PD90704_I1PD90706_0000 ;
         :seqNum             1 .
     
     bdr:ER62F720A36205E5F7
@@ -36,22 +36,22 @@ bdg:IE1PD90704 {
     
     bdr:ER84CB5B1A6CB57011
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD90704_I1PD90709_0000 ;
+        :eTextResource      bdr:UT1PD90704_I1PD90710_0000 ;
         :seqNum             1 .
     
     bdr:ERB2CC68D237B8A9C2
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD90704_I1PD90710_0000 ;
+        :eTextResource      bdr:UT1PD90704_I1PD90709_0000 ;
         :seqNum             1 .
     
     bdr:ERD66E5975965E6911
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD90704_I1PD90707_0000 ;
+        :eTextResource      bdr:UT1PD90704_I1PD90708_0000 ;
         :seqNum             1 .
     
     bdr:ERE27C6A95384493F0
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD90704_I1PD90706_0000 ;
+        :eTextResource      bdr:UT1PD90704_I1PD90707_0000 ;
         :seqNum             1 .
     
     bdr:IE1PD90704  a       :EtextInstance ;
@@ -69,30 +69,30 @@ bdg:IE1PD90704 {
     bdr:VL57720B195582BE62
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER28C39E0F77088D76 ;
-        :volumeNumber       3 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE1PD90704 .
     
     bdr:VL81D15CB5AC682520
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER84CB5B1A6CB57011 ;
-        :volumeNumber       4 ;
+        :volumeNumber       5 ;
         :volumeOf           bdr:IE1PD90704 .
     
     bdr:VLAC60CD896E3EC841
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERE27C6A95384493F0 ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE1PD90704 .
     
     bdr:VLC3B37FA0A4858C94
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERB2CC68D237B8A9C2 ;
-        :volumeNumber       5 ;
+        :volumeNumber       4 ;
         :volumeOf           bdr:IE1PD90704 .
     
     bdr:VLF7AA671CA8A55AAB
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERD66E5975965E6911 ;
-        :volumeNumber       2 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE1PD90704 .
 }

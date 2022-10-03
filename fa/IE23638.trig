@@ -26,12 +26,12 @@ bdg:IE23638 {
     
     bdr:ER950761E20319E438
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23638_002_0000 ;
+        :eTextResource      bdr:UT23638_001_0000 ;
         :seqNum             1 .
     
     bdr:ERBE2BE269AFA2D3BE
         a                   :EtextRef ;
-        :eTextResource      bdr:UT23638_001_0000 ;
+        :eTextResource      bdr:UT23638_002_0000 ;
         :seqNum             1 .
     
     bdr:IE23638  a          :EtextInstance ;
@@ -43,12 +43,12 @@ bdg:IE23638 {
     bdr:VL988546B976DC98F7
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERBE2BE269AFA2D3BE ;
-        :volumeNumber       1 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE23638 .
     
     bdr:VLEAB207CFE8730F65
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER950761E20319E438 ;
-        :volumeNumber       2 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE23638 .
 }

@@ -30,28 +30,28 @@ bdg:IE3JT13368 {
     
     bdr:ER0CFE3ED58E9220A9
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13368_001_0003 ;
-        :seqNum             3 .
+        :eTextResource      bdr:UT3JT13368_001_0001 ;
+        :seqNum             1 .
     
     bdr:ER2186E9DEC47753C1
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13368_001_0002 ;
-        :seqNum             2 .
+        :eTextResource      bdr:UT3JT13368_001_0004 ;
+        :seqNum             4 .
     
     bdr:ER317789D07AE143F1
+        a                   :EtextRef ;
+        :eTextResource      bdr:UT3JT13368_001_0003 ;
+        :seqNum             3 .
+    
+    bdr:ER99B9E220F7964664
         a                   :EtextRef ;
         :eTextResource      bdr:UT3JT13368_001_0005 ;
         :seqNum             5 .
     
-    bdr:ER99B9E220F7964664
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13368_001_0001 ;
-        :seqNum             1 .
-    
     bdr:ERB13AD8EAB4A71E9A
         a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13368_001_0004 ;
-        :seqNum             4 .
+        :eTextResource      bdr:UT3JT13368_001_0002 ;
+        :seqNum             2 .
     
     bdr:ERFBF7507C25963A09
         a                   :EtextRef ;

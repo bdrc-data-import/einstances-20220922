@@ -25,52 +25,52 @@ bdg:IE1PD105893 {
     
     bdr:ER091C1E19B5E4B952
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_010_0000 ;
+        :eTextResource      bdr:UT1PD105893_005_0000 ;
         :seqNum             1 .
     
     bdr:ER21D9804296D00F65
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_003_0000 ;
+        :eTextResource      bdr:UT1PD105893_004_0000 ;
         :seqNum             1 .
     
     bdr:ER2F102A65F233E425
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_001_0000 ;
+        :eTextResource      bdr:UT1PD105893_008_0000 ;
         :seqNum             1 .
     
     bdr:ER5B23256EE1707C04
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_005_0000 ;
+        :eTextResource      bdr:UT1PD105893_006_0000 ;
         :seqNum             1 .
     
     bdr:ER683C499A2D9AD36C
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_006_0000 ;
+        :eTextResource      bdr:UT1PD105893_002_0000 ;
         :seqNum             1 .
     
     bdr:ER79720A03B4FC14F1
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_009_0000 ;
+        :eTextResource      bdr:UT1PD105893_010_0000 ;
         :seqNum             1 .
     
     bdr:ER7F5BE762CC900A65
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_007_0000 ;
+        :eTextResource      bdr:UT1PD105893_003_0000 ;
         :seqNum             1 .
     
     bdr:ERC150839F74354528
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_008_0000 ;
+        :eTextResource      bdr:UT1PD105893_009_0000 ;
         :seqNum             1 .
     
     bdr:ERD308E172C51F406E
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_002_0000 ;
+        :eTextResource      bdr:UT1PD105893_007_0000 ;
         :seqNum             1 .
     
     bdr:ERDFA6673EFDD1AEF4
         a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105893_004_0000 ;
+        :eTextResource      bdr:UT1PD105893_001_0000 ;
         :seqNum             1 .
     
     bdr:IE1PD105893  a      :EtextInstance ;
@@ -82,60 +82,60 @@ bdg:IE1PD105893 {
     bdr:VL045127E2B05948E1
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERDFA6673EFDD1AEF4 ;
-        :volumeNumber       4 ;
+        :volumeNumber       1 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VL1DF7503F01CCFE4F
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER7F5BE762CC900A65 ;
-        :volumeNumber       7 ;
+        :volumeNumber       3 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VL29A682FAA85CFA87
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER683C499A2D9AD36C ;
-        :volumeNumber       6 ;
+        :volumeNumber       2 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VL2D77E13D401D83CC
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER79720A03B4FC14F1 ;
-        :volumeNumber       9 ;
+        :volumeNumber       10 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VL42DCD572BB260DAB
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER21D9804296D00F65 ;
-        :volumeNumber       3 ;
+        :volumeNumber       4 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VL538F50126281D08D
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER091C1E19B5E4B952 ;
-        :volumeNumber       10 ;
+        :volumeNumber       5 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VL68611507118FAAA7
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER5B23256EE1707C04 ;
-        :volumeNumber       5 ;
+        :volumeNumber       6 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VLA91C3B0BC984A364
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ER2F102A65F233E425 ;
-        :volumeNumber       1 ;
+        :volumeNumber       8 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VLD19CAD7AEB71C799
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERC150839F74354528 ;
-        :volumeNumber       8 ;
+        :volumeNumber       9 ;
         :volumeOf           bdr:IE1PD105893 .
     
     bdr:VLEFEDEF03D2C9F6A9
         a                   :VolumeEtextAsset ;
         :volumeHasEtext     bdr:ERD308E172C51F406E ;
-        :volumeNumber       2 ;
+        :volumeNumber       7 ;
         :volumeOf           bdr:IE1PD105893 .
 }
