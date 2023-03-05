@@ -39,9 +39,7 @@ bdg:IE3JT13336 {
         :hasTitle           bdr:TTDA0D78BD09836ED7 , bdr:TTF52D9F1AAAF27992 ;
         :inCollection       bdr:PR0ET001 ;
         :instanceHasVolume  bdr:VLFE0BFFC3BE1B088B ;
-        :instanceOf         bdr:WA3JT13336 .
-    
-    bdr:MW3JT13336  :instanceOf  bdr:WA4CZ45222 .
+        :instanceOf         bdr:WA4CZ45222 .
     
     bdr:TTDA0D78BD09836ED7
         a                   :Title ;

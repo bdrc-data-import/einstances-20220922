@@ -45,10 +45,8 @@ bdg:IE1PD105732 {
         skos:prefLabel      "sa skya'i lam 'bras/"@bo-x-ewts ;
         :creator            bdr:CR25F3391D33180FE9 , bdr:CR607EB793ED6DDF86 , bdr:CR7BCA6E96D1F1CD9F ;
         :hasTitle           bdr:TT6DD842F6972A042A , bdr:TTE789803CE0D3A17F ;
-        :instanceOf         bdr:WA1PD105732 ;
+        :instanceOf         bdr:WA4CZ46036 ;
         :numberOfVolumes    39 .
-    
-    bdr:MW1PD105732  :instanceOf  bdr:WA4CZ46036 .
     
     bdr:TT6DD842F6972A042A
         a                   :Title ;

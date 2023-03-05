@@ -90,9 +90,7 @@ bdg:IE3JT13365 {
         :hasTitle           bdr:TT5FB49F03D1EBC910 , bdr:TT83BFB99F6A1CD36B ;
         :inCollection       bdr:PR0ET005 ;
         :instanceHasVolume  bdr:VL27973074B43D3F8B , bdr:VL2A581A671157B61B , bdr:VL459BA04D7D186774 , bdr:VL51FF8E743F7EC087 , bdr:VL5BDFBF28DEA7CBB7 , bdr:VL9D5BC19A70C648CC , bdr:VLBF4176F870DE0143 , bdr:VLC5927B2461574611 , bdr:VLD32182B0DDF65034 , bdr:VLF7E3A12DCBBE38AD , bdr:VLFC32042B937450FD ;
-        :instanceOf         bdr:WA3JT13365 .
-    
-    bdr:MW3JT13365  :instanceOf  bdr:WA4CZ295077 .
+        :instanceOf         bdr:WA4CZ295077 .
     
     bdr:TT5FB49F03D1EBC910
         a                   :Title ;

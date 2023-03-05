@@ -39,9 +39,7 @@ bdg:IE3JT13311 {
         :hasTitle           bdr:TT11672A1D4902EA0E ;
         :inCollection       bdr:PR0ET001 ;
         :instanceHasVolume  bdr:VL5B209E3B493ACC0C ;
-        :instanceOf         bdr:WA3JT13311 .
-    
-    bdr:MW3JT13311  :instanceOf  bdr:WA1CZ2513 .
+        :instanceOf         bdr:WA1CZ2513 .
     
     bdr:TT11672A1D4902EA0E
         a                   :Title ;

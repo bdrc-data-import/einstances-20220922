@@ -44,9 +44,7 @@ bdg:IE3JT13310 {
         :hasTitle           bdr:TT158B3D9762A6F26D ;
         :inCollection       bdr:PR0ET001 ;
         :instanceHasVolume  bdr:VL0CDB680D59F8EDE3 , bdr:VLD992FFC6C7DD6209 ;
-        :instanceOf         bdr:WA3JT13310 .
-    
-    bdr:MW3JT13310  :instanceOf  bdr:WA0XL99816E813055 .
+        :instanceOf         bdr:WA0XL99816E813055 .
     
     bdr:TT158B3D9762A6F26D
         a                   :Title ;

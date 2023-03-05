@@ -19,7 +19,7 @@ bdg:IE4CZ46039 {
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4CZ46039 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusOnHold .
+        adm:status          bda:StatusReleased .
     
     bda:W4CZ46039  a        adm:AdminData ;
         adm:adminAbout      bdr:W4CZ46039 ;

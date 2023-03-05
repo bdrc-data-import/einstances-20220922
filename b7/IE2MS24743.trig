@@ -29,10 +29,8 @@ bdg:IE2MS24743 {
     bdr:IE2MS24743  a       :EtextInstance ;
         skos:prefLabel      "gsung 'bum/_mkhyen brtse'i dbang po/"@bo-x-ewts ;
         :hasTitle           bdr:TT06533172E15296AB ;
-        :instanceOf         bdr:WA2MS24743 ;
+        :instanceOf         bdr:WA2MS24768 ;
         :note               bdr:NTD13CCE95B71074E2 .
-    
-    bdr:MW2MS24743  :instanceOf  bdr:WA2MS24768 .
     
     bdr:NTD13CCE95B71074E2
         a                   :Note ;
