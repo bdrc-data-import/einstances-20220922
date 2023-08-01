@@ -8,10 +8,10 @@
 
 bdg:IE1ER147 {
     bda:IE1ER147  a         adm:AdminData ;
-        adm:access          bda:AccessRestrictedByQuality ;
+        adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1ER147 ;
         adm:graphId         bdg:IE1ER147 ;
-        adm:logEntry        bda:LG0IE1ER147_CPMLQHRXS2R5 , bda:LG0IE1ER147_LY5XZLQPSVBE , bdr:LG0IE1ER147_1SQKPOOEILP0 ;
+        adm:logEntry        bda:LG0IE1ER147_CPMLQHRXS2R5 , bda:LG0IE1ER147_LY5XZLQPSVBE , bdr:LG0IE1ER147_1SQKPOOEILP0 , bdr:LG0IE1ER147_HJL3PO9CEQQF ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -34,6 +34,13 @@ bdg:IE1ER147 {
     bdr:LG0IE1ER147_1SQKPOOEILP0
         a                   adm:UpdateData ;
         adm:logDate         "2023-08-01T12:35:49.357400Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U678062094 .
+    
+    bdr:LG0IE1ER147_HJL3PO9CEQQF
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-01T12:37:27.810773Z"^^xsd:dateTime ;
         adm:logMessage      "changes (from etext request tool)"@en ;
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U678062094 .
