@@ -11,7 +11,7 @@ bdg:IE2KG5037 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE2KG5037 ;
         adm:graphId         bdg:IE2KG5037 ;
-        adm:logEntry        bda:LG0IE2KG5037_CDJ209ZWFQ0B ;
+        adm:logEntry        bda:LG0IE2KG5037_CDJ209ZWFQ0B , bda:LG0IE2KG5037_SEI8IPFQOGRU ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,9 +22,147 @@ bdg:IE2KG5037 {
         adm:logMessage      "test etext creation"@en ;
         adm:logWho          bdu:U1653882847 .
     
-    bdr:IE2KG5037  a        bdo:EtextInstance ;
-        bdo:instanceHasVolume  bdr:VE1ER1 .
+    bda:LG0IE2KG5037_SEI8IPFQOGRU
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-01T20:03:56.534929Z"^^xsd:dateTime ;
+        adm:logMessage      "added volumes"@en ;
+        adm:logWho          bdu:U1426146149 .
     
-    bdr:VE1ER1  a           bdo:EtextVolume ;
+    bdr:IE2KG5037  a        bdo:EtextInstance ;
+        bdo:instanceHasVolume  bdr:VE3KG1 , bdr:VE3KG10 , bdr:VE3KG11 , bdr:VE3KG12 , bdr:VE3KG13 , bdr:VE3KG14 , bdr:VE3KG15 , bdr:VE3KG16 , bdr:VE3KG17 , bdr:VE3KG18 , bdr:VE3KG19 , bdr:VE3KG2 , bdr:VE3KG20 , bdr:VE3KG21 , bdr:VE3KG22 , bdr:VE3KG23 , bdr:VE3KG24 , bdr:VE3KG25 , bdr:VE3KG26 , bdr:VE3KG27 , bdr:VE3KG28 , bdr:VE3KG29 , bdr:VE3KG3 , bdr:VE3KG30 , bdr:VE3KG31 , bdr:VE3KG32 , bdr:VE3KG33 , bdr:VE3KG34 , bdr:VE3KG35 , bdr:VE3KG36 , bdr:VE3KG37 , bdr:VE3KG38 , bdr:VE3KG39 , bdr:VE3KG4 , bdr:VE3KG40 , bdr:VE3KG41 , bdr:VE3KG42 , bdr:VE3KG43 , bdr:VE3KG44 , bdr:VE3KG45 , bdr:VE3KG5 , bdr:VE3KG6 , bdr:VE3KG7 , bdr:VE3KG8 , bdr:VE3KG9 .
+    
+    bdr:VE3KG1  a           bdo:EtextVolume ;
         bdo:volumeNumber    1 .
+    
+    bdr:VE3KG10  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE3KG11  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE3KG12  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE3KG13  a          bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE3KG14  a          bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE3KG15  a          bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE3KG16  a          bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE3KG17  a          bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE3KG18  a          bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE3KG19  a          bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE3KG2  a           bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE3KG20  a          bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE3KG21  a          bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE3KG22  a          bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE3KG23  a          bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE3KG24  a          bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE3KG25  a          bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE3KG26  a          bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
+    
+    bdr:VE3KG27  a          bdo:EtextVolume ;
+        bdo:volumeNumber    27 .
+    
+    bdr:VE3KG28  a          bdo:EtextVolume ;
+        bdo:volumeNumber    28 .
+    
+    bdr:VE3KG29  a          bdo:EtextVolume ;
+        bdo:volumeNumber    29 .
+    
+    bdr:VE3KG3  a           bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE3KG30  a          bdo:EtextVolume ;
+        bdo:volumeNumber    30 .
+    
+    bdr:VE3KG31  a          bdo:EtextVolume ;
+        bdo:volumeNumber    31 .
+    
+    bdr:VE3KG32  a          bdo:EtextVolume ;
+        bdo:volumeNumber    32 .
+    
+    bdr:VE3KG33  a          bdo:EtextVolume ;
+        bdo:volumeNumber    33 .
+    
+    bdr:VE3KG34  a          bdo:EtextVolume ;
+        bdo:volumeNumber    34 .
+    
+    bdr:VE3KG35  a          bdo:EtextVolume ;
+        bdo:volumeNumber    35 .
+    
+    bdr:VE3KG36  a          bdo:EtextVolume ;
+        bdo:volumeNumber    36 .
+    
+    bdr:VE3KG37  a          bdo:EtextVolume ;
+        bdo:volumeNumber    37 .
+    
+    bdr:VE3KG38  a          bdo:EtextVolume ;
+        bdo:volumeNumber    38 .
+    
+    bdr:VE3KG39  a          bdo:EtextVolume ;
+        bdo:volumeNumber    39 .
+    
+    bdr:VE3KG4  a           bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE3KG40  a          bdo:EtextVolume ;
+        bdo:volumeNumber    40 .
+    
+    bdr:VE3KG41  a          bdo:EtextVolume ;
+        bdo:volumeNumber    41 .
+    
+    bdr:VE3KG42  a          bdo:EtextVolume ;
+        bdo:volumeNumber    42 .
+    
+    bdr:VE3KG43  a          bdo:EtextVolume ;
+        bdo:volumeNumber    43 .
+    
+    bdr:VE3KG44  a          bdo:EtextVolume ;
+        bdo:volumeNumber    44 .
+    
+    bdr:VE3KG45  a          bdo:EtextVolume ;
+        bdo:volumeNumber    45 .
+    
+    bdr:VE3KG5  a           bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE3KG6  a           bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE3KG7  a           bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE3KG8  a           bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE3KG9  a           bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
 }
