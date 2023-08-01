@@ -11,10 +11,16 @@ bdg:IE1ER147 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1ER147 ;
         adm:graphId         bdg:IE1ER147 ;
-        adm:logEntry        bda:LG0IE1ER147_LY5XZLQPSVBE ;
+        adm:logEntry        bda:LG0IE1ER147_CPMLQHRXS2R5 , bda:LG0IE1ER147_LY5XZLQPSVBE ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE1ER147_CPMLQHRXS2R5
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-01T12:09:31.660776Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U678062094 .
     
     bda:LG0IE1ER147_LY5XZLQPSVBE
         a                   adm:InitialDataCreation ;
@@ -22,5 +28,18 @@ bdg:IE1ER147 {
         adm:logMessage      "test"@en ;
         adm:logWho          bdu:U678062094 .
     
-    bdr:IE1ER147  a         bdo:EtextInstance .
+    bdr:IE1ER147  a         bdo:EtextInstance ;
+        bdo:instanceHasVolume  bdr:VE1NB18 , bdr:VE1NB19 , bdr:VE1NB20 , bdr:VE1NB21 .
+    
+    bdr:VE1NB18  a          bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE1NB19  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE1NB20  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE1NB21  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
 }
