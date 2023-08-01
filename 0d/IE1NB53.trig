@@ -1,0 +1,39 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE1NB53 {
+    bda:IE1NB53  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE1NB53 ;
+        adm:graphId         bdg:IE1NB53 ;
+        adm:logEntry        bda:LG0IE1NB53_F6KUOK4OEIQT ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE1NB53_F6KUOK4OEIQT
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-08-01T12:47:17.538209Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U678062094 .
+    
+    bdr:IE1NB53  a          bdo:EtextInstance ;
+        bdo:instanceHasVolume  bdr:VE1NB22 , bdr:VE1NB23 , bdr:VE1NB24 , bdr:VE1NB25 .
+    
+    bdr:VE1NB22  a          bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE1NB23  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE1NB24  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE1NB25  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+}
