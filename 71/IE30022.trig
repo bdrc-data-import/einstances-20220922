@@ -15,28 +15,17 @@ bdg:IE30022 {
     bda:IE30022  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE30022 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "71/IE30022.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE30022 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER925769898766E5C4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT30022_5754_0000 ;
-        :seqNum             1 .
-    
     bdr:IE30022  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL3E1E59C7168DB09E ;
-        :instanceReproductionOf  bdr:W30022 .
+        :instanceHasVolume  bdr:VE30022_001 .
     
-    bdr:VL3E1E59C7168DB09E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER925769898766E5C4 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE30022 .
+    bdr:VE30022_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

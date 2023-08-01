@@ -15,8 +15,6 @@ bdg:IE3JT13312 {
     bda:IE3JT13312  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13312 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "35/IE3JT13312.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13312 ;
@@ -28,41 +26,17 @@ bdg:IE3JT13312 {
         adm:replaceWith     bdr:IE3JT13312 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER4F521FC1DE881DF1
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13312_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERCDD45FB2D62C8D43
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13312_002_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13312  a       :EtextInstance ;
-        skos:prefLabel      "dbu ma 'jug pa'i rtsa ba dang de'i rnam bshad/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TTD79F33A36E05A944 , bdr:TTF978496EE79F933E ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL85099E065EB3D694 , bdr:VLD59E86C01442954A ;
-        :instanceOf         bdr:WA3JT13312 .
+        :instanceHasVolume  bdr:VE3JT13312_001 , bdr:VE3JT13312_002 ;
+        :instanceReproductionOf  bdr:MW3JT13312 .
     
-    bdr:TTD79F33A36E05A944
-        a                   :Title ;
-        rdfs:label          "dbu ma la 'jug pa'i rnam bshad dpal ldan dus gsum mkhyen pa'i zhal lung dang de'i rtsa ba/"@bo-x-ewts .
+    bdr:VE3JT13312_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TTF978496EE79F933E
-        a                   :Title ;
-        rdfs:label          "dbu ma 'jug pa'i rtsa ba dang de'i rnam bshad/"@bo-x-ewts .
-    
-    bdr:VL85099E065EB3D694
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER4F521FC1DE881DF1 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13312 .
-    
-    bdr:VLD59E86C01442954A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERCDD45FB2D62C8D43 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13312 .
+    bdr:VE3JT13312_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
 }

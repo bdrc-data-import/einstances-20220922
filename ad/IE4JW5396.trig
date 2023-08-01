@@ -14,51 +14,10 @@
 bdg:IE4JW5396 {
     bda:IE4JW5396  a        adm:AdminData ;
         adm:adminAbout      bdr:IE4JW5396 ;
-        adm:facetIndex      10 ;
         adm:gitPath         "ad/IE4JW5396.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW5396 ;
-        adm:logEntry        bda:LG4BCA3C5B42B94C09 , bda:LGC0363E47D6047749 , bda:LGFE632E57559FF4EF , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG4BCA3C5B42B94C09
-        a                   adm:WithdrawData ;
-        adm:logDate         "2014-10-01T05:36:21.882Z"^^xsd:dateTime ;
-        adm:logMessage      "withdrawn because of poor ocr quality"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGC0363E47D6047749
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-12-21T04:34:34.609Z"^^xsd:dateTime ;
-        adm:logMessage      "created UT work"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGFE632E57559FF4EF
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM5A753E00B7
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMAEA9B78D7A
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W4JW5396  a         adm:AdminData ;
         adm:adminAbout      bdr:W4JW5396 ;
@@ -66,20 +25,5 @@ bdg:IE4JW5396 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW5396  a        :EtextInstance ;
-        skos:prefLabel      "dge rgyal lo rgyus/"@bo-x-ewts ;
-        :hasTitle           bdr:TT59584C24FC5C5316 ;
-        :note               bdr:NTC3A03EAF7FBF5AA9 , bdr:NTFF94083AE455323B ;
-        :numberOfVolumes    1 .
-    
-    bdr:NTC3A03EAF7FBF5AA9
-        a                   :Note ;
-        :noteText           "history of the aristocratic lineages of the dge rgyal principality; includes on french flap the bsangs chog to dge rgyal by mchog gyur gling pa"@en .
-    
-    bdr:NTFF94083AE455323B
-        a                   :Note ;
-        :noteText           "withdrawn because of ocr quality"@en .
-    
-    bdr:TT59584C24FC5C5316
-        a                   :Title ;
-        rdfs:label          "dge rgyal lo rgyus/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW5396 .
 }

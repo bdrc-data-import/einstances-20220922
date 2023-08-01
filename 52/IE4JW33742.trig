@@ -14,11 +14,9 @@
 bdg:IE4JW33742 {
     bda:IE4JW33742  a       adm:AdminData ;
         adm:adminAbout      bdr:IE4JW33742 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "52/IE4JW33742.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW33742 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W4JW33742  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE4JW33742 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW33742  a       :EtextInstance ;
-        skos:prefLabel      "gter chos/_rtsa gsum gling pa/"@bo-x-ewts ;
-        :hasTitle           bdr:TTA1C4FEBB261BADB8 ;
-        :instanceOf         bdr:WA4JW33742 .
-    
-    bdr:TTA1C4FEBB261BADB8
-        a                   :Title ;
-        rdfs:label          "gter chos/_rtsa gsum gling pa/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW33742 .
 }

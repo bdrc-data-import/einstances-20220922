@@ -15,28 +15,17 @@ bdg:IE27524 {
     bda:IE27524  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE27524 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "2a/IE27524.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE27524 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER5D08B36D5A5C954B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT27524_4877_0000 ;
-        :seqNum             1 .
-    
     bdr:IE27524  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL379FE3F71F8B50AA ;
-        :instanceReproductionOf  bdr:W27524 .
+        :instanceHasVolume  bdr:VE27524_001 .
     
-    bdr:VL379FE3F71F8B50AA
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER5D08B36D5A5C954B ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE27524 .
+    bdr:VE27524_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

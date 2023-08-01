@@ -14,45 +14,10 @@
 bdg:IE4JW33628 {
     bda:IE4JW33628  a       adm:AdminData ;
         adm:adminAbout      bdr:IE4JW33628 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "8f/IE4JW33628.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW33628 ;
-        adm:logEntry        bda:LG10DF8031592F2A3E , bda:LGC8CFF657B6A0F407 , bda:LGIM093A1A0447 , bda:LGIM8647D1C7AE , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG10DF8031592F2A3E
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2012-04-10T04:44:10.698Z"^^xsd:dateTime ;
-        adm:logMessage      "created for unicode xml work"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGC8CFF657B6A0F407
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM093A1A0447
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-10-15T18:10:30.945Z"^^xsd:dateTime ;
-        adm:logMessage      "deleted inProduct PR1COPYRIGHT"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM8647D1C7AE
-        a                   adm:UpdateData ;
-        adm:logDate         "2013-04-19T11:24:55.882Z"^^xsd:dateTime ;
-        adm:logMessage      "added Work to CTC 10"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W4JW33628  a        adm:AdminData ;
         adm:adminAbout      bdr:W4JW33628 ;
@@ -60,16 +25,5 @@ bdg:IE4JW33628 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW33628  a       :EtextInstance ;
-        skos:prefLabel      "gtam mdzod mes po'i zhal rgyun/"@bo-x-ewts ;
-        :hasTitle           bdr:TT96D739D953EE7588 ;
-        :note               bdr:NT36D89D8616E3382E ;
-        :numberOfVolumes    1 .
-    
-    bdr:NT36D89D8616E3382E
-        a                   :Note ;
-        :noteText           "tibetan proverbs"@en .
-    
-    bdr:TT96D739D953EE7588
-        a                   :Title ;
-        rdfs:label          "gtam mdzod mes po'i zhal rgyun/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW33628 .
 }

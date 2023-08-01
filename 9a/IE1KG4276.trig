@@ -15,8 +15,6 @@ bdg:IE1KG4276 {
     bda:IE1KG4276  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG4276 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "9a/IE1KG4276.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG4276 ;
@@ -24,31 +22,16 @@ bdg:IE1KG4276 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER1BFF3DCF09E6C85B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG4276_I1PD100447_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER3FBD070CA8BFCDC0
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG4276_I1PD100446_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1KG4276  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL2E160DCC634C8B5C , bdr:VL602905CDC5C0339F ;
-        :instanceReproductionOf  bdr:W1KG4276 .
+        :instanceHasVolume  bdr:VE1KG4276_001 , bdr:VE1KG4276_002 .
     
-    bdr:VL2E160DCC634C8B5C
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER3FBD070CA8BFCDC0 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG4276 .
+    bdr:VE1KG4276_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL602905CDC5C0339F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1BFF3DCF09E6C85B ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE1KG4276 .
+    bdr:VE1KG4276_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
 }

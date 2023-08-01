@@ -14,11 +14,9 @@
 bdg:IE3JT13440 {
     bda:IE3JT13440  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13440 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "5c/IE3JT13440.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13440 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13440  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE3JT13440 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13440  a       :EtextInstance ;
-        skos:prefLabel      "rgyud kyi sdong 'grems/"@bo-x-ewts ;
-        :hasTitle           bdr:TT4D948ADE0D8C37E9 ;
-        :instanceOf         bdr:WA3JT13440 .
-    
-    bdr:TT4D948ADE0D8C37E9
-        a                   :Title ;
-        rdfs:label          "rgyud kyi sdong 'grems/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13440 .
 }

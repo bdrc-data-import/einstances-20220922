@@ -14,11 +14,9 @@
 bdg:IE2MS24755 {
     bda:IE2MS24755  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24755 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "c0/IE2MS24755.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24755 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24755  a        adm:AdminData ;
@@ -27,15 +25,5 @@ bdg:IE2MS24755 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24755  a       :EtextInstance ;
-        skos:prefLabel      "thos grol chos skor phyogs bsgrigs/"@bo-x-ewts ;
-        :hasTitle           bdr:TT22A93B5E23A43AEE , bdr:TT8087B9540F502514 ;
-        :instanceOf         bdr:WA2MS24755 .
-    
-    bdr:TT22A93B5E23A43AEE
-        a                   :TitlePageTitle ;
-        rdfs:label          "bar do'i thos grol chen mo'i chos skor phyogs bsgrigs/"@bo-x-ewts .
-    
-    bdr:TT8087B9540F502514
-        a                   :Title ;
-        rdfs:label          "thos grol chos skor phyogs bsgrigs/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24755 .
 }

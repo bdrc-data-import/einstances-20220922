@@ -14,11 +14,9 @@
 bdg:IE3JT13435 {
     bda:IE3JT13435  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13435 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "e4/IE3JT13435.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13435 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13435  a        adm:AdminData ;
@@ -27,19 +25,5 @@ bdg:IE3JT13435 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13435  a       :EtextInstance ;
-        skos:prefLabel      "gso rig sman gyi khog 'bugs/"@bo-x-ewts ;
-        :hasTitle           bdr:TT5D7C0D3E793CF2E6 , bdr:TTC24536F3CE6DFCC4 , bdr:TTCE2738279DE77125 ;
-        :instanceOf         bdr:WA3JT13435 .
-    
-    bdr:TT5D7C0D3E793CF2E6
-        a                   :Title ;
-        rdfs:label          "gso rig sman gyi khog 'bugs/"@bo-x-ewts .
-    
-    bdr:TTC24536F3CE6DFCC4
-        a                   :OtherTitle ;
-        rdfs:label          "legs bshad bai DUrya'i me long drang srong dgyes pa'i dga' ston/"@bo-x-ewts .
-    
-    bdr:TTCE2738279DE77125
-        a                   :TitlePageTitle ;
-        rdfs:label          "dpal ldan gso rig sman gyi khog 'bugs/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13435 .
 }

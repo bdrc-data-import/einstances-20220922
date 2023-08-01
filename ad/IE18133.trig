@@ -15,8 +15,6 @@ bdg:IE18133 {
     bda:IE18133  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE18133 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "ad/IE18133.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE18133 ;
@@ -24,20 +22,11 @@ bdg:IE18133 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERF85390F2CC7BBABE
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT18133_I1PD36385_0000 ;
-        :seqNum             1 .
-    
     bdr:IE18133  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL2CC97266450F37B9 ;
-        :instanceReproductionOf  bdr:W18133 .
+        :instanceHasVolume  bdr:VE18133_001 .
     
-    bdr:VL2CC97266450F37B9
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF85390F2CC7BBABE ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE18133 .
+    bdr:VE18133_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -15,8 +15,6 @@ bdg:IE2CZ8049 {
     bda:IE2CZ8049  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE2CZ8049 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      11 ;
         adm:gitPath         "28/IE2CZ8049.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2CZ8049 ;
@@ -24,60 +22,12 @@ bdg:IE2CZ8049 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER1A500431C7BE8312
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ER45332D42FA2632E4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ER769084E06FEC3F59
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0009 ;
-        :seqNum             9 .
-    
-    bdr:ERAF99D65E3BF3E20B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERB2547FB906B6D8CB
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:ERC58259D9335D6B66
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ERD7D25885DB3CBC32
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ERDAA28AB3A75D3F91
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:ERFAB4B8F81F59E96D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2CZ8049_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE2CZ8049  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VLF2EA82CE1CEC517F ;
-        :instanceReproductionOf  bdr:W2CZ8049 .
+        :instanceHasVolume  bdr:VE2CZ8049_001 .
     
-    bdr:VLF2EA82CE1CEC517F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1A500431C7BE8312 , bdr:ER45332D42FA2632E4 , bdr:ER769084E06FEC3F59 , bdr:ERAF99D65E3BF3E20B , bdr:ERB2547FB906B6D8CB , bdr:ERC58259D9335D6B66 , bdr:ERD7D25885DB3CBC32 , bdr:ERDAA28AB3A75D3F91 , bdr:ERFAB4B8F81F59E96D ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE2CZ8049 .
+    bdr:VE2CZ8049_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

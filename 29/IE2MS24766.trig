@@ -14,43 +14,10 @@
 bdg:IE2MS24766 {
     bda:IE2MS24766  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24766 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "29/IE2MS24766.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24766 ;
-        adm:logEntry        bda:LG0E5293BCCD98C5CB , bda:LG2F92CC35F04A1D10 , bda:LGADECAA4B86866E1E , bda:LGAEFB7D37EBBA8D5D , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG0E5293BCCD98C5CB
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-09-29T10:12:06.48Z"^^xsd:dateTime ;
-        adm:logMessage      "pub into indium as admin user"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG2F92CC35F04A1D10
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGADECAA4B86866E1E
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-07-12T15:41:49.102Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGAEFB7D37EBBA8D5D
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-07-12T17:32:30.607Z"^^xsd:dateTime ;
-        adm:logMessage      "published into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24766  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24766 ;
@@ -58,10 +25,5 @@ bdg:IE2MS24766 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24766  a       :EtextInstance ;
-        skos:prefLabel      "phar phyin nya TI ka"@bo-x-ewts ;
-        :hasTitle           bdr:TT3ECCF02BFA5E1AD8 .
-    
-    bdr:TT3ECCF02BFA5E1AD8
-        a                   :Title ;
-        rdfs:label          "phar phyin nya TI ka"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24766 .
 }

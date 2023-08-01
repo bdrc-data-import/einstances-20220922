@@ -15,8 +15,6 @@ bdg:IE3JT13330 {
     bda:IE3JT13330  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13330 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      13 ;
         adm:gitPath         "9d/IE3JT13330.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13330 ;
@@ -28,74 +26,29 @@ bdg:IE3JT13330 {
         adm:replaceWith     bdr:IE3JT13330 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER33941E5BE5E1192A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER5256068CFCAABC47
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_004_0000 ;
-        :seqNum             1 .
-    
-    bdr:EREA2D38BE2B3D2527
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_005_0000 ;
-        :seqNum             1 .
-    
-    bdr:EREE3BFD5009BE33E1
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERFF7445DA273535F9
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13330_003_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13330  a       :EtextInstance ;
-        skos:prefLabel      "mchod rten gyi skor dang / sAts+tsha gdab chog/ 'od zer dri med kyi bzlas pa/ gtsug tor dri med kyi gzungs bcas/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT3BD22910EF0C3C1C , bdr:TTA869DA303CBB2209 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL47F5360DB59317EA , bdr:VLA38D1534218F9502 , bdr:VLB33FE7EAA2C3B4CD , bdr:VLB8B382FC0B5E03E9 , bdr:VLE477C35A35558974 ;
-        :instanceOf         bdr:WA3JT13330 .
+        :instanceHasVolume  bdr:VE3JT13330_001 , bdr:VE3JT13330_002 , bdr:VE3JT13330_003 , bdr:VE3JT13330_004 , bdr:VE3JT13330_005 ;
+        :instanceReproductionOf  bdr:MW3JT13330 .
     
-    bdr:TT3BD22910EF0C3C1C
-        a                   :Title ;
-        rdfs:label          "mchod rten gyi skor dang / sAts+tsha gdab chog/ 'od zer dri med kyi bzlas pa/ gtsug tor dri med kyi gzungs bcas/"@bo-x-ewts .
+    bdr:VE3JT13330_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TTA869DA303CBB2209
-        a                   :Title ;
-        rdfs:label          "mchod rten brgya rtsa brgyad gdab pa'i cho ga dang mchod rten bskor ba'i tshigs bcad/ gtsug tor dri ma med pa'i gzungs dang 'brel ba'i sAts+tsha gdab pa'i cho ga_'phags pa 'od zer dri med kyi rgyun gyi bzlas pa bya tshul/ gtsug tor dri med gzungs bcas/"@bo-x-ewts .
+    bdr:VE3JT13330_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL47F5360DB59317EA
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER33941E5BE5E1192A ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13330 .
+    bdr:VE3JT13330_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VLA38D1534218F9502
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER5256068CFCAABC47 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE3JT13330 .
+    bdr:VE3JT13330_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VLB33FE7EAA2C3B4CD
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:EREA2D38BE2B3D2527 ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE3JT13330 .
-    
-    bdr:VLB8B382FC0B5E03E9
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:EREE3BFD5009BE33E1 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13330 .
-    
-    bdr:VLE477C35A35558974
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERFF7445DA273535F9 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13330 .
+    bdr:VE3JT13330_005
+        a                   :EtextVolume ;
+        :volumeNumber       5 .
 }

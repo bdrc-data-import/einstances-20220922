@@ -14,36 +14,10 @@
 bdg:IE2MS24740 {
     bda:IE2MS24740  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24740 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "57/IE2MS24740.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24740 ;
-        adm:logEntry        bda:LG031CCF2967252575 , bda:LGD03E0998A7BDCF89 , bda:LGE60A798AEDF87A1D , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG031CCF2967252575
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-06-14T14:16:17.188Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGD03E0998A7BDCF89
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-06-14T14:17:08.099Z"^^xsd:dateTime ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGE60A798AEDF87A1D
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24740  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24740 ;
@@ -51,10 +25,5 @@ bdg:IE2MS24740 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24740  a       :EtextInstance ;
-        skos:prefLabel      "dbu ma 'jug pa'i 'bru 'grel blo gsal dga' ba'i me long sogs/"@bo-x-ewts ;
-        :hasTitle           bdr:TT374196C7A36EAAC7 .
-    
-    bdr:TT374196C7A36EAAC7
-        a                   :Title ;
-        rdfs:label          "dbu ma 'jug pa'i 'bru 'grel blo gsal dga' ba'i me long sogs/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24740 .
 }

@@ -15,8 +15,6 @@ bdg:IE3JT13369 {
     bda:IE3JT13369  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13369 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "14/IE3JT13369.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13369 ;
@@ -28,46 +26,13 @@ bdg:IE3JT13369 {
         adm:replaceWith     bdr:IE3JT13369 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER1025BC43E6464A7E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ER4CEEEFD1F157430B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER5F8CC770AE5B4473
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERBEABF2AD1F2CE9D5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:ERFC4756F7517E3C87
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13369_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13369  a       :EtextInstance ;
-        skos:prefLabel      "phyag rgya chen po'i man ngag gi bshad sbyar rgyal ba'i gan mdzod/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TTFAB0CDA7AAD0B48C ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VLD035D151EC82D7B1 ;
-        :instanceOf         bdr:WA3JT13369 .
+        :instanceHasVolume  bdr:VE3JT13369_001 ;
+        :instanceReproductionOf  bdr:MW3JT13369 .
     
-    bdr:TTFAB0CDA7AAD0B48C
-        a                   :Title ;
-        rdfs:label          "phyag rgya chen po'i man ngag gi bshad sbyar rgyal ba'i gan mdzod/"@bo-x-ewts .
-    
-    bdr:VLD035D151EC82D7B1
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1025BC43E6464A7E , bdr:ER4CEEEFD1F157430B , bdr:ER5F8CC770AE5B4473 , bdr:ERBEABF2AD1F2CE9D5 , bdr:ERFC4756F7517E3C87 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13369 .
+    bdr:VE3JT13369_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

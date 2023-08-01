@@ -14,42 +14,10 @@
 bdg:IE10MS14274 {
     bda:IE10MS14274  a      adm:AdminData ;
         adm:adminAbout      bdr:IE10MS14274 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "50/IE10MS14274.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE10MS14274 ;
-        adm:logEntry        bda:LG97D72BE9F85A67BE , bda:LGAA7172DB6A681B3B , bda:LGB3AC76D7B09D52B2 , bda:LGD0297623A3D8A648 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG97D72BE9F85A67BE
-        a                   adm:UpdateData ;
-        adm:logDate         "2012-05-14T16:18:16.555Z"^^xsd:dateTime ;
-        adm:logMessage      "T1515"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGAA7172DB6A681B3B
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2012-04-27T11:47:21.302Z"^^xsd:dateTime ;
-        adm:logMessage      "created unicode work"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGB3AC76D7B09D52B2
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGD0297623A3D8A648
-        a                   adm:UpdateData ;
-        adm:logDate         "2012-04-27T15:08:12.907Z"^^xsd:dateTime ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W10MS14274  a       adm:AdminData ;
         adm:adminAbout      bdr:W10MS14274 ;
@@ -57,14 +25,5 @@ bdg:IE10MS14274 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE10MS14274  a      :EtextInstance ;
-        skos:prefLabel      "rgya bod hor sog gi lo rgyus/"@bo-x-ewts ;
-        :hasTitle           bdr:TT8A4944A9B02C0AFC , bdr:TTCFB033F14C9C508D .
-    
-    bdr:TT8A4944A9B02C0AFC
-        a                   :TitlePageTitle ;
-        rdfs:label          "rgya bod hor sog gi lo rgyus nyung ngur brjod pa byis pa 'jug pa'i 'bab stegs/"@bo-x-ewts .
-    
-    bdr:TTCFB033F14C9C508D
-        a                   :Title ;
-        rdfs:label          "rgya bod hor sog gi lo rgyus/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW10MS14274 .
 }

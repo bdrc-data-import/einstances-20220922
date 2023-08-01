@@ -15,8 +15,6 @@ bdg:IE1CZ2485 {
     bda:IE1CZ2485  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1CZ2485 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "80/IE1CZ2485.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1CZ2485 ;
@@ -24,20 +22,12 @@ bdg:IE1CZ2485 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER430069C0A8DBEADA
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1CZ2485_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1CZ2485  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL790698AD9F9DEAE4 ;
-        :instanceReproductionOf  bdr:W1CZ2485 .
+        :instanceHasVolume  bdr:VE1CZ2485_001 .
     
-    bdr:VL790698AD9F9DEAE4
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER430069C0A8DBEADA ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1CZ2485 .
+    bdr:VE1CZ2485_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

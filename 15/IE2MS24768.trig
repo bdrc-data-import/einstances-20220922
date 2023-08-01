@@ -14,11 +14,9 @@
 bdg:IE2MS24768 {
     bda:IE2MS24768  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24768 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "15/IE2MS24768.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24768 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24768  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24768 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24768  a       :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_mkhyen brtse'i dbang po/"@bo-x-ewts ;
-        :hasTitle           bdr:TT5D89123C1AFA37EB ;
-        :instanceOf         bdr:WA2MS24768 .
-    
-    bdr:TT5D89123C1AFA37EB
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_mkhyen brtse'i dbang po/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24768 .
 }

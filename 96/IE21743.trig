@@ -15,28 +15,17 @@ bdg:IE21743 {
     bda:IE21743  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE21743 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "96/IE21743.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE21743 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERC610379D4F8141A9
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT21743_5671_0000 ;
-        :seqNum             1 .
-    
     bdr:IE21743  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL721DC442229C5937 ;
-        :instanceReproductionOf  bdr:W21743 .
+        :instanceHasVolume  bdr:VE21743_001 .
     
-    bdr:VL721DC442229C5937
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC610379D4F8141A9 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE21743 .
+    bdr:VE21743_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

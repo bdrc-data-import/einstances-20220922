@@ -14,11 +14,9 @@
 bdg:IE4CZ46035 {
     bda:IE4CZ46035  a       adm:AdminData ;
         adm:adminAbout      bdr:IE4CZ46035 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "a0/IE4CZ46035.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4CZ46035 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W4CZ46035  a        adm:AdminData ;
@@ -26,23 +24,6 @@ bdg:IE4CZ46035 {
         adm:replaceWith     bdr:IE4CZ46035 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:CR20BBA0B8B73B9B61
-        a                   :AgentAsCreator ;
-        :agent              bdr:P560 ;
-        :role               bdr:R0ER0015 .
-    
     bdr:IE4CZ46035  a       :EtextInstance ;
-        skos:prefLabel      "rgyud sde kun btus/"@bo-x-ewts ;
-        :biblioNote         "TBRC also have similer version scanned from computer set output. W27883"@en ;
-        :creator            bdr:CR20BBA0B8B73B9B61 ;
-        :hasTitle           bdr:TT30A9DD1443683236 , bdr:TT3B7D450512289450 ;
-        :instanceOf         bdr:WA4CZ46035 .
-    
-    bdr:TT30A9DD1443683236
-        a                   :TitlePageTitle ;
-        rdfs:label          "rgyud sde rin po che kun las btus pa/"@bo-x-ewts .
-    
-    bdr:TT3B7D450512289450
-        a                   :Title ;
-        rdfs:label          "rgyud sde kun btus/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4CZ46035 .
 }

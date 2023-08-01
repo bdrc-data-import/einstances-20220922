@@ -15,28 +15,18 @@ bdg:IE1CZ2413 {
     bda:IE1CZ2413  a        adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE1CZ2413 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "46/IE1CZ2413.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1CZ2413 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER8315B7E34CB5032F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1CZ2413_I1CZ2464_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1CZ2413  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLFF0AA8B5DB744707 ;
-        :instanceReproductionOf  bdr:W1CZ2413 .
+        :instanceHasVolume  bdr:VE1CZ2413_001 .
     
-    bdr:VLFF0AA8B5DB744707
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER8315B7E34CB5032F ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1CZ2413 .
+    bdr:VE1CZ2413_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

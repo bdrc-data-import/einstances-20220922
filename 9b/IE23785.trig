@@ -15,43 +15,17 @@ bdg:IE23785 {
     bda:IE23785  a          adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE23785 ;
-        adm:contentProvider  bda:CP002 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "9b/IE23785.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE23785 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER114F3EF5A71D8CDF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERCBC40B08B559A35B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ERD26D63C6507679B1
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERD4478E348B6C95B3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23785_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE23785  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET002 ;
-        :instanceHasVolume  bdr:VL40F03CEECFE03982 ;
-        :instanceReproductionOf  bdr:W23785 .
+        :instanceHasVolume  bdr:VE23785_001 .
     
-    bdr:VL40F03CEECFE03982
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER114F3EF5A71D8CDF , bdr:ERCBC40B08B559A35B , bdr:ERD26D63C6507679B1 , bdr:ERD4478E348B6C95B3 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE23785 .
+    bdr:VE23785_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

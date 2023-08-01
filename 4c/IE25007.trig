@@ -15,8 +15,6 @@ bdg:IE25007 {
     bda:IE25007  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE25007 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      15 ;
         adm:gitPath         "4c/IE25007.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE25007 ;
@@ -24,86 +22,29 @@ bdg:IE25007 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER1B0C282729D5D503
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4917_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER33A1A33DB7CF3599
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4916_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER393570B73A9C7E58
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4914_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER64FD48C11AECEBED
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4911_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER74C7C2715AA1C839
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4915_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER80F61E99A2D92BCD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4912_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER84542E375B2DA377
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25007_4913_0000 ;
-        :seqNum             1 .
-    
     bdr:IE25007  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL1B0D5F7A48DD35DC , bdr:VL408D9D874D2341D7 , bdr:VL4A3A9C35CC94CDE1 , bdr:VL9301CB1BF96EDC22 , bdr:VL9CEFA36E6B685F73 , bdr:VLA31DF1B846AD770F , bdr:VLC7972A020E6C2203 ;
-        :instanceReproductionOf  bdr:W25007 .
+        :instanceHasVolume  bdr:VE25007_001 , bdr:VE25007_002 , bdr:VE25007_003 , bdr:VE25007_004 , bdr:VE25007_005 , bdr:VE25007_006 , bdr:VE25007_007 .
     
-    bdr:VL1B0D5F7A48DD35DC
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER74C7C2715AA1C839 ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_001  a      :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL408D9D874D2341D7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER80F61E99A2D92BCD ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_002  a      :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL4A3A9C35CC94CDE1
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1B0C282729D5D503 ;
-        :volumeNumber       7 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_003  a      :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL9301CB1BF96EDC22
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER64FD48C11AECEBED ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_004  a      :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VL9CEFA36E6B685F73
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER84542E375B2DA377 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_005  a      :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VLA31DF1B846AD770F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER393570B73A9C7E58 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_006  a      :EtextVolume ;
+        :volumeNumber       6 .
     
-    bdr:VLC7972A020E6C2203
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER33A1A33DB7CF3599 ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE25007 .
+    bdr:VE25007_007  a      :EtextVolume ;
+        :volumeNumber       7 .
 }

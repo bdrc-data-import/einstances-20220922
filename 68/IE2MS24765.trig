@@ -14,37 +14,10 @@
 bdg:IE2MS24765 {
     bda:IE2MS24765  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24765 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "68/IE2MS24765.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24765 ;
-        adm:logEntry        bda:LG077A39103A1BA146 , bda:LG31DFAD18F28918E1 , bda:LGB1BA7E0AE471CED8 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG077A39103A1BA146
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG31DFAD18F28918E1
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-09-29T10:12:01.454Z"^^xsd:dateTime ;
-        adm:logMessage      "pub into indium as admin user"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGB1BA7E0AE471CED8
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-07-12T17:32:27.053Z"^^xsd:dateTime ;
-        adm:logMessage      "published into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24765  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24765 ;
@@ -52,10 +25,5 @@ bdg:IE2MS24765 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24765  a       :EtextInstance ;
-        skos:prefLabel      "phar phyin mdo lugs ma/"@bo-x-ewts ;
-        :hasTitle           bdr:TT05739E8A561C95D8 .
-    
-    bdr:TT05739E8A561C95D8
-        a                   :Title ;
-        rdfs:label          "phar phyin mdo lugs ma/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24765 .
 }

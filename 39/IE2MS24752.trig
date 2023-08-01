@@ -14,11 +14,9 @@
 bdg:IE2MS24752 {
     bda:IE2MS24752  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24752 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "39/IE2MS24752.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24752 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24752  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24752 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24752  a       :EtextInstance ;
-        skos:prefLabel      "sdom gsum rnam nges/"@bo-x-ewts ;
-        :hasTitle           bdr:TT3654B86E3FBBA1A9 ;
-        :instanceOf         bdr:WA2MS24752 .
-    
-    bdr:TT3654B86E3FBBA1A9
-        a                   :Title ;
-        rdfs:label          "sdom gsum rnam nges/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24752 .
 }

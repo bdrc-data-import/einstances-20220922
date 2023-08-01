@@ -15,8 +15,6 @@ bdg:IE1KG5005 {
     bda:IE1KG5005  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG5005 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "aa/IE1KG5005.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG5005 ;
@@ -24,42 +22,20 @@ bdg:IE1KG5005 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER44D30B1252C0ECAB
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5005_I1KG5078_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER82E94B7A39674278
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5005_I1KG5079_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER9541417E70B67453
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5005_I1KG5080_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1KG5005  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLAF2E8535D84897AB , bdr:VLD04438F82BFEFEF5 , bdr:VLD89A5EF9FEAB59C0 ;
-        :instanceReproductionOf  bdr:W1KG5005 .
+        :instanceHasVolume  bdr:VE1KG5005_001 , bdr:VE1KG5005_002 , bdr:VE1KG5005_003 .
     
-    bdr:VLAF2E8535D84897AB
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER82E94B7A39674278 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE1KG5005 .
+    bdr:VE1KG5005_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VLD04438F82BFEFEF5
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER44D30B1252C0ECAB ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG5005 .
+    bdr:VE1KG5005_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VLD89A5EF9FEAB59C0
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER9541417E70B67453 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE1KG5005 .
+    bdr:VE1KG5005_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

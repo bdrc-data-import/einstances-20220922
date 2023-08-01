@@ -14,11 +14,9 @@
 bdg:IE3JW2906 {
     bda:IE3JW2906  a        adm:AdminData ;
         adm:adminAbout      bdr:IE3JW2906 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "f6/IE3JW2906.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JW2906 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JW2906  a         adm:AdminData ;
@@ -27,17 +25,5 @@ bdg:IE3JW2906 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JW2906  a        :EtextInstance ;
-        skos:prefLabel      "rgyal dbang lnga pa'i rang rnam du kU la'i gos bzang /"@bo-x-ewts ;
-        :hasTitle           bdr:TT6FFF872CD1C0D4F5 ;
-        :instanceOf         bdr:WA3JW2906 ;
-        :note               bdr:NTD4DD9824D8C1FC1F ;
-        :numberOfVolumes    3 .
-    
-    bdr:NTD4DD9824D8C1FC1F
-        a                   :Note ;
-        :noteText           "tbrc holds unicode tibetan xml files"@en .
-    
-    bdr:TT6FFF872CD1C0D4F5
-        a                   :Title ;
-        rdfs:label          "rgyal dbang lnga pa'i rang rnam du kU la'i gos bzang /"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JW2906 .
 }

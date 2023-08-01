@@ -14,11 +14,9 @@
 bdg:IE2MS24738 {
     bda:IE2MS24738  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24738 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "95/IE2MS24738.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24738 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24738  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24738 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24738  a       :EtextInstance ;
-        skos:prefLabel      "gnyug sems skor gsum dang gzhung spyi'i dka' gnad/"@bo-x-ewts ;
-        :hasTitle           bdr:TT2C59DC268403D2D3 ;
-        :instanceOf         bdr:WA2MS24738 .
-    
-    bdr:TT2C59DC268403D2D3
-        a                   :Title ;
-        rdfs:label          "gnyug sems skor gsum dang gzhung spyi'i dka' gnad/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24738 .
 }

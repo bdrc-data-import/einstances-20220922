@@ -15,8 +15,6 @@ bdg:IE3JT13331 {
     bda:IE3JT13331  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13331 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      9 ;
         adm:gitPath         "bf/IE3JT13331.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13331 ;
@@ -28,52 +26,21 @@ bdg:IE3JT13331 {
         adm:replaceWith     bdr:IE3JT13331 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER38A2577DC37D1C1D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13331_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER82E53A7F5B701A34
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13331_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERBB6599815E281507
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13331_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13331  a       :EtextInstance ;
-        skos:prefLabel      "rdo rje phag mo'i cho ga"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT3A0C8027C9AC9CE6 , bdr:TTD6E627F858451BE2 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL1782CB3809B12BD5 , bdr:VL3F948E7843181F81 , bdr:VL4EB207571D6299FB ;
-        :instanceOf         bdr:WA3JT13331 .
+        :instanceHasVolume  bdr:VE3JT13331_001 , bdr:VE3JT13331_002 , bdr:VE3JT13331_003 ;
+        :instanceReproductionOf  bdr:MW3JT13331 .
     
-    bdr:TT3A0C8027C9AC9CE6
-        a                   :TitlePageTitle ;
-        rdfs:label          "rdo rje phag mo dang 'brel ba'i cho ga kha shas/"@bo-x-ewts .
+    bdr:VE3JT13331_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TTD6E627F858451BE2
-        a                   :Title ;
-        rdfs:label          "rdo rje phag mo'i cho ga"@bo-x-ewts .
+    bdr:VE3JT13331_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL1782CB3809B12BD5
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERBB6599815E281507 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13331 .
-    
-    bdr:VL3F948E7843181F81
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER38A2577DC37D1C1D ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13331 .
-    
-    bdr:VL4EB207571D6299FB
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER82E53A7F5B701A34 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13331 .
+    bdr:VE3JT13331_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

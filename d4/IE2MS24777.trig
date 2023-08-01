@@ -14,31 +14,10 @@
 bdg:IE2MS24777 {
     bda:IE2MS24777  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24777 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "d4/IE2MS24777.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24777 ;
-        adm:logEntry        bda:LG89BBD3480CD215CE , bda:LGC421213FC8600052 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG89BBD3480CD215CE
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGC421213FC8600052
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:08:00.881Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24777  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24777 ;
@@ -46,14 +25,5 @@ bdg:IE2MS24777 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24777  a       :EtextInstance ;
-        skos:prefLabel      "gsung thor bu/_blo gros dpal/"@bo-x-ewts ;
-        :hasTitle           bdr:TT132691F81E28242B , bdr:TTE2F584E8E8D0B935 .
-    
-    bdr:TT132691F81E28242B
-        a                   :Title ;
-        rdfs:label          "chos rje thams cad mkhyen pa nyid kyi rgyal tshab dam par gyur pa jo nang lo ts+tsha ba sogs kyi gsung 'thor phyogs bsgrigs/"@bo-x-ewts .
-    
-    bdr:TTE2F584E8E8D0B935
-        a                   :Title ;
-        rdfs:label          "gsung thor bu/_blo gros dpal/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24777 .
 }

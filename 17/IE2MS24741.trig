@@ -14,37 +14,10 @@
 bdg:IE2MS24741 {
     bda:IE2MS24741  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24741 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "17/IE2MS24741.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24741 ;
-        adm:logEntry        bda:LG0E8F4E07074EC021 , bda:LG1F2BD466A7F5DE58 , bda:LG7FC1D0086D56EA57 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG0E8F4E07074EC021
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-06-14T15:21:07.656Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG1F2BD466A7F5DE58
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG7FC1D0086D56EA57
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-06-14T15:49:11.445Z"^^xsd:dateTime ;
-        adm:logMessage      "edited pub statement"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24741  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24741 ;
@@ -52,10 +25,5 @@ bdg:IE2MS24741 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24741  a       :EtextInstance ;
-        skos:prefLabel      "dbu ma rgyan rtsa 'grel phyogs bsgrigs/"@bo-x-ewts ;
-        :hasTitle           bdr:TT46777F13DD8E6362 .
-    
-    bdr:TT46777F13DD8E6362
-        a                   :Title ;
-        rdfs:label          "dbu ma rgyan rtsa 'grel phyogs bsgrigs/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24741 .
 }

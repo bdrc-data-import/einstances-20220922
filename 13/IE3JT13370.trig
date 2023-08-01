@@ -15,8 +15,6 @@ bdg:IE3JT13370 {
     bda:IE3JT13370  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13370 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "13/IE3JT13370.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13370 ;
@@ -28,40 +26,13 @@ bdg:IE3JT13370 {
         adm:replaceWith     bdr:IE3JT13370 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER065F8A9E355DC692
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13370_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER3BDB9A197BF62473
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13370_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER62971E547D3F62D1
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13370_001_0002 ;
-        :seqNum             2 .
-    
     bdr:IE3JT13370  a       :EtextInstance ;
-        skos:prefLabel      "phyag chen lhan cig skyes sbyor gyi skor/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT9EC314675AD93968 , bdr:TTF849C09283978D94 ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VL290144741DD1B1A3 ;
-        :instanceOf         bdr:WA3JT13370 .
+        :instanceHasVolume  bdr:VE3JT13370_001 ;
+        :instanceReproductionOf  bdr:MW3JT13370 .
     
-    bdr:TT9EC314675AD93968
-        a                   :Title ;
-        rdfs:label          "phyag chen lhan cig skyes sbyor gyi skor/"@bo-x-ewts .
-    
-    bdr:TTF849C09283978D94
-        a                   :TitlePageTitle ;
-        rdfs:label          "phyag chen lhan cig skyes sbyor gyi skor chos tshan khag gsum/"@bo-x-ewts .
-    
-    bdr:VL290144741DD1B1A3
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER065F8A9E355DC692 , bdr:ER3BDB9A197BF62473 , bdr:ER62971E547D3F62D1 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13370 .
+    bdr:VE3JT13370_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

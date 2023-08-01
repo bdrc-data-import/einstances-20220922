@@ -14,11 +14,9 @@
 bdg:IE3JT13433 {
     bda:IE3JT13433  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13433 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "ce/IE3JT13433.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13433 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13433  a        adm:AdminData ;
@@ -27,15 +25,5 @@ bdg:IE3JT13433 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13433  a       :EtextInstance ;
-        skos:prefLabel      "mes po'i zhal lung /"@bo-x-ewts ;
-        :hasTitle           bdr:TT626BD281A13F4272 , bdr:TTC363CFF1E513A47F ;
-        :instanceOf         bdr:WA3JT13433 .
-    
-    bdr:TT626BD281A13F4272
-        a                   :TitlePageTitle ;
-        rdfs:label          "rgyud bzhi'i 'grel pa mes po'i zhal lung /"@bo-x-ewts .
-    
-    bdr:TTC363CFF1E513A47F
-        a                   :Title ;
-        rdfs:label          "mes po'i zhal lung /"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13433 .
 }

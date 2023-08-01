@@ -14,31 +14,10 @@
 bdg:IE2MS24735 {
     bda:IE2MS24735  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24735 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "cf/IE2MS24735.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24735 ;
-        adm:logEntry        bda:LG24035B1B8E9A61EC , bda:LGE19A7A69FF7BF4A9 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG24035B1B8E9A61EC
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGE19A7A69FF7BF4A9
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-06-13T15:42:14.095Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24735  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24735 ;
@@ -46,10 +25,5 @@ bdg:IE2MS24735 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24735  a       :EtextInstance ;
-        skos:prefLabel      "rdzogs rim man ngag snying po gser gyi yang zhun gyi chos skor/"@bo-x-ewts ;
-        :hasTitle           bdr:TT56C1FEA43DDBE2CF .
-    
-    bdr:TT56C1FEA43DDBE2CF
-        a                   :Title ;
-        rdfs:label          "rdzogs rim man ngag snying po gser gyi yang zhun gyi chos skor/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24735 .
 }

@@ -15,8 +15,6 @@ bdg:IE3JT13339 {
     bda:IE3JT13339  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13339 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "2b/IE3JT13339.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13339 ;
@@ -28,48 +26,21 @@ bdg:IE3JT13339 {
         adm:replaceWith     bdr:IE3JT13339 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER64090345007BB732
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13339_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER6B0C0CA6094F9DBD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13339_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER9C3A7C0B79155EFD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13339_003_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13339  a       :EtextInstance ;
-        skos:prefLabel      "brgya bzhi'i cho ga"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT2FA082D3B3F201A5 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL60539F12859ECB05 , bdr:VLBD9768A9BD28C1F3 , bdr:VLBD9B655D16788DDC ;
-        :instanceOf         bdr:WA3JT13339 .
+        :instanceHasVolume  bdr:VE3JT13339_001 , bdr:VE3JT13339_002 , bdr:VE3JT13339_003 ;
+        :instanceReproductionOf  bdr:MW3JT13339 .
     
-    bdr:TT2FA082D3B3F201A5
-        a                   :Title ;
-        rdfs:label          "brgya bzhi'i cho ga"@bo-x-ewts .
+    bdr:VE3JT13339_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL60539F12859ECB05
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER64090345007BB732 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13339 .
+    bdr:VE3JT13339_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VLBD9768A9BD28C1F3
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER6B0C0CA6094F9DBD ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13339 .
-    
-    bdr:VLBD9B655D16788DDC
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER9C3A7C0B79155EFD ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13339 .
+    bdr:VE3JT13339_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

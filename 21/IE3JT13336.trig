@@ -15,8 +15,6 @@ bdg:IE3JT13336 {
     bda:IE3JT13336  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13336 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "21/IE3JT13336.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13336 ;
@@ -28,30 +26,13 @@ bdg:IE3JT13336 {
         adm:replaceWith     bdr:IE3JT13336 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER6C2D3653D8A40A9D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13336_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13336  a       :EtextInstance ;
-        skos:prefLabel      "sgrol ma g.yul bzlog bltas chog tu bkod pa bden 'bras myur ston/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TTDA0D78BD09836ED7 , bdr:TTF52D9F1AAAF27992 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VLFE0BFFC3BE1B088B ;
-        :instanceOf         bdr:WA4CZ45222 .
+        :instanceHasVolume  bdr:VE3JT13336_001 ;
+        :instanceReproductionOf  bdr:MW3JT13336 .
     
-    bdr:TTDA0D78BD09836ED7
-        a                   :Title ;
-        rdfs:label          "sgrol ma g.yul bzlog bltas chog tu bkod pa bden 'bras myur ston/"@bo-x-ewts .
-    
-    bdr:TTF52D9F1AAAF27992
-        a                   :TitlePageTitle ;
-        rdfs:label          "dpal mgon 'phags pa klu sgrub zhal snga nas brgyud pa'i sgrol ma g.yul bzlog bltas chog tu bkod pa bden 'bras myur ston/"@bo-x-ewts .
-    
-    bdr:VLFE0BFFC3BE1B088B
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER6C2D3653D8A40A9D ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13336 .
+    bdr:VE3JT13336_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

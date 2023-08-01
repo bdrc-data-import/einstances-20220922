@@ -15,8 +15,6 @@ bdg:IE1KG6291 {
     bda:IE1KG6291  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG6291 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "73/IE1KG6291.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG6291 ;
@@ -24,20 +22,12 @@ bdg:IE1KG6291 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER1E372EDC25A92285
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG6291_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE1KG6291  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VL4C7161BC12829D4A ;
-        :instanceReproductionOf  bdr:W1KG6291 .
+        :instanceHasVolume  bdr:VE1KG6291_001 .
     
-    bdr:VL4C7161BC12829D4A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1E372EDC25A92285 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG6291 .
+    bdr:VE1KG6291_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -15,8 +15,6 @@ bdg:IE3JT13316 {
     bda:IE3JT13316  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13316 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "22/IE3JT13316.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13316 ;
@@ -28,26 +26,13 @@ bdg:IE3JT13316 {
         adm:replaceWith     bdr:IE3JT13316 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ERDD71C12C42F07165
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13316_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13316  a       :EtextInstance ;
-        skos:prefLabel      "phyag rgya chen po lhan cig skyes sbyor gyi khrid kyi spyi sdom rtsa tshig"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TTD94F905884DB54AE ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL335D430D3972B03A ;
-        :instanceOf         bdr:WA3JT13316 .
+        :instanceHasVolume  bdr:VE3JT13316_001 ;
+        :instanceReproductionOf  bdr:MW3JT13316 .
     
-    bdr:TTD94F905884DB54AE
-        a                   :Title ;
-        rdfs:label          "phyag rgya chen po lhan cig skyes sbyor gyi khrid kyi spyi sdom rtsa tshig"@bo-x-ewts .
-    
-    bdr:VL335D430D3972B03A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERDD71C12C42F07165 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13316 .
+    bdr:VE3JT13316_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -15,8 +15,6 @@ bdg:IE3JT13380 {
     bda:IE3JT13380  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13380 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "ec/IE3JT13380.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13380 ;
@@ -28,30 +26,13 @@ bdg:IE3JT13380 {
         adm:replaceWith     bdr:IE3JT13380 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER52A9601AE6B30857
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13380_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13380  a       :EtextInstance ;
-        skos:prefLabel      "dbu ma 'jug pa'i rnam bshad dwags brgyud grub shing gi tshig 'grel gces btus/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT071DF8E486A877A4 , bdr:TT1405DB0818D8FDB8 ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VL7736B324E3237AD5 ;
-        :instanceOf         bdr:WA3JT13380 .
+        :instanceHasVolume  bdr:VE3JT13380_001 ;
+        :instanceReproductionOf  bdr:MW3JT13380 .
     
-    bdr:TT071DF8E486A877A4
-        a                   :Title ;
-        rdfs:label          "dbu ma 'jug pa'i rnam bshad dwags brgyud grub shing gi tshig 'grel gces btus/"@bo-x-ewts .
-    
-    bdr:TT1405DB0818D8FDB8
-        a                   :TitlePageTitle ;
-        rdfs:label          "dbu ma la 'jug pa'i rnam bshad dwags brgyud grub shing gi tshig 'grel gces btus/"@bo-x-ewts .
-    
-    bdr:VL7736B324E3237AD5
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER52A9601AE6B30857 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13380 .
+    bdr:VE3JT13380_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

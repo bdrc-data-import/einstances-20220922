@@ -14,11 +14,9 @@
 bdg:IE2MS24747 {
     bda:IE2MS24747  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24747 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "94/IE2MS24747.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24747 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24747  a        adm:AdminData ;
@@ -27,15 +25,5 @@ bdg:IE2MS24747 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24747  a       :EtextInstance ;
-        skos:prefLabel      "lces btsun bi ma la'i zab tig"@bo-x-ewts ;
-        :hasTitle           bdr:TT28DCD3E62E189548 , bdr:TTC15EF2F3ED073031 ;
-        :instanceOf         bdr:WA2MS24747 .
-    
-    bdr:TT28DCD3E62E189548
-        a                   :Title ;
-        rdfs:label          "lces btsun bi ma la'i zab tig"@bo-x-ewts .
-    
-    bdr:TTC15EF2F3ED073031
-        a                   :TitlePageTitle ;
-        rdfs:label          "lces btsun chen po bi ma la'i zab tig gter gzhung dang yan lag gi chos sde'i skor/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24747 .
 }

@@ -14,51 +14,10 @@
 bdg:IE4JW5383 {
     bda:IE4JW5383  a        adm:AdminData ;
         adm:adminAbout      bdr:IE4JW5383 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "f9/IE4JW5383.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW5383 ;
-        adm:logEntry        bda:LG33A560614DA3173D , bda:LG4BA45DB73197D30A , bda:LGE5146E5CBB5A99F6 , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG33A560614DA3173D
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG4BA45DB73197D30A
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-12-05T20:28:42.22Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni work"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGE5146E5CBB5A99F6
-        a                   adm:UpdateData ;
-        adm:logDate         "2017-10-12T11:31:06.257Z"^^xsd:dateTime ;
-        adm:logMessage      "removed image group number of W30183"@en ;
-        adm:logWho          bdu:U00016 .
-    
-    bda:LGIM5A753E00B7
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMAEA9B78D7A
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W4JW5383  a         adm:AdminData ;
         adm:adminAbout      bdr:W4JW5383 ;
@@ -66,12 +25,5 @@ bdg:IE4JW5383 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW5383  a        :EtextInstance ;
-        skos:prefLabel      "thob yig gang+ga'i chu rgyun/"@bo-x-ewts ;
-        :hasTitle           bdr:TT39A0688819FB8DE9 ;
-        :numberOfVolumes    4 ;
-        :scanInfo           "Scanned at Tibetan Buddhist Resource Center, 150 West 17th St, New York City, NY 10011, US. Comments: 7/2011"@en .
-    
-    bdr:TT39A0688819FB8DE9
-        a                   :Title ;
-        rdfs:label          "thob yig gang+ga'i chu rgyun/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW5383 .
 }

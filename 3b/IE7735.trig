@@ -15,8 +15,6 @@ bdg:IE7735 {
     bda:IE7735  a           adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE7735 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "3b/IE7735.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE7735 ;
@@ -24,20 +22,11 @@ bdg:IE7735 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER474FAFC6CD9E0C77
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT7735_I1GS105523_0000 ;
-        :seqNum             1 .
-    
     bdr:IE7735  a           :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL88F00460FB542794 ;
-        :instanceReproductionOf  bdr:W7735 .
+        :instanceHasVolume  bdr:VE7735_001 .
     
-    bdr:VL88F00460FB542794
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER474FAFC6CD9E0C77 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE7735 .
+    bdr:VE7735_001  a       :EtextVolume ;
+        :volumeNumber       1 .
 }

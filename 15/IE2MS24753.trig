@@ -14,11 +14,9 @@
 bdg:IE2MS24753 {
     bda:IE2MS24753  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24753 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "15/IE2MS24753.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24753 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24753  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24753 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24753  a       :EtextInstance ;
-        skos:prefLabel      "gsang sngags lam 'grel dang gzhal gdams dmar khrid/"@bo-x-ewts ;
-        :hasTitle           bdr:TT8329FDAA8E4F5493 ;
-        :instanceOf         bdr:WA2MS24753 .
-    
-    bdr:TT8329FDAA8E4F5493
-        a                   :Title ;
-        rdfs:label          "gsang sngags lam 'grel dang gzhal gdams dmar khrid/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24753 .
 }

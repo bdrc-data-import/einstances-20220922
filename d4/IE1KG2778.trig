@@ -15,61 +15,30 @@ bdg:IE1KG2778 {
     bda:IE1KG2778  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG2778 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      9 ;
         adm:gitPath         "d4/IE1KG2778.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG2778 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER1520F9713C226FF2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG2778_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER553B1405BB6614D7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG2778_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER8AEAB22E65C82C08
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG2778_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERCB5CD7D65E4A3E32
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG2778_004_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1KG2778  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL5704E758CF324207 , bdr:VL5F9EC393136CC613 , bdr:VL97E991C76145C1DC , bdr:VLC5DDC36B0701CF72 ;
-        :instanceReproductionOf  bdr:W1KG2778 .
+        :instanceHasVolume  bdr:VE1KG2778_001 , bdr:VE1KG2778_002 , bdr:VE1KG2778_003 , bdr:VE1KG2778_004 .
     
-    bdr:VL5704E758CF324207
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER8AEAB22E65C82C08 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG2778 .
+    bdr:VE1KG2778_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL5F9EC393136CC613
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER553B1405BB6614D7 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE1KG2778 .
+    bdr:VE1KG2778_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL97E991C76145C1DC
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1520F9713C226FF2 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE1KG2778 .
+    bdr:VE1KG2778_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VLC5DDC36B0701CF72
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERCB5CD7D65E4A3E32 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE1KG2778 .
+    bdr:VE1KG2778_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
 }

@@ -15,28 +15,17 @@ bdg:IE7479 {
     bda:IE7479  a           adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE7479 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "3d/IE7479.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE7479 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER45204A66A0581DAC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT7479_4260_0000 ;
-        :seqNum             1 .
-    
     bdr:IE7479  a           :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLE7A6A5F80D1B9BC7 ;
-        :instanceReproductionOf  bdr:W7479 .
+        :instanceHasVolume  bdr:VE7479_001 .
     
-    bdr:VLE7A6A5F80D1B9BC7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER45204A66A0581DAC ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE7479 .
+    bdr:VE7479_001  a       :EtextVolume ;
+        :volumeNumber       1 .
 }

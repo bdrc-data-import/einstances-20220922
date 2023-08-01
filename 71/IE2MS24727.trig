@@ -14,31 +14,10 @@
 bdg:IE2MS24727 {
     bda:IE2MS24727  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24727 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "71/IE2MS24727.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24727 ;
-        adm:logEntry        bda:LG45F837C3DC9B6951 , bda:LGC191BE8A902A9C5B , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG45F837C3DC9B6951
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-06-08T11:42:03.126Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGC191BE8A902A9C5B
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24727  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24727 ;
@@ -46,10 +25,5 @@ bdg:IE2MS24727 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24727  a       :EtextInstance ;
-        skos:prefLabel      "sa skya bka' 'bum/"@bo-x-ewts ;
-        :hasTitle           bdr:TTF141C0DF439A6FE6 .
-    
-    bdr:TTF141C0DF439A6FE6
-        a                   :Title ;
-        rdfs:label          "sa skya bka' 'bum/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24727 .
 }

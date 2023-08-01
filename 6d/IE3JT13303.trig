@@ -15,13 +15,10 @@ bdg:IE3JT13303 {
     bda:IE3JT13303  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13303 ;
-        adm:contentProvider  bda:CP004 ;
-        adm:facetIndex      17 ;
         adm:gitPath         "6d/IE3JT13303.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13303 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
     bda:W3JT13303  a        adm:AdminData ;
@@ -29,90 +26,13 @@ bdg:IE3JT13303 {
         adm:replaceWith     bdr:IE3JT13303 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER1104500BCD086585
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0012 ;
-        :seqNum             12 .
-    
-    bdr:ER27152B8AC2573570
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:ER340627FB0CC89261
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0010 ;
-        :seqNum             10 .
-    
-    bdr:ER5F65AD6CBFBA362A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER754D9419A626F7DD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ER8200ABC2446C98F5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0011 ;
-        :seqNum             11 .
-    
-    bdr:ER827532CC48C5B881
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0013 ;
-        :seqNum             13 .
-    
-    bdr:ER8693C956C42A64D3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0009 ;
-        :seqNum             9 .
-    
-    bdr:ERA689D95541A5F1B2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERDA42C0AF5E1ED252
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:EREA41CD582F0C6BF4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:EREB7839B41A6D26A2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:EREDF0B6575A4C41AF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13303_001_0006 ;
-        :seqNum             6 .
-    
     bdr:IE3JT13303  a       :EtextInstance ;
-        skos:prefLabel      "chos mngon pa'i skor/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT0CA4571266D83C05 , bdr:TT2CC8E1C68EF2D338 ;
         :inCollection       bdr:PR0ET004 ;
-        :instanceHasVolume  bdr:VL8D19C4102993CC30 ;
-        :instanceOf         bdr:WA3JT13303 .
+        :instanceHasVolume  bdr:VE3JT13303_001 ;
+        :instanceReproductionOf  bdr:MW3JT13303 .
     
-    bdr:TT0CA4571266D83C05
-        a                   :Title ;
-        rdfs:label          "chos mngon pa'i skor/"@bo-x-ewts .
-    
-    bdr:TT2CC8E1C68EF2D338
-        a                   :TitlePageTitle ;
-        rdfs:label          "mngon pa'i chos skor/"@bo-x-ewts .
-    
-    bdr:VL8D19C4102993CC30
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1104500BCD086585 , bdr:ER27152B8AC2573570 , bdr:ER340627FB0CC89261 , bdr:ER5F65AD6CBFBA362A , bdr:ER754D9419A626F7DD , bdr:ER8200ABC2446C98F5 , bdr:ER827532CC48C5B881 , bdr:ER8693C956C42A64D3 , bdr:ERA689D95541A5F1B2 , bdr:ERDA42C0AF5E1ED252 , bdr:EREA41CD582F0C6BF4 , bdr:EREB7839B41A6D26A2 , bdr:EREDF0B6575A4C41AF ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13303 .
+    bdr:VE3JT13303_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

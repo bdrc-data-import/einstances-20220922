@@ -15,28 +15,17 @@ bdg:IE21588 {
     bda:IE21588  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE21588 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "5d/IE21588.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE21588 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER1A2E31568AB80472
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT21588_4198_0000 ;
-        :seqNum             1 .
-    
     bdr:IE21588  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL9C71E7D887A9FB58 ;
-        :instanceReproductionOf  bdr:W21588 .
+        :instanceHasVolume  bdr:VE21588_001 .
     
-    bdr:VL9C71E7D887A9FB58
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1A2E31568AB80472 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE21588 .
+    bdr:VE21588_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

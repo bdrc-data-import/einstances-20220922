@@ -15,8 +15,6 @@ bdg:IE3JT13364 {
     bda:IE3JT13364  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13364 ;
-        adm:contentProvider  bda:CP005 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "30/IE3JT13364.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13364 ;
@@ -28,46 +26,13 @@ bdg:IE3JT13364 {
         adm:replaceWith     bdr:IE3JT13364 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER457CD9872F4402DF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13364_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER5A7033B6C9FDCD28
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13364_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERBD0BDEACD3A8B966
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13364_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERF1F649FFC8736831
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13364_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13364  a       :EtextInstance ;
-        skos:prefLabel      "tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :copyrightStatus    bdr:CopyrightClaimed ;
-        :hasTitle           bdr:TT01F78496D12FBCB7 , bdr:TT683DC5B7DFCD782F ;
         :inCollection       bdr:PR0ET005 ;
-        :instanceHasVolume  bdr:VLC7A25744509FC383 ;
-        :instanceOf         bdr:WA3JT13364 .
+        :instanceHasVolume  bdr:VE3JT13364_001 ;
+        :instanceReproductionOf  bdr:MW3JT13364 .
     
-    bdr:TT01F78496D12FBCB7
-        a                   :Title ;
-        rdfs:label          "tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts .
-    
-    bdr:TT683DC5B7DFCD782F
-        a                   :TitlePageTitle ;
-        rdfs:label          "jo nang rje btsun tA ra nA tha'i rnam thar mdor bsdus/"@bo-x-ewts .
-    
-    bdr:VLC7A25744509FC383
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER457CD9872F4402DF , bdr:ER5A7033B6C9FDCD28 , bdr:ERBD0BDEACD3A8B966 , bdr:ERF1F649FFC8736831 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13364 .
+    bdr:VE3JT13364_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

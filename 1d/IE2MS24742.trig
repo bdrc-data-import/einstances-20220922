@@ -14,11 +14,9 @@
 bdg:IE2MS24742 {
     bda:IE2MS24742  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24742 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "1d/IE2MS24742.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24742 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24742  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24742 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24742  a       :EtextInstance ;
-        skos:prefLabel      "dbu ma rtsa ba shes rab TI ka sgron ma gsal byed dang tshig gsal gyi dka' gnad dang spyi sdom bcas/"@bo-x-ewts ;
-        :hasTitle           bdr:TT5BAC9BB6C15413FA ;
-        :instanceOf         bdr:WA2MS24742 .
-    
-    bdr:TT5BAC9BB6C15413FA
-        a                   :Title ;
-        rdfs:label          "dbu ma rtsa ba shes rab TI ka sgron ma gsal byed dang tshig gsal gyi dka' gnad dang spyi sdom bcas/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24742 .
 }

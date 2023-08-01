@@ -15,61 +15,30 @@ bdg:IE2DB4568 {
     bda:IE2DB4568  a        adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE2DB4568 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      9 ;
         adm:gitPath         "6e/IE2DB4568.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2DB4568 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER4E79A22EC85972B0
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2DB4568_I1PD34010_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERD4FF1BF886141A3A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2DB4568_I1PD34008_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERDB8E74AC70440D2C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2DB4568_I1PD34011_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERFA71DFDC34D5AF44
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT2DB4568_I1PD34009_0000 ;
-        :seqNum             1 .
-    
     bdr:IE2DB4568  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL0FEAC8A3794759B4 , bdr:VL2DE6EEC450ECC521 , bdr:VL68CC2A1E39704BB3 , bdr:VLE009BC5E541A9C32 ;
-        :instanceReproductionOf  bdr:W2DB4568 .
+        :instanceHasVolume  bdr:VE2DB4568_001 , bdr:VE2DB4568_002 , bdr:VE2DB4568_003 , bdr:VE2DB4568_004 .
     
-    bdr:VL0FEAC8A3794759B4
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERFA71DFDC34D5AF44 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE2DB4568 .
+    bdr:VE2DB4568_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL2DE6EEC450ECC521
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERDB8E74AC70440D2C ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE2DB4568 .
+    bdr:VE2DB4568_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL68CC2A1E39704BB3
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER4E79A22EC85972B0 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE2DB4568 .
+    bdr:VE2DB4568_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VLE009BC5E541A9C32
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERD4FF1BF886141A3A ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE2DB4568 .
+    bdr:VE2DB4568_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
 }

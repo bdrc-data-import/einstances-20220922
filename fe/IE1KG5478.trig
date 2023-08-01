@@ -15,63 +15,18 @@ bdg:IE1KG5478 {
     bda:IE1KG5478  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG5478 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      10 ;
         adm:gitPath         "fe/IE1KG5478.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG5478 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER0493E1024755584C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER1F3430B3A2AAE4C8
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER57FD22E3F76D3C0B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERC74A4E1BB5F1D1DB
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ERD4A274F296BEE6C7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:EREF09D4F328D06B8D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERF70BA66E77AE7B0C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ERFD89540835BA91E4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5478_001_0005 ;
-        :seqNum             5 .
-    
     bdr:IE1KG5478  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VLB9F4F3948DEEE662 ;
-        :instanceReproductionOf  bdr:W1KG5478 .
+        :instanceHasVolume  bdr:VE1KG5478_001 .
     
-    bdr:VLB9F4F3948DEEE662
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER0493E1024755584C , bdr:ER1F3430B3A2AAE4C8 , bdr:ER57FD22E3F76D3C0B , bdr:ERC74A4E1BB5F1D1DB , bdr:ERD4A274F296BEE6C7 , bdr:EREF09D4F328D06B8D , bdr:ERF70BA66E77AE7B0C , bdr:ERFD89540835BA91E4 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG5478 .
+    bdr:VE1KG5478_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

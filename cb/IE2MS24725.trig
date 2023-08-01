@@ -14,11 +14,9 @@
 bdg:IE2MS24725 {
     bda:IE2MS24725  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24725 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "cb/IE2MS24725.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24725 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24725  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24725 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24725  a       :EtextInstance ;
-        skos:prefLabel      "sum rtags kyi rnam bshad mu tig phreng mdzes/"@bo-x-ewts ;
-        :hasTitle           bdr:TT905D5734C30DDDDD ;
-        :instanceOf         bdr:WA2MS24725 .
-    
-    bdr:TT905D5734C30DDDDD
-        a                   :Title ;
-        rdfs:label          "sum rtags kyi rnam bshad mu tig phreng mdzes/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24725 .
 }

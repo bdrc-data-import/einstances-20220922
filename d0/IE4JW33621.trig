@@ -14,11 +14,9 @@
 bdg:IE4JW33621 {
     bda:IE4JW33621  a       adm:AdminData ;
         adm:adminAbout      bdr:IE4JW33621 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "d0/IE4JW33621.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW33621 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W4JW33621  a        adm:AdminData ;
@@ -27,17 +25,5 @@ bdg:IE4JW33621 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW33621  a       :EtextInstance ;
-        skos:prefLabel      "bka' gdams chos 'byung /"@bo-x-ewts ;
-        :hasTitle           bdr:TT3F6CC3636CE76527 ;
-        :instanceOf         bdr:WA4JW33621 ;
-        :note               bdr:NT18680A38ED539E99 ;
-        :numberOfVolumes    1 .
-    
-    bdr:NT18680A38ED539E99
-        a                   :Note ;
-        :noteText           "Unicode XML from optical character recognition"@en .
-    
-    bdr:TT3F6CC3636CE76527
-        a                   :Title ;
-        rdfs:label          "bka' gdams chos 'byung /"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW33621 .
 }

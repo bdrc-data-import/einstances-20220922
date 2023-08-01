@@ -14,37 +14,10 @@
 bdg:IE2MS24663 {
     bda:IE2MS24663  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24663 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "58/IE2MS24663.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24663 ;
-        adm:logEntry        bda:LG05B374E06608EF5D , bda:LG77020A49A979C698 , bda:LGB44A297A4A28A73F , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG05B374E06608EF5D
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG77020A49A979C698
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-06-07T12:48:35.839Z"^^xsd:dateTime ;
-        adm:logMessage      "marked as info=unicodeText"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGB44A297A4A28A73F
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-06-01T15:49:03.101Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24663  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24663 ;
@@ -52,10 +25,5 @@ bdg:IE2MS24663 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24663  a       :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_pad+ma dkar po/"@bo-x-ewts ;
-        :hasTitle           bdr:TTD2AAC459C0B94E00 .
-    
-    bdr:TTD2AAC459C0B94E00
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_pad+ma dkar po/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24663 .
 }

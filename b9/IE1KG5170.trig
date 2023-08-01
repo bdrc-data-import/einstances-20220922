@@ -15,8 +15,6 @@ bdg:IE1KG5170 {
     bda:IE1KG5170  a        adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE1KG5170 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "b9/IE1KG5170.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG5170 ;
@@ -24,42 +22,20 @@ bdg:IE1KG5170 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER0B58CCE0A726F6D8
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5170_I1KG5226_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERAF5427A9653F4B77
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5170_I1KG5227_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERC567E316B525F0D9
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG5170_I1KG5225_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1KG5170  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL19DF62D866C3253B , bdr:VL999025DA8A5CDF73 , bdr:VLCF651A13F437655A ;
-        :instanceReproductionOf  bdr:W1KG5170 .
+        :instanceHasVolume  bdr:VE1KG5170_001 , bdr:VE1KG5170_002 , bdr:VE1KG5170_003 .
     
-    bdr:VL19DF62D866C3253B
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERAF5427A9653F4B77 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE1KG5170 .
+    bdr:VE1KG5170_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL999025DA8A5CDF73
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC567E316B525F0D9 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG5170 .
+    bdr:VE1KG5170_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VLCF651A13F437655A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER0B58CCE0A726F6D8 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE1KG5170 .
+    bdr:VE1KG5170_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

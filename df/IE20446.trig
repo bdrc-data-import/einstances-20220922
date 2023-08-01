@@ -15,28 +15,17 @@ bdg:IE20446 {
     bda:IE20446  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE20446 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "df/IE20446.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE20446 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER4220C617C1922D5F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT20446_4207_0000 ;
-        :seqNum             1 .
-    
     bdr:IE20446  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLADAF2B25071D8D49 ;
-        :instanceReproductionOf  bdr:W20446 .
+        :instanceHasVolume  bdr:VE20446_001 .
     
-    bdr:VLADAF2B25071D8D49
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER4220C617C1922D5F ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE20446 .
+    bdr:VE20446_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

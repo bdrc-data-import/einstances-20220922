@@ -14,31 +14,10 @@
 bdg:IE2MS24774 {
     bda:IE2MS24774  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24774 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "2b/IE2MS24774.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24774 ;
-        adm:logEntry        bda:LG140CCB787EDDDF75 , bda:LG45BE04B679831A32 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG140CCB787EDDDF75
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG45BE04B679831A32
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:07:49.364Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24774  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24774 ;
@@ -46,14 +25,5 @@ bdg:IE2MS24774 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24774  a       :EtextInstance ;
-        skos:prefLabel      "rgyud bla sa 'grel/"@bo-x-ewts ;
-        :hasTitle           bdr:TTB56E21032D3AFC51 , bdr:TTFC725B3D69A6E8D9 .
-    
-    bdr:TTB56E21032D3AFC51
-        a                   :TitlePageTitle ;
-        rdfs:label          "theg pa chen po rgyud bla ma'i bstan bcos kyi rnam par bshad pa nges don rab gsal snang ba/"@bo-x-ewts .
-    
-    bdr:TTFC725B3D69A6E8D9
-        a                   :Title ;
-        rdfs:label          "rgyud bla sa 'grel/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24774 .
 }

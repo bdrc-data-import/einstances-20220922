@@ -14,11 +14,9 @@
 bdg:IE3JT13427 {
     bda:IE3JT13427  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13427 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "4d/IE3JT13427.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13427 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13427  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE3JT13427 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13427  a       :EtextInstance ;
-        skos:prefLabel      "g.yu thog gsar rnying gi rnam thar/"@bo-x-ewts ;
-        :hasTitle           bdr:TTC3B2CD5A50A0B572 ;
-        :instanceOf         bdr:WA3JT13427 .
-    
-    bdr:TTC3B2CD5A50A0B572
-        a                   :Title ;
-        rdfs:label          "g.yu thog gsar rnying gi rnam thar/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13427 .
 }

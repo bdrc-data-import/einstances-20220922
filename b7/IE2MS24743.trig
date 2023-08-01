@@ -14,11 +14,9 @@
 bdg:IE2MS24743 {
     bda:IE2MS24743  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24743 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "b7/IE2MS24743.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24743 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24743  a        adm:AdminData ;
@@ -27,16 +25,5 @@ bdg:IE2MS24743 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24743  a       :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_mkhyen brtse'i dbang po/"@bo-x-ewts ;
-        :hasTitle           bdr:TT06533172E15296AB ;
-        :instanceOf         bdr:WA2MS24768 ;
-        :note               bdr:NTD13CCE95B71074E2 .
-    
-    bdr:NTD13CCE95B71074E2
-        a                   :Note ;
-        :noteText           "Withdrawn in favor of W2MS24768"@en .
-    
-    bdr:TT06533172E15296AB
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_mkhyen brtse'i dbang po/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24743 .
 }

@@ -15,8 +15,6 @@ bdg:IE16936 {
     bda:IE16936  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE16936 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      13 ;
         adm:gitPath         "eb/IE16936.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE16936 ;
@@ -24,75 +22,26 @@ bdg:IE16936 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER007F35D75459A1D3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT16936_4908_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER0E5E82BD82ADF80A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT16936_4910_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER26383483B8E35883
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT16936_4905_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER30D641C9F9340E2A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT16936_4906_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERAA349C712CB50C68
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT16936_4907_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERD3C1F3DE66E191DD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT16936_4909_0000 ;
-        :seqNum             1 .
-    
     bdr:IE16936  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL07EC213E5CD2E3CD , bdr:VL2A439CFA89085A6E , bdr:VL700FC3A0BB2989BD , bdr:VL856DDC7228C6A87F , bdr:VLA845D52965BEF1CB , bdr:VLC742A8772C952D91 ;
-        :instanceReproductionOf  bdr:W16936 .
+        :instanceHasVolume  bdr:VE16936_001 , bdr:VE16936_002 , bdr:VE16936_003 , bdr:VE16936_004 , bdr:VE16936_005 , bdr:VE16936_006 .
     
-    bdr:VL07EC213E5CD2E3CD
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER30D641C9F9340E2A ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE16936 .
+    bdr:VE16936_001  a      :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL2A439CFA89085A6E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERAA349C712CB50C68 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE16936 .
+    bdr:VE16936_002  a      :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL700FC3A0BB2989BD
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER007F35D75459A1D3 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE16936 .
+    bdr:VE16936_003  a      :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL856DDC7228C6A87F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER0E5E82BD82ADF80A ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE16936 .
+    bdr:VE16936_004  a      :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VLA845D52965BEF1CB
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERD3C1F3DE66E191DD ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE16936 .
+    bdr:VE16936_005  a      :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VLC742A8772C952D91
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER26383483B8E35883 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE16936 .
+    bdr:VE16936_006  a      :EtextVolume ;
+        :volumeNumber       6 .
 }

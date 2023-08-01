@@ -14,11 +14,9 @@
 bdg:IE4CZ46039 {
     bda:IE4CZ46039  a       adm:AdminData ;
         adm:adminAbout      bdr:IE4CZ46039 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "26/IE4CZ46039.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4CZ46039 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
     bda:W4CZ46039  a        adm:AdminData ;
@@ -26,33 +24,6 @@ bdg:IE4CZ46039 {
         adm:replaceWith     bdr:IE4CZ46039 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:CR76DF531C467245B5
-        a                   :AgentAsCreator ;
-        :agent              bdr:P938 ;
-        :role               bdr:R0ER0015 .
-    
-    bdr:CRDA1FE817C0F6C2F2
-        a                   :AgentAsCreator ;
-        :agent              bdr:P264 ;
-        :role               bdr:R0ER0015 .
-    
     bdr:IE4CZ46039  a       :EtextInstance ;
-        skos:prefLabel      "shangs pa'i chos skor rnam lnga'i rgya gzhung /"@bo-x-ewts ;
-        :creator            bdr:CR76DF531C467245B5 , bdr:CRDA1FE817C0F6C2F2 ;
-        :hasTitle           bdr:TT280F06FFA88A1ABD , bdr:TT35CC9A3C2EE5F917 ;
-        :instanceOf         bdr:WA4CZ46039 ;
-        :note               bdr:NTB5D2D1844DAE667D .
-    
-    bdr:NTB5D2D1844DAE667D
-        a                   :Note ;
-        :noteSource         bdr:MW23922 ;
-        :noteText           "tbrc also holds the actual dpe che version"@en .
-    
-    bdr:TT280F06FFA88A1ABD
-        a                   :Title ;
-        rdfs:label          "shangs pa'i chos skor rnam lnga'i rgya gzhung /"@bo-x-ewts .
-    
-    bdr:TT35CC9A3C2EE5F917
-        a                   :TitlePageTitle ;
-        rdfs:label          "dpal ldan shangs pa'i chos skor rnam lnga'i rgya gzhung dang bod gzhung /"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4CZ46039 .
 }

@@ -15,8 +15,6 @@ bdg:IE3JT13335 {
     bda:IE3JT13335  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13335 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "23/IE3JT13335.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13335 ;
@@ -28,30 +26,13 @@ bdg:IE3JT13335 {
         adm:replaceWith     bdr:IE3JT13335 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ERB1A41243295E77E2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13335_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13335  a       :EtextInstance ;
-        skos:prefLabel      "sgrol ma lha lnga'i sgrub thabs/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT5A06F217DBD5497E , bdr:TTF170A1038A25E8B6 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL95BE3F0A0E300712 ;
-        :instanceOf         bdr:WA3JT13335 .
+        :instanceHasVolume  bdr:VE3JT13335_001 ;
+        :instanceReproductionOf  bdr:MW3JT13335 .
     
-    bdr:TT5A06F217DBD5497E
-        a                   :TitlePageTitle ;
-        rdfs:label          "rgyal dbang karma pa dbang phyug rdo rjes mdzad pa'i gcig shes kun grol las rje dus gsum mkhyen pa'i thugs dam lnga tshan lnga las sgrol ma lha lnga'i sgrub thabs/"@bo-x-ewts .
-    
-    bdr:TTF170A1038A25E8B6
-        a                   :Title ;
-        rdfs:label          "sgrol ma lha lnga'i sgrub thabs/"@bo-x-ewts .
-    
-    bdr:VL95BE3F0A0E300712
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERB1A41243295E77E2 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13335 .
+    bdr:VE3JT13335_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

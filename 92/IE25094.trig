@@ -15,28 +15,17 @@ bdg:IE25094 {
     bda:IE25094  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE25094 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "92/IE25094.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE25094 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER7661E677FC0E8179
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT25094_4813_0000 ;
-        :seqNum             1 .
-    
     bdr:IE25094  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL669C0BEE0850C645 ;
-        :instanceReproductionOf  bdr:W25094 .
+        :instanceHasVolume  bdr:VE25094_001 .
     
-    bdr:VL669C0BEE0850C645
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER7661E677FC0E8179 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE25094 .
+    bdr:VE25094_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -14,11 +14,9 @@
 bdg:IE1GS152242 {
     bda:IE1GS152242  a      adm:AdminData ;
         adm:adminAbout      bdr:IE1GS152242 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "70/IE1GS152242.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1GS152242 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
     bda:W1GS152242  a       adm:AdminData ;
@@ -27,21 +25,5 @@ bdg:IE1GS152242 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE1GS152242  a      :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_grags pa bshad sgrub/"@bo-x-ewts ;
-        :hasTitle           bdr:TT6B61772C979E4E24 , bdr:TTF83EE66383FD190E ;
-        :instanceOf         bdr:WA1GS152242 ;
-        :note               bdr:NTB7811BC674880436 ;
-        :numberOfVolumes    11 .
-    
-    bdr:NTB7811BC674880436
-        a                   :Note ;
-        :noteText           "Though this text says it is available below it is in fact not available at this time"@en .
-    
-    bdr:TT6B61772C979E4E24
-        a                   :OtherTitle ;
-        rdfs:label          "co ne bla ma grags pa bshad sgrub kyi gsung 'bum/"@bo-x-ewts .
-    
-    bdr:TTF83EE66383FD190E
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_grags pa bshad sgrub/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW1GS152242 .
 }

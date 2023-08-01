@@ -14,51 +14,10 @@
 bdg:IE4JW5395 {
     bda:IE4JW5395  a        adm:AdminData ;
         adm:adminAbout      bdr:IE4JW5395 ;
-        adm:facetIndex      10 ;
         adm:gitPath         "af/IE4JW5395.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW5395 ;
-        adm:logEntry        bda:LG36B875C68D4EB0B0 , bda:LG74DFF9E2A6835AA0 , bda:LGE08D0F0B065D0898 , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG36B875C68D4EB0B0
-        a                   adm:WithdrawData ;
-        adm:logDate         "2014-10-01T05:36:21.585Z"^^xsd:dateTime ;
-        adm:logMessage      "withdrawn because of poor ocr quality"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LG74DFF9E2A6835AA0
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGE08D0F0B065D0898
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-12-21T04:14:05.635Z"^^xsd:dateTime ;
-        adm:logMessage      "created UT work"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIM5A753E00B7
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMAEA9B78D7A
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W4JW5395  a         adm:AdminData ;
         adm:adminAbout      bdr:W4JW5395 ;
@@ -66,20 +25,5 @@ bdg:IE4JW5395 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW5395  a        :EtextInstance ;
-        skos:prefLabel      "khri 'du/"@bo-x-ewts ;
-        :hasTitle           bdr:TTDFC658FA6CE18D0C ;
-        :note               bdr:NT7B8FCBB8E7050120 , bdr:NT85162D145643A48B ;
-        :numberOfVolumes    1 .
-    
-    bdr:NT7B8FCBB8E7050120
-        a                   :Note ;
-        :noteText           "survey of the peoples, land, monasteries and religious teachers in khri 'du county, yus hru'u prefecture, qinghai"@en .
-    
-    bdr:NT85162D145643A48B
-        a                   :Note ;
-        :noteText           "withdrawn because of poor ocr quality"@en .
-    
-    bdr:TTDFC658FA6CE18D0C
-        a                   :Title ;
-        rdfs:label          "khri 'du/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW5395 .
 }

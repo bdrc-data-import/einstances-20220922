@@ -15,8 +15,6 @@ bdg:IE3JT13333 {
     bda:IE3JT13333  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13333 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      15 ;
         adm:gitPath         "31/IE3JT13333.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13333 ;
@@ -28,85 +26,33 @@ bdg:IE3JT13333 {
         adm:replaceWith     bdr:IE3JT13333 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER122E179B0739D77D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13333_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER13ABB7BE0618C9B5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13333_004_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER5D5E987ED6906AC0
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13333_006_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERA1747BA81D6C36A1
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13333_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERDF6024D33B2F9E76
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13333_005_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERF2C5E13646FB6698
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13333_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13333  a       :EtextInstance ;
-        skos:prefLabel      "spyan ras gzigs rgyal ba rgya mtsho'i cho ga"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT9DE6871831027F61 , bdr:TTA44A13903FEF805F ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL7F5C742EEF250F66 , bdr:VLA5909D47DB37EE4B , bdr:VLAA987BE18F8D943D , bdr:VLAFF84DEEF47508B8 , bdr:VLB99133EE7F18F7C0 , bdr:VLE34849512B80FC91 ;
-        :instanceOf         bdr:WA3JT13333 .
+        :instanceHasVolume  bdr:VE3JT13333_001 , bdr:VE3JT13333_002 , bdr:VE3JT13333_003 , bdr:VE3JT13333_004 , bdr:VE3JT13333_005 , bdr:VE3JT13333_006 ;
+        :instanceReproductionOf  bdr:MW3JT13333 .
     
-    bdr:TT9DE6871831027F61
-        a                   :TitlePageTitle ;
-        rdfs:label          "spyan ras gzigs rgyal ba rgya mtsho'i cho ga kha shas/"@bo-x-ewts .
+    bdr:VE3JT13333_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TTA44A13903FEF805F
-        a                   :Title ;
-        rdfs:label          "spyan ras gzigs rgyal ba rgya mtsho'i cho ga"@bo-x-ewts .
+    bdr:VE3JT13333_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL7F5C742EEF250F66
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERA1747BA81D6C36A1 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13333 .
+    bdr:VE3JT13333_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VLA5909D47DB37EE4B
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER5D5E987ED6906AC0 ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE3JT13333 .
+    bdr:VE3JT13333_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VLAA987BE18F8D943D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER122E179B0739D77D ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13333 .
+    bdr:VE3JT13333_005
+        a                   :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VLAFF84DEEF47508B8
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER13ABB7BE0618C9B5 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE3JT13333 .
-    
-    bdr:VLB99133EE7F18F7C0
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERDF6024D33B2F9E76 ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE3JT13333 .
-    
-    bdr:VLE34849512B80FC91
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF2C5E13646FB6698 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13333 .
+    bdr:VE3JT13333_006
+        a                   :EtextVolume ;
+        :volumeNumber       6 .
 }

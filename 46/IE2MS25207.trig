@@ -14,85 +14,10 @@
 bdg:IE2MS25207 {
     bda:IE2MS25207  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS25207 ;
-        adm:facetIndex      14 ;
         adm:gitPath         "46/IE2MS25207.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS25207 ;
-        adm:logEntry        bda:LG0E67D7FA20FE9C7C , bda:LG13FDC02F39789986 , bda:LG377D1E0D5EBF10DE , bda:LG7FE203DCAF35DACC , bda:LG9883CC17C8326AA9 , bda:LGD7FDE48F6AF9A8EA , bda:LGDA9D66E391D07214 , bda:LGDC75D032BD272B36 , bda:LGE59C15E880F38BAC , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG0E67D7FA20FE9C7C
-        a                   adm:UpdateData ;
-        adm:logDate         "2015-09-04T09:29:27.414Z"^^xsd:dateTime ;
-        adm:logMessage      "added both T#s of \"bka' 'gyur\" & \"dpe bsdur ma\""@en ;
-        adm:logWho          bdu:U00007 .
-    
-    bda:LG13FDC02F39789986
-        a                   adm:UpdateData ;
-        adm:logDate         "2013-04-10T11:08:32.219Z"^^xsd:dateTime ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LG377D1E0D5EBF10DE
-        a                   adm:WithdrawData ;
-        adm:logDate         "2016-09-08T05:17:23.802Z"^^xsd:dateTime ;
-        adm:logMessage      "withdrawn"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LG7FE203DCAF35DACC
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:08:34.853Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG9883CC17C8326AA9
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-12-15T02:28:35.197Z"^^xsd:dateTime ;
-        adm:logMessage      "created catalog record"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGD7FDE48F6AF9A8EA
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-12-15T02:31:26.226Z"^^xsd:dateTime ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGDA9D66E391D07214
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-12-13T14:33:34.934Z"^^xsd:dateTime ;
-        adm:logMessage      "restricted"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGDC75D032BD272B36
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-12-13T14:25:14.92Z"^^xsd:dateTime ;
-        adm:logMessage      "RELEASED"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGE59C15E880F38BAC
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM5A753E00B7
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMAEA9B78D7A
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS25207  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS25207 ;
@@ -100,10 +25,5 @@ bdg:IE2MS25207 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS25207  a       :EtextInstance ;
-        skos:prefLabel      "bka' 'gyur (dpe bsdur ma)"@bo-x-ewts ;
-        :hasTitle           bdr:TT97A9CC54170F3FB4 .
-    
-    bdr:TT97A9CC54170F3FB4
-        a                   :Title ;
-        rdfs:label          "bka' 'gyur (dpe bsdur ma)"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS25207 .
 }

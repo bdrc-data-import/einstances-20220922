@@ -14,51 +14,10 @@
 bdg:IE4JW5401 {
     bda:IE4JW5401  a        adm:AdminData ;
         adm:adminAbout      bdr:IE4JW5401 ;
-        adm:facetIndex      9 ;
         adm:gitPath         "01/IE4JW5401.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW5401 ;
-        adm:logEntry        bda:LG714389C6FD619A6B , bda:LGC65687DD625B53E9 , bda:LGE767F6D22C78774B , bda:LGIM5A753E00B7 , bda:LGIMAEA9B78D7A , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG714389C6FD619A6B
-        a                   adm:WithdrawData ;
-        adm:logDate         "2014-10-01T05:36:22.608Z"^^xsd:dateTime ;
-        adm:logMessage      "withdrawn because of poor ocr quality"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGC65687DD625B53E9
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-12-21T14:24:29.586Z"^^xsd:dateTime ;
-        adm:logMessage      "created UT"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGE767F6D22C78774B
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM5A753E00B7
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-04-21T23:05:36.322Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMAEA9B78D7A
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-05-17T11:18:37.731Z"^^xsd:dateTime ;
-        adm:logMessage      "normalized catalog info"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W4JW5401  a         adm:AdminData ;
         adm:adminAbout      bdr:W4JW5401 ;
@@ -66,16 +25,5 @@ bdg:IE4JW5401 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW5401  a        :EtextInstance ;
-        skos:prefLabel      "yul shul rdzong : dgon sde'i lo rgyus mdor bsdus/"@bo-x-ewts ;
-        :hasTitle           bdr:TTE1D102A0AB72DF2D ;
-        :note               bdr:NT9250FF8953E2C099 ;
-        :numberOfVolumes    1 .
-    
-    bdr:NT9250FF8953E2C099
-        a                   :Note ;
-        :noteText           "withdrawn because of poor ocr quality"@en .
-    
-    bdr:TTE1D102A0AB72DF2D
-        a                   :Title ;
-        rdfs:label          "yul shul rdzong : dgon sde'i lo rgyus mdor bsdus/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW5401 .
 }

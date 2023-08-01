@@ -15,39 +15,20 @@ bdg:IE7499 {
     bda:IE7499  a           adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE7499 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "2a/IE7499.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE7499 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERD9EEA2B8880D47A4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT7499_I1KG5746_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERE4A22892B2F5A11F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT7499_I1KG5745_0000 ;
-        :seqNum             1 .
-    
     bdr:IE7499  a           :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL46D995CB2334E32C , bdr:VLD53DC50E1819B67D ;
-        :instanceReproductionOf  bdr:W7499 .
+        :instanceHasVolume  bdr:VE7499_001 , bdr:VE7499_002 .
     
-    bdr:VL46D995CB2334E32C
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERE4A22892B2F5A11F ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE7499 .
+    bdr:VE7499_001  a       :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VLD53DC50E1819B67D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERD9EEA2B8880D47A4 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE7499 .
+    bdr:VE7499_002  a       :EtextVolume ;
+        :volumeNumber       2 .
 }

@@ -15,33 +15,17 @@ bdg:IE21492 {
     bda:IE21492  a          adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE21492 ;
-        adm:contentProvider  bda:CP006 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "d5/IE21492.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE21492 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER77ADA238F904B33C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT21492_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ERA605223D2A0F2269
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT21492_001_0002 ;
-        :seqNum             2 .
-    
     bdr:IE21492  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET006 ;
-        :instanceHasVolume  bdr:VL9B7FCD46F8DA865C ;
-        :instanceReproductionOf  bdr:W21492 .
+        :instanceHasVolume  bdr:VE21492_001 .
     
-    bdr:VL9B7FCD46F8DA865C
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER77ADA238F904B33C , bdr:ERA605223D2A0F2269 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE21492 .
+    bdr:VE21492_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

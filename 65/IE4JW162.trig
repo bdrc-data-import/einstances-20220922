@@ -14,62 +14,10 @@
 bdg:IE4JW162 {
     bda:IE4JW162  a         adm:AdminData ;
         adm:adminAbout      bdr:IE4JW162 ;
-        adm:facetIndex      10 ;
         adm:gitPath         "65/IE4JW162.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4JW162 ;
-        adm:logEntry        bda:LG6C736C3CE192B154 , bda:LG9EB82F7B4A7C0162 , bda:LGA0C151EA7B4E42BB , bda:LGC6947C05FA2C25BE , bda:LGDA5BC53866803223 , bda:LGIM093A1A0447 , bda:LGIM8647D1C7AE , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG6C736C3CE192B154
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-09-15T10:00:02.288Z"^^xsd:dateTime ;
-        adm:logMessage      "(dpal brtsegs bod yig dpe rnying zhib 'jug khang gis glog klad du bcug pa/)"@en ;
-        adm:logWho          bdu:U00021 .
-    
-    bda:LG9EB82F7B4A7C0162
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGA0C151EA7B4E42BB
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-05-12T16:26:36.028Z"^^xsd:dateTime ;
-        adm:logMessage      "created work records for xml (UT files)"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGC6947C05FA2C25BE
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-06-06T11:29:18.1Z"^^xsd:dateTime ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGDA5BC53866803223
-        a                   adm:UpdateData ;
-        adm:logDate         "2013-01-15T13:46:08.125Z"^^xsd:dateTime ;
-        adm:logMessage      "shortened title"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIM093A1A0447
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-10-15T18:10:30.945Z"^^xsd:dateTime ;
-        adm:logMessage      "deleted inProduct PR1COPYRIGHT"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM8647D1C7AE
-        a                   adm:UpdateData ;
-        adm:logDate         "2013-04-19T11:24:55.882Z"^^xsd:dateTime ;
-        adm:logMessage      "added Work to CTC 10"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W4JW162  a          adm:AdminData ;
         adm:adminAbout      bdr:W4JW162 ;
@@ -77,11 +25,5 @@ bdg:IE4JW162 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE4JW162  a         :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_dri med 'od zer/"@bo-x-ewts ;
-        :hasTitle           bdr:TT17B3E970230AAC3D ;
-        :numberOfVolumes    26 .
-    
-    bdr:TT17B3E970230AAC3D
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_dri med 'od zer/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4JW162 .
 }

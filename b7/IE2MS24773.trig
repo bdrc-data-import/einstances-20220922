@@ -14,31 +14,10 @@
 bdg:IE2MS24773 {
     bda:IE2MS24773  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24773 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "b7/IE2MS24773.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24773 ;
-        adm:logEntry        bda:LGE91F8CCA30D4B425 , bda:LGE9B196F20390225D , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LGE91F8CCA30D4B425
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:07:45.369Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGE9B196F20390225D
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24773  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24773 ;
@@ -46,14 +25,5 @@ bdg:IE2MS24773 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24773  a       :EtextInstance ;
-        skos:prefLabel      "spyod 'jug sa 'grel/"@bo-x-ewts ;
-        :hasTitle           bdr:TT9B0EB34788F2E801 , bdr:TTF342AD42D18FEEC9 .
-    
-    bdr:TT9B0EB34788F2E801
-        a                   :TitlePageTitle ;
-        rdfs:label          "byang chub sems dpa'i spyod pa la 'jug pa'i rnam par bshad pa gzhung don rab gsal snang ba/"@bo-x-ewts .
-    
-    bdr:TTF342AD42D18FEEC9
-        a                   :Title ;
-        rdfs:label          "spyod 'jug sa 'grel/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24773 .
 }

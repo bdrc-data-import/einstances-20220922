@@ -15,73 +15,17 @@ bdg:IE5488 {
     bda:IE5488  a           adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE5488 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      12 ;
         adm:gitPath         "23/IE5488.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE5488 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER08398DA5785EAF13
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0009 ;
-        :seqNum             9 .
-    
-    bdr:ER1FAC732181737595
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:ER6EBB8AD293C4C9ED
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER71771B05D24598C5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:ER839DE098946270A9
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ER88DEBC09491261A8
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ER9A050EA0DC6E8074
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0010 ;
-        :seqNum             10 .
-    
-    bdr:ERC2B3368A31913D79
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ERD56B14DF842F3776
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERF2CD3E5F96F477E0
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT5488_001_0002 ;
-        :seqNum             2 .
-    
     bdr:IE5488  a           :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VLF5825883BD9322E0 ;
-        :instanceReproductionOf  bdr:W5488 .
+        :instanceHasVolume  bdr:VE5488_001 .
     
-    bdr:VLF5825883BD9322E0
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER08398DA5785EAF13 , bdr:ER1FAC732181737595 , bdr:ER6EBB8AD293C4C9ED , bdr:ER71771B05D24598C5 , bdr:ER839DE098946270A9 , bdr:ER88DEBC09491261A8 , bdr:ER9A050EA0DC6E8074 , bdr:ERC2B3368A31913D79 , bdr:ERD56B14DF842F3776 , bdr:ERF2CD3E5F96F477E0 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE5488 .
+    bdr:VE5488_001  a       :EtextVolume ;
+        :volumeNumber       1 .
 }

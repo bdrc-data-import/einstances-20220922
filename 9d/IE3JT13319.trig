@@ -15,8 +15,6 @@ bdg:IE3JT13319 {
     bda:IE3JT13319  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13319 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      10 ;
         adm:gitPath         "9d/IE3JT13319.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13319 ;
@@ -28,57 +26,21 @@ bdg:IE3JT13319 {
         adm:replaceWith     bdr:IE3JT13319 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER620C7066C53EE116
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13319_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERDBA9039AB0FE0E30
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13319_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:EREE4D1A90600E5FFC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13319_002_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13319  a       :EtextInstance ;
-        skos:prefLabel      "phyag chen rgya gzhung /"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT8FAFD1EDE78140E4 , bdr:TT923FE827F1E34E85 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL963E707053CF9B53 , bdr:VLAC4B08E4185C3719 , bdr:VLEDA81B9B3DC5018A ;
-        :instanceOf         bdr:WA3JT13319 ;
-        :note               bdr:NT00843993C0207528 .
+        :instanceHasVolume  bdr:VE3JT13319_001 , bdr:VE3JT13319_002 , bdr:VE3JT13319_003 ;
+        :instanceReproductionOf  bdr:MW3JT13319 .
     
-    bdr:NT00843993C0207528
-        a                   :Note ;
-        :noteText           "v. 1. phyag rgya chen po'i rgya gzhung glegs bam dang po/ (oM)\nv. 2. phyag rgya chen po'i rgya gzhung glegs bam gnyis pa/ (AH)\nv. 3. phyag rgya chen po'i rgya gzhung glegs bam gsum pa/ (hUM)"@en .
+    bdr:VE3JT13319_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TT8FAFD1EDE78140E4
-        a                   :Title ;
-        rdfs:label          "phyag chen rgya gzhung /"@bo-x-ewts .
+    bdr:VE3JT13319_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:TT923FE827F1E34E85
-        a                   :TitlePageTitle ;
-        rdfs:label          "phyag rgya chen po'i rgya gzhung /"@bo-x-ewts .
-    
-    bdr:VL963E707053CF9B53
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER620C7066C53EE116 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13319 .
-    
-    bdr:VLAC4B08E4185C3719
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:EREE4D1A90600E5FFC ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13319 .
-    
-    bdr:VLEDA81B9B3DC5018A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERDBA9039AB0FE0E30 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13319 .
+    bdr:VE3JT13319_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

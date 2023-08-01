@@ -15,8 +15,6 @@ bdg:IE27303 {
     bda:IE27303  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE27303 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "f5/IE27303.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE27303 ;
@@ -24,20 +22,11 @@ bdg:IE27303 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERE7D2C416459CD837
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT27303_4276_0000 ;
-        :seqNum             1 .
-    
     bdr:IE27303  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLC3981C3410B460EB ;
-        :instanceReproductionOf  bdr:W27303 .
+        :instanceHasVolume  bdr:VE27303_001 .
     
-    bdr:VLC3981C3410B460EB
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERE7D2C416459CD837 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE27303 .
+    bdr:VE27303_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

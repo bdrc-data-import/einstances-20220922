@@ -15,28 +15,18 @@ bdg:IE1KG1097 {
     bda:IE1KG1097  a        adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE1KG1097 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "05/IE1KG1097.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG1097 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER6C811B94F5040177
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG1097_I1KG1117_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1KG1097  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL42B75D36B1FCF8EB ;
-        :instanceReproductionOf  bdr:W1KG1097 .
+        :instanceHasVolume  bdr:VE1KG1097_001 .
     
-    bdr:VL42B75D36B1FCF8EB
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER6C811B94F5040177 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG1097 .
+    bdr:VE1KG1097_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

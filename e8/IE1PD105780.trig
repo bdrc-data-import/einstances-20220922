@@ -15,28 +15,18 @@ bdg:IE1PD105780 {
     bda:IE1PD105780  a      adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE1PD105780 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "e8/IE1PD105780.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1PD105780 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER592F1757485C364B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1PD105780_I1PD105782_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1PD105780  a      :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL7CF290424128F953 ;
-        :instanceReproductionOf  bdr:W1PD105780 .
+        :instanceHasVolume  bdr:VE1PD105780_001 .
     
-    bdr:VL7CF290424128F953
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER592F1757485C364B ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1PD105780 .
+    bdr:VE1PD105780_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

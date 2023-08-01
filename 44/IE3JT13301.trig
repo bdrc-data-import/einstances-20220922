@@ -15,13 +15,10 @@ bdg:IE3JT13301 {
     bda:IE3JT13301  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13301 ;
-        adm:contentProvider  bda:CP004 ;
-        adm:facetIndex      20 ;
         adm:gitPath         "44/IE3JT13301.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13301 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
     bda:W3JT13301  a        adm:AdminData ;
@@ -29,106 +26,13 @@ bdg:IE3JT13301 {
         adm:replaceWith     bdr:IE3JT13301 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER00C2340874EA486F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0009 ;
-        :seqNum             9 .
-    
-    bdr:ER03145FD70C686782
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ER068807F3F87111B0
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0010 ;
-        :seqNum             10 .
-    
-    bdr:ER098454A9556D906E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0012 ;
-        :seqNum             12 .
-    
-    bdr:ER09BD922434D00B8C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0017 ;
-        :seqNum             17 .
-    
-    bdr:ER35E28C541298AD3B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0014 ;
-        :seqNum             14 .
-    
-    bdr:ER459E144F82AC8024
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:ER696F8436DA20EEFA
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ER82D751A2D1579D7A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0011 ;
-        :seqNum             11 .
-    
-    bdr:ER836E43CA675BD630
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER8DEC8AA5A0687C8C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0013 ;
-        :seqNum             13 .
-    
-    bdr:ERB888E911CFC33F40
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ERC0CC980834AA0CFC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0015 ;
-        :seqNum             15 .
-    
-    bdr:ERCFFA912A17191AD8
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:ERD7D0E1F199478B98
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0008 ;
-        :seqNum             8 .
-    
-    bdr:ERDBB1CE6413B683CC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERFFC00ECFD62EB629
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13301_001_0016 ;
-        :seqNum             16 .
-    
     bdr:IE3JT13301  a       :EtextInstance ;
-        skos:prefLabel      "'dul ba'i skor/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT3F82953166C40913 ;
         :inCollection       bdr:PR0ET004 ;
-        :instanceHasVolume  bdr:VL546AA402F8B1DBDF ;
-        :instanceOf         bdr:WA3JT13301 .
+        :instanceHasVolume  bdr:VE3JT13301_001 ;
+        :instanceReproductionOf  bdr:MW3JT13301 .
     
-    bdr:TT3F82953166C40913
-        a                   :Title ;
-        rdfs:label          "'dul ba'i skor/"@bo-x-ewts .
-    
-    bdr:VL546AA402F8B1DBDF
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER00C2340874EA486F , bdr:ER03145FD70C686782 , bdr:ER068807F3F87111B0 , bdr:ER098454A9556D906E , bdr:ER09BD922434D00B8C , bdr:ER35E28C541298AD3B , bdr:ER459E144F82AC8024 , bdr:ER696F8436DA20EEFA , bdr:ER82D751A2D1579D7A , bdr:ER836E43CA675BD630 , bdr:ER8DEC8AA5A0687C8C , bdr:ERB888E911CFC33F40 , bdr:ERC0CC980834AA0CFC , bdr:ERCFFA912A17191AD8 , bdr:ERD7D0E1F199478B98 , bdr:ERDBB1CE6413B683CC , bdr:ERFFC00ECFD62EB629 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13301 .
+    bdr:VE3JT13301_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

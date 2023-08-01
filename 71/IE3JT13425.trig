@@ -14,11 +14,9 @@
 bdg:IE3JT13425 {
     bda:IE3JT13425  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13425 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "71/IE3JT13425.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13425 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13425  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE3JT13425 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13425  a       :EtextInstance ;
-        skos:prefLabel      "sman dpyad zla ba'i rgyal po/"@bo-x-ewts ;
-        :hasTitle           bdr:TT119322E8120C6C11 ;
-        :instanceOf         bdr:WA3JT13425 .
-    
-    bdr:TT119322E8120C6C11
-        a                   :Title ;
-        rdfs:label          "sman dpyad zla ba'i rgyal po/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13425 .
 }

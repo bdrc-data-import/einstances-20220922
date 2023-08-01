@@ -15,8 +15,6 @@ bdg:IE3JT13328 {
     bda:IE3JT13328  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13328 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      11 ;
         adm:gitPath         "1f/IE3JT13328.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13328 ;
@@ -28,63 +26,25 @@ bdg:IE3JT13328 {
         adm:replaceWith     bdr:IE3JT13328 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER3AA617478FCF15C4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13328_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERC44CEE801399C0B3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13328_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERE0197A38E2C82DCF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13328_004_0000 ;
-        :seqNum             1 .
-    
-    bdr:EREEC254D12CBBB7FF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13328_002_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13328  a       :EtextInstance ;
-        skos:prefLabel      "gsung thor bu/ o rgyan 'phrin las rdo rje/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT8CB3201BBA01D0BD , bdr:TTA9CC5A4D20C402B9 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL3D9DD9C192A0AB7E , bdr:VL90B1F9D4081DE3B2 , bdr:VLB1A1401D39141A08 , bdr:VLD2EADB9B34EE85C2 ;
-        :instanceOf         bdr:WA3JT13328 .
+        :instanceHasVolume  bdr:VE3JT13328_001 , bdr:VE3JT13328_002 , bdr:VE3JT13328_003 , bdr:VE3JT13328_004 ;
+        :instanceReproductionOf  bdr:MW3JT13328 .
     
-    bdr:TT8CB3201BBA01D0BD
-        a                   :TitlePageTitle ;
-        rdfs:label          "o rgyan 'phrin las rdo rje'i gsung thor bu/"@bo-x-ewts .
+    bdr:VE3JT13328_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TTA9CC5A4D20C402B9
-        a                   :Title ;
-        rdfs:label          "gsung thor bu/ o rgyan 'phrin las rdo rje/"@bo-x-ewts .
+    bdr:VE3JT13328_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL3D9DD9C192A0AB7E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER3AA617478FCF15C4 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13328 .
+    bdr:VE3JT13328_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL90B1F9D4081DE3B2
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC44CEE801399C0B3 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13328 .
-    
-    bdr:VLB1A1401D39141A08
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERE0197A38E2C82DCF ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE3JT13328 .
-    
-    bdr:VLD2EADB9B34EE85C2
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:EREEC254D12CBBB7FF ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13328 .
+    bdr:VE3JT13328_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
 }

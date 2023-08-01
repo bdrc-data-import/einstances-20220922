@@ -15,8 +15,6 @@ bdg:IE3JT13311 {
     bda:IE3JT13311  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13311 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "d1/IE3JT13311.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13311 ;
@@ -28,26 +26,13 @@ bdg:IE3JT13311 {
         adm:replaceWith     bdr:IE3JT13311 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER83CB23EFC253C8BE
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13311_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13311  a       :EtextInstance ;
-        skos:prefLabel      "so so thar pa'i mdo'i 'grel pa rin chen 'byung gnas/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT11672A1D4902EA0E ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL5B209E3B493ACC0C ;
-        :instanceOf         bdr:WA1CZ2513 .
+        :instanceHasVolume  bdr:VE3JT13311_001 ;
+        :instanceReproductionOf  bdr:MW3JT13311 .
     
-    bdr:TT11672A1D4902EA0E
-        a                   :Title ;
-        rdfs:label          "so so thar pa'i mdo'i 'grel pa rin chen 'byung gnas/"@bo-x-ewts .
-    
-    bdr:VL5B209E3B493ACC0C
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER83CB23EFC253C8BE ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13311 .
+    bdr:VE3JT13311_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

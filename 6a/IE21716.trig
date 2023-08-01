@@ -15,8 +15,6 @@ bdg:IE21716 {
     bda:IE21716  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE21716 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "6a/IE21716.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE21716 ;
@@ -24,20 +22,11 @@ bdg:IE21716 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER603005F264899BAD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT21716_4890_0000 ;
-        :seqNum             1 .
-    
     bdr:IE21716  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL5736459B4B03FCE5 ;
-        :instanceReproductionOf  bdr:W21716 .
+        :instanceHasVolume  bdr:VE21716_001 .
     
-    bdr:VL5736459B4B03FCE5
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER603005F264899BAD ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE21716 .
+    bdr:VE21716_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -14,31 +14,10 @@
 bdg:IE2MS24783 {
     bda:IE2MS24783  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24783 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "5e/IE2MS24783.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24783 ;
-        adm:logEntry        bda:LG4A5BE7B2AF8CDFC7 , bda:LG70812B5B2AB9AD91 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG4A5BE7B2AF8CDFC7
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:08:23.469Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG70812B5B2AB9AD91
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24783  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24783 ;
@@ -46,10 +25,5 @@ bdg:IE2MS24783 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24783  a       :EtextInstance ;
-        skos:prefLabel      "gsang snying spyi don rin chen mdzod kyi lde mig gi zin bris sogs/"@bo-x-ewts ;
-        :hasTitle           bdr:TT35D9E67857606FB5 .
-    
-    bdr:TT35D9E67857606FB5
-        a                   :Title ;
-        rdfs:label          "gsang snying spyi don rin chen mdzod kyi lde mig gi zin bris sogs/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24783 .
 }

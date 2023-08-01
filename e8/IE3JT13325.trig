@@ -15,8 +15,6 @@ bdg:IE3JT13325 {
     bda:IE3JT13325  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13325 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      24 ;
         adm:gitPath         "e8/IE3JT13325.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13325 ;
@@ -28,134 +26,49 @@ bdg:IE3JT13325 {
         adm:replaceWith     bdr:IE3JT13325 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER03161A6E94907F80
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER193E51BB0AA99966
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_007_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER3D79BEC792D7329E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER5CE2A8276974F44A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_009_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER7C911495BD7385B4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_005_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER817E7056F33999FC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_006_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER8A0C2C2AAFA5C41B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_008_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERA5588112097BD362
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERC00E73A19A43EAE0
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_004_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERF0C63025EBC988D4
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13325_010_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13325  a       :EtextInstance ;
-        skos:prefLabel      "gsung thor bu/_bsod nams rin chen/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT15E47FDA60607D0F , bdr:TT994F3B31EA8C9A6D ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL0692C197D1EAF5DD , bdr:VL168EF7B136C0BEC3 , bdr:VL16E940178109FBA7 , bdr:VL2DE3E7AFA23F980D , bdr:VL373A5A7A7DEAB11E , bdr:VL53D89D8A392A48AC , bdr:VL7793039005EAA303 , bdr:VLAB1E8F337DC96452 , bdr:VLB587632CAAF0B662 , bdr:VLED525DA558170712 ;
-        :instanceOf         bdr:WA23346 ;
-        :note               bdr:NTA2BEB6CB4A9DC80F .
+        :instanceHasVolume  bdr:VE3JT13325_001 , bdr:VE3JT13325_002 , bdr:VE3JT13325_003 , bdr:VE3JT13325_004 , bdr:VE3JT13325_005 , bdr:VE3JT13325_006 , bdr:VE3JT13325_007 , bdr:VE3JT13325_008 , bdr:VE3JT13325_009 , bdr:VE3JT13325_010 ;
+        :instanceReproductionOf  bdr:MW3JT13325 .
     
-    bdr:NTA2BEB6CB4A9DC80F
-        a                   :Note ;
-        :noteText           "1) phyag rgya chen po'i man ngag thog babs dang mgur 'bum rnams/\n2) phyag rgya chen po gsal byed kyi man ngag /\n3) phyag rgya chen po bsam gyis mi khyab pa'i sgom rim/\n4) snying po don gyi gdams pa phyag rgya chen po'i 'bum tig\n5) phyag rgya chen po'i rtsa ba la ngo sprad pa zhes kyang bya/ snang ba lam 'khyer gyi rtogs pa cig chog ces kyang bya/ phyag rgya chen po gnyug ma mi 'gyur zhes kyang bya/\n6) snying po'i ngo sprod don dam gter mdzod/\n7) rnam rtog don dam gyi ngo sprod/\n8) sgrub pa snying gi ngo sprod/\n9) mdo sngags kyi sgom don bsdus pa/\n10) sems kyi mtshan nyid gab pa mngon du phyung ba/"@bo-x-ewts .
+    bdr:VE3JT13325_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TT15E47FDA60607D0F
-        a                   :Title ;
-        rdfs:label          "gsung thor bu/_bsod nams rin chen/"@bo-x-ewts .
+    bdr:VE3JT13325_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:TT994F3B31EA8C9A6D
-        a                   :TitlePageTitle ;
-        rdfs:label          "sgam po pa bsod nams rin chen gyi gsung thor bu/"@bo-x-ewts .
+    bdr:VE3JT13325_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL0692C197D1EAF5DD
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF0C63025EBC988D4 ;
-        :volumeNumber       10 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VL168EF7B136C0BEC3
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER817E7056F33999FC ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_005
+        a                   :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VL16E940178109FBA7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER3D79BEC792D7329E ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_006
+        a                   :EtextVolume ;
+        :volumeNumber       6 .
     
-    bdr:VL2DE3E7AFA23F980D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC00E73A19A43EAE0 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_007
+        a                   :EtextVolume ;
+        :volumeNumber       7 .
     
-    bdr:VL373A5A7A7DEAB11E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER5CE2A8276974F44A ;
-        :volumeNumber       9 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_008
+        a                   :EtextVolume ;
+        :volumeNumber       8 .
     
-    bdr:VL53D89D8A392A48AC
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER7C911495BD7385B4 ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_009
+        a                   :EtextVolume ;
+        :volumeNumber       9 .
     
-    bdr:VL7793039005EAA303
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER8A0C2C2AAFA5C41B ;
-        :volumeNumber       8 ;
-        :volumeOf           bdr:IE3JT13325 .
-    
-    bdr:VLAB1E8F337DC96452
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER193E51BB0AA99966 ;
-        :volumeNumber       7 ;
-        :volumeOf           bdr:IE3JT13325 .
-    
-    bdr:VLB587632CAAF0B662
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER03161A6E94907F80 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13325 .
-    
-    bdr:VLED525DA558170712
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERA5588112097BD362 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13325 .
+    bdr:VE3JT13325_010
+        a                   :EtextVolume ;
+        :volumeNumber       10 .
 }

@@ -14,31 +14,10 @@
 bdg:IE2MS25208 {
     bda:IE2MS25208  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS25208 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "57/IE2MS25208.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS25208 ;
-        adm:logEntry        bda:LG603150CE1B5111FA , bda:LG670C3F8601815DF3 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG603150CE1B5111FA
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG670C3F8601815DF3
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:08:38.761Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS25208  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS25208 ;
@@ -46,10 +25,5 @@ bdg:IE2MS25208 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS25208  a       :EtextInstance ;
-        skos:prefLabel      "bstan 'gyur (dpe bsdur ma)"@bo-x-ewts ;
-        :hasTitle           bdr:TT3710F9E1FF8989C5 .
-    
-    bdr:TT3710F9E1FF8989C5
-        a                   :Title ;
-        rdfs:label          "bstan 'gyur (dpe bsdur ma)"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS25208 .
 }

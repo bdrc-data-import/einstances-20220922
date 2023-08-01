@@ -14,11 +14,9 @@
 bdg:IE3JT13438 {
     bda:IE3JT13438  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13438 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "e2/IE3JT13438.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13438 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13438  a        adm:AdminData ;
@@ -27,15 +25,5 @@ bdg:IE3JT13438 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13438  a       :EtextInstance ;
-        skos:prefLabel      "a ru ra'i phreng ba/"@bo-x-ewts ;
-        :hasTitle           bdr:TT889B7025D1231AA7 , bdr:TTD7BC8CB1BBE5265B ;
-        :instanceOf         bdr:WA3JT13438 .
-    
-    bdr:TT889B7025D1231AA7
-        a                   :Title ;
-        rdfs:label          "a ru ra'i phreng ba/"@bo-x-ewts .
-    
-    bdr:TTD7BC8CB1BBE5265B
-        a                   :TitlePageTitle ;
-        rdfs:label          "sman gyi rgyud bzhi'i brda dang don 'ga' zhig bkrol ba rnam rgyal a ru ra'i phreng ba'i mdzes rgyan/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13438 .
 }

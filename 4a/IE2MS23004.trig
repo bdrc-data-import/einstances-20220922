@@ -14,49 +14,10 @@
 bdg:IE2MS23004 {
     bda:IE2MS23004  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS23004 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "4a/IE2MS23004.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS23004 ;
-        adm:logEntry        bda:LG2E15C0560CF131CD , bda:LG6250CBF7979E6B61 , bda:LG7276962F56038AD5 , bda:LGD412C5C28B3B96F8 , bda:LGE3DB4D55E07A7835 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG2E15C0560CF131CD
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-05-13T12:00:57.873Z"^^xsd:dateTime ;
-        adm:logMessage      "created unicode work"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG6250CBF7979E6B61
-        a                   adm:UpdateData ;
-        adm:logDate         "2012-04-10T14:37:15.782Z"^^xsd:dateTime ;
-        adm:logMessage      "released for eText repository"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LG7276962F56038AD5
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-05-13T11:49:48.214Z"^^xsd:dateTime ;
-        adm:logMessage      "created unicode work"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGD412C5C28B3B96F8
-        a                   adm:WithdrawData ;
-        adm:logDate         "2011-11-15T14:15:22.267Z"^^xsd:dateTime ;
-        adm:logMessage      "withdrawn from W1PD45495"@en ;
-        adm:logWho          bdu:U00021 .
-    
-    bda:LGE3DB4D55E07A7835
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS23004  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS23004 ;
@@ -64,10 +25,5 @@ bdg:IE2MS23004 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS23004  a       :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_tA ra nA tha (dpe sdur ma)"@bo-x-ewts ;
-        :hasTitle           bdr:TT519F6F52FF1DCAFB .
-    
-    bdr:TT519F6F52FF1DCAFB
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_tA ra nA tha (dpe sdur ma)"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS23004 .
 }

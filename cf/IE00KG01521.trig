@@ -15,8 +15,6 @@ bdg:IE00KG01521 {
     bda:IE00KG01521  a      adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE00KG01521 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "cf/IE00KG01521.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE00KG01521 ;
@@ -24,20 +22,12 @@ bdg:IE00KG01521 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERD6EC46E58B92ABDB
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG01521_5822_0000 ;
-        :seqNum             1 .
-    
     bdr:IE00KG01521  a      :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLDDE660A84BCF8308 ;
-        :instanceReproductionOf  bdr:W00KG01521 .
+        :instanceHasVolume  bdr:VE00KG01521_001 .
     
-    bdr:VLDDE660A84BCF8308
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERD6EC46E58B92ABDB ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE00KG01521 .
+    bdr:VE00KG01521_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

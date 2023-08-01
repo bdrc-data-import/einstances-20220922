@@ -15,8 +15,6 @@ bdg:IE1CZ2258 {
     bda:IE1CZ2258  a        adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1CZ2258 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "80/IE1CZ2258.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1CZ2258 ;
@@ -24,20 +22,12 @@ bdg:IE1CZ2258 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER16768FD53FB0AEC7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1CZ2258_I1CZ2297_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1CZ2258  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VLAB53A1055921BFFF ;
-        :instanceReproductionOf  bdr:W1CZ2258 .
+        :instanceHasVolume  bdr:VE1CZ2258_001 .
     
-    bdr:VLAB53A1055921BFFF
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER16768FD53FB0AEC7 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1CZ2258 .
+    bdr:VE1CZ2258_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -15,8 +15,6 @@ bdg:IE23638 {
     bda:IE23638  a          adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE23638 ;
-        adm:contentProvider  bda:CP004 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "fa/IE23638.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE23638 ;
@@ -24,31 +22,14 @@ bdg:IE23638 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER950761E20319E438
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23638_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERBE2BE269AFA2D3BE
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23638_002_0000 ;
-        :seqNum             1 .
-    
     bdr:IE23638  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET004 ;
-        :instanceHasVolume  bdr:VL988546B976DC98F7 , bdr:VLEAB207CFE8730F65 ;
-        :instanceReproductionOf  bdr:W23638 .
+        :instanceHasVolume  bdr:VE23638_001 , bdr:VE23638_002 .
     
-    bdr:VL988546B976DC98F7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERBE2BE269AFA2D3BE ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE23638 .
+    bdr:VE23638_001  a      :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VLEAB207CFE8730F65
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER950761E20319E438 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE23638 .
+    bdr:VE23638_002  a      :EtextVolume ;
+        :volumeNumber       2 .
 }

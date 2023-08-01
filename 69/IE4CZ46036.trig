@@ -14,11 +14,9 @@
 bdg:IE4CZ46036 {
     bda:IE4CZ46036  a       adm:AdminData ;
         adm:adminAbout      bdr:IE4CZ46036 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "69/IE4CZ46036.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE4CZ46036 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W4CZ46036  a        adm:AdminData ;
@@ -26,28 +24,6 @@ bdg:IE4CZ46036 {
         adm:replaceWith     bdr:IE4CZ46036 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:CR16843482EA0A4808
-        a                   :AgentAsCreator ;
-        :agent              bdr:P5949 ;
-        :role               bdr:R0ER0015 .
-    
-    bdr:CR4A84699A7BF323C7
-        a                   :AgentAsCreator ;
-        :agent              bdr:P560 ;
-        :role               bdr:R0ER0015 .
-    
     bdr:IE4CZ46036  a       :EtextInstance ;
-        skos:prefLabel      "sa skya'i lam 'bras/"@bo-x-ewts ;
-        :biblioNote         "TBRC also have similer version scanned from computer set output. W1KG13617"@en ;
-        :creator            bdr:CR16843482EA0A4808 , bdr:CR4A84699A7BF323C7 ;
-        :hasTitle           bdr:TTA1928A9D7097409B , bdr:TTA6DDC9351302544A ;
-        :instanceOf         bdr:WA4CZ46036 .
-    
-    bdr:TTA1928A9D7097409B
-        a                   :Title ;
-        rdfs:label          "sa skya'i lam 'bras/"@bo-x-ewts .
-    
-    bdr:TTA6DDC9351302544A
-        a                   :TitlePageTitle ;
-        rdfs:label          "gsung ngag rin po che lam 'bras bu dang bcas pa/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW4CZ46036 .
 }

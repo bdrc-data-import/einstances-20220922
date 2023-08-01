@@ -15,8 +15,6 @@ bdg:IE3JT13318 {
     bda:IE3JT13318  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13318 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "55/IE3JT13318.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13318 ;
@@ -28,30 +26,13 @@ bdg:IE3JT13318 {
         adm:replaceWith     bdr:IE3JT13318 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER8A003B3E16C256F5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13318_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13318  a       :EtextInstance ;
-        skos:prefLabel      "karma pa chen po bco lnga pa'i gsung las spar du bzhugs pa'i glegs bam rnams kyi dkar chag"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TTC5635C2BC4A0C2C6 , bdr:TTD509B51839459D1F ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL307D6981CAF8B00B ;
-        :instanceOf         bdr:WA3JT13318 .
+        :instanceHasVolume  bdr:VE3JT13318_001 ;
+        :instanceReproductionOf  bdr:MW3JT13318 .
     
-    bdr:TTC5635C2BC4A0C2C6
-        a                   :TitlePageTitle ;
-        rdfs:label          "'jig rten dbang phyug dpal karma pa chen po bco lnga pa'i gsung gi gsang ba bsam gyis mi khyab pa las ngo mtshar spar du bzhugs pa'i glegs bam rnams kyi dkar chag chos tshul rnam par 'byed pa'i zla snang /"@bo-x-ewts .
-    
-    bdr:TTD509B51839459D1F
-        a                   :Title ;
-        rdfs:label          "karma pa chen po bco lnga pa'i gsung las spar du bzhugs pa'i glegs bam rnams kyi dkar chag"@bo-x-ewts .
-    
-    bdr:VL307D6981CAF8B00B
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER8A003B3E16C256F5 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13318 .
+    bdr:VE3JT13318_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -15,28 +15,17 @@ bdg:IE29143 {
     bda:IE29143  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE29143 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "5a/IE29143.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE29143 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERED0E62937BC5A5CB
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT29143_I00KG08137_0000 ;
-        :seqNum             1 .
-    
     bdr:IE29143  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL2A2266DCEC2FE321 ;
-        :instanceReproductionOf  bdr:W29143 .
+        :instanceHasVolume  bdr:VE29143_001 .
     
-    bdr:VL2A2266DCEC2FE321
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERED0E62937BC5A5CB ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE29143 .
+    bdr:VE29143_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

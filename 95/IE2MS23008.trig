@@ -14,51 +14,10 @@
 bdg:IE2MS23008 {
     bda:IE2MS23008  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS23008 ;
-        adm:facetIndex      8 ;
         adm:gitPath         "95/IE2MS23008.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS23008 ;
-        adm:logEntry        bda:LG844C1E04374CA4B5 , bda:LGAA9919DA92DE7FE4 , bda:LGAC611A241F920909 , bda:LGIM093A1A0447 , bda:LGIM8647D1C7AE , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG844C1E04374CA4B5
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGAA9919DA92DE7FE4
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-05-13T12:30:29.19Z"^^xsd:dateTime ;
-        adm:logMessage      "created unicode work"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGAC611A241F920909
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-12-05T21:57:31.239Z"^^xsd:dateTime ;
-        adm:logMessage      "restricted"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIM093A1A0447
-        a                   adm:UpdateData ;
-        adm:logDate         "2014-10-15T18:10:30.945Z"^^xsd:dateTime ;
-        adm:logMessage      "deleted inProduct PR1COPYRIGHT"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIM8647D1C7AE
-        a                   adm:UpdateData ;
-        adm:logDate         "2013-04-19T11:24:55.882Z"^^xsd:dateTime ;
-        adm:logMessage      "added Work to CTC 10"@en ;
-        adm:logMethod       bda:BatchMethod ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS23008  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS23008 ;
@@ -66,10 +25,5 @@ bdg:IE2MS23008 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS23008  a       :EtextInstance ;
-        skos:prefLabel      "mdo sngags kyi gzhung chen mo'i tshig mdzod ris med mkhas pa'i zhal lung /"@bo-x-ewts ;
-        :hasTitle           bdr:TT9879A11C37172DC5 .
-    
-    bdr:TT9879A11C37172DC5
-        a                   :Title ;
-        rdfs:label          "mdo sngags kyi gzhung chen mo'i tshig mdzod ris med mkhas pa'i zhal lung /"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS23008 .
 }

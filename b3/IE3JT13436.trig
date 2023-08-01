@@ -14,11 +14,9 @@
 bdg:IE3JT13436 {
     bda:IE3JT13436  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13436 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "b3/IE3JT13436.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13436 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13436  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE3JT13436 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13436  a       :EtextInstance ;
-        skos:prefLabel      "shel gong shel phreng /"@bo-x-ewts ;
-        :hasTitle           bdr:TT8755DEF954296009 ;
-        :instanceOf         bdr:WA3JT13436 .
-    
-    bdr:TT8755DEF954296009
-        a                   :Title ;
-        rdfs:label          "shel gong shel phreng /"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13436 .
 }

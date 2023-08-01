@@ -15,28 +15,17 @@ bdg:IE30018 {
     bda:IE30018  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE30018 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "e2/IE30018.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE30018 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER31FF84019067D3A7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT30018_5748_0000 ;
-        :seqNum             1 .
-    
     bdr:IE30018  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL6CC976EA6A332A7B ;
-        :instanceReproductionOf  bdr:W30018 .
+        :instanceHasVolume  bdr:VE30018_001 .
     
-    bdr:VL6CC976EA6A332A7B
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER31FF84019067D3A7 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE30018 .
+    bdr:VE30018_001  a      :EtextVolume ;
+        :volumeNumber       1 .
 }

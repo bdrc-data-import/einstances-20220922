@@ -15,8 +15,6 @@ bdg:IE3JT13374 {
     bda:IE3JT13374  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13374 ;
-        adm:contentProvider  bda:CP010 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "c7/IE3JT13374.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13374 ;
@@ -28,30 +26,13 @@ bdg:IE3JT13374 {
         adm:replaceWith     bdr:IE3JT13374 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER9E5BB89F18C7E78B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13374_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13374  a       :EtextInstance ;
-        skos:prefLabel      "sdom gsum nyer mkho'i bum bzang /"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT937F222E32EC8AD6 , bdr:TTA1075094F76280DE ;
         :inCollection       bdr:PR0ET010 ;
-        :instanceHasVolume  bdr:VLE76BFE2B5916129F ;
-        :instanceOf         bdr:WA3JT13374 .
+        :instanceHasVolume  bdr:VE3JT13374_001 ;
+        :instanceReproductionOf  bdr:MW3JT13374 .
     
-    bdr:TT937F222E32EC8AD6
-        a                   :TitlePageTitle ;
-        rdfs:label          "sdom gsum rnam par bstan pa nyer mkho'i bum bzang /"@bo-x-ewts .
-    
-    bdr:TTA1075094F76280DE
-        a                   :Title ;
-        rdfs:label          "sdom gsum nyer mkho'i bum bzang /"@bo-x-ewts .
-    
-    bdr:VLE76BFE2B5916129F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER9E5BB89F18C7E78B ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13374 .
+    bdr:VE3JT13374_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

@@ -14,11 +14,9 @@
 bdg:IE3JT13533 {
     bda:IE3JT13533  a       adm:AdminData ;
         adm:adminAbout      bdr:IE3JT13533 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "02/IE3JT13533.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13533 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JT13533  a        adm:AdminData ;
@@ -27,19 +25,5 @@ bdg:IE3JT13533 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JT13533  a       :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_mi pham rgya mtsho/"@bo-x-ewts ;
-        :hasTitle           bdr:TT85016421E66E9319 , bdr:TT91C4A5F8A704C819 , bdr:TTCFF45BBB62F3E26C ;
-        :instanceOf         bdr:WA3JT13533 .
-    
-    bdr:TT85016421E66E9319
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_mi pham rgya mtsho/"@bo-x-ewts .
-    
-    bdr:TT91C4A5F8A704C819
-        a                   :OtherTitle ;
-        rdfs:label          "mi pham bka' 'bum/"@bo-x-ewts .
-    
-    bdr:TTCFF45BBB62F3E26C
-        a                   :OtherTitle ;
-        rdfs:label          "mi pham rgya mtsho'i gsung 'bum/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JT13533 .
 }

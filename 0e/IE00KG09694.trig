@@ -15,28 +15,18 @@ bdg:IE00KG09694 {
     bda:IE00KG09694  a      adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE00KG09694 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "0e/IE00KG09694.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE00KG09694 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ERADD8393BEA0CDBDC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG09694_I00KG09712_0000 ;
-        :seqNum             1 .
-    
     bdr:IE00KG09694  a      :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL39BB557F752C7DA0 ;
-        :instanceReproductionOf  bdr:W00KG09694 .
+        :instanceHasVolume  bdr:VE00KG09694_001 .
     
-    bdr:VL39BB557F752C7DA0
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERADD8393BEA0CDBDC ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE00KG09694 .
+    bdr:VE00KG09694_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

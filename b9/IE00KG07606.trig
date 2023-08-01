@@ -15,50 +15,26 @@ bdg:IE00KG07606 {
     bda:IE00KG07606  a      adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE00KG07606 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "b9/IE00KG07606.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE00KG07606 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER81A1E2EAA051C9B2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG07606_I00KG07641_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER83B02F03E824D958
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG07606_I00KG07640_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERBF07D51D8BE0A72A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT00KG07606_I00KG07639_0000 ;
-        :seqNum             1 .
-    
     bdr:IE00KG07606  a      :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL02B176DCF1446713 , bdr:VLBE7016C63C2B0C8D , bdr:VLD0BAF3E57EAADB84 ;
-        :instanceReproductionOf  bdr:W00KG07606 .
+        :instanceHasVolume  bdr:VE00KG07606_001 , bdr:VE00KG07606_002 , bdr:VE00KG07606_003 .
     
-    bdr:VL02B176DCF1446713
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER81A1E2EAA051C9B2 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE00KG07606 .
+    bdr:VE00KG07606_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VLBE7016C63C2B0C8D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERBF07D51D8BE0A72A ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE00KG07606 .
+    bdr:VE00KG07606_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VLD0BAF3E57EAADB84
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER83B02F03E824D958 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE00KG07606 .
+    bdr:VE00KG07606_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

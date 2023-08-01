@@ -15,8 +15,6 @@ bdg:IE3JT13345 {
     bda:IE3JT13345  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13345 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "ba/IE3JT13345.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13345 ;
@@ -28,26 +26,13 @@ bdg:IE3JT13345 {
         adm:replaceWith     bdr:IE3JT13345 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER3728FFF9E432A019
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13345_001_0001 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13345  a       :EtextInstance ;
-        skos:prefLabel      "rgya chen bka' mdzod kyi dkar chag"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TTCFE1A6CD972251C5 ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL1BD8B44398A1A46D ;
-        :instanceOf         bdr:WA3JT13345 .
+        :instanceHasVolume  bdr:VE3JT13345_001 ;
+        :instanceReproductionOf  bdr:MW3JT13345 .
     
-    bdr:TTCFE1A6CD972251C5
-        a                   :Title ;
-        rdfs:label          "rgya chen bka' mdzod kyi dkar chag"@bo-x-ewts .
-    
-    bdr:VL1BD8B44398A1A46D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER3728FFF9E432A019 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13345 .
+    bdr:VE3JT13345_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

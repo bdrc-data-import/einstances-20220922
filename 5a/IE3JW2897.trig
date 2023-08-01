@@ -14,11 +14,9 @@
 bdg:IE3JW2897 {
     bda:IE3JW2897  a        adm:AdminData ;
         adm:adminAbout      bdr:IE3JW2897 ;
-        adm:facetIndex      3 ;
         adm:gitPath         "5a/IE3JW2897.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JW2897 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JW2897  a         adm:AdminData ;
@@ -27,18 +25,5 @@ bdg:IE3JW2897 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JW2897  a        :EtextInstance ;
-        skos:prefLabel      "bla ma dgongs pa 'dus pa/"@bo-x-ewts ;
-        :hasTitle           bdr:TT012D9786F08A1F55 ;
-        :instanceOf         bdr:WA3JW2897 ;
-        :note               bdr:NT7ED668527A9EA671 ;
-        :numberOfVolumes    14 ;
-        :scanInfo           "Processed at Tibetan Buddhist Resource Center, 150 West 17th St, New York City, NY 10011, US. Comments: This is a digitally generated work."@en .
-    
-    bdr:NT7ED668527A9EA671
-        a                   :Note ;
-        :noteText           "Volume 14 is restricted by the tradition"@en .
-    
-    bdr:TT012D9786F08A1F55
-        a                   :Title ;
-        rdfs:label          "bla ma dgongs pa 'dus pa/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JW2897 .
 }

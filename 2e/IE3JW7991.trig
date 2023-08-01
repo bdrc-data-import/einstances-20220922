@@ -14,11 +14,9 @@
 bdg:IE3JW7991 {
     bda:IE3JW7991  a        adm:AdminData ;
         adm:adminAbout      bdr:IE3JW7991 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "2e/IE3JW7991.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JW7991 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W3JW7991  a         adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE3JW7991 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE3JW7991  a        :EtextInstance ;
-        skos:prefLabel      "tshig mdzod chen mo/"@bo-x-ewts ;
-        :hasTitle           bdr:TT7BAE7D0BF8CD41BC ;
-        :instanceOf         bdr:WA3JW7991 .
-    
-    bdr:TT7BAE7D0BF8CD41BC
-        a                   :Title ;
-        rdfs:label          "tshig mdzod chen mo/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW3JW7991 .
 }

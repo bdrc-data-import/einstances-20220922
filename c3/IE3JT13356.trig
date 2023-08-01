@@ -15,8 +15,6 @@ bdg:IE3JT13356 {
     bda:IE3JT13356  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13356 ;
-        adm:contentProvider  bda:CP004 ;
-        adm:facetIndex      66 ;
         adm:gitPath         "c3/IE3JT13356.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13356 ;
@@ -28,367 +26,137 @@ bdg:IE3JT13356 {
         adm:replaceWith     bdr:IE3JT13356 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER01E0F725858410D2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_014_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER020FD4837F5F951C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_025_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER08CC3E607818B140
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_008_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER2566158A5135CE2E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_018_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER405EC2A17C35C21E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_019_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER5DFC6E61860A3146
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_015_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER6057CD2ED52E516C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_031_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER6AA3990A85317546
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_017_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER6CCE3C0AAA1A378C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_013_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER7305D27C7578E0D7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER7400F0EEBE506F28
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_032_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER764EE40E73F1042C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_016_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER857825E76C6181FF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_022_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER88A73CC1CA64E097
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_030_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERA16690589619CF84
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_011_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERA9092C8DCF7D2F38
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERAAD0FC7BDC11CC2D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_028_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERAFB36831E5EB976A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_009_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERBDFCDE025069703A
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_029_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERC4011106EC024A30
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_024_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERCD1B6DD25C66EA97
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_010_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERCDDD368F6D70E9A3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_006_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERCED63A6FF8F08755
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_020_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERCF6B9E2BB1863FBF
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERD4618D2FBBDB3EFD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_026_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERD6916FAC7517441F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_004_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERDA58E744F552ED0B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_021_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERDE18DACA4600F3D9
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_007_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERE16922E4DBFD1E42
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_005_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERF06EBF93091AD16C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_012_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERF52F72D11FFD094C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_027_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERFF9F15D6D46D6E93
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13356_023_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13356  a       :EtextInstance ;
-        skos:prefLabel      "shangs pa bka' brgyud kyis gtsos pa'i chos skor sna tshogs/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT880D17F531602E5F ;
         :inCollection       bdr:PR0ET004 ;
-        :instanceHasVolume  bdr:VL00561A65A056CAD0 , bdr:VL0BD3E8A4F69B3D27 , bdr:VL161AF6AE1B5B8535 , bdr:VL1C4499F257E906E9 , bdr:VL27EE2A46142B37F9 , bdr:VL2D20A88A16018ADE , bdr:VL2FAE967D48868FB2 , bdr:VL339DFB9AE06983FA , bdr:VL3CCF7833CF8D3E52 , bdr:VL3E8639A6E70910C8 , bdr:VL4A7AF792809AF639 , bdr:VL4FE31F44D062FB27 , bdr:VL5BE56F1D50FA9043 , bdr:VL841F357AA45B1DF4 , bdr:VL8A334F28FA5D3915 , bdr:VL8ACFD6784234353C , bdr:VL9F9C71CF12D42D7E , bdr:VLABADFAF9A250D812 , bdr:VLAE4640BD5625FDC6 , bdr:VLB971A7D61DBE4BA4 , bdr:VLBF01E9D7339CEFEF , bdr:VLC42B6454E34900ED , bdr:VLC9DB8546162879A2 , bdr:VLCAF4A30E6DDEEA30 , bdr:VLCDCF69558325E8D7 , bdr:VLD387E05E171E51ED , bdr:VLD6976E774DAE6368 , bdr:VLF190A464F01ECD7F , bdr:VLF594F2E9F93369CC , bdr:VLF5AC0C9A9A828101 , bdr:VLFB3A8B9619D1D9D3 , bdr:VLFFFCE9547C6F275E ;
-        :instanceOf         bdr:WA3JT13356 .
+        :instanceHasVolume  bdr:VE3JT13356_001 , bdr:VE3JT13356_002 , bdr:VE3JT13356_003 , bdr:VE3JT13356_004 , bdr:VE3JT13356_005 , bdr:VE3JT13356_006 , bdr:VE3JT13356_007 , bdr:VE3JT13356_008 , bdr:VE3JT13356_009 , bdr:VE3JT13356_010 , bdr:VE3JT13356_011 , bdr:VE3JT13356_012 , bdr:VE3JT13356_013 , bdr:VE3JT13356_014 , bdr:VE3JT13356_015 , bdr:VE3JT13356_016 , bdr:VE3JT13356_017 , bdr:VE3JT13356_018 , bdr:VE3JT13356_019 , bdr:VE3JT13356_020 , bdr:VE3JT13356_021 , bdr:VE3JT13356_022 , bdr:VE3JT13356_023 , bdr:VE3JT13356_024 , bdr:VE3JT13356_025 , bdr:VE3JT13356_026 , bdr:VE3JT13356_027 , bdr:VE3JT13356_028 , bdr:VE3JT13356_029 , bdr:VE3JT13356_030 , bdr:VE3JT13356_031 , bdr:VE3JT13356_032 ;
+        :instanceReproductionOf  bdr:MW3JT13356 .
     
-    bdr:TT880D17F531602E5F
-        a                   :Title ;
-        rdfs:label          "shangs pa bka' brgyud kyis gtsos pa'i chos skor sna tshogs/"@bo-x-ewts .
+    bdr:VE3JT13356_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL00561A65A056CAD0
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER5DFC6E61860A3146 ;
-        :volumeNumber       15 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL0BD3E8A4F69B3D27
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER7400F0EEBE506F28 ;
-        :volumeNumber       32 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_003
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL161AF6AE1B5B8535
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER01E0F725858410D2 ;
-        :volumeNumber       14 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_004
+        a                   :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VL1C4499F257E906E9
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER764EE40E73F1042C ;
-        :volumeNumber       16 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_005
+        a                   :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VL27EE2A46142B37F9
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERBDFCDE025069703A ;
-        :volumeNumber       29 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_006
+        a                   :EtextVolume ;
+        :volumeNumber       6 .
     
-    bdr:VL2D20A88A16018ADE
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERDE18DACA4600F3D9 ;
-        :volumeNumber       7 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_007
+        a                   :EtextVolume ;
+        :volumeNumber       7 .
     
-    bdr:VL2FAE967D48868FB2
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER6057CD2ED52E516C ;
-        :volumeNumber       31 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_008
+        a                   :EtextVolume ;
+        :volumeNumber       8 .
     
-    bdr:VL339DFB9AE06983FA
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERD4618D2FBBDB3EFD ;
-        :volumeNumber       26 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_009
+        a                   :EtextVolume ;
+        :volumeNumber       9 .
     
-    bdr:VL3CCF7833CF8D3E52
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER6CCE3C0AAA1A378C ;
-        :volumeNumber       13 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_010
+        a                   :EtextVolume ;
+        :volumeNumber       10 .
     
-    bdr:VL3E8639A6E70910C8
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF06EBF93091AD16C ;
-        :volumeNumber       12 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_011
+        a                   :EtextVolume ;
+        :volumeNumber       11 .
     
-    bdr:VL4A7AF792809AF639
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERA16690589619CF84 ;
-        :volumeNumber       11 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_012
+        a                   :EtextVolume ;
+        :volumeNumber       12 .
     
-    bdr:VL4FE31F44D062FB27
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERE16922E4DBFD1E42 ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_013
+        a                   :EtextVolume ;
+        :volumeNumber       13 .
     
-    bdr:VL5BE56F1D50FA9043
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERAAD0FC7BDC11CC2D ;
-        :volumeNumber       28 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_014
+        a                   :EtextVolume ;
+        :volumeNumber       14 .
     
-    bdr:VL841F357AA45B1DF4
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER405EC2A17C35C21E ;
-        :volumeNumber       19 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_015
+        a                   :EtextVolume ;
+        :volumeNumber       15 .
     
-    bdr:VL8A334F28FA5D3915
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERCDDD368F6D70E9A3 ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_016
+        a                   :EtextVolume ;
+        :volumeNumber       16 .
     
-    bdr:VL8ACFD6784234353C
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERFF9F15D6D46D6E93 ;
-        :volumeNumber       23 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_017
+        a                   :EtextVolume ;
+        :volumeNumber       17 .
     
-    bdr:VL9F9C71CF12D42D7E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER7305D27C7578E0D7 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_018
+        a                   :EtextVolume ;
+        :volumeNumber       18 .
     
-    bdr:VLABADFAF9A250D812
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER2566158A5135CE2E ;
-        :volumeNumber       18 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_019
+        a                   :EtextVolume ;
+        :volumeNumber       19 .
     
-    bdr:VLAE4640BD5625FDC6
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERA9092C8DCF7D2F38 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_020
+        a                   :EtextVolume ;
+        :volumeNumber       20 .
     
-    bdr:VLB971A7D61DBE4BA4
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER6AA3990A85317546 ;
-        :volumeNumber       17 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_021
+        a                   :EtextVolume ;
+        :volumeNumber       21 .
     
-    bdr:VLBF01E9D7339CEFEF
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERCF6B9E2BB1863FBF ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_022
+        a                   :EtextVolume ;
+        :volumeNumber       22 .
     
-    bdr:VLC42B6454E34900ED
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC4011106EC024A30 ;
-        :volumeNumber       24 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_023
+        a                   :EtextVolume ;
+        :volumeNumber       23 .
     
-    bdr:VLC9DB8546162879A2
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERAFB36831E5EB976A ;
-        :volumeNumber       9 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_024
+        a                   :EtextVolume ;
+        :volumeNumber       24 .
     
-    bdr:VLCAF4A30E6DDEEA30
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER88A73CC1CA64E097 ;
-        :volumeNumber       30 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_025
+        a                   :EtextVolume ;
+        :volumeNumber       25 .
     
-    bdr:VLCDCF69558325E8D7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF52F72D11FFD094C ;
-        :volumeNumber       27 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_026
+        a                   :EtextVolume ;
+        :volumeNumber       26 .
     
-    bdr:VLD387E05E171E51ED
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERCD1B6DD25C66EA97 ;
-        :volumeNumber       10 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_027
+        a                   :EtextVolume ;
+        :volumeNumber       27 .
     
-    bdr:VLD6976E774DAE6368
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER08CC3E607818B140 ;
-        :volumeNumber       8 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_028
+        a                   :EtextVolume ;
+        :volumeNumber       28 .
     
-    bdr:VLF190A464F01ECD7F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERD6916FAC7517441F ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_029
+        a                   :EtextVolume ;
+        :volumeNumber       29 .
     
-    bdr:VLF594F2E9F93369CC
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERCED63A6FF8F08755 ;
-        :volumeNumber       20 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_030
+        a                   :EtextVolume ;
+        :volumeNumber       30 .
     
-    bdr:VLF5AC0C9A9A828101
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER857825E76C6181FF ;
-        :volumeNumber       22 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_031
+        a                   :EtextVolume ;
+        :volumeNumber       31 .
     
-    bdr:VLFB3A8B9619D1D9D3
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER020FD4837F5F951C ;
-        :volumeNumber       25 ;
-        :volumeOf           bdr:IE3JT13356 .
-    
-    bdr:VLFFFCE9547C6F275E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERDA58E744F552ED0B ;
-        :volumeNumber       21 ;
-        :volumeOf           bdr:IE3JT13356 .
+    bdr:VE3JT13356_032
+        a                   :EtextVolume ;
+        :volumeNumber       32 .
 }

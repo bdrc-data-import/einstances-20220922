@@ -14,11 +14,9 @@
 bdg:IE2MS24722 {
     bda:IE2MS24722  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24722 ;
-        adm:facetIndex      2 ;
         adm:gitPath         "fb/IE2MS24722.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24722 ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusOnHold .
     
     bda:W2MS24722  a        adm:AdminData ;
@@ -27,11 +25,5 @@ bdg:IE2MS24722 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24722  a       :EtextInstance ;
-        skos:prefLabel      "sle lung bzhad pa'i rdo rje'i rang rnam/"@bo-x-ewts ;
-        :hasTitle           bdr:TT2C77BA18DA54ED69 ;
-        :instanceOf         bdr:WA2MS24722 .
-    
-    bdr:TT2C77BA18DA54ED69
-        a                   :Title ;
-        rdfs:label          "sle lung bzhad pa'i rdo rje'i rang rnam/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24722 .
 }

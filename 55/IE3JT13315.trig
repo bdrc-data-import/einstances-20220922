@@ -15,8 +15,6 @@ bdg:IE3JT13315 {
     bda:IE3JT13315  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13315 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      4 ;
         adm:gitPath         "55/IE3JT13315.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13315 ;
@@ -28,26 +26,13 @@ bdg:IE3JT13315 {
         adm:replaceWith     bdr:IE3JT13315 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER2B8E1FAF0BD0D6B1
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13315_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13315  a       :EtextInstance ;
-        skos:prefLabel      "phyag rgya chen po ma rig mun sel/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT43CEC657E5A737DE ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VLB915116C73E41A38 ;
-        :instanceOf         bdr:WA3JT13315 .
+        :instanceHasVolume  bdr:VE3JT13315_001 ;
+        :instanceReproductionOf  bdr:MW3JT13315 .
     
-    bdr:TT43CEC657E5A737DE
-        a                   :Title ;
-        rdfs:label          "phyag rgya chen po ma rig mun sel/"@bo-x-ewts .
-    
-    bdr:VLB915116C73E41A38
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER2B8E1FAF0BD0D6B1 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13315 .
+    bdr:VE3JT13315_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

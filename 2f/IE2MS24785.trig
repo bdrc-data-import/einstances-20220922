@@ -14,31 +14,10 @@
 bdg:IE2MS24785 {
     bda:IE2MS24785  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24785 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "2f/IE2MS24785.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24785 ;
-        adm:logEntry        bda:LG2304CD594248C5A9 , bda:LG3167F739622D0EFB , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG2304CD594248C5A9
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:08:31.168Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG3167F739622D0EFB
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24785  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24785 ;
@@ -46,14 +25,5 @@ bdg:IE2MS24785 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24785  a       :EtextInstance ;
-        skos:prefLabel      "yon tan mdzod 'grel pa/"@bo-x-ewts ;
-        :hasTitle           bdr:TT57B2DBFBA9999610 , bdr:TTE5EA407C652FFF77 .
-    
-    bdr:TT57B2DBFBA9999610
-        a                   :Title ;
-        rdfs:label          "yon tan mdzod 'grel pa/"@bo-x-ewts .
-    
-    bdr:TTE5EA407C652FFF77
-        a                   :TitlePageTitle ;
-        rdfs:label          "yon tan rin po che'i mdzod kyi rgya cher 'grel pa bden gnyis shing rta/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24785 .
 }

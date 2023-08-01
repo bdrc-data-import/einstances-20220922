@@ -15,154 +15,35 @@ bdg:IE22920 {
     bda:IE22920  a          adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE22920 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      27 ;
         adm:gitPath         "88/IE22920.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE22920 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER071CBDF802D70B5B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_003_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER097DA68DF94D5297
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_005_0004 ;
-        :seqNum             4 .
-    
-    bdr:ER16F0DA699FE63A6C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_005_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER2A649926F3AD8341
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0006 ;
-        :seqNum             6 .
-    
-    bdr:ER3F426ED9E5D490CD
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0005 ;
-        :seqNum             5 .
-    
-    bdr:ER419CE59AE367350F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_006_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER4CC615426CBB2B55
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_007_0002 ;
-        :seqNum             2 .
-    
-    bdr:ER63116F064FA5BE0C
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_007_0001 ;
-        :seqNum             1 .
-    
-    bdr:ER72302BDA146AC77D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0003 ;
-        :seqNum             3 .
-    
-    bdr:ER7EBD4B8A182DF3E2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_003_0002 ;
-        :seqNum             2 .
-    
-    bdr:ER91C8040344BF191E
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0004 ;
-        :seqNum             4 .
-    
-    bdr:ERA1D5F3CB10FC2571
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERA38B6A389016BCC2
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0007 ;
-        :seqNum             7 .
-    
-    bdr:ERC11797E85404480D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0001 ;
-        :seqNum             1 .
-    
-    bdr:ERC37FA20C36DA58EC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_002_0001 ;
-        :seqNum             1 .
-    
-    bdr:ERDBC6570D93713D7B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_005_0001 ;
-        :seqNum             1 .
-    
-    bdr:ERE4E741C702B3BA86
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_005_0002 ;
-        :seqNum             2 .
-    
-    bdr:ERF5399471AE217957
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_004_0001 ;
-        :seqNum             1 .
-    
-    bdr:ERF7989A06D829FC7F
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT22920_001_0008 ;
-        :seqNum             8 .
-    
     bdr:IE22920  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VL0B7DD22B6F2F4B28 , bdr:VL1D6177355ECC347D , bdr:VL3521F699534BFA4A , bdr:VL63398264F0E8BA33 , bdr:VL96E098A58A5ED104 , bdr:VLC234E1EC13A7F292 , bdr:VLFFBBF0732DE2FF06 ;
-        :instanceReproductionOf  bdr:W22920 .
+        :instanceHasVolume  bdr:VE22920_001 , bdr:VE22920_002 , bdr:VE22920_003 , bdr:VE22920_004 , bdr:VE22920_005 , bdr:VE22920_006 , bdr:VE22920_007 .
     
-    bdr:VL0B7DD22B6F2F4B28
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER4CC615426CBB2B55 , bdr:ER63116F064FA5BE0C ;
-        :volumeNumber       7 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_001  a      :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL1D6177355ECC347D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC37FA20C36DA58EC ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_002  a      :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL3521F699534BFA4A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF5399471AE217957 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_003  a      :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL63398264F0E8BA33
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER071CBDF802D70B5B , bdr:ER7EBD4B8A182DF3E2 ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_004  a      :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VL96E098A58A5ED104
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER097DA68DF94D5297 , bdr:ER16F0DA699FE63A6C , bdr:ERDBC6570D93713D7B , bdr:ERE4E741C702B3BA86 ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_005  a      :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VLC234E1EC13A7F292
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER419CE59AE367350F ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_006  a      :EtextVolume ;
+        :volumeNumber       6 .
     
-    bdr:VLFFBBF0732DE2FF06
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER2A649926F3AD8341 , bdr:ER3F426ED9E5D490CD , bdr:ER72302BDA146AC77D , bdr:ER91C8040344BF191E , bdr:ERA1D5F3CB10FC2571 , bdr:ERA38B6A389016BCC2 , bdr:ERC11797E85404480D , bdr:ERF7989A06D829FC7F ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE22920 .
+    bdr:VE22920_007  a      :EtextVolume ;
+        :volumeNumber       7 .
 }

@@ -15,8 +15,6 @@ bdg:IE3JT13329 {
     bda:IE3JT13329  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3JT13329 ;
-        adm:contentProvider  bda:CP001 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "c0/IE3JT13329.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13329 ;
@@ -28,41 +26,17 @@ bdg:IE3JT13329 {
         adm:replaceWith     bdr:IE3JT13329 ;
         adm:status          bda:StatusWithdrawn .
     
-    bdr:ER314C67B2733ADB07
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13329_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERC4295CB46CD2BE97
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT3JT13329_001_0000 ;
-        :seqNum             1 .
-    
     bdr:IE3JT13329  a       :EtextInstance ;
-        skos:prefLabel      "dzam+b+ha la ser po'i sgrub thabs dang / gu ru gsol 'debs/"@bo-x-ewts ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :hasTitle           bdr:TT76047D4FD0B483E7 , bdr:TTEFBD02068D5EB43E ;
         :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VLDE8AC9A51231145D , bdr:VLF91205CB97A6377A ;
-        :instanceOf         bdr:WA3JT13329 .
+        :instanceHasVolume  bdr:VE3JT13329_001 , bdr:VE3JT13329_002 ;
+        :instanceReproductionOf  bdr:MW3JT13329 .
     
-    bdr:TT76047D4FD0B483E7
-        a                   :Title ;
-        rdfs:label          "dzam+b+ha la ser po'i sgrub thabs dang / gu ru gsol 'debs/"@bo-x-ewts .
+    bdr:VE3JT13329_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:TTEFBD02068D5EB43E
-        a                   :Title ;
-        rdfs:label          "gnam chos thugs kyi gter kha snyan brgyud zab ma'i skor las dzam+b+ha la ser po'i sgrub thabs dang / gu ru pad+ma'i tshig bdun gsol 'debs byin brlab sprin phung dngos grub char rgyun myur stsol/"@bo-x-ewts .
-    
-    bdr:VLDE8AC9A51231145D
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC4295CB46CD2BE97 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE3JT13329 .
-    
-    bdr:VLF91205CB97A6377A
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER314C67B2733ADB07 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE3JT13329 .
+    bdr:VE3JT13329_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
 }

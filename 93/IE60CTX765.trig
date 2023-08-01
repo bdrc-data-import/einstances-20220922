@@ -14,42 +14,10 @@
 bdg:IE60CTX765 {
     bda:IE60CTX765  a       adm:AdminData ;
         adm:adminAbout      bdr:IE60CTX765 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "93/IE60CTX765.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE60CTX765 ;
-        adm:logEntry        bda:LG66C7B1956381FA29 , bda:LG7D7E8790107187E2 , bda:LG835E1994E82EB912 , bda:LGF1DDEC1A09D8B131 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG66C7B1956381FA29
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-07-01T13:36:59.499Z"^^xsd:dateTime ;
-        adm:logMessage      "adding Work for Unicode version"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LG7D7E8790107187E2
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-09-29T11:11:47.042Z"^^xsd:dateTime ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LG835E1994E82EB912
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGF1DDEC1A09D8B131
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-12-05T15:56:24.588Z"^^xsd:dateTime ;
-        adm:logMessage      "released"@en ;
-        adm:logWho          bdu:U00012 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W60CTX765  a        adm:AdminData ;
         adm:adminAbout      bdr:W60CTX765 ;
@@ -57,10 +25,5 @@ bdg:IE60CTX765 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE60CTX765  a       :EtextInstance ;
-        skos:prefLabel      "gsung 'bum/_sna tshogs rang grol/"@bo-x-ewts ;
-        :hasTitle           bdr:TTBFCB6682AC80F3DB .
-    
-    bdr:TTBFCB6682AC80F3DB
-        a                   :Title ;
-        rdfs:label          "gsung 'bum/_sna tshogs rang grol/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW60CTX765 .
 }

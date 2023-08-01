@@ -15,39 +15,22 @@ bdg:IE1KG11901 {
     bda:IE1KG11901  a       adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG11901 ;
-        adm:contentProvider  bda:CP004 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "0f/IE1KG11901.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG11901 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER825EFD38DB5F4556
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG11901_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERC75CA491FC825FB5
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT1KG11901_002_0000 ;
-        :seqNum             1 .
-    
     bdr:IE1KG11901  a       :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET004 ;
-        :instanceHasVolume  bdr:VL40C0FB9D383FEF2E , bdr:VL569F97D51759361C ;
-        :instanceReproductionOf  bdr:W1KG11901 .
+        :instanceHasVolume  bdr:VE1KG11901_001 , bdr:VE1KG11901_002 .
     
-    bdr:VL40C0FB9D383FEF2E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERC75CA491FC825FB5 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE1KG11901 .
+    bdr:VE1KG11901_001
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL569F97D51759361C
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER825EFD38DB5F4556 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE1KG11901 .
+    bdr:VE1KG11901_002
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
 }

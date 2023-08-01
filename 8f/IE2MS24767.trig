@@ -14,43 +14,10 @@
 bdg:IE2MS24767 {
     bda:IE2MS24767  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24767 ;
-        adm:facetIndex      7 ;
         adm:gitPath         "8f/IE2MS24767.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24767 ;
-        adm:logEntry        bda:LG8CFD627EE3246A37 , bda:LGA5AD9D3B83C28250 , bda:LGAB58932616CF1739 , bda:LGAD77C2E6ADB6F4D3 , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG8CFD627EE3246A37
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-07-12T16:09:59.329Z"^^xsd:dateTime ;
-        adm:logMessage      "created uni child"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGA5AD9D3B83C28250
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-09-29T10:12:09.953Z"^^xsd:dateTime ;
-        adm:logMessage      "pub into indium as admin user"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGAB58932616CF1739
-        a                   adm:UpdateData ;
-        adm:logDate         "2011-07-12T17:32:34.392Z"^^xsd:dateTime ;
-        adm:logMessage      "published into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGAD77C2E6ADB6F4D3
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24767  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24767 ;
@@ -58,10 +25,5 @@ bdg:IE2MS24767 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24767  a       :EtextInstance ;
-        skos:prefLabel      "mngon pa kun btus/"@bo-x-ewts ;
-        :hasTitle           bdr:TTB21B6C1F74E0F68D .
-    
-    bdr:TTB21B6C1F74E0F68D
-        a                   :Title ;
-        rdfs:label          "mngon pa kun btus/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24767 .
 }

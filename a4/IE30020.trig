@@ -15,39 +15,20 @@ bdg:IE30020 {
     bda:IE30020  a          adm:AdminData ;
         adm:access          bda:AccessFairUse ;
         adm:adminAbout      bdr:IE30020 ;
-        adm:contentProvider  bda:CP009 ;
-        adm:facetIndex      5 ;
         adm:gitPath         "a4/IE30020.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE30020 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER33D43761FE7D01E7
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT30020_5752_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER54A7513DB5CB3457
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT30020_5751_0000 ;
-        :seqNum             1 .
-    
     bdr:IE30020  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
         :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VL15B3D6626E0986B7 , bdr:VLCAF9514D473E40B9 ;
-        :instanceReproductionOf  bdr:W30020 .
+        :instanceHasVolume  bdr:VE30020_001 , bdr:VE30020_002 .
     
-    bdr:VL15B3D6626E0986B7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER33D43761FE7D01E7 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE30020 .
+    bdr:VE30020_001  a      :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VLCAF9514D473E40B9
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER54A7513DB5CB3457 ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE30020 .
+    bdr:VE30020_002  a      :EtextVolume ;
+        :volumeNumber       2 .
 }

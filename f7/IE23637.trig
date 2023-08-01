@@ -15,8 +15,6 @@ bdg:IE23637 {
     bda:IE23637  a          adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE23637 ;
-        adm:contentProvider  bda:CP004 ;
-        adm:facetIndex      23 ;
         adm:gitPath         "f7/IE23637.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE23637 ;
@@ -24,130 +22,41 @@ bdg:IE23637 {
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bdr:ER028B6A4225E3B998
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_006_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER0E3AB04D2C18555D
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_005_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER1801C6FFE9FC3AAC
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_003_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER3572B52622A9D408
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_004_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER36DB8F359FAA16F3
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_011_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER47AD7548B5777B1B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_001_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER4AA33E46A6EA290B
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_010_0000 ;
-        :seqNum             1 .
-    
-    bdr:ER885B895813343924
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_009_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERA3D7B21FEEF44BB9
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_002_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERAA7F21E22CA82A06
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_008_0000 ;
-        :seqNum             1 .
-    
-    bdr:ERF14AD85BA1ED8666
-        a                   :EtextRef ;
-        :eTextResource      bdr:UT23637_007_0000 ;
-        :seqNum             1 .
-    
     bdr:IE23637  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET004 ;
-        :instanceHasVolume  bdr:VL08CE8AB089D199CB , bdr:VL12932E44355484F7 , bdr:VL2799F1B4FE3E3A81 , bdr:VL3B4D9D6A7CA71CF0 , bdr:VL80312F45DA8B396F , bdr:VL977C5AE1F0F8DBE2 , bdr:VLACD5A6B80A49781E , bdr:VLC43184D1CA83B9CA , bdr:VLDBABCAD66FDC194F , bdr:VLE6B530A9061B1708 , bdr:VLEA3C2E0DF1A56DED ;
-        :instanceReproductionOf  bdr:W23637 .
+        :instanceHasVolume  bdr:VE23637_001 , bdr:VE23637_002 , bdr:VE23637_003 , bdr:VE23637_004 , bdr:VE23637_005 , bdr:VE23637_006 , bdr:VE23637_007 , bdr:VE23637_008 , bdr:VE23637_009 , bdr:VE23637_010 , bdr:VE23637_011 .
     
-    bdr:VL08CE8AB089D199CB
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER0E3AB04D2C18555D ;
-        :volumeNumber       5 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_001  a      :EtextVolume ;
+        :volumeNumber       1 .
     
-    bdr:VL12932E44355484F7
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER4AA33E46A6EA290B ;
-        :volumeNumber       10 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_002  a      :EtextVolume ;
+        :volumeNumber       2 .
     
-    bdr:VL2799F1B4FE3E3A81
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERF14AD85BA1ED8666 ;
-        :volumeNumber       7 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_003  a      :EtextVolume ;
+        :volumeNumber       3 .
     
-    bdr:VL3B4D9D6A7CA71CF0
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERA3D7B21FEEF44BB9 ;
-        :volumeNumber       2 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_004  a      :EtextVolume ;
+        :volumeNumber       4 .
     
-    bdr:VL80312F45DA8B396F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER3572B52622A9D408 ;
-        :volumeNumber       4 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_005  a      :EtextVolume ;
+        :volumeNumber       5 .
     
-    bdr:VL977C5AE1F0F8DBE2
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ERAA7F21E22CA82A06 ;
-        :volumeNumber       8 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_006  a      :EtextVolume ;
+        :volumeNumber       6 .
     
-    bdr:VLACD5A6B80A49781E
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER36DB8F359FAA16F3 ;
-        :volumeNumber       11 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_007  a      :EtextVolume ;
+        :volumeNumber       7 .
     
-    bdr:VLC43184D1CA83B9CA
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER47AD7548B5777B1B ;
-        :volumeNumber       1 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_008  a      :EtextVolume ;
+        :volumeNumber       8 .
     
-    bdr:VLDBABCAD66FDC194F
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER028B6A4225E3B998 ;
-        :volumeNumber       6 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_009  a      :EtextVolume ;
+        :volumeNumber       9 .
     
-    bdr:VLE6B530A9061B1708
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER885B895813343924 ;
-        :volumeNumber       9 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_010  a      :EtextVolume ;
+        :volumeNumber       10 .
     
-    bdr:VLEA3C2E0DF1A56DED
-        a                   :VolumeEtextAsset ;
-        :volumeHasEtext     bdr:ER1801C6FFE9FC3AAC ;
-        :volumeNumber       3 ;
-        :volumeOf           bdr:IE23637 .
+    bdr:VE23637_011  a      :EtextVolume ;
+        :volumeNumber       11 .
 }

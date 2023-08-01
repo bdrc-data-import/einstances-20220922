@@ -14,31 +14,10 @@
 bdg:IE2MS24780 {
     bda:IE2MS24780  a       adm:AdminData ;
         adm:adminAbout      bdr:IE2MS24780 ;
-        adm:facetIndex      6 ;
         adm:gitPath         "41/IE2MS24780.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2MS24780 ;
-        adm:logEntry        bda:LG5B95E0ECFAF265F0 , bda:LGB9BFBE0F508CB18B , bda:LGIMB50083FA ;
-        adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusWithdrawn .
-    
-    bda:LG5B95E0ECFAF265F0
-        a                   adm:UpdateData ;
-        adm:logDate         "2019-06-19T16:56:27.722Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logWho          bdu:U00006 .
-    
-    bda:LGB9BFBE0F508CB18B
-        a                   adm:InitialDataCreation ;
-        adm:logDate         "2011-09-29T10:08:12.021Z"^^xsd:dateTime ;
-        adm:logMessage      "publish into indium"@en ;
-        adm:logWho          bdu:U00020 .
-    
-    bda:LGIMB50083FA  a     adm:UpdateData ;
-        adm:logAgent        "works-mark-withdrawn.xql" ;
-        adm:logDate         "2019-06-19T17:03:10.044Z"^^xsd:dateTime ;
-        adm:logMessage      "changed status to withdrawn"@en ;
-        adm:logMethod       bda:BatchMethod .
     
     bda:W2MS24780  a        adm:AdminData ;
         adm:adminAbout      bdr:W2MS24780 ;
@@ -46,14 +25,5 @@ bdg:IE2MS24780 {
         adm:status          bda:StatusWithdrawn .
     
     bdr:IE2MS24780  a       :EtextInstance ;
-        skos:prefLabel      "gzhi lam 'bras bu'i ngo sprod/"@bo-x-ewts ;
-        :hasTitle           bdr:TT81E3EFAEF01E0D2A , bdr:TTEF29A42A2F781C45 .
-    
-    bdr:TT81E3EFAEF01E0D2A
-        a                   :TitlePageTitle ;
-        rdfs:label          "gzhi lam 'bras bu'i ngo sprod yang dag don gsal sogs/"@bo-x-ewts .
-    
-    bdr:TTEF29A42A2F781C45
-        a                   :Title ;
-        rdfs:label          "gzhi lam 'bras bu'i ngo sprod/"@bo-x-ewts .
+        :instanceReproductionOf  bdr:MW2MS24780 .
 }
