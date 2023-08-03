@@ -11,7 +11,7 @@ bdg:IE2122 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE2122 ;
         adm:graphId         bdg:IE2122 ;
-        adm:logEntry        bda:LG0IE2122_AKHT0LDMHKEC , bda:LG0IE2122_NQ7DH8MQQVQA ;
+        adm:logEntry        bda:LG0IE2122_AKHT0LDMHKEC , bda:LG0IE2122_NQ7DH8MQQVQA , bdr:LG0IE2122_JS6V0QNPR2UM ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -28,9 +28,94 @@ bdg:IE2122 {
         adm:logMessage      "testing"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG47  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG47 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG48  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG48 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG49  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG49 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG50  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG50 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG51  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG51 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG52  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG52 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG53  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG53 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG54  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG54 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG55  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG55 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG56  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG56 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
+    bda:VE3KG57  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG57 ;
+        adm:logEntry        bdr:LG0IE2122_JS6V0QNPR2UM .
+    
     bdr:IE2122  a           bdo:EtextInstance ;
-        bdo:instanceHasVolume  bdr:VE3KG46 .
+        bdo:instanceHasVolume  bdr:VE3KG46 , bdr:VE3KG47 , bdr:VE3KG48 , bdr:VE3KG49 , bdr:VE3KG50 , bdr:VE3KG51 , bdr:VE3KG52 , bdr:VE3KG53 , bdr:VE3KG54 , bdr:VE3KG55 , bdr:VE3KG56 , bdr:VE3KG57 ;
+        bdo:numberOfVolumes  12 .
+    
+    bdr:LG0IE2122_JS6V0QNPR2UM
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-08-03T14:36:26.810038Z"^^xsd:dateTime ;
+        adm:logMessage      "add 11 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
     
     bdr:VE3KG46  a          bdo:EtextVolume ;
         bdo:volumeNumber    1 .
+    
+    bdr:VE3KG47  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE3KG48  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE3KG49  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE3KG50  a          bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE3KG51  a          bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE3KG52  a          bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE3KG53  a          bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE3KG54  a          bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE3KG55  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE3KG56  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE3KG57  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
 }
