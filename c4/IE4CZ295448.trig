@@ -11,10 +11,16 @@ bdg:IE4CZ295448 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE4CZ295448 ;
         adm:graphId         bdg:IE4CZ295448 ;
-        adm:logEntry        bda:LG0IE4CZ295448_ZTVIG6VIQ47Q ;
+        adm:logEntry        bda:LG0IE4CZ295448_PTP1XIEJBGPF , bda:LG0IE4CZ295448_ZTVIG6VIQ47Q ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE4CZ295448_PTP1XIEJBGPF
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-03T16:19:15.491347Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U1426146149 .
     
     bda:LG0IE4CZ295448_ZTVIG6VIQ47Q
         a                   adm:InitialDataCreation ;
@@ -22,5 +28,6 @@ bdg:IE4CZ295448 {
         adm:logMessage      "generated IE"@en ;
         adm:logWho          bdu:U1426146149 .
     
-    bdr:IE4CZ295448  a      bdo:EtextInstance .
+    bdr:IE4CZ295448  a      bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput .
 }
