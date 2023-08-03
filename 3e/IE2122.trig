@@ -7,11 +7,55 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 bdg:IE2122 {
+    bda:I3KG582  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG582 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG583  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG583 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG584  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG584 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG585  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG585 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG586  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG586 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG587  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG587 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG588  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG588 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG589  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG589 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG590  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG590 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG591  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG591 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
+    bda:I3KG592  a          adm:AdminData ;
+        adm:adminAbout      bdr:I3KG592 ;
+        adm:logEntry        bdr:LG0IE2122_SS2PAFQ6JC3Q .
+    
     bda:IE2122  a           adm:AdminData ;
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE2122 ;
         adm:graphId         bdg:IE2122 ;
-        adm:logEntry        bda:LG0IE2122_NQ7DH8MQQVQA ;
+        adm:logEntry        bda:LG0IE2122_NQ7DH8MQQVQA , bdr:LG0IE2122_SS2PAFQ6JC3Q ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,8 +66,49 @@ bdg:IE2122 {
         adm:logMessage      "testing"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bdr:I3KG582  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:I3KG583  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:I3KG584  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:I3KG585  a          bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:I3KG586  a          bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:I3KG587  a          bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:I3KG588  a          bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:I3KG589  a          bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:I3KG590  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:I3KG591  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:I3KG592  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
     bdr:IE2122  a           bdo:EtextInstance ;
-        bdo:instanceHasVolume  bdr:VE3KG46 .
+        bdo:instanceHasVolume  bdr:I3KG582 , bdr:I3KG583 , bdr:I3KG584 , bdr:I3KG585 , bdr:I3KG586 , bdr:I3KG587 , bdr:I3KG588 , bdr:I3KG589 , bdr:I3KG590 , bdr:I3KG591 , bdr:I3KG592 , bdr:VE3KG46 ;
+        bdo:numberOfVolumes  12 .
+    
+    bdr:LG0IE2122_SS2PAFQ6JC3Q
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-08-03T14:15:39.563886Z"^^xsd:dateTime ;
+        adm:logMessage      "add 11 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
     
     bdr:VE3KG46  a          bdo:EtextVolume ;
         bdo:volumeNumber    1 .
