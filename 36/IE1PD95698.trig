@@ -11,10 +11,16 @@ bdg:IE1PD95698 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1PD95698 ;
         adm:graphId         bdg:IE1PD95698 ;
-        adm:logEntry        bda:LG0IE1PD95698_9HFOBZKBMKGP , bda:LG0IE1PD95698_ZNGSY20ZH5JO ;
+        adm:logEntry        bda:LG0IE1PD95698_6GMJQ4MTV5XV , bda:LG0IE1PD95698_9HFOBZKBMKGP , bda:LG0IE1PD95698_ZNGSY20ZH5JO ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE1PD95698_6GMJQ4MTV5XV
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-07T15:30:26.825679Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U1426146149 .
     
     bda:LG0IE1PD95698_9HFOBZKBMKGP
         a                   adm:InitialDataCreation ;
