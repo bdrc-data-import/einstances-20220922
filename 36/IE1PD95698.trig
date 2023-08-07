@@ -8,10 +8,10 @@
 
 bdg:IE1PD95698 {
     bda:IE1PD95698  a       adm:AdminData ;
-        adm:access          bda:AccessFairUse ;
+        adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1PD95698 ;
         adm:graphId         bdg:IE1PD95698 ;
-        adm:logEntry        bda:LG0IE1PD95698_9HFOBZKBMKGP ;
+        adm:logEntry        bda:LG0IE1PD95698_9HFOBZKBMKGP , bda:LG0IE1PD95698_ZNGSY20ZH5JO ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -20,6 +20,12 @@ bdg:IE1PD95698 {
         a                   adm:InitialDataCreation ;
         adm:logDate         "2023-08-07T15:26:47.306425Z"^^xsd:dateTime ;
         adm:logMessage      "generated IE"@en ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bda:LG0IE1PD95698_ZNGSY20ZH5JO
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-07T15:29:07.300316Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U1426146149 .
     
     bdr:IE1PD95698  a       bdo:EtextInstance ;
