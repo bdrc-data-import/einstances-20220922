@@ -1,0 +1,27 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE1ER150 {
+    bda:IE1ER150  a         adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE1ER150 ;
+        adm:graphId         bdg:IE1ER150 ;
+        adm:logEntry        bda:LG0IE1ER150_JJOTJXZNSEJP ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE1ER150_JJOTJXZNSEJP
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-08-09T16:18:25.621008Z"^^xsd:dateTime ;
+        adm:logMessage      "add etext instance"@en ;
+        adm:logWho          bdu:U1653882847 .
+    
+    bdr:IE1ER150  a         bdo:EtextInstance ;
+        bdo:etextInfo       "OCR reviewed and kindly provided by Kurt Keuzer"@en .
+}
