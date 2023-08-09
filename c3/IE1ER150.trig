@@ -11,7 +11,7 @@ bdg:IE1ER150 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1ER150 ;
         adm:graphId         bdg:IE1ER150 ;
-        adm:logEntry        bda:LG0IE1ER150_JJOTJXZNSEJP ;
+        adm:logEntry        bda:LG0IE1ER150_JJOTJXZNSEJP , bda:LG0IE1ER150_PGKYVOBTXHDR ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,6 +22,16 @@ bdg:IE1ER150 {
         adm:logMessage      "add etext instance"@en ;
         adm:logWho          bdu:U1653882847 .
     
+    bda:LG0IE1ER150_PGKYVOBTXHDR
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-09T16:18:38.381054Z"^^xsd:dateTime ;
+        adm:logMessage      "add volume"@en ;
+        adm:logWho          bdu:U1653882847 .
+    
     bdr:IE1ER150  a         bdo:EtextInstance ;
-        bdo:etextInfo       "OCR reviewed and kindly provided by Kurt Keuzer"@en .
+        bdo:etextInfo       "OCR reviewed and kindly provided by Kurt Keuzer"@en ;
+        bdo:instanceHasVolume  bdr:VE1ER2 .
+    
+    bdr:VE1ER2  a           bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
 }
