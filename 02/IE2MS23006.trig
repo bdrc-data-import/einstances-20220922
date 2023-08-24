@@ -19,11 +19,6 @@ bdg:IE2MS23006 {
         adm:graphId         bdg:IE2MS23006 ;
         adm:status          bda:StatusOnHold .
     
-    bda:W2MS23006  a        adm:AdminData ;
-        adm:adminAbout      bdr:W2MS23006 ;
-        adm:replaceWith     bdr:IE2MS23006 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE2MS23006  a       :EtextInstance ;
         :instanceReproductionOf  bdr:MW2MS23006 .
 }

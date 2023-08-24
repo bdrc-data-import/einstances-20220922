@@ -19,11 +19,6 @@ bdg:IE3JW7991 {
         adm:graphId         bdg:IE3JW7991 ;
         adm:status          bda:StatusOnHold .
     
-    bda:W3JW7991  a         adm:AdminData ;
-        adm:adminAbout      bdr:W3JW7991 ;
-        adm:replaceWith     bdr:IE3JW7991 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE3JW7991  a        :EtextInstance ;
         :instanceReproductionOf  bdr:MW3JW7991 .
 }

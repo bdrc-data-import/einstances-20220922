@@ -19,11 +19,6 @@ bdg:IE2MS24735 {
         adm:graphId         bdg:IE2MS24735 ;
         adm:status          bda:StatusWithdrawn .
     
-    bda:W2MS24735  a        adm:AdminData ;
-        adm:adminAbout      bdr:W2MS24735 ;
-        adm:replaceWith     bdr:IE2MS24735 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE2MS24735  a       :EtextInstance ;
         :instanceReproductionOf  bdr:MW2MS24735 .
 }

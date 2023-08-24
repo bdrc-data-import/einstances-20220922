@@ -19,11 +19,6 @@ bdg:IE4JW162 {
         adm:graphId         bdg:IE4JW162 ;
         adm:status          bda:StatusWithdrawn .
     
-    bda:W4JW162  a          adm:AdminData ;
-        adm:adminAbout      bdr:W4JW162 ;
-        adm:replaceWith     bdr:IE4JW162 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE4JW162  a         :EtextInstance ;
         :instanceReproductionOf  bdr:MW4JW162 .
 }

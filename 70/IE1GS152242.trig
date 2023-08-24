@@ -19,11 +19,6 @@ bdg:IE1GS152242 {
         adm:graphId         bdg:IE1GS152242 ;
         adm:status          bda:StatusReleased .
     
-    bda:W1GS152242  a       adm:AdminData ;
-        adm:adminAbout      bdr:W1GS152242 ;
-        adm:replaceWith     bdr:IE1GS152242 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE1GS152242  a      :EtextInstance ;
         :instanceReproductionOf  bdr:MW1GS152242 .
 }

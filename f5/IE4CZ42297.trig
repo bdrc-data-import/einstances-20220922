@@ -21,11 +21,6 @@ bdg:IE4CZ42297 {
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bda:W4CZ42297  a        adm:AdminData ;
-        adm:adminAbout      bdr:W4CZ42297 ;
-        adm:replaceWith     bdr:IE4CZ42297 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE4CZ42297  a       :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET008 ;

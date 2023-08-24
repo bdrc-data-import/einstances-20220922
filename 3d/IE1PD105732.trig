@@ -19,11 +19,6 @@ bdg:IE1PD105732 {
         adm:graphId         bdg:IE1PD105732 ;
         adm:status          bda:StatusOnHold .
     
-    bda:W1PD105732  a       adm:AdminData ;
-        adm:adminAbout      bdr:W1PD105732 ;
-        adm:replaceWith     bdr:IE1PD105732 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE1PD105732  a      :EtextInstance ;
         :instanceReproductionOf  bdr:MW1PD105732 .
 }

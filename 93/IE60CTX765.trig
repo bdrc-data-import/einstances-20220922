@@ -19,11 +19,6 @@ bdg:IE60CTX765 {
         adm:graphId         bdg:IE60CTX765 ;
         adm:status          bda:StatusWithdrawn .
     
-    bda:W60CTX765  a        adm:AdminData ;
-        adm:adminAbout      bdr:W60CTX765 ;
-        adm:replaceWith     bdr:IE60CTX765 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE60CTX765  a       :EtextInstance ;
         :instanceReproductionOf  bdr:MW60CTX765 .
 }

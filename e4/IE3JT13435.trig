@@ -19,11 +19,6 @@ bdg:IE3JT13435 {
         adm:graphId         bdg:IE3JT13435 ;
         adm:status          bda:StatusOnHold .
     
-    bda:W3JT13435  a        adm:AdminData ;
-        adm:adminAbout      bdr:W3JT13435 ;
-        adm:replaceWith     bdr:IE3JT13435 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE3JT13435  a       :EtextInstance ;
         :instanceReproductionOf  bdr:MW3JT13435 .
 }

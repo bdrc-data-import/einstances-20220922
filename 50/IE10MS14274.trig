@@ -19,11 +19,6 @@ bdg:IE10MS14274 {
         adm:graphId         bdg:IE10MS14274 ;
         adm:status          bda:StatusWithdrawn .
     
-    bda:W10MS14274  a       adm:AdminData ;
-        adm:adminAbout      bdr:W10MS14274 ;
-        adm:replaceWith     bdr:IE10MS14274 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE10MS14274  a      :EtextInstance ;
         :instanceReproductionOf  bdr:MW10MS14274 .
 }

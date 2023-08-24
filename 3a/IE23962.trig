@@ -19,11 +19,6 @@ bdg:IE23962 {
         adm:graphId         bdg:IE23962 ;
         adm:status          bda:StatusWithdrawn .
     
-    bda:W23962  a           adm:AdminData ;
-        adm:adminAbout      bdr:W23962 ;
-        adm:replaceWith     bdr:IE23962 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE23962  a          :EtextInstance ;
         :instanceReproductionOf  bdr:MW23962 .
 }

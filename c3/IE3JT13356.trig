@@ -21,11 +21,6 @@ bdg:IE3JT13356 {
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bda:W3JT13356  a        adm:AdminData ;
-        adm:adminAbout      bdr:W3JT13356 ;
-        adm:replaceWith     bdr:IE3JT13356 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE3JT13356  a       :EtextInstance ;
         :contentMethod      bdr:ContentMethod_ComputerInput ;
         :inCollection       bdr:PR0ET004 ;

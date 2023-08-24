@@ -19,11 +19,6 @@ bdg:IE06CT1 {
         adm:graphId         bdg:IE06CT1 ;
         adm:status          bda:StatusWithdrawn .
     
-    bda:W06CT1  a           adm:AdminData ;
-        adm:adminAbout      bdr:W06CT1 ;
-        adm:replaceWith     bdr:IE06CT1 ;
-        adm:status          bda:StatusWithdrawn .
-    
     bdr:IE06CT1  a          :EtextInstance ;
         :instanceReproductionOf  bdr:MW06CT1 .
 }
