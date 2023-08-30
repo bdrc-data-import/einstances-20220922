@@ -11,7 +11,7 @@ bdg:IE1KG4284 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG4284 ;
         adm:graphId         bdg:IE1KG4284 ;
-        adm:logEntry        bda:LG0IE1KG4284_WPAMC2VMOQZ7 ;
+        adm:logEntry        bda:LG0IE1KG4284_WPAMC2VMOQZ7 , bdr:LG0IE1KG4284_KO1QCQPTL3EN ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,30 @@ bdg:IE1KG4284 {
         adm:logMessage      "generated IE"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG149  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG149 ;
+        adm:logEntry        bdr:LG0IE1KG4284_KO1QCQPTL3EN .
+    
+    bda:VE3KG150  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG150 ;
+        adm:logEntry        bdr:LG0IE1KG4284_KO1QCQPTL3EN .
+    
     bdr:IE1KG4284  a        bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu"@en .
+        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu"@en ;
+        bdo:instanceHasVolume  bdr:VE3KG149 , bdr:VE3KG150 ;
+        bdo:numberOfVolumes  2 .
+    
+    bdr:LG0IE1KG4284_KO1QCQPTL3EN
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-08-30T19:07:49.251339Z"^^xsd:dateTime ;
+        adm:logMessage      "add 2 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:VE3KG149  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE3KG150  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
 }
