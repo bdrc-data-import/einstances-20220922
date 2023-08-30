@@ -11,7 +11,7 @@ bdg:IE8039 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8039 ;
         adm:graphId         bdg:IE8039 ;
-        adm:logEntry        bda:LG0IE8039_NLJKS3FFK9ED , bdr:LG0IE8039_QQU3OHV1PWNL ;
+        adm:logEntry        bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bdr:LG0IE8039_QQU3OHV1PWNL ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -20,6 +20,12 @@ bdg:IE8039 {
         a                   adm:InitialDataCreation ;
         adm:logDate         "2023-08-30T14:22:05.306598Z"^^xsd:dateTime ;
         adm:logMessage      "added"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bda:LG0IE8039_POE9GAIUTXN8
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-30T14:29:59.135123Z"^^xsd:dateTime ;
+        adm:logMessage      "ཐོ་བཀོད།"@en ;
         adm:logWho          bdu:U2089842660 .
     
     bda:VE8CZ10  a          adm:AdminData ;
@@ -105,6 +111,7 @@ bdg:IE8039 {
     bdr:IE8039  a           bdo:EtextInstance ;
         bdo:etextInfo       "Eetxt edition from Karma Leksheyling"@en ;
         bdo:instanceHasVolume  bdr:VE8CZ10 , bdr:VE8CZ11 , bdr:VE8CZ12 , bdr:VE8CZ13 , bdr:VE8CZ14 , bdr:VE8CZ15 , bdr:VE8CZ16 , bdr:VE8CZ17 , bdr:VE8CZ18 , bdr:VE8CZ19 , bdr:VE8CZ20 , bdr:VE8CZ21 , bdr:VE8CZ22 , bdr:VE8CZ23 , bdr:VE8CZ24 , bdr:VE8CZ5 , bdr:VE8CZ6 , bdr:VE8CZ7 , bdr:VE8CZ8 , bdr:VE8CZ9 ;
+        bdo:note            bdr:NTIE80394STYALUJ ;
         bdo:numberOfVolumes  20 .
     
     bdr:LG0IE8039_QQU3OHV1PWNL
@@ -113,6 +120,10 @@ bdg:IE8039 {
         adm:logMessage      "add 20 volumes (from etext request tool)"@en ;
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U2089842660 .
+    
+    bdr:NTIE80394STYALUJ
+        a                   bdo:Note ;
+        bdo:noteText        "པོད་འགའ་ཞིག་ད་དུང་ཡིག་རྐྱང་དུ་ཕབ་ཐུབ་མེད།"@en .
     
     bdr:VE8CZ10  a          bdo:EtextVolume ;
         bdo:volumeNumber    6 .
