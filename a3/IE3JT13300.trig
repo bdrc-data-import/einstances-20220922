@@ -13,15 +13,21 @@ bdg:IE3JT13300 {
         adm:gitPath         "a3/IE3JT13300.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13300 ;
-        adm:logEntry        bda:LG0IE3JT13300_BNDRSITCPWWR ;
+        adm:logEntry        bda:LG0IE3JT13300_BNDRSITCPWWR , bda:LG0IE3JT13300_XFB5MFFIP74Y ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
-        adm:status          bda:StatusReleased .
+        adm:status          bda:StatusWithdrawn .
     
     bda:LG0IE3JT13300_BNDRSITCPWWR
         a                   adm:UpdateData ;
         adm:logDate         "2023-08-29T15:26:48.936146Z"^^xsd:dateTime ;
         adm:logMessage      "added IE"@en ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bda:LG0IE3JT13300_XFB5MFFIP74Y
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-30T12:00:45.970372Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn in favor of W1KG4313"@en ;
         adm:logWho          bdu:U1426146149 .
     
     bdr:IE3JT13300  a       bdo:EtextInstance ;
