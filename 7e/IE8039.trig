@@ -11,10 +11,16 @@ bdg:IE8039 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8039 ;
         adm:graphId         bdg:IE8039 ;
-        adm:logEntry        bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bdr:LG0IE8039_JVDSXUOSNTG7 , bdr:LG0IE8039_QQU3OHV1PWNL ;
+        adm:logEntry        bda:LG0IE8039_BFDKFPGEHPL8 , bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bdr:LG0IE8039_JVDSXUOSNTG7 , bdr:LG0IE8039_QQU3OHV1PWNL ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE8039_BFDKFPGEHPL8
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-30T21:17:18.816934Z"^^xsd:dateTime ;
+        adm:logMessage      "བཅོས།"@en ;
+        adm:logWho          bdu:U2089842660 .
     
     bda:LG0IE8039_NLJKS3FFK9ED
         a                   adm:InitialDataCreation ;
@@ -154,7 +160,7 @@ bdg:IE8039 {
     
     bdr:NTIE80394STYALUJ
         a                   bdo:Note ;
-        bdo:noteText        "པོད་འགའ་ཞིག་ད་དུང་ཡིག་རྐྱང་དུ་ཕབ་ཐུབ་མེད།"@en .
+        bdo:noteText        "པོད་1-3, 15-20,3-26 ཡིག་རྐྱང་མ་བཞུགས། "@en .
     
     bdr:VE8CZ10  a          bdo:EtextVolume ;
         bdo:volumeNumber    6 .
