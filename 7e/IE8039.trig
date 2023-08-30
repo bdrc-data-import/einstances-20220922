@@ -11,7 +11,7 @@ bdg:IE8039 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8039 ;
         adm:graphId         bdg:IE8039 ;
-        adm:logEntry        bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bdr:LG0IE8039_QQU3OHV1PWNL ;
+        adm:logEntry        bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bdr:LG0IE8039_JVDSXUOSNTG7 , bdr:LG0IE8039_QQU3OHV1PWNL ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -88,6 +88,30 @@ bdg:IE8039 {
         adm:adminAbout      bdr:VE8CZ24 ;
         adm:logEntry        bdr:LG0IE8039_QQU3OHV1PWNL .
     
+    bda:VE8CZ29  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ29 ;
+        adm:logEntry        bdr:LG0IE8039_JVDSXUOSNTG7 .
+    
+    bda:VE8CZ30  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ30 ;
+        adm:logEntry        bdr:LG0IE8039_JVDSXUOSNTG7 .
+    
+    bda:VE8CZ31  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ31 ;
+        adm:logEntry        bdr:LG0IE8039_JVDSXUOSNTG7 .
+    
+    bda:VE8CZ32  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ32 ;
+        adm:logEntry        bdr:LG0IE8039_JVDSXUOSNTG7 .
+    
+    bda:VE8CZ33  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ33 ;
+        adm:logEntry        bdr:LG0IE8039_JVDSXUOSNTG7 .
+    
+    bda:VE8CZ34  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ34 ;
+        adm:logEntry        bdr:LG0IE8039_JVDSXUOSNTG7 .
+    
     bda:VE8CZ5  a           adm:AdminData ;
         adm:adminAbout      bdr:VE8CZ5 ;
         adm:logEntry        bdr:LG0IE8039_QQU3OHV1PWNL .
@@ -110,9 +134,16 @@ bdg:IE8039 {
     
     bdr:IE8039  a           bdo:EtextInstance ;
         bdo:etextInfo       "Eetxt edition from Karma Leksheyling"@en ;
-        bdo:instanceHasVolume  bdr:VE8CZ10 , bdr:VE8CZ11 , bdr:VE8CZ12 , bdr:VE8CZ13 , bdr:VE8CZ14 , bdr:VE8CZ15 , bdr:VE8CZ16 , bdr:VE8CZ17 , bdr:VE8CZ18 , bdr:VE8CZ19 , bdr:VE8CZ20 , bdr:VE8CZ21 , bdr:VE8CZ22 , bdr:VE8CZ23 , bdr:VE8CZ24 , bdr:VE8CZ5 , bdr:VE8CZ6 , bdr:VE8CZ7 , bdr:VE8CZ8 , bdr:VE8CZ9 ;
+        bdo:instanceHasVolume  bdr:VE8CZ10 , bdr:VE8CZ11 , bdr:VE8CZ12 , bdr:VE8CZ13 , bdr:VE8CZ14 , bdr:VE8CZ15 , bdr:VE8CZ16 , bdr:VE8CZ17 , bdr:VE8CZ18 , bdr:VE8CZ19 , bdr:VE8CZ20 , bdr:VE8CZ21 , bdr:VE8CZ22 , bdr:VE8CZ23 , bdr:VE8CZ24 , bdr:VE8CZ29 , bdr:VE8CZ30 , bdr:VE8CZ31 , bdr:VE8CZ32 , bdr:VE8CZ33 , bdr:VE8CZ34 , bdr:VE8CZ5 , bdr:VE8CZ6 , bdr:VE8CZ7 , bdr:VE8CZ8 , bdr:VE8CZ9 ;
         bdo:note            bdr:NTIE80394STYALUJ ;
-        bdo:numberOfVolumes  20 .
+        bdo:numberOfVolumes  26 .
+    
+    bdr:LG0IE8039_JVDSXUOSNTG7
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-08-30T19:33:49.708756Z"^^xsd:dateTime ;
+        adm:logMessage      "add 6 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:LG0IE8039_QQU3OHV1PWNL
         a                   adm:EtextRequested ;
@@ -169,6 +200,24 @@ bdg:IE8039 {
     
     bdr:VE8CZ24  a          bdo:EtextVolume ;
         bdo:volumeNumber    20 .
+    
+    bdr:VE8CZ29  a          bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE8CZ30  a          bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE8CZ31  a          bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE8CZ32  a          bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE8CZ33  a          bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE8CZ34  a          bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
     
     bdr:VE8CZ5  a           bdo:EtextVolume ;
         bdo:volumeNumber    1 .
