@@ -11,7 +11,7 @@ bdg:IE1KG4312 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG4312 ;
         adm:graphId         bdg:IE1KG4312 ;
-        adm:logEntry        bda:LG0IE1KG4312_C7DAZHTZRLQM ;
+        adm:logEntry        bda:LG0IE1KG4312_C7DAZHTZRLQM , bdr:LG0IE1KG4312_LGMQBWN85HG3 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,44 @@ bdg:IE1KG4312 {
         adm:logMessage      "generated IE"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG145  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG145 ;
+        adm:logEntry        bdr:LG0IE1KG4312_LGMQBWN85HG3 .
+    
+    bda:VE3KG146  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG146 ;
+        adm:logEntry        bdr:LG0IE1KG4312_LGMQBWN85HG3 .
+    
+    bda:VE3KG147  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG147 ;
+        adm:logEntry        bdr:LG0IE1KG4312_LGMQBWN85HG3 .
+    
+    bda:VE3KG148  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG148 ;
+        adm:logEntry        bdr:LG0IE1KG4312_LGMQBWN85HG3 .
+    
     bdr:IE1KG4312  a        bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu"@en .
+        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu"@en ;
+        bdo:instanceHasVolume  bdr:VE3KG145 , bdr:VE3KG146 , bdr:VE3KG147 , bdr:VE3KG148 ;
+        bdo:numberOfVolumes  4 .
+    
+    bdr:LG0IE1KG4312_LGMQBWN85HG3
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-08-30T18:47:00.784221Z"^^xsd:dateTime ;
+        adm:logMessage      "add 4 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:VE3KG145  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE3KG146  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE3KG147  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE3KG148  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
 }
