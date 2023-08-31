@@ -11,7 +11,7 @@ bdg:IE1KG17189 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG17189 ;
         adm:graphId         bdg:IE1KG17189 ;
-        adm:logEntry        bda:LG0IE1KG17189_TOIIHHEK1KL1 ;
+        adm:logEntry        bda:LG0IE1KG17189_TOIIHHEK1KL1 , bdr:LG0IE1KG17189_ECQWDW2EJNKN ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,114 @@ bdg:IE1KG17189 {
         adm:logMessage      "generated IE"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG161  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG161 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG162  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG162 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG163  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG163 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG164  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG164 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG165  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG165 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG166  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG166 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG167  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG167 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG168  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG168 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG169  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG169 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG170  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG170 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG171  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG171 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG172  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG172 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG173  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG173 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
+    bda:VE3KG174  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG174 ;
+        adm:logEntry        bdr:LG0IE1KG17189_ECQWDW2EJNKN .
+    
     bdr:IE1KG17189  a       bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu."@en .
+        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu."@en ;
+        bdo:instanceHasVolume  bdr:VE3KG161 , bdr:VE3KG162 , bdr:VE3KG163 , bdr:VE3KG164 , bdr:VE3KG165 , bdr:VE3KG166 , bdr:VE3KG167 , bdr:VE3KG168 , bdr:VE3KG169 , bdr:VE3KG170 , bdr:VE3KG171 , bdr:VE3KG172 , bdr:VE3KG173 , bdr:VE3KG174 ;
+        bdo:numberOfVolumes  14 .
+    
+    bdr:LG0IE1KG17189_ECQWDW2EJNKN
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-08-31T18:45:11.120139Z"^^xsd:dateTime ;
+        adm:logMessage      "add 14 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:VE3KG161  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE3KG162  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE3KG163  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE3KG164  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE3KG165  a         bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE3KG166  a         bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE3KG167  a         bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE3KG168  a         bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE3KG169  a         bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE3KG170  a         bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE3KG171  a         bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE3KG172  a         bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE3KG173  a         bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE3KG174  a         bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
 }
