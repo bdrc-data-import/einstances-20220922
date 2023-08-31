@@ -11,10 +11,16 @@ bdg:IE1KG11900 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG11900 ;
         adm:graphId         bdg:IE1KG11900 ;
-        adm:logEntry        bda:LG0IE1KG11900_VHE0YZLYYSON , bdr:LG0IE1KG11900_OVK6X77QGOBA ;
+        adm:logEntry        bda:LG0IE1KG11900_PW3HBQCLDAQK , bda:LG0IE1KG11900_VHE0YZLYYSON , bdr:LG0IE1KG11900_OVK6X77QGOBA ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE1KG11900_PW3HBQCLDAQK
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-31T13:52:02.950717Z"^^xsd:dateTime ;
+        adm:logMessage      "added note of missing vol."@en ;
+        adm:logWho          bdu:U1426146149 .
     
     bda:LG0IE1KG11900_VHE0YZLYYSON
         a                   adm:InitialDataCreation ;
@@ -50,6 +56,7 @@ bdg:IE1KG11900 {
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu"@en ;
         bdo:instanceHasVolume  bdr:VE3KG151 , bdr:VE3KG152 , bdr:VE3KG153 , bdr:VE3KG154 , bdr:VE3KG155 , bdr:VE3KG156 ;
+        bdo:note            bdr:NTIE1KG11900Q175NUPA ;
         bdo:numberOfVolumes  6 .
     
     bdr:LG0IE1KG11900_OVK6X77QGOBA
@@ -58,6 +65,10 @@ bdg:IE1KG11900 {
         adm:logMessage      "add 6 volumes (from etext request tool)"@en ;
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U1426146149 .
+    
+    bdr:NTIE1KG11900Q175NUPA
+        a                   bdo:Note ;
+        bdo:noteText        "eText of volume 1 is not available currently."@en .
     
     bdr:VE3KG151  a         bdo:EtextVolume ;
         bdo:volumeNumber    1 .
