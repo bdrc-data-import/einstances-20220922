@@ -11,7 +11,7 @@ bdg:IE1KG4285 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG4285 ;
         adm:graphId         bdg:IE1KG4285 ;
-        adm:logEntry        bda:LG0IE1KG4285_61ASOGE38AOP , bdr:LG0IE1KG4285_7URT9AC9MDQ8 ;
+        adm:logEntry        bda:LG0IE1KG4285_61ASOGE38AOP , bda:LG0IE1KG4285_KKUUUWDFUWJO , bdr:LG0IE1KG4285_7URT9AC9MDQ8 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -20,6 +20,12 @@ bdg:IE1KG4285 {
         a                   adm:InitialDataCreation ;
         adm:logDate         "2023-08-31T17:12:56.869623Z"^^xsd:dateTime ;
         adm:logMessage      "generated IE"@en ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bda:LG0IE1KG4285_KKUUUWDFUWJO
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-31T17:29:50.556136Z"^^xsd:dateTime ;
+        adm:logMessage      "added note"@en ;
         adm:logWho          bdu:U1426146149 .
     
     bda:VE3KG159  a         adm:AdminData ;
@@ -34,6 +40,7 @@ bdg:IE1KG4285 {
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu."@en ;
         bdo:instanceHasVolume  bdr:VE3KG159 , bdr:VE3KG160 ;
+        bdo:note            bdr:NTIE1KG42852189QUZM ;
         bdo:numberOfVolumes  2 .
     
     bdr:LG0IE1KG4285_7URT9AC9MDQ8
@@ -42,6 +49,10 @@ bdg:IE1KG4285 {
         adm:logMessage      "add 2 volumes (from etext request tool)"@en ;
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U1426146149 .
+    
+    bdr:NTIE1KG42852189QUZM
+        a                   bdo:Note ;
+        bdo:noteText        "some texts in volume 2 are not matching with the printed texts vol. 2."@en .
     
     bdr:VE3KG159  a         bdo:EtextVolume ;
         bdo:volumeNumber    1 .
