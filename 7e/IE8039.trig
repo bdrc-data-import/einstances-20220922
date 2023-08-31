@@ -11,7 +11,7 @@ bdg:IE8039 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8039 ;
         adm:graphId         bdg:IE8039 ;
-        adm:logEntry        bda:LG0IE8039_BFDKFPGEHPL8 , bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bda:LG0IE8039_QRRFLMHPEYIP , bdr:LG0IE8039_JVDSXUOSNTG7 , bdr:LG0IE8039_QQU3OHV1PWNL ;
+        adm:logEntry        bda:LG0IE8039_BFDKFPGEHPL8 , bda:LG0IE8039_GNMOZ67WIQKM , bda:LG0IE8039_NLJKS3FFK9ED , bda:LG0IE8039_POE9GAIUTXN8 , bda:LG0IE8039_QRRFLMHPEYIP , bdr:LG0IE8039_JVDSXUOSNTG7 , bdr:LG0IE8039_QQU3OHV1PWNL ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -20,6 +20,12 @@ bdg:IE8039 {
         a                   adm:UpdateData ;
         adm:logDate         "2023-08-30T21:17:18.816934Z"^^xsd:dateTime ;
         adm:logMessage      "བཅོས།"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bda:LG0IE8039_GNMOZ67WIQKM
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-08-31T13:28:09.344622Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
     bda:LG0IE8039_NLJKS3FFK9ED
@@ -145,6 +151,7 @@ bdg:IE8039 {
         adm:logEntry        bdr:LG0IE8039_QQU3OHV1PWNL .
     
     bdr:IE8039  a           bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Eetxt edition from Karma Leksheyling"@en ;
         bdo:instanceHasVolume  bdr:VE8CZ10 , bdr:VE8CZ11 , bdr:VE8CZ12 , bdr:VE8CZ13 , bdr:VE8CZ14 , bdr:VE8CZ15 , bdr:VE8CZ16 , bdr:VE8CZ17 , bdr:VE8CZ18 , bdr:VE8CZ19 , bdr:VE8CZ20 , bdr:VE8CZ21 , bdr:VE8CZ22 , bdr:VE8CZ23 , bdr:VE8CZ24 , bdr:VE8CZ29 , bdr:VE8CZ30 , bdr:VE8CZ31 , bdr:VE8CZ32 , bdr:VE8CZ33 , bdr:VE8CZ34 , bdr:VE8CZ5 , bdr:VE8CZ6 , bdr:VE8CZ7 , bdr:VE8CZ8 , bdr:VE8CZ9 ;
         bdo:note            bdr:NTIE80394STYALUJ ;
