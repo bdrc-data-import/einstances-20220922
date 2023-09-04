@@ -1,0 +1,36 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE26464 {
+    bda:IE26464  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE26464 ;
+        adm:graphId         bdg:IE26464 ;
+        adm:logEntry        bdr:LG0IE26464_FMD87EOU6VE2 ;
+        adm:restrictedInChina  false ;
+        adm:status          bda:StatusReleased .
+    
+    bda:VE1ER3  a           adm:AdminData ;
+        adm:adminAbout      bdr:VE1ER3 ;
+        adm:logEntry        bdr:LG0IE26464_FMD87EOU6VE2 .
+    
+    bdr:IE26464  a          bdo:EtextInstance ;
+        bdo:etextInfo       "Digital edition made possible with funds from the Anthony Aris Award (awarded by the Tibetan & Himalayan Studies Cluster, Wolfson College, University of Oxford). Text input by Karma Tsepak, edition by Daniel Wojahn."@en ;
+        bdo:instanceHasVolume  bdr:VE1ER3 ;
+        bdo:numberOfVolumes  1 .
+    
+    bdr:LG0IE26464_FMD87EOU6VE2
+        a                   adm:EtextRequested , adm:InitialDataCreation ;
+        adm:logDate         "2023-09-04T12:37:25.790346Z"^^xsd:dateTime ;
+        adm:logMessage      "create through etext request tool"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1653882847 .
+    
+    bdr:VE1ER3  a           bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+}
