@@ -13,7 +13,7 @@ bdg:IE3JT13335 {
         adm:gitPath         "23/IE3JT13335.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13335 ;
-        adm:logEntry        bda:LG0IE3JT13335_I9JBIPIBHIDK ;
+        adm:logEntry        bda:LG0IE3JT13335_I9JBIPIBHIDK , bdr:LG0IE3JT13335_K6UANDU7CNWB ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -27,9 +27,17 @@ bdg:IE3JT13335 {
     bdr:IE3JT13335  a       bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "Etext edition from Karma Leksheyling"@en ;
         bdo:inCollection    bdr:PR0ET001 ;
         bdo:instanceHasVolume  bdr:VE3JT13335_001 ;
         bdo:instanceReproductionOf  bdr:MW3JT13335 .
+    
+    bdr:LG0IE3JT13335_K6UANDU7CNWB
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-05T19:19:07.498372Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:VE3JT13335_001
         a                   bdo:EtextVolume ;
