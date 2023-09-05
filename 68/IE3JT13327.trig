@@ -13,11 +13,19 @@ bdg:IE3JT13327 {
         adm:gitPath         "68/IE3JT13327.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13327 ;
-        adm:logEntry        bdr:LG0IE3JT13327_5JBHDKMOQ43Q ;
+        adm:logEntry        bda:LG0IE3JT13327_JHQGOZJRVWXK , bdr:LG0IE3JT13327_5JBHDKMOQ43Q ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
+    bda:LG0IE3JT13327_JHQGOZJRVWXK
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-05T15:02:46.591640Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
     bdr:IE3JT13327  a       bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Etext edition from Karma Leksheyling"@en ;
         bdo:inCollection    bdr:PR0ET001 ;
