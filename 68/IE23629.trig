@@ -1,0 +1,28 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE23629 {
+    bda:IE23629  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE23629 ;
+        adm:graphId         bdg:IE23629 ;
+        adm:logEntry        bda:LG0IE23629_P8HNLSNVAMZ1 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  false ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE23629_P8HNLSNVAMZ1
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-09-05T16:15:38.056826Z"^^xsd:dateTime ;
+        adm:logMessage      "generated IE"@en ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:IE23629  a          bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu. "@en .
+}
