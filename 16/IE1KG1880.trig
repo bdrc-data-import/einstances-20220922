@@ -11,7 +11,7 @@ bdg:IE1KG1880 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG1880 ;
         adm:graphId         bdg:IE1KG1880 ;
-        adm:logEntry        bda:LG0IE1KG1880_ZTXRSOP1SBJU ;
+        adm:logEntry        bda:LG0IE1KG1880_ZTXRSOP1SBJU , bdr:LG0IE1KG1880_RA0AQ25M6MPK ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,58 @@ bdg:IE1KG1880 {
         adm:logMessage      "generated IE"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG175  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG175 ;
+        adm:logEntry        bdr:LG0IE1KG1880_RA0AQ25M6MPK .
+    
+    bda:VE3KG176  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG176 ;
+        adm:logEntry        bdr:LG0IE1KG1880_RA0AQ25M6MPK .
+    
+    bda:VE3KG177  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG177 ;
+        adm:logEntry        bdr:LG0IE1KG1880_RA0AQ25M6MPK .
+    
+    bda:VE3KG178  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG178 ;
+        adm:logEntry        bdr:LG0IE1KG1880_RA0AQ25M6MPK .
+    
+    bda:VE3KG179  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG179 ;
+        adm:logEntry        bdr:LG0IE1KG1880_RA0AQ25M6MPK .
+    
+    bda:VE3KG180  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG180 ;
+        adm:logEntry        bdr:LG0IE1KG1880_RA0AQ25M6MPK .
+    
     bdr:IE1KG1880  a        bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu. "@en .
+        bdo:etextInfo       "eText is shared by Guru Lama, Sachen International, Kathmandu. "@en ;
+        bdo:instanceHasVolume  bdr:VE3KG175 , bdr:VE3KG176 , bdr:VE3KG177 , bdr:VE3KG178 , bdr:VE3KG179 , bdr:VE3KG180 ;
+        bdo:numberOfVolumes  6 .
+    
+    bdr:LG0IE1KG1880_RA0AQ25M6MPK
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-05T13:26:08.441966Z"^^xsd:dateTime ;
+        adm:logMessage      "add 6 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:VE3KG175  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE3KG176  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE3KG177  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE3KG178  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE3KG179  a         bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE3KG180  a         bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
 }
