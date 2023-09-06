@@ -13,7 +13,7 @@ bdg:IE3JT13341 {
         adm:gitPath         "de/IE3JT13341.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13341 ;
-        adm:logEntry        bda:LG0IE3JT13341_AYGDQS0PYLVN , bdr:LG0IE3JT13341_FVJEQ4CDRAE4 , bdr:LG0IE3JT13341_QJGFXMFWLTRD ;
+        adm:logEntry        bda:LG0IE3JT13341_AYGDQS0PYLVN , bdr:LG0IE3JT13341_15XQ6LKLCQR8 , bdr:LG0IE3JT13341_FVJEQ4CDRAE4 , bdr:LG0IE3JT13341_QJGFXMFWLTRD ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -31,6 +31,13 @@ bdg:IE3JT13341 {
         bdo:inCollection    bdr:PR0ET001 ;
         bdo:instanceHasVolume  bdr:VE3JT13341_001 , bdr:VE3JT13341_002 , bdr:VE3JT13341_003 , bdr:VE3JT13341_004 , bdr:VE3JT13341_005 , bdr:VE3JT13341_006 , bdr:VE3JT13341_007 , bdr:VE3JT13341_008 , bdr:VE3JT13341_009 , bdr:VE3JT13341_010 , bdr:VE3JT13341_011 , bdr:VE3JT13341_012 , bdr:VE3JT13341_013 , bdr:VE3JT13341_014 , bdr:VE3JT13341_015 , bdr:VE3JT13341_016 , bdr:VE3JT13341_017 , bdr:VE3JT13341_018 , bdr:VE3JT13341_019 , bdr:VE3JT13341_020 , bdr:VE3JT13341_021 , bdr:VE3JT13341_022 , bdr:VE3JT13341_023 , bdr:VE3JT13341_024 , bdr:VE3JT13341_025 , bdr:VE3JT13341_026 , bdr:VE3JT13341_027 , bdr:VE3JT13341_028 , bdr:VE3JT13341_029 , bdr:VE3JT13341_030 , bdr:VE3JT13341_031 , bdr:VE3JT13341_032 , bdr:VE3JT13341_033 , bdr:VE3JT13341_034 , bdr:VE3JT13341_035 , bdr:VE3JT13341_036 , bdr:VE3JT13341_037 , bdr:VE3JT13341_038 , bdr:VE3JT13341_039 , bdr:VE3JT13341_040 , bdr:VE3JT13341_041 , bdr:VE3JT13341_042 , bdr:VE3JT13341_043 , bdr:VE3JT13341_044 , bdr:VE3JT13341_045 , bdr:VE3JT13341_046 , bdr:VE3JT13341_047 , bdr:VE3JT13341_048 , bdr:VE3JT13341_049 , bdr:VE3JT13341_050 , bdr:VE3JT13341_051 , bdr:VE3JT13341_052 , bdr:VE3JT13341_053 , bdr:VE3JT13341_054 , bdr:VE3JT13341_055 , bdr:VE3JT13341_056 , bdr:VE3JT13341_057 , bdr:VE3JT13341_058 , bdr:VE3JT13341_059 , bdr:VE3JT13341_060 , bdr:VE3JT13341_061 , bdr:VE3JT13341_062 , bdr:VE3JT13341_063 , bdr:VE3JT13341_064 , bdr:VE3JT13341_065 , bdr:VE3JT13341_066 , bdr:VE3JT13341_067 , bdr:VE3JT13341_068 , bdr:VE3JT13341_069 , bdr:VE3JT13341_070 , bdr:VE3JT13341_071 , bdr:VE3JT13341_072 , bdr:VE3JT13341_073 , bdr:VE3JT13341_074 , bdr:VE3JT13341_075 , bdr:VE3JT13341_076 , bdr:VE3JT13341_077 , bdr:VE3JT13341_078 , bdr:VE3JT13341_079 , bdr:VE3JT13341_080 , bdr:VE3JT13341_081 , bdr:VE3JT13341_082 , bdr:VE3JT13341_083 ;
         bdo:instanceReproductionOf  bdr:MW3JT13341 .
+    
+    bdr:LG0IE3JT13341_15XQ6LKLCQR8
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-06T14:02:59.878073Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:LG0IE3JT13341_FVJEQ4CDRAE4
         a                   adm:UpdateData ;
