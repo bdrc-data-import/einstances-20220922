@@ -13,7 +13,7 @@ bdg:IE3JT13341 {
         adm:gitPath         "de/IE3JT13341.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13341 ;
-        adm:logEntry        bda:LG0IE3JT13341_AYGDQS0PYLVN , bdr:LG0IE3JT13341_15XQ6LKLCQR8 , bdr:LG0IE3JT13341_FVJEQ4CDRAE4 , bdr:LG0IE3JT13341_QJGFXMFWLTRD ;
+        adm:logEntry        bda:LG0IE3JT13341_AYGDQS0PYLVN , bdr:LG0IE3JT13341_15XQ6LKLCQR8 , bdr:LG0IE3JT13341_6FHKAZDQRT2V , bdr:LG0IE3JT13341_FVJEQ4CDRAE4 , bdr:LG0IE3JT13341_QJGFXMFWLTRD ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -35,6 +35,13 @@ bdg:IE3JT13341 {
     bdr:LG0IE3JT13341_15XQ6LKLCQR8
         a                   adm:UpdateData ;
         adm:logDate         "2023-09-06T14:02:59.878073Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:LG0IE3JT13341_6FHKAZDQRT2V
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-06T22:40:20.295211Z"^^xsd:dateTime ;
         adm:logMessage      "changes (from etext request tool)"@en ;
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U2089842660 .
