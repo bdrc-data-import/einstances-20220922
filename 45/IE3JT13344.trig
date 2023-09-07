@@ -13,7 +13,7 @@ bdg:IE3JT13344 {
         adm:gitPath         "45/IE3JT13344.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13344 ;
-        adm:logEntry        bda:LG0IE3JT13344_YZ0SKIFULII6 ;
+        adm:logEntry        bda:LG0IE3JT13344_YZ0SKIFULII6 , bdr:LG0IE3JT13344_RRXJUK3VNCL8 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -27,9 +27,17 @@ bdg:IE3JT13344 {
     bdr:IE3JT13344  a       bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "Etext edition from Karma Leksheyling"@en ;
         bdo:inCollection    bdr:PR0ET001 ;
         bdo:instanceHasVolume  bdr:VE3JT13344_001 , bdr:VE3JT13344_002 , bdr:VE3JT13344_003 , bdr:VE3JT13344_004 , bdr:VE3JT13344_005 , bdr:VE3JT13344_006 , bdr:VE3JT13344_007 , bdr:VE3JT13344_008 , bdr:VE3JT13344_009 , bdr:VE3JT13344_010 , bdr:VE3JT13344_011 , bdr:VE3JT13344_012 , bdr:VE3JT13344_013 , bdr:VE3JT13344_014 , bdr:VE3JT13344_015 ;
         bdo:instanceReproductionOf  bdr:MW3JT13344 .
+    
+    bdr:LG0IE3JT13344_RRXJUK3VNCL8
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-07T14:14:51.083964Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:VE3JT13344_001
         a                   bdo:EtextVolume ;
