@@ -1,0 +1,152 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE8CZ265 {
+    bda:IE8CZ265  a         adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE8CZ265 ;
+        adm:graphId         bdg:IE8CZ265 ;
+        adm:logEntry        bda:LG0IE8CZ265_ETIWNZRISPEN ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE8CZ265_ETIWNZRISPEN
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-09-07T16:26:28.805049Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:IE8CZ265  a         bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "etext edition from Karma Leksheyling"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ38 , bdr:VE8CZ39 , bdr:VE8CZ40 , bdr:VE8CZ41 , bdr:VE8CZ42 , bdr:VE8CZ43 , bdr:VE8CZ44 , bdr:VE8CZ45 , bdr:VE8CZ46 , bdr:VE8CZ47 , bdr:VE8CZ48 , bdr:VE8CZ49 , bdr:VE8CZ50 , bdr:VE8CZ51 , bdr:VE8CZ52 , bdr:VE8CZ53 , bdr:VE8CZ54 , bdr:VE8CZ55 , bdr:VE8CZ56 , bdr:VE8CZ57 , bdr:VE8CZ58 , bdr:VE8CZ59 , bdr:VE8CZ60 , bdr:VE8CZ61 , bdr:VE8CZ62 , bdr:VE8CZ63 , bdr:VE8CZ64 , bdr:VE8CZ65 , bdr:VE8CZ66 , bdr:VE8CZ67 , bdr:VE8CZ68 , bdr:VE8CZ69 , bdr:VE8CZ70 , bdr:VE8CZ71 , bdr:VE8CZ72 , bdr:VE8CZ73 , bdr:VE8CZ74 , bdr:VE8CZ75 , bdr:VE8CZ76 , bdr:VE8CZ77 , bdr:VE8CZ78 .
+    
+    bdr:VE8CZ38  a          bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE8CZ39  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE8CZ40  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE8CZ41  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE8CZ42  a          bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE8CZ43  a          bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE8CZ44  a          bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE8CZ45  a          bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE8CZ46  a          bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE8CZ47  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE8CZ48  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE8CZ49  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE8CZ50  a          bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE8CZ51  a          bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE8CZ52  a          bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE8CZ53  a          bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE8CZ54  a          bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE8CZ55  a          bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE8CZ56  a          bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE8CZ57  a          bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE8CZ58  a          bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE8CZ59  a          bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE8CZ60  a          bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE8CZ61  a          bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE8CZ62  a          bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE8CZ63  a          bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
+    
+    bdr:VE8CZ64  a          bdo:EtextVolume ;
+        bdo:volumeNumber    27 .
+    
+    bdr:VE8CZ65  a          bdo:EtextVolume ;
+        bdo:volumeNumber    28 .
+    
+    bdr:VE8CZ66  a          bdo:EtextVolume ;
+        bdo:volumeNumber    29 .
+    
+    bdr:VE8CZ67  a          bdo:EtextVolume ;
+        bdo:volumeNumber    30 .
+    
+    bdr:VE8CZ68  a          bdo:EtextVolume ;
+        bdo:volumeNumber    31 .
+    
+    bdr:VE8CZ69  a          bdo:EtextVolume ;
+        bdo:volumeNumber    32 .
+    
+    bdr:VE8CZ70  a          bdo:EtextVolume ;
+        bdo:volumeNumber    33 .
+    
+    bdr:VE8CZ71  a          bdo:EtextVolume ;
+        bdo:volumeNumber    34 .
+    
+    bdr:VE8CZ72  a          bdo:EtextVolume ;
+        bdo:volumeNumber    35 .
+    
+    bdr:VE8CZ73  a          bdo:EtextVolume ;
+        bdo:volumeNumber    36 .
+    
+    bdr:VE8CZ74  a          bdo:EtextVolume ;
+        bdo:volumeNumber    37 .
+    
+    bdr:VE8CZ75  a          bdo:EtextVolume ;
+        bdo:volumeNumber    38 .
+    
+    bdr:VE8CZ76  a          bdo:EtextVolume ;
+        bdo:volumeNumber    39 .
+    
+    bdr:VE8CZ77  a          bdo:EtextVolume ;
+        bdo:volumeNumber    40 .
+    
+    bdr:VE8CZ78  a          bdo:EtextVolume ;
+        bdo:volumeNumber    41 .
+}
