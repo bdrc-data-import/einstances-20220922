@@ -1,0 +1,33 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE4CZ295072 {
+    bda:IE4CZ295072  a      adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE4CZ295072 ;
+        adm:graphId         bdg:IE4CZ295072 ;
+        adm:logEntry        bda:LG0IE4CZ295072_QHXH5HTV44BH ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  false ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE4CZ295072_QHXH5HTV44BH
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-09-11T18:53:51.000826Z"^^xsd:dateTime ;
+        adm:logMessage      "generated IE"@en ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:IE4CZ295072  a      bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "eTexts are shared by Vajra Vidya Institute Library."@en ;
+        bdo:note            bdr:NTIE4CZ295072W7CRA7XB .
+    
+    bdr:NTIE4CZ295072W7CRA7XB
+        a                   bdo:Note ;
+        bdo:noteText        "Currently only the eText of the first two volumes are available."@en .
+}
