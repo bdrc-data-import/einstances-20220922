@@ -11,7 +11,7 @@ bdg:IE4CZ294739 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE4CZ294739 ;
         adm:graphId         bdg:IE4CZ294739 ;
-        adm:logEntry        bda:LG0IE4CZ294739_QJYTQGJQPRO4 ;
+        adm:logEntry        bda:LG0IE4CZ294739_QJYTQGJQPRO4 , bdr:LG0IE4CZ294739_HBVBUVOYN7ET ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,23 @@ bdg:IE4CZ294739 {
         adm:logMessage      "generated IE"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG189  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG189 ;
+        adm:logEntry        bdr:LG0IE4CZ294739_HBVBUVOYN7ET .
+    
     bdr:IE4CZ294739  a      bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "eText file is shared by Vajra Vidya Institute Library."@en .
+        bdo:etextInfo       "eText file is shared by Vajra Vidya Institute Library."@en ;
+        bdo:instanceHasVolume  bdr:VE3KG189 ;
+        bdo:numberOfVolumes  1 .
+    
+    bdr:LG0IE4CZ294739_HBVBUVOYN7ET
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-11T19:21:06.802008Z"^^xsd:dateTime ;
+        adm:logMessage      "add 1 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:VE3KG189  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
 }
