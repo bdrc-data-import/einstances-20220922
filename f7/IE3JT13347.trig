@@ -13,7 +13,7 @@ bdg:IE3JT13347 {
         adm:gitPath         "f7/IE3JT13347.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13347 ;
-        adm:logEntry        bda:LG0IE3JT13347_KQST1F3LC5XR , bdr:LG0IE3JT13347_9NRK9AFMK7A1 ;
+        adm:logEntry        bda:LG0IE3JT13347_KQST1F3LC5XR , bdr:LG0IE3JT13347_9NRK9AFMK7A1 , bdr:LG0IE3JT13347_HBH3G1JE99IQ ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -24,13 +24,18 @@ bdg:IE3JT13347 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ79  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ79 ;
+        adm:logEntry        bdr:LG0IE3JT13347_HBH3G1JE99IQ .
+    
     bdr:IE3JT13347  a       bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Etext edition from Karma Leksheyling"@en ;
         bdo:inCollection    bdr:PR0ET001 ;
-        bdo:instanceHasVolume  bdr:VE3JT13347_001 ;
-        bdo:instanceReproductionOf  bdr:MW3JT13347 .
+        bdo:instanceHasVolume  bdr:VE3JT13347_001 , bdr:VE8CZ79 ;
+        bdo:instanceReproductionOf  bdr:MW3JT13347 ;
+        bdo:numberOfVolumes  2 .
     
     bdr:LG0IE3JT13347_9NRK9AFMK7A1
         a                   adm:UpdateData ;
@@ -39,7 +44,17 @@ bdg:IE3JT13347 {
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U2089842660 .
     
+    bdr:LG0IE3JT13347_HBH3G1JE99IQ
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-11T15:49:51.134364Z"^^xsd:dateTime ;
+        adm:logMessage      "add 1 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
     bdr:VE3JT13347_001
         a                   bdo:EtextVolume ;
         bdo:volumeNumber    1 .
+    
+    bdr:VE8CZ79  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
 }
