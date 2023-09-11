@@ -11,7 +11,7 @@ bdg:IE8CZ266 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ266 ;
         adm:graphId         bdg:IE8CZ266 ;
-        adm:logEntry        bda:LG0IE8CZ266_EA95D8T8D89I , bda:LG0IE8CZ266_QLOMNV6L49KF , bdr:LG0IE8CZ266_85SUB7KMQH1A , bdr:LG0IE8CZ266_JVIPZ0KNPDZK , bdr:LG0IE8CZ266_NGINA2N2TOHU ;
+        adm:logEntry        bda:LG0IE8CZ266_EA95D8T8D89I , bda:LG0IE8CZ266_QLOMNV6L49KF , bdr:LG0IE8CZ266_85SUB7KMQH1A , bdr:LG0IE8CZ266_JVIPZ0KNPDZK , bdr:LG0IE8CZ266_NGINA2N2TOHU , bdr:LG0IE8CZ266_WDQ84B7N41Y9 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -32,11 +32,67 @@ bdg:IE8CZ266 {
         adm:adminAbout      bdr:VE8CZ80 ;
         adm:logEntry        bdr:LG0IE8CZ266_NGINA2N2TOHU .
     
+    bda:VE8CZ81  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ81 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ82  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ82 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ83  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ83 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ84  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ84 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ85  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ85 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ86  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ86 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ87  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ87 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ88  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ88 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ89  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ89 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ90  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ90 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ91  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ91 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ92  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ92 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ93  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ93 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
+    bda:VE8CZ94  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ94 ;
+        adm:logEntry        bdr:LG0IE8CZ266_WDQ84B7N41Y9 .
+    
     bdr:IE8CZ266  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Etext edition from Songtsen Library, Dehradun"@en ;
-        bdo:instanceHasVolume  bdr:VE8CZ80 ;
-        bdo:numberOfVolumes  1 .
+        bdo:instanceHasVolume  bdr:VE8CZ80 , bdr:VE8CZ81 , bdr:VE8CZ82 , bdr:VE8CZ83 , bdr:VE8CZ84 , bdr:VE8CZ85 , bdr:VE8CZ86 , bdr:VE8CZ87 , bdr:VE8CZ88 , bdr:VE8CZ89 , bdr:VE8CZ90 , bdr:VE8CZ91 , bdr:VE8CZ92 , bdr:VE8CZ93 , bdr:VE8CZ94 ;
+        bdo:numberOfVolumes  15 .
     
     bdr:LG0IE8CZ266_85SUB7KMQH1A
         a                   adm:UpdateData ;
@@ -59,6 +115,55 @@ bdg:IE8CZ266 {
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U2089842660 .
     
+    bdr:LG0IE8CZ266_WDQ84B7N41Y9
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-11T16:14:24.287195Z"^^xsd:dateTime ;
+        adm:logMessage      "add 14 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
     bdr:VE8CZ80  a          bdo:EtextVolume ;
         bdo:volumeNumber    15 .
+    
+    bdr:VE8CZ81  a          bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE8CZ82  a          bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE8CZ83  a          bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE8CZ84  a          bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE8CZ85  a          bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE8CZ86  a          bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE8CZ87  a          bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE8CZ88  a          bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE8CZ89  a          bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE8CZ90  a          bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE8CZ91  a          bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
+    
+    bdr:VE8CZ92  a          bdo:EtextVolume ;
+        bdo:volumeNumber    27 .
+    
+    bdr:VE8CZ93  a          bdo:EtextVolume ;
+        bdo:volumeNumber    28 .
+    
+    bdr:VE8CZ94  a          bdo:EtextVolume ;
+        bdo:volumeNumber    29 .
 }
