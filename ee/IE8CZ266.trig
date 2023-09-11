@@ -11,7 +11,7 @@ bdg:IE8CZ266 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ266 ;
         adm:graphId         bdg:IE8CZ266 ;
-        adm:logEntry        bda:LG0IE8CZ266_4NX9RXB5MTIM , bda:LG0IE8CZ266_EA95D8T8D89I , bda:LG0IE8CZ266_QLOMNV6L49KF , bdr:LG0IE8CZ266_85SUB7KMQH1A , bdr:LG0IE8CZ266_JVIPZ0KNPDZK , bdr:LG0IE8CZ266_NGINA2N2TOHU , bdr:LG0IE8CZ266_WDQ84B7N41Y9 ;
+        adm:logEntry        bda:LG0IE8CZ266_4NX9RXB5MTIM , bda:LG0IE8CZ266_8QTGFZEJN5V3 , bda:LG0IE8CZ266_EA95D8T8D89I , bda:LG0IE8CZ266_QLOMNV6L49KF , bdr:LG0IE8CZ266_85SUB7KMQH1A , bdr:LG0IE8CZ266_JVIPZ0KNPDZK , bdr:LG0IE8CZ266_NGINA2N2TOHU , bdr:LG0IE8CZ266_WDQ84B7N41Y9 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -19,6 +19,12 @@ bdg:IE8CZ266 {
     bda:LG0IE8CZ266_4NX9RXB5MTIM
         a                   adm:UpdateData ;
         adm:logDate         "2023-09-11T20:17:56.829981Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bda:LG0IE8CZ266_8QTGFZEJN5V3
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-11T20:41:55.140391Z"^^xsd:dateTime ;
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
@@ -97,7 +103,7 @@ bdg:IE8CZ266 {
     bdr:IE8CZ266  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Etext edition from Songtsen Library, Dehradun"@en ;
-        bdo:instanceHasVolume  bdr:VE8CZ80 , bdr:VE8CZ81 , bdr:VE8CZ82 , bdr:VE8CZ83 , bdr:VE8CZ84 , bdr:VE8CZ85 , bdr:VE8CZ86 , bdr:VE8CZ87 , bdr:VE8CZ88 , bdr:VE8CZ89 , bdr:VE8CZ90 , bdr:VE8CZ91 , bdr:VE8CZ92 , bdr:VE8CZ93 , bdr:VE8CZ94 ;
+        bdo:instanceHasVolume  bdr:VE8CZ80 , bdr:VE8CZ81 , bdr:VE8CZ82 , bdr:VE8CZ83 , bdr:VE8CZ84 , bdr:VE8CZ85 , bdr:VE8CZ86 , bdr:VE8CZ88 , bdr:VE8CZ89 , bdr:VE8CZ90 , bdr:VE8CZ91 , bdr:VE8CZ92 ;
         bdo:numberOfVolumes  15 .
     
     bdr:LG0IE8CZ266_85SUB7KMQH1A
@@ -149,9 +155,6 @@ bdg:IE8CZ266 {
     bdr:VE8CZ86  a          bdo:EtextVolume ;
         bdo:volumeNumber    7 .
     
-    bdr:VE8CZ87  a          bdo:EtextVolume ;
-        bdo:volumeNumber    15 .
-    
     bdr:VE8CZ88  a          bdo:EtextVolume ;
         bdo:volumeNumber    8 .
     
@@ -166,10 +169,4 @@ bdg:IE8CZ266 {
     
     bdr:VE8CZ92  a          bdo:EtextVolume ;
         bdo:volumeNumber    12 .
-    
-    bdr:VE8CZ93  a          bdo:EtextVolume ;
-        bdo:volumeNumber    13 .
-    
-    bdr:VE8CZ94  a          bdo:EtextVolume ;
-        bdo:volumeNumber    14 .
 }
