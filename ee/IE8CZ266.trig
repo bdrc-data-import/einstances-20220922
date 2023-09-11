@@ -11,7 +11,7 @@ bdg:IE8CZ266 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ266 ;
         adm:graphId         bdg:IE8CZ266 ;
-        adm:logEntry        bda:LG0IE8CZ266_EA95D8T8D89I ;
+        adm:logEntry        bda:LG0IE8CZ266_EA95D8T8D89I , bdr:LG0IE8CZ266_85SUB7KMQH1A ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -23,5 +23,13 @@ bdg:IE8CZ266 {
         adm:logWho          bdu:U2089842660 .
     
     bdr:IE8CZ266  a         bdo:EtextInstance ;
-        bdo:binding         bdr:ContentMethod_ComputerInput .
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "Etext edition from Karma Leksheyling"@en .
+    
+    bdr:LG0IE8CZ266_85SUB7KMQH1A
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-11T16:08:58.346945Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
 }
