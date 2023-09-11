@@ -11,7 +11,7 @@ bdg:IE8CZ266 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ266 ;
         adm:graphId         bdg:IE8CZ266 ;
-        adm:logEntry        bda:LG0IE8CZ266_EA95D8T8D89I , bdr:LG0IE8CZ266_85SUB7KMQH1A , bdr:LG0IE8CZ266_JVIPZ0KNPDZK ;
+        adm:logEntry        bda:LG0IE8CZ266_EA95D8T8D89I , bdr:LG0IE8CZ266_85SUB7KMQH1A , bdr:LG0IE8CZ266_JVIPZ0KNPDZK , bdr:LG0IE8CZ266_NGINA2N2TOHU ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,9 +22,15 @@ bdg:IE8CZ266 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ80  a          adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ80 ;
+        adm:logEntry        bdr:LG0IE8CZ266_NGINA2N2TOHU .
+    
     bdr:IE8CZ266  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "Etext edition from Karma Leksheyling"@en .
+        bdo:etextInfo       "Etext edition from Songtsen Library, Dehradun"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ80 ;
+        bdo:numberOfVolumes  1 .
     
     bdr:LG0IE8CZ266_85SUB7KMQH1A
         a                   adm:UpdateData ;
@@ -39,4 +45,14 @@ bdg:IE8CZ266 {
         adm:logMessage      "changes (from etext request tool)"@en ;
         adm:logMethod       bda:BatchMethod ;
         adm:logWho          bdu:U2089842660 .
+    
+    bdr:LG0IE8CZ266_NGINA2N2TOHU
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-11T16:11:21.111279Z"^^xsd:dateTime ;
+        adm:logMessage      "add 1 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:VE8CZ80  a          bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
 }
