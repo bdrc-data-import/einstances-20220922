@@ -11,10 +11,16 @@ bdg:IE8CZ268 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ268 ;
         adm:graphId         bdg:IE8CZ268 ;
-        adm:logEntry        bda:LG0IE8CZ268_M3G0REEG5ZUB , bdr:LG0IE8CZ268_5JB5JXZHRKSK ;
+        adm:logEntry        bda:LG0IE8CZ268_9WTDOMIGX3AJ , bda:LG0IE8CZ268_M3G0REEG5ZUB , bdr:LG0IE8CZ268_5JB5JXZHRKSK ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE8CZ268_9WTDOMIGX3AJ
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-12T13:40:53.334230Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U2089842660 .
     
     bda:LG0IE8CZ268_M3G0REEG5ZUB
         a                   adm:InitialDataCreation ;
@@ -37,7 +43,7 @@ bdg:IE8CZ268 {
     bdr:IE8CZ268  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Etext edition from Songtsen Library, Dehradun"@en ;
-        bdo:instanceHasVolume  bdr:VE8CZ101 , bdr:VE8CZ102 , bdr:VE8CZ103 ;
+        bdo:instanceHasVolume  bdr:VE8CZ101 , bdr:VE8CZ102 ;
         bdo:numberOfVolumes  3 .
     
     bdr:LG0IE8CZ268_5JB5JXZHRKSK
@@ -52,7 +58,4 @@ bdg:IE8CZ268 {
     
     bdr:VE8CZ102  a         bdo:EtextVolume ;
         bdo:volumeNumber    2 .
-    
-    bdr:VE8CZ103  a         bdo:EtextVolume ;
-        bdo:volumeNumber    3 .
 }
