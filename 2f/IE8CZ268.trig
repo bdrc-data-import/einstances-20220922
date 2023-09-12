@@ -11,7 +11,7 @@ bdg:IE8CZ268 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ268 ;
         adm:graphId         bdg:IE8CZ268 ;
-        adm:logEntry        bda:LG0IE8CZ268_M3G0REEG5ZUB ;
+        adm:logEntry        bda:LG0IE8CZ268_M3G0REEG5ZUB , bdr:LG0IE8CZ268_5JB5JXZHRKSK ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,37 @@ bdg:IE8CZ268 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ101  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ101 ;
+        adm:logEntry        bdr:LG0IE8CZ268_5JB5JXZHRKSK .
+    
+    bda:VE8CZ102  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ102 ;
+        adm:logEntry        bdr:LG0IE8CZ268_5JB5JXZHRKSK .
+    
+    bda:VE8CZ103  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ103 ;
+        adm:logEntry        bdr:LG0IE8CZ268_5JB5JXZHRKSK .
+    
     bdr:IE8CZ268  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "Etext edition from Songtsen Library, Dehradun"@en .
+        bdo:etextInfo       "Etext edition from Songtsen Library, Dehradun"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ101 , bdr:VE8CZ102 , bdr:VE8CZ103 ;
+        bdo:numberOfVolumes  3 .
+    
+    bdr:LG0IE8CZ268_5JB5JXZHRKSK
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-12T13:39:59.894964Z"^^xsd:dateTime ;
+        adm:logMessage      "add 3 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:VE8CZ101  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE8CZ102  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE8CZ103  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
 }
