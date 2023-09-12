@@ -11,7 +11,7 @@ bdg:IE8CZ270 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ270 ;
         adm:graphId         bdg:IE8CZ270 ;
-        adm:logEntry        bda:LG0IE8CZ270_51DL8U6U7I6G ;
+        adm:logEntry        bda:LG0IE8CZ270_51DL8U6U7I6G , bdr:LG0IE8CZ270_P48QQ9CLTAP7 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,37 @@ bdg:IE8CZ270 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ104  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ104 ;
+        adm:logEntry        bdr:LG0IE8CZ270_P48QQ9CLTAP7 .
+    
+    bda:VE8CZ105  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ105 ;
+        adm:logEntry        bdr:LG0IE8CZ270_P48QQ9CLTAP7 .
+    
+    bda:VE8CZ106  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ106 ;
+        adm:logEntry        bdr:LG0IE8CZ270_P48QQ9CLTAP7 .
+    
     bdr:IE8CZ270  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "Etext edition from krung go'i bod rig pa dpe skrun khang"@en .
+        bdo:etextInfo       "Etext edition from krung go'i bod rig pa dpe skrun khang"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ104 , bdr:VE8CZ105 , bdr:VE8CZ106 ;
+        bdo:numberOfVolumes  3 .
+    
+    bdr:LG0IE8CZ270_P48QQ9CLTAP7
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-12T20:52:40.557439Z"^^xsd:dateTime ;
+        adm:logMessage      "add 3 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:VE8CZ104  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE8CZ105  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE8CZ106  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
 }
