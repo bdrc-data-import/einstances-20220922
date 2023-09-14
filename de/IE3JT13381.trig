@@ -13,10 +13,16 @@ bdg:IE3JT13381 {
         adm:gitPath         "de/IE3JT13381.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13381 ;
-        adm:logEntry        bda:LG0IE3JT13381_JWSYQWGBT8GF ;
+        adm:logEntry        bda:LG0IE3JT13381_CAQILWJECALP , bda:LG0IE3JT13381_JWSYQWGBT8GF ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE3JT13381_CAQILWJECALP
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-14T15:52:54.830965Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U1426146149 .
     
     bda:LG0IE3JT13381_JWSYQWGBT8GF
         a                   adm:UpdateData ;
@@ -27,6 +33,7 @@ bdg:IE3JT13381 {
     bdr:IE3JT13381  a       bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "eText file is shared by Vajra Vidya Institute Library"@en ;
         bdo:inCollection    bdr:PR0ET010 ;
         bdo:instanceHasVolume  bdr:VE3JT13381_001 ;
         bdo:instanceReproductionOf  bdr:MW3JT13381 .
