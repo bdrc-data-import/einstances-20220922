@@ -13,10 +13,16 @@ bdg:IE3JT13365 {
         adm:gitPath         "22/IE3JT13365.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13365 ;
-        adm:logEntry        bda:LG0IE3JT13365_F7R60IIKZEI6 ;
+        adm:logEntry        bda:LG0IE3JT13365_4UHH5HLZLYJD , bda:LG0IE3JT13365_F7R60IIKZEI6 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
+    
+    bda:LG0IE3JT13365_4UHH5HLZLYJD
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-14T15:52:22.942504Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U2089842660 .
     
     bda:LG0IE3JT13365_F7R60IIKZEI6
         a                   adm:UpdateData ;
@@ -27,6 +33,7 @@ bdg:IE3JT13365 {
     bdr:IE3JT13365  a       bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "Etext edition from bod ljongs mi dmangs dpe skrun khang"@en ;
         bdo:inCollection    bdr:PR0ET005 ;
         bdo:instanceHasVolume  bdr:VE3JT13365_001 , bdr:VE3JT13365_002 , bdr:VE3JT13365_003 , bdr:VE3JT13365_004 , bdr:VE3JT13365_005 , bdr:VE3JT13365_006 , bdr:VE3JT13365_007 , bdr:VE3JT13365_008 , bdr:VE3JT13365_009 , bdr:VE3JT13365_010 , bdr:VE3JT13365_011 ;
         bdo:instanceReproductionOf  bdr:MW3JT13365 .
