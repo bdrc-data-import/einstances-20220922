@@ -11,7 +11,7 @@ bdg:IE4CZ1042 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE4CZ1042 ;
         adm:graphId         bdg:IE4CZ1042 ;
-        adm:logEntry        bda:LG0IE4CZ1042_INYSXVEP6VAO ;
+        adm:logEntry        bda:LG0IE4CZ1042_INYSXVEP6VAO , bdr:LG0IE4CZ1042_ZQTQZE6EX0U9 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,23 @@ bdg:IE4CZ1042 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ121  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ121 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_ZQTQZE6EX0U9 .
+    
     bdr:IE4CZ1042  a        bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "etext from trulku gsang sngags tenzin rinpoche"@en .
+        bdo:etextInfo       "etext from trulku gsang sngags tenzin rinpoche"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ121 ;
+        bdo:numberOfVolumes  1 .
+    
+    bdr:LG0IE4CZ1042_ZQTQZE6EX0U9
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-15T19:54:20.194686Z"^^xsd:dateTime ;
+        adm:logMessage      "add 1 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:VE8CZ121  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
 }
