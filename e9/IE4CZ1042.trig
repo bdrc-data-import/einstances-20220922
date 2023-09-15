@@ -11,7 +11,7 @@ bdg:IE4CZ1042 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE4CZ1042 ;
         adm:graphId         bdg:IE4CZ1042 ;
-        adm:logEntry        bda:LG0IE4CZ1042_INYSXVEP6VAO , bdr:LG0IE4CZ1042_ZQTQZE6EX0U9 ;
+        adm:logEntry        bda:LG0IE4CZ1042_INYSXVEP6VAO , bdr:LG0IE4CZ1042_8NJW12Z4159Z , bdr:LG0IE4CZ1042_ZQTQZE6EX0U9 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -26,11 +26,134 @@ bdg:IE4CZ1042 {
         adm:adminAbout      bdr:VE8CZ121 ;
         adm:logEntry        bdr:LG0IE4CZ1042_ZQTQZE6EX0U9 .
     
+    bda:VE8CZ122  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ122 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ123  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ123 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ124  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ124 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ125  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ125 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ126  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ126 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ127  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ127 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ128  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ128 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ129  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ129 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ130  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ130 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ131  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ131 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ132  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ132 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ133  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ133 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ134  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ134 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ135  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ135 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ136  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ136 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ137  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ137 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ138  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ138 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ139  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ139 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ140  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ140 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ141  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ141 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ142  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ142 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ143  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ143 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ144  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ144 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ145  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ145 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ146  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ146 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ147  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ147 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ148  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ148 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ149  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ149 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
+    bda:VE8CZ150  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ150 ;
+        adm:logEntry        bdr:LG0IE4CZ1042_8NJW12Z4159Z .
+    
     bdr:IE4CZ1042  a        bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "etext from trulku gsang sngags tenzin rinpoche"@en ;
-        bdo:instanceHasVolume  bdr:VE8CZ121 ;
-        bdo:numberOfVolumes  1 .
+        bdo:instanceHasVolume  bdr:VE8CZ121 , bdr:VE8CZ122 , bdr:VE8CZ123 , bdr:VE8CZ124 , bdr:VE8CZ125 , bdr:VE8CZ126 , bdr:VE8CZ127 , bdr:VE8CZ128 , bdr:VE8CZ129 , bdr:VE8CZ130 , bdr:VE8CZ131 , bdr:VE8CZ132 , bdr:VE8CZ133 , bdr:VE8CZ134 , bdr:VE8CZ135 , bdr:VE8CZ136 , bdr:VE8CZ137 , bdr:VE8CZ138 , bdr:VE8CZ139 , bdr:VE8CZ140 , bdr:VE8CZ141 , bdr:VE8CZ142 , bdr:VE8CZ143 , bdr:VE8CZ144 , bdr:VE8CZ145 , bdr:VE8CZ146 , bdr:VE8CZ147 , bdr:VE8CZ148 , bdr:VE8CZ149 , bdr:VE8CZ150 ;
+        bdo:numberOfVolumes  30 .
+    
+    bdr:LG0IE4CZ1042_8NJW12Z4159Z
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-15T19:54:38.421614Z"^^xsd:dateTime ;
+        adm:logMessage      "add 29 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:LG0IE4CZ1042_ZQTQZE6EX0U9
         a                   adm:EtextRequested ;
@@ -41,4 +164,91 @@ bdg:IE4CZ1042 {
     
     bdr:VE8CZ121  a         bdo:EtextVolume ;
         bdo:volumeNumber    1 .
+    
+    bdr:VE8CZ122  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE8CZ123  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE8CZ124  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE8CZ125  a         bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE8CZ126  a         bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE8CZ127  a         bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE8CZ128  a         bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE8CZ129  a         bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE8CZ130  a         bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE8CZ131  a         bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE8CZ132  a         bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE8CZ133  a         bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE8CZ134  a         bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE8CZ135  a         bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE8CZ136  a         bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE8CZ137  a         bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE8CZ138  a         bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE8CZ139  a         bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE8CZ140  a         bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE8CZ141  a         bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE8CZ142  a         bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE8CZ143  a         bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE8CZ144  a         bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE8CZ145  a         bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE8CZ146  a         bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
+    
+    bdr:VE8CZ147  a         bdo:EtextVolume ;
+        bdo:volumeNumber    27 .
+    
+    bdr:VE8CZ148  a         bdo:EtextVolume ;
+        bdo:volumeNumber    28 .
+    
+    bdr:VE8CZ149  a         bdo:EtextVolume ;
+        bdo:volumeNumber    29 .
+    
+    bdr:VE8CZ150  a         bdo:EtextVolume ;
+        bdo:volumeNumber    30 .
 }
