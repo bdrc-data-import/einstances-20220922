@@ -11,7 +11,7 @@ bdg:IE8CZ272 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ272 ;
         adm:graphId         bdg:IE8CZ272 ;
-        adm:logEntry        bda:LG0IE8CZ272_TFV3ZHI4SYS6 ;
+        adm:logEntry        bda:LG0IE8CZ272_TFV3ZHI4SYS6 , bda:LG0IE8CZ272_UQSQO3N6TRLZ ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,6 +22,13 @@ bdg:IE8CZ272 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:LG0IE8CZ272_UQSQO3N6TRLZ
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-15T14:58:56.978138Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
     bdr:IE8CZ272  a         bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "Etext edition from krung go'i bod rig pa dpe skrun khang"@en .
 }
