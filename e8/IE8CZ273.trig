@@ -11,7 +11,7 @@ bdg:IE8CZ273 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ273 ;
         adm:graphId         bdg:IE8CZ273 ;
-        adm:logEntry        bda:LG0IE8CZ273_VCST4XGGLBLV ;
+        adm:logEntry        bda:LG0IE8CZ273_VCST4XGGLBLV , bdr:LG0IE8CZ273_8PJHOR4ICOGE ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,44 @@ bdg:IE8CZ273 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ116  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ116 ;
+        adm:logEntry        bdr:LG0IE8CZ273_8PJHOR4ICOGE .
+    
+    bda:VE8CZ117  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ117 ;
+        adm:logEntry        bdr:LG0IE8CZ273_8PJHOR4ICOGE .
+    
+    bda:VE8CZ118  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ118 ;
+        adm:logEntry        bdr:LG0IE8CZ273_8PJHOR4ICOGE .
+    
+    bda:VE8CZ119  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ119 ;
+        adm:logEntry        bdr:LG0IE8CZ273_8PJHOR4ICOGE .
+    
     bdr:IE8CZ273  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "e text edition from dpal brtsegs"@en .
+        bdo:etextInfo       "e text edition from dpal brtsegs"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ116 , bdr:VE8CZ117 , bdr:VE8CZ118 , bdr:VE8CZ119 ;
+        bdo:numberOfVolumes  4 .
+    
+    bdr:LG0IE8CZ273_8PJHOR4ICOGE
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-15T15:55:29.242869Z"^^xsd:dateTime ;
+        adm:logMessage      "add 4 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:VE8CZ116  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE8CZ117  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE8CZ118  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE8CZ119  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
 }
