@@ -11,7 +11,7 @@ bdg:IE8CZ274 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE8CZ274 ;
         adm:graphId         bdg:IE8CZ274 ;
-        adm:logEntry        bda:LG0IE8CZ274_M8YER4POBW6T ;
+        adm:logEntry        bda:LG0IE8CZ274_M8YER4POBW6T , bdr:LG0IE8CZ274_9K7GPVUUOG4Y ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,23 @@ bdg:IE8CZ274 {
         adm:logMessage      "saved"@en ;
         adm:logWho          bdu:U2089842660 .
     
+    bda:VE8CZ120  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE8CZ120 ;
+        adm:logEntry        bdr:LG0IE8CZ274_9K7GPVUUOG4Y .
+    
     bdr:IE8CZ274  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "Etext edition from dpal brtsegs"@en .
+        bdo:etextInfo       "Etext edition from dpal brtsegs"@en ;
+        bdo:instanceHasVolume  bdr:VE8CZ120 ;
+        bdo:numberOfVolumes  1 .
+    
+    bdr:LG0IE8CZ274_9K7GPVUUOG4Y
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-09-15T16:10:18.444484Z"^^xsd:dateTime ;
+        adm:logMessage      "add 1 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:VE8CZ120  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
 }
