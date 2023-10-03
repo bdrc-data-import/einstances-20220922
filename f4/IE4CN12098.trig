@@ -8,10 +8,10 @@
 
 bdg:IE4CN12098 {
     bda:IE4CN12098  a       adm:AdminData ;
-        adm:access          bda:AccessFairUse ;
+        adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE4CN12098 ;
         adm:graphId         bdg:IE4CN12098 ;
-        adm:logEntry        bda:LG0IE4CN12098_Z3IRNOMLUVKI ;
+        adm:logEntry        bda:LG0IE4CN12098_Z3IRNOMLUVKI , bdr:LG0IE4CN12098_TWHY9I4UEVX5 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,6 +22,22 @@ bdg:IE4CN12098 {
         adm:logMessage      "testing save"@en ;
         adm:logWho          bdu:U0ES1788534075 .
     
+    bda:VE4CN1  a           adm:AdminData ;
+        adm:adminAbout      bdr:VE4CN1 ;
+        adm:logEntry        bdr:LG0IE4CN12098_TWHY9I4UEVX5 .
+    
     bdr:IE4CN12098  a       bdo:EtextInstance ;
-        bdo:binding         bdr:ContentMethod_ComputerInput .
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:instanceHasVolume  bdr:VE4CN1 ;
+        bdo:numberOfVolumes  1 .
+    
+    bdr:LG0IE4CN12098_TWHY9I4UEVX5
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-10-03T16:52:05.682179Z"^^xsd:dateTime ;
+        adm:logMessage      "add 1 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:VE4CN1  a           bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
 }
