@@ -11,7 +11,7 @@ bdg:IE3KG185 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3KG185 ;
         adm:graphId         bdg:IE3KG185 ;
-        adm:logEntry        bda:LG0IE3KG185_RZ6B1LY5QTCM ;
+        adm:logEntry        bda:LG0IE3KG185_RZ6B1LY5QTCM , bdr:LG0IE3KG185_RF344DVJP2PR ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -26,6 +26,13 @@ bdg:IE3KG185 {
         bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:etextInfo       "eTexts are kindly shared by Zilungpa Tenpa Zangpo of Pal Ewam Namgyal Choede Thupten Dhargyeling Monastery, Mustang, Nepal."@en ;
         bdo:instanceHasVolume  bdr:VE3KG203 .
+    
+    bdr:LG0IE3KG185_RF344DVJP2PR
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-10-04T21:51:13.947973Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
     
     bdr:VE3KG203  a         bdo:EtextVolume ;
         bdo:volumeNumber    1 .
