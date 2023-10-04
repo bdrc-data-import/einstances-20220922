@@ -11,7 +11,7 @@ bdg:IE3KG184 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3KG184 ;
         adm:graphId         bdg:IE3KG184 ;
-        adm:logEntry        bda:LG0IE3KG184_AGPGEJVB58PB ;
+        adm:logEntry        bda:LG0IE3KG184_AGPGEJVB58PB , bdr:LG0IE3KG184_Z945KS6VM95F ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -22,7 +22,86 @@ bdg:IE3KG184 {
         adm:logMessage      "new person record"@en ;
         adm:logWho          bdu:U1426146149 .
     
+    bda:VE3KG193  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG193 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG194  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG194 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG195  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG195 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG196  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG196 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG197  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG197 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG198  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG198 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG199  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG199 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG200  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG200 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG201  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG201 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
+    bda:VE3KG202  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE3KG202 ;
+        adm:logEntry        bdr:LG0IE3KG184_Z945KS6VM95F .
+    
     bdr:IE3KG184  a         bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "eTexts are kindly shared by Zilungpa Tenpa Zangpo of Pal Ewam Namgyal Choede Thupten Dhargyeling Monastery, Mustang, Nepal."@en .
+        bdo:etextInfo       "eTexts are kindly shared by Zilungpa Tenpa Zangpo of Pal Ewam Namgyal Choede Thupten Dhargyeling Monastery, Mustang, Nepal."@en ;
+        bdo:instanceHasVolume  bdr:VE3KG193 , bdr:VE3KG194 , bdr:VE3KG195 , bdr:VE3KG196 , bdr:VE3KG197 , bdr:VE3KG198 , bdr:VE3KG199 , bdr:VE3KG200 , bdr:VE3KG201 , bdr:VE3KG202 ;
+        bdo:numberOfVolumes  10 .
+    
+    bdr:LG0IE3KG184_Z945KS6VM95F
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-10-04T17:22:11.885107Z"^^xsd:dateTime ;
+        adm:logMessage      "add 10 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1426146149 .
+    
+    bdr:VE3KG193  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE3KG194  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE3KG195  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE3KG196  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE3KG197  a         bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE3KG198  a         bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE3KG199  a         bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE3KG200  a         bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE3KG201  a         bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE3KG202  a         bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
 }
