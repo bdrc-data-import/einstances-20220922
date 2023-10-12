@@ -1,0 +1,67 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE30199 {
+    bda:IE30199  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE30199 ;
+        adm:graphId         bdg:IE30199 ;
+        adm:logEntry        bda:LG0IE30199_EYLZ4UH30TOH ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE30199_EYLZ4UH30TOH
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-10-12T19:30:32.057185Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:IE30199  a          bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:instanceHasVolume  bdr:VE5CN21 , bdr:VE5CN22 , bdr:VE5CN23 , bdr:VE5CN24 , bdr:VE5CN25 , bdr:VE5CN26 , bdr:VE5CN27 , bdr:VE5CN28 , bdr:VE5CN29 , bdr:VE5CN30 , bdr:VE5CN31 , bdr:VE5CN32 , bdr:VE5CN33 .
+    
+    bdr:VE5CN21  a          bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE5CN22  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE5CN23  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE5CN24  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE5CN25  a          bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE5CN26  a          bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE5CN27  a          bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE5CN28  a          bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE5CN29  a          bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE5CN30  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE5CN31  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE5CN32  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE5CN33  a          bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+}
