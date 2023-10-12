@@ -11,15 +11,21 @@ bdg:IE5CN4 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE5CN4 ;
         adm:graphId         bdg:IE5CN4 ;
-        adm:logEntry        bda:LG0IE5CN4_BHORF19LUOJB ;
+        adm:logEntry        bda:LG0IE5CN4_BHORF19LUOJB , bda:LG0IE5CN4_EFH8QMNAZK5O ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:restrictedInChina  true ;
+        adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
     
     bda:LG0IE5CN4_BHORF19LUOJB
         a                   adm:InitialDataCreation ;
         adm:logDate         "2023-10-12T18:48:29.899891Z"^^xsd:dateTime ;
         adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bda:LG0IE5CN4_EFH8QMNAZK5O
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-10-12T18:48:52.496597Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@bo ;
         adm:logWho          bdu:U0ES1788534075 .
     
     bdr:IE5CN4  a           bdo:EtextInstance ;
