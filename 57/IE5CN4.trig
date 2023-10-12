@@ -11,7 +11,7 @@ bdg:IE5CN4 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE5CN4 ;
         adm:graphId         bdg:IE5CN4 ;
-        adm:logEntry        bda:LG0IE5CN4_BHORF19LUOJB , bda:LG0IE5CN4_EFH8QMNAZK5O ;
+        adm:logEntry        bda:LG0IE5CN4_BHORF19LUOJB , bda:LG0IE5CN4_EFH8QMNAZK5O , bda:LG0IE5CN4_EWIGFBXTNGFX ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
@@ -28,7 +28,14 @@ bdg:IE5CN4 {
         adm:logMessage      "saved"@bo ;
         adm:logWho          bdu:U0ES1788534075 .
     
+    bda:LG0IE5CN4_EWIGFBXTNGFX
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-10-12T19:32:06.388893Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@bo ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
     bdr:IE5CN4  a           bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
         bdo:instanceHasVolume  bdr:VE5CN1 , bdr:VE5CN10 , bdr:VE5CN11 , bdr:VE5CN12 , bdr:VE5CN13 , bdr:VE5CN14 , bdr:VE5CN15 , bdr:VE5CN16 , bdr:VE5CN17 , bdr:VE5CN18 , bdr:VE5CN19 , bdr:VE5CN2 , bdr:VE5CN20 , bdr:VE5CN3 , bdr:VE5CN4 , bdr:VE5CN5 , bdr:VE5CN6 , bdr:VE5CN7 , bdr:VE5CN8 , bdr:VE5CN9 .
     
     bdr:VE5CN1  a           bdo:EtextVolume ;
