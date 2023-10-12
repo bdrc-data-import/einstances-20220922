@@ -1,0 +1,87 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE5CN4 {
+    bda:IE5CN4  a           adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE5CN4 ;
+        adm:graphId         bdg:IE5CN4 ;
+        adm:logEntry        bda:LG0IE5CN4_BHORF19LUOJB ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE5CN4_BHORF19LUOJB
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-10-12T18:48:29.899891Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:IE5CN4  a           bdo:EtextInstance ;
+        bdo:instanceHasVolume  bdr:VE5CN1 , bdr:VE5CN10 , bdr:VE5CN11 , bdr:VE5CN12 , bdr:VE5CN13 , bdr:VE5CN14 , bdr:VE5CN15 , bdr:VE5CN16 , bdr:VE5CN17 , bdr:VE5CN18 , bdr:VE5CN19 , bdr:VE5CN2 , bdr:VE5CN20 , bdr:VE5CN3 , bdr:VE5CN4 , bdr:VE5CN5 , bdr:VE5CN6 , bdr:VE5CN7 , bdr:VE5CN8 , bdr:VE5CN9 .
+    
+    bdr:VE5CN1  a           bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE5CN10  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE5CN11  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE5CN12  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE5CN13  a          bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE5CN14  a          bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE5CN15  a          bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE5CN16  a          bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE5CN17  a          bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE5CN18  a          bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE5CN19  a          bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE5CN2  a           bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE5CN20  a          bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE5CN3  a           bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE5CN4  a           bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE5CN5  a           bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE5CN6  a           bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE5CN7  a           bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE5CN8  a           bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE5CN9  a           bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+}
