@@ -11,7 +11,7 @@ bdg:IE3PD247 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3PD247 ;
         adm:graphId         bdg:IE3PD247 ;
-        adm:logEntry        bda:LG0IE3PD247_B9VRBPXMSA8Y ;
+        adm:logEntry        bda:LG0IE3PD247_B9VRBPXMSA8Y , bda:LG0IE3PD247_QYUV34RRHSJM ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -22,6 +22,64 @@ bdg:IE3PD247 {
         adm:logMessage      "saved"@bo ;
         adm:logWho          bdu:U0ES1788534075 .
     
+    bda:LG0IE3PD247_QYUV34RRHSJM
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-10-15T20:56:11.808232Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
     bdr:IE3PD247  a         bdo:EtextInstance ;
-        bdo:binding         bdr:ContentMethod_ComputerInput .
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:instanceHasVolume  bdr:VE5CN208 , bdr:VE5CN209 , bdr:VE5CN210 , bdr:VE5CN211 , bdr:VE5CN212 , bdr:VE5CN213 , bdr:VE5CN214 , bdr:VE5CN215 , bdr:VE5CN216 , bdr:VE5CN217 , bdr:VE5CN218 , bdr:VE5CN219 , bdr:VE5CN220 , bdr:VE5CN221 , bdr:VE5CN222 , bdr:VE5CN223 , bdr:VE5CN224 .
+    
+    bdr:VE5CN208  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE5CN209  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE5CN210  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE5CN211  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE5CN212  a         bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE5CN213  a         bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE5CN214  a         bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE5CN215  a         bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE5CN216  a         bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE5CN217  a         bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE5CN218  a         bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE5CN219  a         bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE5CN220  a         bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE5CN221  a         bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE5CN222  a         bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE5CN223  a         bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE5CN224  a         bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
 }
