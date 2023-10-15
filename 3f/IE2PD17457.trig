@@ -1,0 +1,217 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE2PD17457 {
+    bda:IE2PD17457  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE2PD17457 ;
+        adm:graphId         bdg:IE2PD17457 ;
+        adm:logEntry        bda:LG0IE2PD17457_VSOTSRH3YDYV ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE2PD17457_VSOTSRH3YDYV
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-10-15T03:53:35.543831Z"^^xsd:dateTime ;
+        adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:IE2PD17457  a       bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:instanceHasVolume  bdr:VE5CN100 , bdr:VE5CN101 , bdr:VE5CN102 , bdr:VE5CN103 , bdr:VE5CN104 , bdr:VE5CN105 , bdr:VE5CN106 , bdr:VE5CN44 , bdr:VE5CN45 , bdr:VE5CN46 , bdr:VE5CN47 , bdr:VE5CN48 , bdr:VE5CN49 , bdr:VE5CN50 , bdr:VE5CN51 , bdr:VE5CN52 , bdr:VE5CN53 , bdr:VE5CN54 , bdr:VE5CN55 , bdr:VE5CN56 , bdr:VE5CN57 , bdr:VE5CN58 , bdr:VE5CN59 , bdr:VE5CN60 , bdr:VE5CN61 , bdr:VE5CN62 , bdr:VE5CN63 , bdr:VE5CN64 , bdr:VE5CN65 , bdr:VE5CN66 , bdr:VE5CN67 , bdr:VE5CN68 , bdr:VE5CN69 , bdr:VE5CN70 , bdr:VE5CN71 , bdr:VE5CN72 , bdr:VE5CN73 , bdr:VE5CN74 , bdr:VE5CN75 , bdr:VE5CN76 , bdr:VE5CN77 , bdr:VE5CN78 , bdr:VE5CN79 , bdr:VE5CN80 , bdr:VE5CN81 , bdr:VE5CN82 , bdr:VE5CN83 , bdr:VE5CN84 , bdr:VE5CN85 , bdr:VE5CN86 , bdr:VE5CN87 , bdr:VE5CN88 , bdr:VE5CN89 , bdr:VE5CN90 , bdr:VE5CN91 , bdr:VE5CN92 , bdr:VE5CN93 , bdr:VE5CN94 , bdr:VE5CN95 , bdr:VE5CN96 , bdr:VE5CN97 , bdr:VE5CN98 , bdr:VE5CN99 .
+    
+    bdr:VE5CN100  a         bdo:EtextVolume ;
+        bdo:volumeNumber    57 .
+    
+    bdr:VE5CN101  a         bdo:EtextVolume ;
+        bdo:volumeNumber    58 .
+    
+    bdr:VE5CN102  a         bdo:EtextVolume ;
+        bdo:volumeNumber    59 .
+    
+    bdr:VE5CN103  a         bdo:EtextVolume ;
+        bdo:volumeNumber    60 .
+    
+    bdr:VE5CN104  a         bdo:EtextVolume ;
+        bdo:volumeNumber    61 .
+    
+    bdr:VE5CN105  a         bdo:EtextVolume ;
+        bdo:volumeNumber    62 .
+    
+    bdr:VE5CN106  a         bdo:EtextVolume ;
+        bdo:volumeNumber    63 .
+    
+    bdr:VE5CN44  a          bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE5CN45  a          bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE5CN46  a          bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE5CN47  a          bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE5CN48  a          bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE5CN49  a          bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE5CN50  a          bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE5CN51  a          bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE5CN52  a          bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE5CN53  a          bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE5CN54  a          bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE5CN55  a          bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE5CN56  a          bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE5CN57  a          bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE5CN58  a          bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE5CN59  a          bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE5CN60  a          bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE5CN61  a          bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE5CN62  a          bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE5CN63  a          bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE5CN64  a          bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE5CN65  a          bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE5CN66  a          bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE5CN67  a          bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE5CN68  a          bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE5CN69  a          bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
+    
+    bdr:VE5CN70  a          bdo:EtextVolume ;
+        bdo:volumeNumber    27 .
+    
+    bdr:VE5CN71  a          bdo:EtextVolume ;
+        bdo:volumeNumber    28 .
+    
+    bdr:VE5CN72  a          bdo:EtextVolume ;
+        bdo:volumeNumber    29 .
+    
+    bdr:VE5CN73  a          bdo:EtextVolume ;
+        bdo:volumeNumber    30 .
+    
+    bdr:VE5CN74  a          bdo:EtextVolume ;
+        bdo:volumeNumber    31 .
+    
+    bdr:VE5CN75  a          bdo:EtextVolume ;
+        bdo:volumeNumber    32 .
+    
+    bdr:VE5CN76  a          bdo:EtextVolume ;
+        bdo:volumeNumber    33 .
+    
+    bdr:VE5CN77  a          bdo:EtextVolume ;
+        bdo:volumeNumber    34 .
+    
+    bdr:VE5CN78  a          bdo:EtextVolume ;
+        bdo:volumeNumber    35 .
+    
+    bdr:VE5CN79  a          bdo:EtextVolume ;
+        bdo:volumeNumber    36 .
+    
+    bdr:VE5CN80  a          bdo:EtextVolume ;
+        bdo:volumeNumber    37 .
+    
+    bdr:VE5CN81  a          bdo:EtextVolume ;
+        bdo:volumeNumber    38 .
+    
+    bdr:VE5CN82  a          bdo:EtextVolume ;
+        bdo:volumeNumber    39 .
+    
+    bdr:VE5CN83  a          bdo:EtextVolume ;
+        bdo:volumeNumber    40 .
+    
+    bdr:VE5CN84  a          bdo:EtextVolume ;
+        bdo:volumeNumber    41 .
+    
+    bdr:VE5CN85  a          bdo:EtextVolume ;
+        bdo:volumeNumber    42 .
+    
+    bdr:VE5CN86  a          bdo:EtextVolume ;
+        bdo:volumeNumber    43 .
+    
+    bdr:VE5CN87  a          bdo:EtextVolume ;
+        bdo:volumeNumber    44 .
+    
+    bdr:VE5CN88  a          bdo:EtextVolume ;
+        bdo:volumeNumber    45 .
+    
+    bdr:VE5CN89  a          bdo:EtextVolume ;
+        bdo:volumeNumber    46 .
+    
+    bdr:VE5CN90  a          bdo:EtextVolume ;
+        bdo:volumeNumber    47 .
+    
+    bdr:VE5CN91  a          bdo:EtextVolume ;
+        bdo:volumeNumber    48 .
+    
+    bdr:VE5CN92  a          bdo:EtextVolume ;
+        bdo:volumeNumber    49 .
+    
+    bdr:VE5CN93  a          bdo:EtextVolume ;
+        bdo:volumeNumber    50 .
+    
+    bdr:VE5CN94  a          bdo:EtextVolume ;
+        bdo:volumeNumber    51 .
+    
+    bdr:VE5CN95  a          bdo:EtextVolume ;
+        bdo:volumeNumber    52 .
+    
+    bdr:VE5CN96  a          bdo:EtextVolume ;
+        bdo:volumeNumber    53 .
+    
+    bdr:VE5CN97  a          bdo:EtextVolume ;
+        bdo:volumeNumber    54 .
+    
+    bdr:VE5CN98  a          bdo:EtextVolume ;
+        bdo:volumeNumber    55 .
+    
+    bdr:VE5CN99  a          bdo:EtextVolume ;
+        bdo:volumeNumber    56 .
+}
