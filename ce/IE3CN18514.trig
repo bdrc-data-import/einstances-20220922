@@ -1,0 +1,36 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE3CN18514 {
+    bda:IE3CN18514  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE3CN18514 ;
+        adm:graphId         bdg:IE3CN18514 ;
+        adm:logEntry        bdr:LG0IE3CN18514_138N3HXCJB4N ;
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
+    
+    bda:VE1ER4  a           adm:AdminData ;
+        adm:adminAbout      bdr:VE1ER4 ;
+        adm:logEntry        bdr:LG0IE3CN18514_138N3HXCJB4N .
+    
+    bdr:IE3CN18514  a       bdo:EtextInstance ;
+        bdo:etextInfo       "Produced by the ERC project \"The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.)\" (TibSchol)  in Vienna in 2023"@en ;
+        bdo:instanceHasVolume  bdr:VE1ER4 ;
+        bdo:numberOfVolumes  1 .
+    
+    bdr:LG0IE3CN18514_138N3HXCJB4N
+        a                   adm:EtextRequested , adm:InitialDataCreation ;
+        adm:logDate         "2023-10-19T09:09:44.256492Z"^^xsd:dateTime ;
+        adm:logMessage      "create through etext request tool"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U1653882847 .
+    
+    bdr:VE1ER4  a           bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+}
