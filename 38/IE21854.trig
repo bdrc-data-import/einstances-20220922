@@ -1,0 +1,27 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE21854 {
+    bda:IE21854  a          adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE21854 ;
+        adm:graphId         bdg:IE21854 ;
+        adm:logEntry        bda:LG0IE21854_BIZJTCVR3LO5 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  false ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE21854_BIZJTCVR3LO5
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-11-01T20:32:36.965168Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@bo ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:IE21854  a          bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput .
+}
