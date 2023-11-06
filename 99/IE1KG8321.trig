@@ -11,7 +11,7 @@ bdg:IE1KG8321 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE1KG8321 ;
         adm:graphId         bdg:IE1KG8321 ;
-        adm:logEntry        bda:LG0IE1KG8321_ZFWKAUJWKK0M ;
+        adm:logEntry        bda:LG0IE1KG8321_ZFWKAUJWKK0M , bdr:LG0IE1KG8321_6ZABPXY53THZ ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  false ;
         adm:sourcesAccessible  false ;
@@ -23,6 +23,435 @@ bdg:IE1KG8321 {
         adm:logMessage      "added E-texts"@bo ;
         adm:logWho          bdu:U0ES1788534075 .
     
+    bda:VE5CN452  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN452 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN453  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN453 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN454  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN454 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN455  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN455 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN456  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN456 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN457  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN457 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN458  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN458 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN459  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN459 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN460  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN460 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN461  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN461 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN462  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN462 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN463  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN463 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN464  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN464 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN465  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN465 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN466  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN466 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN467  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN467 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN468  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN468 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN469  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN469 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN470  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN470 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN471  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN471 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN472  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN472 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN473  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN473 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN474  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN474 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN475  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN475 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN476  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN476 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN477  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN477 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN478  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN478 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN479  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN479 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN480  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN480 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN481  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN481 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN482  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN482 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN483  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN483 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN484  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN484 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN485  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN485 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN486  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN486 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN487  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN487 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN488  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN488 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN489  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN489 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN490  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN490 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN491  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN491 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN492  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN492 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN493  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN493 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN494  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN494 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN495  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN495 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN496  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN496 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN497  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN497 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN498  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN498 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN499  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN499 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN500  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN500 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN501  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN501 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN502  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN502 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN503  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN503 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN504  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN504 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN505  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN505 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN506  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN506 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN507  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN507 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN508  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN508 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN509  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN509 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN510  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN510 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
+    bda:VE5CN511  a         adm:AdminData ;
+        adm:adminAbout      bdr:VE5CN511 ;
+        adm:logEntry        bdr:LG0IE1KG8321_6ZABPXY53THZ .
+    
     bdr:IE1KG8321  a        bdo:EtextInstance ;
-        bdo:binding         bdr:ContentMethod_ComputerInput .
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:instanceHasVolume  bdr:VE5CN452 , bdr:VE5CN453 , bdr:VE5CN454 , bdr:VE5CN455 , bdr:VE5CN456 , bdr:VE5CN457 , bdr:VE5CN458 , bdr:VE5CN459 , bdr:VE5CN460 , bdr:VE5CN461 , bdr:VE5CN462 , bdr:VE5CN463 , bdr:VE5CN464 , bdr:VE5CN465 , bdr:VE5CN466 , bdr:VE5CN467 , bdr:VE5CN468 , bdr:VE5CN469 , bdr:VE5CN470 , bdr:VE5CN471 , bdr:VE5CN472 , bdr:VE5CN473 , bdr:VE5CN474 , bdr:VE5CN475 , bdr:VE5CN476 , bdr:VE5CN477 , bdr:VE5CN478 , bdr:VE5CN479 , bdr:VE5CN480 , bdr:VE5CN481 , bdr:VE5CN482 , bdr:VE5CN483 , bdr:VE5CN484 , bdr:VE5CN485 , bdr:VE5CN486 , bdr:VE5CN487 , bdr:VE5CN488 , bdr:VE5CN489 , bdr:VE5CN490 , bdr:VE5CN491 , bdr:VE5CN492 , bdr:VE5CN493 , bdr:VE5CN494 , bdr:VE5CN495 , bdr:VE5CN496 , bdr:VE5CN497 , bdr:VE5CN498 , bdr:VE5CN499 , bdr:VE5CN500 , bdr:VE5CN501 , bdr:VE5CN502 , bdr:VE5CN503 , bdr:VE5CN504 , bdr:VE5CN505 , bdr:VE5CN506 , bdr:VE5CN507 , bdr:VE5CN508 , bdr:VE5CN509 , bdr:VE5CN510 , bdr:VE5CN511 ;
+        bdo:numberOfVolumes  60 .
+    
+    bdr:LG0IE1KG8321_6ZABPXY53THZ
+        a                   adm:EtextRequested ;
+        adm:logDate         "2023-11-06T17:04:52.648638Z"^^xsd:dateTime ;
+        adm:logMessage      "add 60 volumes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:VE5CN452  a         bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
+    
+    bdr:VE5CN453  a         bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
+    
+    bdr:VE5CN454  a         bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
+    
+    bdr:VE5CN455  a         bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
+    
+    bdr:VE5CN456  a         bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
+    
+    bdr:VE5CN457  a         bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
+    
+    bdr:VE5CN458  a         bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
+    
+    bdr:VE5CN459  a         bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
+    
+    bdr:VE5CN460  a         bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
+    
+    bdr:VE5CN461  a         bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
+    
+    bdr:VE5CN462  a         bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
+    
+    bdr:VE5CN463  a         bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
+    
+    bdr:VE5CN464  a         bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
+    
+    bdr:VE5CN465  a         bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
+    
+    bdr:VE5CN466  a         bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
+    
+    bdr:VE5CN467  a         bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
+    
+    bdr:VE5CN468  a         bdo:EtextVolume ;
+        bdo:volumeNumber    17 .
+    
+    bdr:VE5CN469  a         bdo:EtextVolume ;
+        bdo:volumeNumber    18 .
+    
+    bdr:VE5CN470  a         bdo:EtextVolume ;
+        bdo:volumeNumber    19 .
+    
+    bdr:VE5CN471  a         bdo:EtextVolume ;
+        bdo:volumeNumber    20 .
+    
+    bdr:VE5CN472  a         bdo:EtextVolume ;
+        bdo:volumeNumber    21 .
+    
+    bdr:VE5CN473  a         bdo:EtextVolume ;
+        bdo:volumeNumber    22 .
+    
+    bdr:VE5CN474  a         bdo:EtextVolume ;
+        bdo:volumeNumber    23 .
+    
+    bdr:VE5CN475  a         bdo:EtextVolume ;
+        bdo:volumeNumber    24 .
+    
+    bdr:VE5CN476  a         bdo:EtextVolume ;
+        bdo:volumeNumber    25 .
+    
+    bdr:VE5CN477  a         bdo:EtextVolume ;
+        bdo:volumeNumber    26 .
+    
+    bdr:VE5CN478  a         bdo:EtextVolume ;
+        bdo:volumeNumber    27 .
+    
+    bdr:VE5CN479  a         bdo:EtextVolume ;
+        bdo:volumeNumber    28 .
+    
+    bdr:VE5CN480  a         bdo:EtextVolume ;
+        bdo:volumeNumber    29 .
+    
+    bdr:VE5CN481  a         bdo:EtextVolume ;
+        bdo:volumeNumber    30 .
+    
+    bdr:VE5CN482  a         bdo:EtextVolume ;
+        bdo:volumeNumber    31 .
+    
+    bdr:VE5CN483  a         bdo:EtextVolume ;
+        bdo:volumeNumber    32 .
+    
+    bdr:VE5CN484  a         bdo:EtextVolume ;
+        bdo:volumeNumber    33 .
+    
+    bdr:VE5CN485  a         bdo:EtextVolume ;
+        bdo:volumeNumber    34 .
+    
+    bdr:VE5CN486  a         bdo:EtextVolume ;
+        bdo:volumeNumber    35 .
+    
+    bdr:VE5CN487  a         bdo:EtextVolume ;
+        bdo:volumeNumber    36 .
+    
+    bdr:VE5CN488  a         bdo:EtextVolume ;
+        bdo:volumeNumber    37 .
+    
+    bdr:VE5CN489  a         bdo:EtextVolume ;
+        bdo:volumeNumber    38 .
+    
+    bdr:VE5CN490  a         bdo:EtextVolume ;
+        bdo:volumeNumber    39 .
+    
+    bdr:VE5CN491  a         bdo:EtextVolume ;
+        bdo:volumeNumber    40 .
+    
+    bdr:VE5CN492  a         bdo:EtextVolume ;
+        bdo:volumeNumber    41 .
+    
+    bdr:VE5CN493  a         bdo:EtextVolume ;
+        bdo:volumeNumber    42 .
+    
+    bdr:VE5CN494  a         bdo:EtextVolume ;
+        bdo:volumeNumber    43 .
+    
+    bdr:VE5CN495  a         bdo:EtextVolume ;
+        bdo:volumeNumber    44 .
+    
+    bdr:VE5CN496  a         bdo:EtextVolume ;
+        bdo:volumeNumber    45 .
+    
+    bdr:VE5CN497  a         bdo:EtextVolume ;
+        bdo:volumeNumber    46 .
+    
+    bdr:VE5CN498  a         bdo:EtextVolume ;
+        bdo:volumeNumber    47 .
+    
+    bdr:VE5CN499  a         bdo:EtextVolume ;
+        bdo:volumeNumber    48 .
+    
+    bdr:VE5CN500  a         bdo:EtextVolume ;
+        bdo:volumeNumber    49 .
+    
+    bdr:VE5CN501  a         bdo:EtextVolume ;
+        bdo:volumeNumber    50 .
+    
+    bdr:VE5CN502  a         bdo:EtextVolume ;
+        bdo:volumeNumber    51 .
+    
+    bdr:VE5CN503  a         bdo:EtextVolume ;
+        bdo:volumeNumber    52 .
+    
+    bdr:VE5CN504  a         bdo:EtextVolume ;
+        bdo:volumeNumber    53 .
+    
+    bdr:VE5CN505  a         bdo:EtextVolume ;
+        bdo:volumeNumber    54 .
+    
+    bdr:VE5CN506  a         bdo:EtextVolume ;
+        bdo:volumeNumber    55 .
+    
+    bdr:VE5CN507  a         bdo:EtextVolume ;
+        bdo:volumeNumber    56 .
+    
+    bdr:VE5CN508  a         bdo:EtextVolume ;
+        bdo:volumeNumber    57 .
+    
+    bdr:VE5CN509  a         bdo:EtextVolume ;
+        bdo:volumeNumber    58 .
+    
+    bdr:VE5CN510  a         bdo:EtextVolume ;
+        bdo:volumeNumber    59 .
+    
+    bdr:VE5CN511  a         bdo:EtextVolume ;
+        bdo:volumeNumber    60 .
 }
