@@ -1,0 +1,28 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:IE2PD14777 {
+    bda:IE2PD14777  a       adm:AdminData ;
+        adm:access          bda:AccessOpen ;
+        adm:adminAbout      bdr:IE2PD14777 ;
+        adm:graphId         bdg:IE2PD14777 ;
+        adm:logEntry        bda:LG0IE2PD14777_DCSH3FBATTGL ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:restrictedInChina  false ;
+        adm:status          bda:StatusReleased .
+    
+    bda:LG0IE2PD14777_DCSH3FBATTGL
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-11-09T18:25:06.134816Z"^^xsd:dateTime ;
+        adm:logMessage      "added eTexts"@bo ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bdr:IE2PD14777  a       bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "ComputerInput eTexts from Sichuan Kham"@en .
+}
