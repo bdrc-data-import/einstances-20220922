@@ -11,7 +11,7 @@ bdg:IE21295 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE21295 ;
         adm:graphId         bdg:IE21295 ;
-        adm:logEntry        bda:LG0IE21295_HROKXPVR194E ;
+        adm:logEntry        bda:LG0IE21295_HROKXPVR194E , bdr:LG0IE21295_2T16MHJH2A70 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
@@ -24,7 +24,15 @@ bdg:IE21295 {
     
     bdr:IE21295  a          bdo:EtextInstance ;
         bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "ComputerInput eTexts from Kham"@en ;
         bdo:instanceHasVolume  bdr:VE5CN107 , bdr:VE5CN108 , bdr:VE5CN109 , bdr:VE5CN110 , bdr:VE5CN111 , bdr:VE5CN112 , bdr:VE5CN113 , bdr:VE5CN114 , bdr:VE5CN115 , bdr:VE5CN116 , bdr:VE5CN117 , bdr:VE5CN118 , bdr:VE5CN119 , bdr:VE5CN120 , bdr:VE5CN121 , bdr:VE5CN122 , bdr:VE5CN123 , bdr:VE5CN124 , bdr:VE5CN125 , bdr:VE5CN126 , bdr:VE5CN127 , bdr:VE5CN128 , bdr:VE5CN129 , bdr:VE5CN130 , bdr:VE5CN131 , bdr:VE5CN132 , bdr:VE5CN133 , bdr:VE5CN134 , bdr:VE5CN135 , bdr:VE5CN136 .
+    
+    bdr:LG0IE21295_2T16MHJH2A70
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-11-09T19:08:21.647568Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U0ES1788534075 .
     
     bdr:VE5CN107  a         bdo:EtextVolume ;
         bdo:volumeNumber    1 .
