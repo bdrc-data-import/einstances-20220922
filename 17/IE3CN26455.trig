@@ -11,15 +11,21 @@ bdg:IE3CN26455 {
         adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE3CN26455 ;
         adm:graphId         bdg:IE3CN26455 ;
-        adm:logEntry        bda:LG0IE3CN26455_JWGRJOZJNHVU ;
+        adm:logEntry        bda:LG0IE3CN26455_JWGRJOZJNHVU , bda:LG0IE3CN26455_KQVOOAS3LMG0 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:restrictedInChina  true ;
+        adm:restrictedInChina  false ;
         adm:status          bda:StatusReleased .
     
     bda:LG0IE3CN26455_JWGRJOZJNHVU
         a                   adm:InitialDataCreation ;
         adm:logDate         "2023-12-30T00:40:16.846916Z"^^xsd:dateTime ;
         adm:logMessage      "batch add volumes"@en ;
+        adm:logWho          bdu:U0ES1788534075 .
+    
+    bda:LG0IE3CN26455_KQVOOAS3LMG0
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-12-30T00:41:26.952961Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@bo ;
         adm:logWho          bdu:U0ES1788534075 .
     
     bdr:IE3CN26455  a       bdo:EtextInstance ;
