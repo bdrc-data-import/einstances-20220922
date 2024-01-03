@@ -20,7 +20,7 @@ bdg:IE27303 {
         adm:graphId         bdg:IE27303 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
-        adm:status          bda:StatusWithdrawn .
+        adm:status          bda:StatusReleased .
     
     bdr:IE27303  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;

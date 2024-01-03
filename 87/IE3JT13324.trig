@@ -1,14 +1,9 @@
-@prefix :      <http://purl.bdrc.io/ontology/core/> .
 @prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
 @prefix bda:   <http://purl.bdrc.io/admindata/> .
 @prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr:   <http://purl.bdrc.io/resource/> .
 @prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 bdg:IE3JT13324 {
@@ -18,76 +13,85 @@ bdg:IE3JT13324 {
         adm:gitPath         "87/IE3JT13324.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13324 ;
+        adm:logEntry        bdr:LG0IE3JT13324_COHPQOWCA5LB ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
-    bdr:IE3JT13324  a       :EtextInstance ;
-        :contentMethod      bdr:ContentMethod_ComputerInput ;
-        :inCollection       bdr:PR0ET001 ;
-        :instanceHasVolume  bdr:VE3JT13324_001 , bdr:VE3JT13324_002 , bdr:VE3JT13324_003 , bdr:VE3JT13324_004 , bdr:VE3JT13324_005 , bdr:VE3JT13324_006 , bdr:VE3JT13324_007 , bdr:VE3JT13324_008 , bdr:VE3JT13324_009 , bdr:VE3JT13324_010 , bdr:VE3JT13324_011 , bdr:VE3JT13324_012 , bdr:VE3JT13324_013 , bdr:VE3JT13324_014 , bdr:VE3JT13324_015 , bdr:VE3JT13324_016 ;
-        :instanceReproductionOf  bdr:MW3JT13324 .
+    bdr:IE3JT13324  a       bdo:EtextInstance ;
+        bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
+        bdo:etextInfo       "Etext edition from Karma Leksheyling"@en ;
+        bdo:inCollection    bdr:PR0ET001 ;
+        bdo:instanceHasVolume  bdr:VE3JT13324_001 , bdr:VE3JT13324_002 , bdr:VE3JT13324_003 , bdr:VE3JT13324_004 , bdr:VE3JT13324_005 , bdr:VE3JT13324_006 , bdr:VE3JT13324_007 , bdr:VE3JT13324_008 , bdr:VE3JT13324_009 , bdr:VE3JT13324_010 , bdr:VE3JT13324_011 , bdr:VE3JT13324_012 , bdr:VE3JT13324_013 , bdr:VE3JT13324_014 , bdr:VE3JT13324_015 , bdr:VE3JT13324_016 ;
+        bdo:instanceReproductionOf  bdr:MW3JT13324 .
+    
+    bdr:LG0IE3JT13324_COHPQOWCA5LB
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-05T14:27:23.875825Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:VE3JT13324_001
-        a                   :EtextVolume ;
-        :volumeNumber       1 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
     
     bdr:VE3JT13324_002
-        a                   :EtextVolume ;
-        :volumeNumber       2 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
     
     bdr:VE3JT13324_003
-        a                   :EtextVolume ;
-        :volumeNumber       3 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
     
     bdr:VE3JT13324_004
-        a                   :EtextVolume ;
-        :volumeNumber       4 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
     
     bdr:VE3JT13324_005
-        a                   :EtextVolume ;
-        :volumeNumber       5 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    5 .
     
     bdr:VE3JT13324_006
-        a                   :EtextVolume ;
-        :volumeNumber       6 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    6 .
     
     bdr:VE3JT13324_007
-        a                   :EtextVolume ;
-        :volumeNumber       7 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    7 .
     
     bdr:VE3JT13324_008
-        a                   :EtextVolume ;
-        :volumeNumber       8 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    8 .
     
     bdr:VE3JT13324_009
-        a                   :EtextVolume ;
-        :volumeNumber       9 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    9 .
     
     bdr:VE3JT13324_010
-        a                   :EtextVolume ;
-        :volumeNumber       10 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    10 .
     
     bdr:VE3JT13324_011
-        a                   :EtextVolume ;
-        :volumeNumber       11 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    11 .
     
     bdr:VE3JT13324_012
-        a                   :EtextVolume ;
-        :volumeNumber       12 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    12 .
     
     bdr:VE3JT13324_013
-        a                   :EtextVolume ;
-        :volumeNumber       13 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    13 .
     
     bdr:VE3JT13324_014
-        a                   :EtextVolume ;
-        :volumeNumber       14 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    14 .
     
     bdr:VE3JT13324_015
-        a                   :EtextVolume ;
-        :volumeNumber       15 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    15 .
     
     bdr:VE3JT13324_016
-        a                   :EtextVolume ;
-        :volumeNumber       16 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    16 .
 }

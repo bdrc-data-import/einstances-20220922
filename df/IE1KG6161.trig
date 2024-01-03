@@ -19,7 +19,7 @@ bdg:IE1KG6161 {
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE1KG6161 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusWithdrawn .
+        adm:status          bda:StatusReleased .
     
     bdr:IE1KG6161  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;

@@ -1,44 +1,56 @@
-@prefix :      <http://purl.bdrc.io/ontology/core/> .
 @prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
 @prefix bda:   <http://purl.bdrc.io/admindata/> .
 @prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr:   <http://purl.bdrc.io/resource/> .
 @prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 bdg:IE2DB4570 {
     bda:IE2DB4570  a        adm:AdminData ;
-        adm:access          bda:AccessFairUse ;
+        adm:access          bda:AccessOpen ;
         adm:adminAbout      bdr:IE2DB4570 ;
         adm:gitPath         "eb/IE2DB4570.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE2DB4570 ;
+        adm:logEntry        bda:LG0IE2DB4570_EP9F0H1ECTKI , bdr:LG0IE2DB4570_6FY6JDGVADHV ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusWithdrawn .
+        adm:restrictedInChina  true ;
+        adm:status          bda:StatusReleased .
     
-    bdr:IE2DB4570  a        :EtextInstance ;
-        :contentMethod      bdr:ContentMethod_OCR ;
-        :inCollection       bdr:PR0ET009 ;
-        :instanceHasVolume  bdr:VE2DB4570_001 , bdr:VE2DB4570_002 , bdr:VE2DB4570_003 , bdr:VE2DB4570_004 .
+    bda:LG0IE2DB4570_EP9F0H1ECTKI
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-15T13:58:15.719782Z"^^xsd:dateTime ;
+        adm:logMessage      "saved"@en ;
+        adm:logWho          bdu:U2089842660 .
+    
+    bdr:IE2DB4570  a        bdo:EtextInstance ;
+        bdo:binding         bdr:ContentMethod_ComputerInput ;
+        bdo:contentMethod   bdr:ContentMethod_OCR ;
+        bdo:etextInfo       "Etext edition from krung go'i bod rig pa dpe skrun khang"@en ;
+        bdo:inCollection    bdr:PR0ET009 ;
+        bdo:instanceHasVolume  bdr:VE2DB4570_001 , bdr:VE2DB4570_002 , bdr:VE2DB4570_003 , bdr:VE2DB4570_004 .
+    
+    bdr:LG0IE2DB4570_6FY6JDGVADHV
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-09-15T14:22:27.329339Z"^^xsd:dateTime ;
+        adm:logMessage      "changes (from etext request tool)"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWho          bdu:U2089842660 .
     
     bdr:VE2DB4570_001
-        a                   :EtextVolume ;
-        :volumeNumber       1 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    1 .
     
     bdr:VE2DB4570_002
-        a                   :EtextVolume ;
-        :volumeNumber       2 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    2 .
     
     bdr:VE2DB4570_003
-        a                   :EtextVolume ;
-        :volumeNumber       3 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    3 .
     
     bdr:VE2DB4570_004
-        a                   :EtextVolume ;
-        :volumeNumber       4 .
+        a                   bdo:EtextVolume ;
+        bdo:volumeNumber    4 .
 }
