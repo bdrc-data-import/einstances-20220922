@@ -19,7 +19,7 @@ bdg:IE30052 {
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE30052 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusReleased .
+        adm:status          bda:StatusWithdrawn .
     
     bdr:IE30052  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;

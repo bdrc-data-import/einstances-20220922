@@ -20,7 +20,7 @@ bdg:IE00EGS1017319 {
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE00EGS1017319 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusReleased .
+        adm:status          bda:StatusWithdrawn .
     
     bdr:IE00EGS1017319
         a                   :EtextInstance ;

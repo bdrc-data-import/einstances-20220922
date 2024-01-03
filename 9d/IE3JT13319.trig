@@ -1,9 +1,14 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
 @prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
 @prefix bda:   <http://purl.bdrc.io/admindata/> .
 @prefix bdg:   <http://purl.bdrc.io/graph/> .
-@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr:   <http://purl.bdrc.io/resource/> .
 @prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 bdg:IE3JT13319 {
@@ -13,33 +18,24 @@ bdg:IE3JT13319 {
         adm:gitPath         "9d/IE3JT13319.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13319 ;
-        adm:logEntry        bda:LG0IE3JT13319_ETRUZFN7ZZFC ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bda:LG0IE3JT13319_ETRUZFN7ZZFC
-        a                   adm:UpdateData ;
-        adm:logDate         "2023-08-31T15:50:30.417706Z"^^xsd:dateTime ;
-        adm:logMessage      "saved"@en ;
-        adm:logWho          bdu:U2089842660 .
-    
-    bdr:IE3JT13319  a       bdo:EtextInstance ;
-        bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
-        bdo:inCollection    bdr:PR0ET001 ;
-        bdo:instanceHasVolume  bdr:VE3JT13319_001 , bdr:VE3JT13319_002 , bdr:VE3JT13319_003 ;
-        bdo:instanceReproductionOf  bdr:MW3JT13319 .
+    bdr:IE3JT13319  a       :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VE3JT13319_001 , bdr:VE3JT13319_002 , bdr:VE3JT13319_003 ;
+        :instanceReproductionOf  bdr:MW3JT13319 .
     
     bdr:VE3JT13319_001
-        a                   bdo:EtextVolume ;
-        bdo:volumeNumber    1 .
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
     
     bdr:VE3JT13319_002
-        a                   bdo:EtextVolume ;
-        bdo:volumeNumber    2 .
+        a                   :EtextVolume ;
+        :volumeNumber       2 .
     
     bdr:VE3JT13319_003
-        a                   bdo:EtextVolume ;
-        bdo:volumeNumber    3 .
+        a                   :EtextVolume ;
+        :volumeNumber       3 .
 }

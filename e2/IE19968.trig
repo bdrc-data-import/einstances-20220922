@@ -19,7 +19,7 @@ bdg:IE19968 {
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE19968 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusReleased .
+        adm:status          bda:StatusWithdrawn .
     
     bdr:IE19968  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;

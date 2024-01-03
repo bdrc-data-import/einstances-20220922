@@ -19,7 +19,7 @@ bdg:IE21625 {
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE21625 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:status          bda:StatusReleased .
+        adm:status          bda:StatusWithdrawn .
     
     bdr:IE21625  a          :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;

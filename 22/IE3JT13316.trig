@@ -1,9 +1,14 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
 @prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
 @prefix bda:   <http://purl.bdrc.io/admindata/> .
 @prefix bdg:   <http://purl.bdrc.io/graph/> .
-@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr:   <http://purl.bdrc.io/resource/> .
 @prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 bdg:IE3JT13316 {
@@ -13,32 +18,16 @@ bdg:IE3JT13316 {
         adm:gitPath         "22/IE3JT13316.trig" ;
         adm:gitRepo         bda:GR0013 ;
         adm:graphId         bdg:IE3JT13316 ;
-        adm:logEntry        bda:LG0IE3JT13316_B6W7XNOVM0AI , bda:LG0IE3JT13316_PNNLT9YJ1ODK ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
-        adm:restrictedInChina  true ;
         adm:status          bda:StatusReleased .
     
-    bda:LG0IE3JT13316_B6W7XNOVM0AI
-        a                   adm:UpdateData ;
-        adm:logDate         "2023-08-31T14:47:46.443994Z"^^xsd:dateTime ;
-        adm:logMessage      "saved"@en ;
-        adm:logWho          bdu:U2089842660 .
-    
-    bda:LG0IE3JT13316_PNNLT9YJ1ODK
-        a                   adm:UpdateData ;
-        adm:logDate         "2023-08-31T14:39:55.409205Z"^^xsd:dateTime ;
-        adm:logMessage      "saved"@en ;
-        adm:logWho          bdu:U2089842660 .
-    
-    bdr:IE3JT13316  a       bdo:EtextInstance ;
-        bdo:binding         bdr:ContentMethod_ComputerInput ;
-        bdo:contentMethod   bdr:ContentMethod_ComputerInput ;
-        bdo:etextInfo       "Etxet edition from Karma Leksheyling"@en ;
-        bdo:inCollection    bdr:PR0ET001 ;
-        bdo:instanceHasVolume  bdr:VE3JT13316_001 ;
-        bdo:instanceReproductionOf  bdr:MW3JT13316 .
+    bdr:IE3JT13316  a       :EtextInstance ;
+        :contentMethod      bdr:ContentMethod_ComputerInput ;
+        :inCollection       bdr:PR0ET001 ;
+        :instanceHasVolume  bdr:VE3JT13316_001 ;
+        :instanceReproductionOf  bdr:MW3JT13316 .
     
     bdr:VE3JT13316_001
-        a                   bdo:EtextVolume ;
-        bdo:volumeNumber    1 .
+        a                   :EtextVolume ;
+        :volumeNumber       1 .
 }

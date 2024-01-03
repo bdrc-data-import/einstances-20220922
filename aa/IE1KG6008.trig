@@ -20,7 +20,7 @@ bdg:IE1KG6008 {
         adm:graphId         bdg:IE1KG6008 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:restrictedInChina  true ;
-        adm:status          bda:StatusReleased .
+        adm:status          bda:StatusWithdrawn .
     
     bdr:IE1KG6008  a        :EtextInstance ;
         :contentMethod      bdr:ContentMethod_OCR ;
